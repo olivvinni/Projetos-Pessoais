@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIET</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>DIETAS EQUILIBRADAS</h1>
+            <hr>
+            <p>Uma dieta equilibrada é aquela que fornece ao corpo todos os nutrientes essenciais necessários para manter uma boa saúde, promover o crescimento e o desenvolvimento adequados, e prevenir doenças. Ela deve incluir uma variedade de alimentos em proporções apropriadas, garantindo a ingestão adequada de macronutrientes (proteínas, carboidratos e gorduras) e micronutrientes (vitaminas e minerais).</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Salada de Quinoa com Legumes Grelhados e Frango</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Quinoa </li>
+                <li> Peito de frango </li>  
+                <li> Abobrinha </li>    
+                <li> Pimentão </li>   
+                <li> Tomate cereja </li>   
+                <li> Azeite de oliva</li>
+                <li>Limão</li>
+                <li>Sal e pimenta a gosto</li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Cozinhe a quinoa de acordo com as instruções da embalagem.</li> <br>
+                <li>Grelhe o peito de frango e os legumes cortados em pedaços.</li> <br>
+                <li>Misture a quinoa cozida com os legumes grelhados.</li> <br>
+                <li>Tempere com azeite de oliva, suco de limão, sal e pimenta.</li> <br>
+                <li>Sirva com o peito de frango grelhado por cima.</li>
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Esta salada é uma refeição equilibrada, proporcionando proteínas magras, fibras, vitaminas e minerais essenciais. Sinta-se à vontade para ajustar os ingredientes de acordo com suas preferências pessoais e experimente diferentes combinações de legumes e temperos para variar os sabores.</p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 30-40 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://educanutri.com.br/wp-content/uploads/2023/06/Salada-de-Quinoa-com-Frango-Grelhado.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://assets.unileversolutions.com/recipes-v2/36176.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receitasaudaveis.com/wp-content/uploads/2019/05/quinoa.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Salmão ao Forno com Batata-doce Assada e Brócolis</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Filé de salmão </li>
+                <li>Batata-doce  </li>  
+                <li> Brócolis </li>    
+                <li> Azeite de oliva</li>   
+                <li> Limão </li>   
+                <li> Sal e pimenta a gosto</li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Asse o salmão no forno temperado com azeite de oliva, suco de limão, sal e pimenta.</li> <br>
+                <li>Asse a batata-doce cortada em cubos e os brócolis.</li> <br>
+                <li>Disponha o salmão sobre as batatas-doce e brócolis assados.</li> <br>
+                <li>Regue com um fio de azeite e sirva.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essa refeição oferece uma combinação equilibrada de proteínas, carboidratos complexos e vegetais. Além disso, é uma opção deliciosa e fácil de preparar. Ajuste as quantidades de acordo com o número de pessoas que será servido.</p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 25-35 minutos.</h2>
+
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://octoshop.sfo2.digitaloceanspaces.com/lojas/levedetox/uploads_produto/214-levedetox-605259026856e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://cdn.vidaativa.pt/uploads/2020/08/posta-de-salmao-com-batata-doce-e-brocolos.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://static.wixstatic.com/media/fea729_c43f2cb0f93c4db1975bda9d15f14b1f~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Wrap de Quinoa com Vegetais e Hummus</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Quinoa cozida </li>
+                <li> Wrap de trigo integral</li>  
+                <li>Hummus </li>    
+                <li>Pepino </li>   
+                <li> Tomate</li>   
+                <li> Cenoura</li>
+                <li> Espinafre</li>
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Espalhe uma camada de hummus sobre o wrap.</li> <br>
+                <li>Adicione a quinoa cozida e os vegetais cortados em tiras.</li> <br>
+                <li>Tempere com sal e pimenta a gosto.</li> <br>
+                <li>Enrole o wrap e corte ao meio antes de servir.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essa opção de wrap é rica em proteínas, fibras, vitaminas e minerais. Além de ser uma refeição equilibrada, oferece uma variedade de sabores e texturas. Sinta-se à vontade para personalizar os ingredientes de acordo com suas preferências pessoais.</p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://receitasdofuturo.com/wp-content/uploads/2023/01/wrap-quinoa-4.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i2.wp.com/thewimpyvegetarian.com/wp-content/uploads/2014/07/Vegan-Quinoa-Black-Bean-Wrap-600.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://blog.nuts.com/wp-content/uploads/2014/12/veggie-wrap-recipe-510x400.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Tigelas de Burrito com Arroz Integral e Feijão Preto</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Arroz integral </li>
+                <li> Feijão preto cozido</li>  
+                <li>Frango desfiado</li>    
+                <li>Tomate</li>   
+                <li>Abacate</li>   
+                <li>Queijo ralado</li>
+                <li>Coentro</li>
+                <li>Limão</li>
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Monte tigelas com camadas de arroz integral, feijão preto, frango desfiado, tomate e abacate.</li> <br>
+                <li>Polvilhe queijo ralado por cima.</li> <br>
+                <li>Decore com coentro fresco e regue com suco de limão.</li> <br>
+                <li>Tempere com sal e pimenta a gosto.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essas tigelas de burrito são altamente personalizáveis, e você pode ajustar os ingredientes de acordo com suas preferências. Elas oferecem uma combinação equilibrada de carboidratos, proteínas, gorduras saudáveis, fibras e uma variedade de nutrientes.                   </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 25-35 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/tigela-de-burrito-de-arroz-integral-e-feijao-preto-uma-tigela-saudavel-com-arroz-integral-feijao-preto-abacate-e-molho-para-uma-refeicao-satisfatoriagerado-com-ia_130181-3550.jpg?w=2000)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/tigela-de-burrito-de-arroz-integral-e-feijao-preto-uma-tigela-saudavel-com-arroz-integral-feijao-preto-abacate-e-molho-para-uma-refeicao-satisfatoriagerado-com-ia_130181-3549.jpg?w=2000)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/tigela-de-burrito-de-arroz-integral-e-feijao-preto-uma-tigela-saudavel-com-arroz-integral-feijao-preto-abacate-e-molho-para-uma-refeicao-satisfatoriagerado-com-ia_130181-3548.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Omelete de Legumes com Espinafre</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Ovos </li>
+                <li>Espinafre </li>  
+                <li>Tomate</li>    
+                <li>Cebola</li>   
+                <li>Pimentão</li>   
+                <li>Queijo feta (opcional)</li>
+                <li>Azeite de oliva</li>
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Em uma frigideira, refogue os vegetais cortados em azeite de oliva.</li> <br>
+                <li>Bata os ovos e despeje sobre os vegetais.</li> <br>
+                <li>Cozinhe até que os ovos estejam firmes.</li> <br>
+                <li>Adicione queijo feta por cima, se desejar.</li> <br>
+                <li>Tempere com sal e pimenta a gosto. </li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Este omelete é uma excelente fonte de proteína, fibras e uma variedade de vitaminas e minerais dos vegetais. Você pode personalizar a receita adicionando outros ingredientes, como cogumelos, abobrinha ou até mesmo ervas frescas, de acordo com suas preferências. Sirva com uma fatia de pão integral ou uma salada para uma refeição completa e equilibrada.                   </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://img.cybercook.com.br/receitas/85/omelete-de-espinafre-2.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://masterkitchen.com.br/website/wp-content/uploads/2022/02/Omelete-de-forno-com-espinafre-e-queijo-otimo-para-servir-como-brunch.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://blog.armazemcerealista.com.br/wp-content/uploads/2019/09/Omelete-espinafre.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Bowl de Quinoa com Legumes Assados e Abacate</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Quinoa cozida</li>
+                <li> Abóbora</li>  
+                <li> Berinjela</li>    
+                <li>Tomate</li>   
+                <li>Abacate</li>   
+                <li>Sementes de Abóbora</li>
+                <li>Azeite de oliva </li>
+                <li>Limão</li> 
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Asse os vegetais cortados em pedaços com azeite de oliva, sal e pimenta.</li> <br>
+                <li> Em uma tigela, coloque a quinoa cozida.</li> <br>
+                <li> Adicione os legumes assados por cima.</li> <br>
+                <li>Decore com fatias de abacate e sementes de abóbora.</li> <br>
+                <li> Regue com suco de limão antes de servir.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Este omelete é uma excelente fonte de proteína, fibras e uma variedade de vitaminas e minerais dos vegetais. Você pode personalizar a receita adicionando outros ingredientes, como cogumelos, abobrinha ou até mesmo ervas frescas, de acordo com suas preferências. Sirva com uma fatia de pão integral ou uma salada para uma refeição completa e equilibrada.                   </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 30-40 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://veganandcolors.com/wp-content/uploads/2017/02/cfinal2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/salada-de-quinoa-fresca-com-feijao-vermelho-e-abacate-fresco_124507-24094.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/saborosa-tigela-de-puxao-fresca-com-abacate-quinoa-e-legumes-vista-superior_1220-6861.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Espaguete de Abobrinha com Molho de Tomate e Almôndegas de Peru</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Abobrinha</li>
+                <li>Molho de tomate </li>  
+                <li>Peru moído </li>    
+                <li>Ovo</li>   
+                <li>Farinha de aveia</li>   
+                <li>Alho</li>
+                <li>Manjericão </li>
+                <li>Queijo parmesão (opcional)</li> 
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Misture o peru moído com ovo, farinha de aveia, alho picado e manjericão.</li> <br>
+                <li>Modele almôndegas e cozinhe até que estejam cozidas. </li> <br>
+                <li>Espiralize a abobrinha para criar "espaguete". </li> <br>
+                <li>  Cozinhe o molho de tomate e adicione as almôndegas cozidas.</li> <br>
+                <li> Sirva as almôndegas sobre o espaguete de abobrinha. </li> <br>
+                <li>  Polvilhe com queijo parmesão, se desejar. </li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essa versão saudável de espaguete é rica em vegetais, proteína magra e sabor. É uma ótima alternativa para quem busca uma opção com menos carboidratos e mais nutrientes. </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 30-40 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.minhareceita.com.br/app/uploads/2021/03/Captura-de-tela-2021-03-22-124443.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://entendendoacozinha.com.br/wp-content/uploads/2023/09/62-espaguete-de-abobrinha-com-almondegas-de-peru-fitness.webp)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://saudefortaleza.com.br/wp-content/uploads/2017/06/Zucchini-Pasta-with-Salsa-Pesto.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Smoothie Verde com Espinafre, Banana e Abacaxi</h1>
+                <h2>INGREDIENTES:</h2>
+                <li> Espinafre</li>
+                <li>Banana </li>  
+                <li>Abacaxi</li>    
+                <li>Iogurte natural</li>   
+                <li>Água ou leite de amêndoas</li>   
+                <li>Sementes de chia (opcional)</li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>No liquidificador, combine espinafre, banana, abacaxi, iogurte e água ou leite de amêndoas.</li> <br>
+                <li>Bata até obter uma mistura suave. </li> <br>
+                <li>Despeje em um copo e polvilhe com sementes de chia, se desejar.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Este smoothie é uma excelente maneira de incorporar vegetais verdes, como espinafre, em sua dieta de forma saborosa e refrescante. Além disso, a banana e o abacaxi adicionam doçura natural, enquanto o iogurte proporciona uma textura cremosa. Experimente esta receita como um café da manhã saudável ou lanche energético. </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 5 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/smoothie-verde-saudavel-com-banana-de-manga-de-espinafre-em-potes-de-vidro_214995-7659.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://receitasdepesos.com.br/wp-content/uploads/2023/08/shutterstock_754798162.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://us.123rf.com/450wm/geografika/geografika1502/geografika150200005/36772509-smoothie-de-espinafre-e-abacaxi-verde-na-mesa-smoothie-de-frutas-feito-com-folhas-de-espinafre-beb%C3%AA.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Risoto de Cogumelos com Espargos</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Arroz arbóreo </li>
+                <li>Cogumelos variados </li>  
+                <li>Espargos</li>    
+                <li>Caldo de legumes</li>   
+                <li>Cebola</li>   
+                <li>Vinho branco (opcional)</li>
+                <li>Parmesão ralado </li>
+                <li>Manteiga</li> 
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Refogue cebola em manteiga até ficar translúcida.</li> <br>
+                <li>Adicione arroz e vinho branco (opcional); mexa até evaporar.</li> <br>
+                <li>Acrescente o caldo de legumes aos poucos até que o arroz esteja cozido. </li> <br>
+                <li>Salteie cogumelos e espargos à parte. </li> <br>
+                <li> Misture os vegetais ao arroz, adicione parmes</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p>Este risoto de cogumelos com espargos é uma opção elegante e cheia de sabores. A textura cremosa e os ingredientes frescos tornam este prato uma escolha popular para refeições especiais. Aprecie-o enquanto está quente!                   </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 18-20 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2021/07/risotto-de-cogumelos-com-caldo-de-espargos.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://hortodocampogrande.pt/wp-content/uploads/2020/09/00_HCG_blog_INTRO_850x450-3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.saborintenso.com/images/receitas/Risotto-Espargos-Cogumelos-SI-1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Pizza de Frango com Crust de Couve-Flor</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Couve-flor </li>
+                <li> Ovos</li>  
+                <li>Peito de frango desfiado </li>    
+                <li>Molho de tomate</li>   
+                <li>Mussarela light</li>   
+                <li>Tomate cereja</li>
+                <li>Manjericão fresco </li>
+                <li>Sal e pimenta a gosto </li>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Triture a couve-flor e misture com ovos para formar uma massa.</li> <br>
+                <li>Asse a massa até dourar. </li> <br>
+                <li>Espalhe molho de tomate, frango desfiado, queijo, tomate cereja e manjericão. </li> <br>
+                <li> Asse até que o queijo derreta e borbulhe.</li> 
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essa pizza de frango com crosta de couve-flor é uma alternativa saborosa e saudável para a pizza tradicional, sendo uma excelente escolha para quem busca reduzir a ingestão de carboidratos. Personalize a cobertura de acordo com suas preferências pessoais.</p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 40-50 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.hojetemfrango.com.br/wp-content/uploads/2019/03/shutterstock_553403317.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://voce.belissimabeauty.com/wp-content/uploads/2022/01/pizza-de-couve-flor.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2018/01/pizza-couve-flor.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

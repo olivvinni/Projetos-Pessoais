@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almoço</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Para o Almoço</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>ALMOÇO</h1>
+            <hr>
+            <p>Bem-vindo à nossa aba dedicada ao Almoço, onde exploramos o prazer de refeições deliciosas que não apenas alimentam o corpo, mas também elevam o espírito. Navegue por nossa coleção cuidadosamente selecionada de receitas para o almoço e descubra opções que atendem a todos os gostos, desde pratos rápidos para os dias corridos até criações gourmet para benefícios especiais.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Arroz de forno com frango cremoso</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 xícaras (chá) de arroz</li>
+                <li>Peito de frango</li>
+                <li>2 peitos de frango</li>
+                <li>Creme de leite</li>
+                <li>1 caixa de creme de leite</li>
+                <li>Palmito</li>
+                <li>1 vidro de palmito picado</li>
+                <li>Milho</li>
+                <li>1 lata de milho</li>
+                <li>Molho de tomate</li>
+                <li>1 lata de molho de tomate</li>
+                <li>Caldo de galinha</li>
+                <li>1 caldo de galinha</li>
+                <li>Creme de cebola</li>
+                <li>1 pacote de creme de cebola</li>
+                <li>500g de queijo cheddar ou catupiry</li>
+                <li>Cebola, tomate, alho e sal a gosto</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Cozinhe o arroz normalmente, com tempero a gosto.</li><br>
+                    <li>Reserve.</li><br>
+                    <li>Cozinhe o peito de frango, depois desfie.</li><br>
+                    <li>Em uma panela, cozinhe o frango e os temperos.</li><br>
+                    <li>Coloque o molho de tomate no frango, agregue o caldo de galinha, misture e acrescente a medida de 1/2 lata vazia de água, para que o molho não fique muito seco.</li><br>
+                    <li>Acrescente o milho e o palmito, misture bem.</li><br>
+                    <li>Acrescente o creme de leite e logo depois o creme de cebola.</li><br>
+                    <li>Misture bem, até ficar consistente.</li><br>
+                    <h2>Montagem:</h2>
+                    <li>Em uma forma retangular, forre com uma camada fina de frango, outra de arroz, outra de cheddar ou catupiry.</li><br>
+                    <li>Repita as camadas, alternando os ingredientes pela ordem anterior.</li><br>
+                    <li>Leve ao forno por 15 minutos, até que os ingredientes fiquem bem agregados.</li><br>
+                    <li>Sirva quente.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Arroz de Forno com Frango Cremoso é uma receita deliciosa e reconfortante que combina a simplicidade do arroz com a suculência do frango em um prato gratinado e cremoso. O arroz é cozido até ficar macio, enquanto o frango é preparado de maneira suculenta e temperada.</p>
+                    <h2>Tempo de preparo: 1h35min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2d/26/9d/2d269dd1d25e7683ecf46a8adc3f834b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2e/58/43/2e584324882b117577336a86956bc92c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e0/cd/9a/e0cd9a0d7c407983ad0dd96ceae550ca.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Arroz temperado com frango</h1>
+                <h2>INGREDIENTES</h2>
+                <li>Sobras de frango assado cortado em cubinhos</li>
+                <li>4 xícaras de arroz cozido ou a quantidade que preferir</li>
+                <li>Milho-verde</li>
+                <li>1 lata de milho verde</li>
+                <li>1 tomate grande cortado em quadrados bem pequenos</li>
+                <li>1 pimentão pequeno cortado em quadrados bem pequenos</li>
+                <li>Cheiro-verde (salsa e cebolinha)</li>
+                <li>1 maço de cheiro verde picado</li>
+                <li>Linguiça calabresa</li>
+                <li>1 linguiça calabresa cortada em cubinhos pequenos</li>
+                <li>Fatias de bacon cortado em cubinhos</li>
+                
+                <ol>
+                    <li>Frite a linguiça e o bacon (não precisa colocar óleo).</li><br>
+                    <li>Tire o excesso que ficar na frigideira, e acrescente o frango cortado em cubos e deixe fritar um pouco.</li><br>
+                    <li>Reserve.</li><br>
+                    <li>Em um recipiente, misture o tomate, o milho, o pimentão e o cheiro-verde picadinho.</li><br>
+                    <li>Acrescente no arroz já cozido todos os ingredientes (temperos e o frango, a calabresa e o bacon) e misture bem.</li><br>
+                    <li>Leve para aquecer.</li><br>
+                    <li>Para ficar mais gostoso, acrescente no cozimento do arroz um sachê de tempero pronto (sazon vermelho de preferência) que também fica muito gostoso.</li><br>
+                    <li>Pode ser servido só ou acompanhado de um frango ou carne grelhados.</li><br>
+                    <li>Fica muito bom.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Arroz Temperado com Frango é uma receita deliciosa que combina a simplicidade do arroz com a suculência do frango, resultando em um prato reconfortante e repleto de sabor. Essa é uma opção completa, pois algumas proteínas e carboidratos em uma única panela. O tempo de preparo pode variar dependendo da técnica escolhida, mas, em geral, é uma alternativa eficiente para uma refeição balanceada.</p>
+                    <h2>Tempo de preparo: 45min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d6/b5/8b/d6b58b64952ebf3f276a94801e002e26.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ab/ac/c4/abacc484d15a1e1d14befd20f22810cc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6a/a5/cd/6aa5cd2737749596e96a814e10e55176.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Arroz temperado</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 xícaras de arroz</li>
+                <li>Caldo de galinha</li>
+                <li>2 tabletes de caldo de galinha</li>
+                <li>Ovo</li>
+                <li>2 ovos</li>
+                <li>Queijo ralado</li>
+                <li>3 colheres (sopa) de queijo ralado</li>
+                <li>Presunto</li>
+                <li>100 g de presunto picado</li>
+                <li>Queijo mussarela</li>
+                <li>100 g de mussarela picada</li>
+                <li>Extrato de tomate</li>
+                <li>1 colher de extrato de tomate</li>
+                <li>Tomate</li>
+                <li>3 tomates sem pele</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Bata no liquidificador o extrato e os tomates, com um pouco de água e um tablete de caldo de galinha (dissolvido em um pouquinho de água quente).</li><br>
+                    <li>Cozinhe o arroz com 1 tablete de caldo e 4 xícaras de água por 15 minutos.</li><br>
+                    <li>Bata os ovos, o queijo ralado, o presunto, a mussarela e misture com o arroz.</li><br>
+                    <li>Coloque num refratário com o molho forrando a forma e cobrindo com ele.</li><br>
+                    <li>Leve ao forno quente a 180° C por 10 a 15 minutos.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Arroz Temperado é uma receita versátil que confere um toque de sabor e aroma extra ao arroz tradicional. Esse prato é uma opção simples e rápida para acompanhar uma variedade de refeições, proporcionando uma experiência gustativa mais rica. O tempo de preparo pode variar dependendo dos ingredientes adicionados, mas, em geral, é uma alternativa eficiente para dar um upgrade ao arroz do dia a dia.</p>
+                    <h2>Tempo de preparo: 55min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/5e/3f/33/5e3f33f99cf3e1d982cdf40e575d529e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ee/f6/65/eef665f0f01c2abde43776b8a32f2775.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/15/5e/4f/155e4f36c7f149e45ed75a423f0c9bfa.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Risoto de frango</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 peitos de frango médios</li>
+                <li>Molho de tomate</li>
+                <li>500 g de massa de tomate</li>
+                <li>Ervilha</li>
+                <li>1 lata de ervilhas</li>
+                <li>1 vidro de azeitonas grande</li>
+                <li>Coentro</li>
+                <li>Coentro a gosto</li>
+                <li>Queijo mussarela</li>
+                <li>500 g de mussarela</li>
+                <li>Presunto</li>
+                <li>300 g de presunto</li>
+                <li>Cebola</li>
+                <li>1 cebola grande picada</li>
+                <li>2 tabletinhos de caldo de galinha</li>
+                <li>3 canecas de arroz</li>
+                <li>Alho, óleo, sal, tempero a gosto</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Prepare o arroz como de costume e reserve (use alho, óleo e sal).</li><br>
+                    <li>Em uma panela de pressão, cozinhe os peitos de frango com o caldo de galinha e sal a gosto.</li><br>
+                    <li>Quando os peitos de frango estiverem bem cozidos, escorra a água, desfie e reserve.</li><br>
+                    <li>Em uma panela grande, frite a cebola até dourar bem.</li><br>
+                    <li>Quando estiver dourada, coloque o peito de frango e a ervilha para dar uma refogadinha.</li><br>
+                    <li>Acrescente o molho de tomate, o coentro, o sal e a pimenta a gosto.</li><br>
+                    <li>Deixe ferver bem o molho, mexendo sem parar.</li><br>
+                    <li>Quando estiver pronto, reserve.</li><br>
+
+                <h2>Montagem:</h2>
+                <li>Em uma forma grande (de vidro, alumínio), espalhe uma parte do arroz uniformemente na forma.</li><br>
+                <li>Por cima do arroz, coloque uma parte do molho.</li><br>
+                <li>Por cima do molho, coloque fatias de presunto.</li><br>
+                <li>Por cima do presunto, coloque fatias de mussarela.</li><br>
+                <li>Repita essa ordem por mais 1 ou 2 vezes.</li><br>
+                <li>Decore com azeitonas a última camada com mussarela.</li><br>
+                <li>Leve ao forno preaquecido até que a mussarela esteja bem derretida.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>  O Risoto de Frango é um prato italiano clássico e reconfortante, conhecido pela cremosidade e pelos sabores intensos. Essa receita combina arroz de grãos curtos, como o arbório, com pedaços suculentos de frango e outros ingredientes, resultando em uma mistura de texturas e aromas que agrada a muitos paladares. O tempo de preparo pode variar dependendo dos ingredientes específicos e da técnica utilizada, mas o resultado final certamente valerá a pena.</p>
+                    <h2>Tempo de preparo: 55min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/58/be/56/58be565cbea2362bc514fdfb34767f54.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f8/55/00/f855002ee91dca86375370e755d0012b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/07/91/50/0791504097ce2cad48a8ff26d72e9527.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Macarronada</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 pacote de 500 grs. de spaghet</li>
+                <li>Creme de leite</li>
+                <li>1 lata de creme de leite</li>
+                <li>Ovo</li>
+                <li>6 ovos</li>
+                <li>Presunto</li>
+                <li>250 g de presunto</li>
+                <li>Queijo mussarela</li>
+                <li>500 g de mussarela</li>
+                <li>Extrato de tomate</li>
+                <li>1 lata de extrato de tomate</li>
+                <li>2 tabletes de caldo de carne ou sua preferência</li>
+                <li>Alho</li>
+                <li>3 dentes de alho</li>
+                <li>Tomate, cebola, pimentão (1 de cada)</li>
+                <li>Azeite</li>
+                <li>2 colheres de sopa de azeite</li>
+                <li>Queijo ralado</li>
+                <li>1 pacotinho de 50 g de queijo ralado</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Cozinhe o espaguete em água fervente com um pouco de sal e óleo.</li><br>
+                    <li>Quando estiver cozido, escorra e reserve (jogue água fria por cima).</li><br>
+                    <li>Em uma panela, doure o alho; depois coloque a cebola, o pimentão, o tomate e o extrato de tomate e mexa.</li><br>
+                    <li>Coloque os dois caldos de carne e o azeite, e mexa (reserve esse molho).</li><br>
+                    
+                <h2>Para montar:</h2>
+                <li>Em um refratário, coloque uma camada de espaguete.</li><br>
+                <li>Uma camada de molho.</li><br>
+                <li>Uma camada de ovos cozidos e cortados em rodelas.</li><br>
+                <li>Uma camada de mussarela.</li><br>
+                <li>Uma camada de presunto.</li><br>
+                <li>Mais uma camada de mussarela.</li><br>
+                <li>Uma camada de creme de leite sem o soro.</li><br>
+                <li>Outra camada de espaguete.</li><br>
+                <li>Mais uma de molho e o queijo ralado por último.</li><br>
+                <li>Leve ao forno por 10 minutinhos.</li><br>
+                <li>Se quiser, pode fazer o molho com carne moída, frango ou calabresa; também fica maravilhoso.</li><br>
+                <li>Fica muito bom acompanhado com uma salada verde e um bom vinho.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Macarronada é um prato clássico e reconfortante da culinária italiana que consiste em macarrão cozido servido com um molho saboroso. Essa receita versátil pode ser adaptada de diversas maneiras, com diferentes tipos de molhos, carnes e vegetais, de acordo com as preferências individuais. O tempo de preparo pode variar dependendo dos ingredientes escolhidos, mas, em geral, é uma opção rápida e deliciosa para uma refeição do dia a dia.</p>
+                    <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/eb/3d/c8/eb3dc8920d6efa5f7af0b8b0dfb42927.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ae/96/42/ae9642746b51a31590711784d2cb4ee1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/df/a9/8d/dfa98ddfc0f1cbaed5810e7828a75b97.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Escondinho de Frango</h1>
+                <h2>INGREDIENTES</h2>
+                <li>6 batatas grandes</li>
+                <li>Cebola</li>
+                <li>1 e 1/2 cebolas picadinhas</li>
+                <li>Manteiga</li>
+                <li>2 colheres de manteiga</li>
+                <li>Requeijão</li>
+                <li>5 colheres (sopa) de requeijão</li>
+                <li>Sal</li>
+                <li>1 pitada de sal</li>
+                <h2>Recheio</h2>
+                <li>Peito de frango</li>
+                <li>1 peito de frango desfiado</li>
+                <li>Extrato de tomate</li>
+                <li>1 lata de extrato de tomate</li>
+                <li>Creme de leite</li>
+                <li>1/2 lata de creme de leite sem soro</li>
+                <li>Queijo ralado</li>
+                <li>200 g de queijo ralado</li>
+                <li>Sal</li>
+                <li>Sal</li>
+                <li>Cebola</li>
+                <li>Cebola</li>
+                <li>Pimenta-do-reino</li>
+                <li>Pimenta-do-reino a gosto</li>
+  
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <h2>Massa:</h2>
+                    <li>Cozinhe as batatas.</li><br>
+                    <li>Após cozidas, tire a casca e amasse.</li><br>
+                    <li>Em uma panela, coloque a manteiga e a cebola para fritar e adicione a batata; desligue após 2 minutos.</li><br>
+                    <li>Em uma forma, unte com manteiga e espalhe a batata; em cima da batata, coloque o requeijão.</li><br>                  
+                    <h2>Recheio:</h2>
+                    <li>Em uma panela, frite alho e cebola e coloque o frango.</li><br>
+                    <li>Em seguida, tempere com sal, pimenta-do-reino a gosto; jogue o extrato de tomate, e depois que ferver, adicione o creme de leite.</li><br>
+                    <li>Espalhe o recheio por cima das batatas e coloque o queijo ralado.</li><br>
+                    <li>Deixe no forno por 5 minutos.</li><br>
+                    <li>Se quiser, adicionar batata palha fica muito bom.</li><br>                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Escondidinho de Frango é um prato brasileiro que combina camadas de purê de mandioca ou batata doce, recheio de frango desfiado e queijo gratinado, resultando em uma deliciosa mistura de sabores e texturas. Este prato é uma opção reconfortante e chinesa, perfeita para graças especiais ou para uma refeição caseira mais preparada.</p>
+                    <h2>Tempo de preparo: 1h30min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c6/07/8c/c6078cb435a719670a3fa1092ce542e6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f7/98/2e/f7982e6b42cb42a0407bf2cb189733d9.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/0c/b8/f1/0cb8f175032ad7f3cf950013890cdcbc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Lasanha à bolonhesa</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 colheres de margarina</li>
+                <li>4 colheres de farinha de trigo</li>
+                <li>2 xícaras de leite</li>
+                <li>2 xícaras de creme de leite</li>
+                <li>Sal e noz-moscada a gosto</li>
+                <li>1 colher de óleo</li>
+                <li>2 dentes de alho amassados</li>
+                <li>1 cebola picada</li>
+                <li>300 g de carne moída</li>
+                <li>3 xícaras de polpa de tomate batida no liquidificador</li>
+                <li>3/4 xícara de água quente</li>
+                <li>Sal a gosto</li>
+                <li>200 g de presunto fatiado</li>
+                <li>200 g de mussarela fatiada</li>
+                <li>250 g de massa para lasanha</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <h2>Molho branco:</h2>
+                    <li>Derreta a margarina e doure a farinha em fogo baixo mexendo sempre, junte o leite aos poucos.</li><br>
+                    <li>Cozinhe até obter um molho encorpado, acrescente o creme de leite e tempere com sal e noz-moscada.</li><br>
+                    <li>Reserve.</li><br>
+                    <h2>Molho a bolonhesa:</h2>
+                    <li>Aqueça o óleo, junte o alho e a cebola até dourar.</li><br>
+                    <li>Acrescente a carne moída até fritar, quando a carne estiver frita, acrescente a polpa de tomate e a água, misture o sal e cozinhe até ferver.</li><br>
+                    <h2>Montagem:</h2>
+                    <li>Em um refratário grande, coloque uma camada de molho à bolonhesa, massa para lasanha, presunto, mussarela, molho branco.</li><br>
+                    <li>Adicione mais massa para lasanha, presunto e mussarela, e termine com molho à bolonhesa.</li><br>
+                    <li>Se quiser, polvilhe um pouco de queijo parmesão ralado e leve ao forno para gratinar por 20 minutos.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Lasanha à Bolonhesa é um prato clássico da culinária italiana, composto por camadas de massa intercaladas com um molho rico à bolonhesa, molho bechamel e queijo derretido. Essa combinação de sabores e texturas resulta em uma refeição reconfortante e irresistível.</p>
+                <h2>Tempo de preparo: 35min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/75/33/0e/75330e6d2ee2355512e43fbe7fed5c3d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2a/46/7e/2a467eff9704657e5b2c9fb14fb91c6a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e7/d1/56/e7d156acc1bc3b37841f0dc7f9fd1871.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Carne moída recheada</h1>
+                <h2>INGREDIENTES</h2>
+                <li>500 g de carne moída de boi ou porco</li>
+                <li>Tempero a gosto</li>
+                <li>1 batata média ralada</li>
+                <li>1 colher de farinha de trigo</li>
+                <li>Presunto fatiado a gosto</li>
+                <li>Queijo mussarela fatiado a gosto</li>
+                <li>5 colheres de extrato de tomate</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em um recipiente, tempere a carne, acrescente a farinha e a batata ralada.</li><br>
+                    <li>Abra um pedaço grande de papel alumínio e passe um pouco de azeite ou óleo para não grudar na carne.</li><br>
+                    <li>Coloque a carne em cima do papel alumínio e amasse com as mãos para ficar toda aberta parecendo um bife, mas bem grande.</li><br>
+                    <li>Observe o comprimento da sua fôrma e modele de modo que fique do mesmo tamanho, mas não deixe ficar muito fino, para não rachar.</li><br>
+                    <li>Após feito isso, coloque o presunto e depois o queijo.</li><br>
+                    <li>Com cuidado, enrole a carne igual a um rocambole, retirando o papel alumínio e acertando os lados para o queijo não sair quando assar.</li><br>
+                    <li>Passar o extrato de tomate por cima para dar uma cor e assar.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A carne moída é temperada e espalhada numa camada fina, que é então recheada com uma mistura de ingredientes saborosos, como queijo, presunto, vegetais, e ervas. Após o recheio, a carne é enrolada e assada ou cozida, resultando em um prato suculento e cheio de sabores.</p>
+                <h2>Tempo de preparo: 45min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e9/61/3d/e9613dbaada7979ab71e46f7f18d8b51.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/31/e5/85/31e585bfc68de7f39f181a453996dc59.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f9/33/42/f933426be4a3d035291159478c2c275c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Bife à parmegiana</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de contra filé</li>
+                <li>1 cebola ralada</li>
+                <li>2 dentes de alho picados</li>
+                <li>Tempero completo</li>
+                <li>Sal a gosto</li>
+                <li>Farinha de rosca</li>
+                <li>200g de presunto</li>
+                <li>200g de queijo mussarela</li>
+                <li>1 lata de molho de tomate pronto</li>
+                <li>1 gema de ovo para empanar os bifes</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Tempere os bifes com os ingredientes secos e faça-os à milanesa.</li><br>
+                    <li>Frite e leve-os a uma assadeira.</li><br>
+                    <li>Cubra-os com o presunto e mussarela, coloque o molho por último.</li><br>
+                    <li>Leve ao forno para derreter a mussarela.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bife à Parmegiana é composto por bifes de carne bovina, geralmente filé mignon ou contrafilé, que são empanados, fritos e cobertos com molho de tomate e queijo derretido. O resultado é um prato reconfortante, com carne suculenta e uma cobertura irresistível de queijo e molho de tomate.</p>
+                <h2>Tempo de preparo: 30min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/89/cd/70/89cd705f98d40208acbedafe2d65c2e7.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d6/8b/83/d68b83eb90eeca0042b77c655da9d476.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/65/18/c7/6518c7544c69c97e175a408d2e799136.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Frango cremoso com batata</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de filé de frango</li>
+                <li>1 pacote de sopa de cebola</li>
+                <li>5 batatas médias cortadas em rodelas finas</li>
+                <li>2 cebolas cortadas em rodelas finas</li>
+                <li>1 caixa de creme de leite</li>
+                <li>1 copo de requeijão</li>
+                <li>1/2 litro de leite</li>
+                <li>Mussarela a gosto</li>
+                <li>Sal a gosto</li>
+                <li>Margarina para untar</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Cozinhe as batatas no leite com sal (não deixe que fiquem muito cozidas) e reserve.</li><br>
+                    <li>No mesmo leite de cozimento da batata, cozinhe as cebolas até perderem o aspecto de cruas.</li><br>
+                    <li>Reserve o leite do cozimento.</li><br>
+                    <li>Tempere o frango com o pó da sopa de cebola e frite em uma panela de fundo largo até ficarem morenos.</li><br>
+                    <li>No leite reservado, misture o creme de leite, o requeijão e o sal.</li><br>
+                    <li>Reserve.</li><br>
+                    <li>Agora é só montar o prato numa forma untada com margarina.</li><br>
+                    <li>Alterne camadas de batatas, cebolas, mussarela e frango.</li><br>
+                    <li>Jogue por cima o molho branco reservado e leve ao forno para derreter a mussarela.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Nesta receita, pedaços de frango são dourados e cozidos em um molho cremoso que geralmente inclui ingredientes como creme de leite, queijo, alho e ervas. Batatas são adicionadas à mistura, absorvendo os sabores e texturas, resultando em uma combinação perfeita de carne e vegetais em um molho rico e saboroso.</p>
+                    <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4e/16/12/4e16128d24f8f7c64d443d8f7828edb7.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4d/a7/09/4da70926f6825bb9c5ee31f206816eac.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ec/a3/a6/eca3a60ff99a6f0eab06c175ae0c1e14.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

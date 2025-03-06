@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almoço</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href="/HTML - 1/Home.html"><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Rapidas Para o Almoço</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>ALMOÇO</h1>
+            <hr>
+            <p>
+                O cotidiano acelerado que caracteriza nossas vidas muitas vezes nos coloca diante do desafio de
+                conciliar a busca por refeições saudáveis com a escassez de tempo. A pressa pode facilmente nos levar a
+                escolhas alimentares menos ideais, mas é reconfortante saber que é possível equilibrar a praticidade com
+                a qualidade nutricional.
+                <br>
+                A proposta aqui é encarar a alimentação de forma inteligente e eficiente, garantindo que a falta de
+                tempo não seja um obstáculo para a satisfação do paladar e a manutenção de uma dieta equilibrada.
+                Afinal, a saúde não deve ser sacrificada em meio à correria do dia a dia.
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Frango Grelhado com Legumes</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Peitos de frango</li>
+                    <li>Mix de legumes (cenoura, brócolis, pimentão)</li>
+                    <li>Azeite de oliva</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Tempere os peitos de frango com sal e pimenta.</li><br>
+                    <li>Grelhe os peitos de frango em uma frigideira com azeite até que estejam cozidos.</li><br>
+                    <li>Em outra panela, salteie os legumes até ficarem macios.</li><br>
+                    <li>Sirva o frango sobre os legumes.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta receita oferece uma opção saudável, rica em proteínas e nutrientes provenientes dos legumes.
+                    Aproveite o Frango Grelhado com Legumes como uma refeição equilibrada e saborosa!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://bellami.com.br/2017/wp-content/uploads/2017/01/file-de-frango-grelhado-1.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i.pinimg.com/736x/88/fa/b8/88fab8954a7b342e99bc58415cfc510b.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/bife-de-peito-de-frango-grelhado-com-legumes_1339-43660.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Espaguete ao Pesto com Tomate Cereja</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Espaguete</li>
+                    <li>Molho pesto</li>
+                    <li>Tomate cereja cortado ao meio</li>
+                    <li>Parmesão ralado</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe o espaguete conforme as instruções da embalagem.</li><br>
+                    <li>Misture o espaguete cozido com o molho pesto.</li><br>
+                    <li>Adicione os tomates cereja e polvilhe com parmesão ralado.</li><br>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p> Esta receita é uma ótima escolha para uma refeição rápida e cheia de sabor, perfeita para qualquer
+                    dia da semana. Aproveite o Espaguete ao Pesto com Tomate Cereja!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://images.freeimages.com/images/premium/previews/2954/29548220-spaghetti-with-pesto-and-cherry-tomatoes.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://emc.empresaspioneiras.com.br/dbimagens/receitas_de_1200x675_10012023092359.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://st4.depositphotos.com/2208212/20897/i/450/depositphotos_208972228-stock-photo-vegetarian-pasta-spaghetti-with-basil.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Arroz de Frango com Curry</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Peitos de frango cortados em cubos</li>
+                    <li>Arroz cozido</li>
+                    <li>Mix de legumes</li>
+                    <li>Curry em pó</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe o frango em uma frigideira até dourar.</li><br>
+                    <li>Adicione os legumes e refogue até que fiquem macios.</li><br>
+                    <li>Misture o arroz cozido e tempere com curry, sal e pimenta.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo do tipo de arroz utilizado. Certifique-se de verificar a
+                    consistência do arroz e a temperatura interna do frango para garantir que ambos estejam
+                    completamente cozidos. Essa receita é uma opção saborosa para quem aprecia pratos com influências
+                    asiáticas e indianas.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25-30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.hojetemfrango.com.br/wp-content/uploads/2018/11/frango-ao-curry-com-arroz-de-coco.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.minhareceita.com.br/app/uploads/2019/09/curyy650355.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://cdn.levty.com/camil/prd/imagem/arroz_basmati_com_frango_ao_curry_v2/arroz_basmati_com_frango_ao_curry_v2.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Sopa de Tomate com Grilled Cheese Sandwich</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Sopa de tomate (pronta ou caseira)</li>
+                    <li>Fatias de pão</li>
+                    <li>Queijo cheddar</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Aqueça a sopa de tomate.</li><br>
+                    <li>Enquanto isso, monte sanduíches de queijo cheddar entre as fatias de pão.</li><br>
+                    <li>Grelhe os sanduíches até que o queijo derreta.</li><br>
+                    <li>Sirva os sanduíches com a sopa.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Essa refeição é perfeita para dias frios e oferece uma combinação reconfortante de sabores. Aproveite a Sopa de Tomate com Grilled Cheese Sandwich para uma experiência clássica e deliciosa.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://images.hola.com/imagenes/cocina/recetas/20190924150057/sopa-tomates-asados-con-sandwiches-queso/0-723-58/sopa-tomate-m.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i.pinimg.com/736x/e4/50/45/e45045344dcd471ed2b1dd2139a221ab.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://media.istockphoto.com/id/1144164083/pt/foto/roasted-tomato-garlic-and-basil-soup-with-grilled-cheese-croutons.jpg?s=612x612&w=0&k=20&c=FApe2PlHFdIVzbxot55QKS2JSHWS4-ypg6iO-NzGP0A=)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Risoto de Cogumelos</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Arroz arbóreo</li>
+                    <li>Cogumelos variados</li>
+                    <li>Caldo de legumes</li>
+                    <li>Cebola e alho picados</li>
+                    <li>Vinho branco (opcional)</li>
+                  </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Refogue a cebola e alho, adicione os cogumelos.</li><br>
+                    <li>Adicione o arroz e refogue.</li><br>
+                    <li>Acrescente o vinho branco e, em seguida, o caldo aos poucos até o arroz cozinhar.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo do tipo de arroz usado e da intensidade do fogo. O Risoto de Cogumelos é uma opção elegante e saborosa que pode ser apreciada como prato principal ou acompanhamento. Aproveite este prato cremoso e cheio de sabor!
+                </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://i0.statig.com.br/bancodeimagens/ch/hi/q6/chhiq6grrnacv9zvgj7clf3ij.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://leouve.com.br/wp-content/uploads/2023/08/Risoto-de-Cogumelos-com-Queijo-Parmesao.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2021/07/risotto-de-cogumelos-com-caldo-de-espargos.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Couscous Marroquino com Legumes</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Couscous marroquino</li>
+                    <li>Caldo de legumes</li>
+                    <li>Legumes picados (abobrinha, cenoura, pimentão)</li>
+                    <li>Passas e amêndoas</li>
+                  </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Hidrate o couscous no caldo de legumes.</li><br>
+                    <li>Misture com legumes, passas e amêndoas.</li> 
+                     <li>Sirva!</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total de preparo pode variar dependendo do tamanho dos legumes e do tipo de couscous utilizado. Esta receita é uma opção versátil e deliciosa, com uma mistura única de especiarias que trazem os sabores característicos da culinária marroquina</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://media.gazetadopovo.com.br/2021/12/27160317/couscous2-37789c10-670x540.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://naminhapanela.com/wp-content/uploads/2020/12/Cuscuz-marroquino-com-legumes-assados-6-735x496.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://dramarcelanoronha.com.br/wp-content/uploads/2021/02/blog-Couscous-marroquino-com-legumes.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Espaguete Aglio e Olio com Brócolis</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Espaguete</li>
+                    <li>Alho picado</li>
+                    <li>Pimenta vermelha</li>
+                    <li>Brócolis cozidos</li>
+                    <li>Azeite de oliva</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe o espaguete, refogue o alho e pimenta em azeite.</li><br>
+                    <li>Adicione brócolis cozidos e misture com o espaguete.</li> <br>
+                    <li>Sirva!</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo do tamanho dos brócolis e da rapidez do cozimento do espaguete. Essa receita é uma opção rápida e saborosa para uma refeição leve e cheia de aromas. Aproveite o Espaguete Aglio e Olio com Brócolis como uma opção fácil para o almoço</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.yummytummyaarthi.com/wp-content/uploads/2018/09/IMG_0985.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://static.wixstatic.com/media/e47f29_906e9491ab1e442096d37b68499d92c1~mv2.jpg/v1/fit/w_700%2Ch_394%2Cal_c%2Cq_80,enc_auto/file.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-espaguete-com-brocolis.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Salmão Grelhado com Aspargos</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Peito de frango desfiado</li>
+                <li>Cream cheese</li>
+                <li>Alface</li>
+                <li>Tomate</li>
+                <li>Pão integral</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Grelhe o salmão com limão, sal e pimenta.</li><br>
+                    <li>Cozinhe os aspargos em azeite até ficarem macios.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total de preparo pode variar dependendo da espessura dos filés de salmão e do tamanho dos aspargos. Certifique-se de verificar a temperatura interna do salmão para garantir que esteja cozido adequadamente. Esta receita oferece uma combinação incrível de sabores frescos e texturas, tornando-se uma escolha elegante e saudável para uma refeição principal. Aproveite o Salmão Grelhado com Aspargos</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://ipiranganews.inf.br/wp-content/uploads/Receita-1029-1.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://ipiranganews.inf.br/wp-content/uploads/receita-02.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-675/83dda69f946e8a4ed220be1e8cca8bf2/23317-original.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Peito de Peru com Batata Doce Assada</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Peito de frango desfiado</li>
+                <li>Cream cheese</li>
+                <li>Alface</li>
+                <li>Tomate</li>
+                <li>Pão integral</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Asse o peito de peru com batata doce e brócolis.</li><br>
+                    <li>Regue com azeite e tempere a gosto.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar de acordo com o tamanho e espessura dos peitos de peru. Certifique-se de verificar a temperatura interna do peru para garantir que atingiu uma temperatura segura de cozimento. O Peito de Peru com Batata Doce Assada é uma refeição reconfortante, rica em proteínas e fibras, perfeita para qualquer ocasião</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2021/06/coxa-de-peru-com-batata-doce-e-legumes-assados.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.receitasemenus.net/wp-content/uploads/2018/11/peito-peru-assado.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://espetinhodesucesso.com.br/wp-content/uploads/2023/09/Batata-doce-combina-com-qual-carne-1200x675.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+            <div id="bloco-re">
+                <div class="rece">
+                    <h1>10. Molho de Pesto de Rúcula</h1>
+                    <h2>INGREDIENTES:</h2>
+                    <ul>
+                        <li>Rúcula</li>
+                        <li>Parmesão ralado</li>
+                        <li>Pinhões</li>
+                        <li>Alho</li>
+                        <li>Azeite de oliva</li>
+                        <li>Sal e pimenta a gosto</li>
+                    </ul>
+                        <h2>MODE DE PREPARO:</h2>
+                        <ol>
+                            <li>Triture rúcula, parmesão, pinhões e alho em um processador.</li><br>
+                            <li>Adicione azeite de oliva até obter a consistência desejada.</li><br>
+                            <li>Tempere com sal e pimenta.</li>
+                        </ol>
+                        <h2>DESCRIÇÃO:</h2>
+                        <p>O Molho de Pesto de Rúcula é uma variação vibrante e saborosa do clássico molho pesto italiano. A rúcula adiciona um toque picante e um aroma fresco, enquanto o parmesão e os pinhões trazem uma riqueza de sabor. Esse molho é versátil e pode ser usado para realçar o sabor de massas, saladas, sanduíches ou como acompanhamento para carnes e peixes grelhados.</p>
+                        <h2>TEMPO DE PREPARO: Aproximadamente 10 minutos.</h2>
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://uploads.metropoles.com/wp-content/uploads/2020/06/10121953/Pesto-de-R%C3%BAcula.jpg)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                        <div
+                            style="margin: 1%;background: url(https://www.sacolaodasanta.com.br/img/anexos/pesto-de-rucula-16122020165356_1.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                        </div>
+                            <div
+                            style="margin: 1%;background: url(https://img.cybercook.com.br/imagens/receitas/425/pesto-de-agriao-e-rucula-1.jpeg)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--Receita
+
+
+
+        <--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

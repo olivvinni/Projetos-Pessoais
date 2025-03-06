@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocasiões Especiais</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>OCASIÕES ESPECIAIS </h1>
+            <hr>
+            <p>As graças especiais são momentos únicos e significativos que celebramos ao longo da vida, marcando eventos importantes e criando memórias rigorosas. Essas graças são oportunidades para expressar amor, gratidão, alegria e celebrar conquistas individuais ou marcos coletivos. Elas desempenham um papel crucial na construção de conexões interpessoais e no fortalecimento de laços familiares e comunitários.
+                Diversos tipos de graças especiais podem ser comemorados, abrangendo uma ampla variedade de eventos, como aniversários, casamentos, nascimentos, formaturas, promoções, feriados religiosos, entre outros. Cada ocasião tem suas próprias tradições, significados e formas específicas de celebração, refletindo as culturas e valores das pessoas envolvidas.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Lombo de Cordeiro Assado com Ervas</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Lombo de cordeiro
+                    <li> Afresco de Alecrim
+                    <li> Afresco de Tomilho
+                    <li> Alho picado
+                    <li> Azeite de oliva
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Pré-aqueça o forno a 180°C.</li><br>
+<li> Tempere o lombo de cordeiro com sal, pimenta, alecrim, tomilho e alho.</li><br>
+<li> Em uma assadeira, regue o lombo com azeite de oliva.</li><br>
+<li> Asse no forno por aproximadamente 30-40 minutos, ou até atingir o ponto desejado.</li><br>
+<li> Deixe descansar por alguns minutos antes de fatiar e servir.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Este prato é ideal para graças especiais e celebrações, impressionando os convidados com a suculência e os sabores intensos do cordeiro temperado com ervas frescas. Sirva acompanhada de seus acompanhamentos favoritos, como purê de batatas, legumes assados ​​ou uma salada verde para uma refeição completa e adequada.</p>
+                    <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e4/97/35/e49735dd542f9a329f25ae66b0787889.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/50/a8/57/50a8572c69f9b104ae60cbc08aaf8ff7.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/17/19/9b/17199b0bf6fcdb347f90923499c57f56.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Salmão Grelhado com Molho de Limão e Endro</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Filés de salmão
+                    <li> Suco de limão
+                    <li> Endro fresco picado
+                    <li> Azeite de oliva
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Tempere os filés de salmão com sal, pimenta, suco de limão e endro.</li><br>
+<li> Aqueça o azeite de oliva em uma grelha e grelhe o salmão até que fique cozido por dentro e com uma crosta dourada por fora.</li><br>
+<li> Regue com mais suco de limão e polvilhe endro fresco antes de servir.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Salmão Grelhado com Molho de Limão e Endro é uma opção leve, saudável e repleta de sabores frescos. A combinação do sabor robusto do salmão com a acidez do limão e o aroma único do endro cria uma experiência gastronômica equilibrada e deliciosa. Este prato é ideal para quem busca uma refeição rápida e cheia de nutrientes. O tempo de preparo é geralmente curto, tornando-o uma escolha prática para qualquer dia da semana.</p>
+                    <h2>Tempo de preparo: 15min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a9/57/03/a95703413038d160d7357a19fa0545f5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/99/04/1b/99041bde80661af8c5abdb6f7a95c059.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/0f/1a/9c/0f1a9c41ee1143b26b163a0634dfc730.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Risoto de Frutos do Mar</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Arroz arbóreo
+                    <li> Camarões
+                    <li> Vieiras
+                    <li> Lula
+                    <li> Caldo de peixe
+                    <li> Vinho branco
+                    <li> Cebola
+                    <li> Alho
+                    <li> Parmesão ralado
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Refogue cebola e alho em azeite até ficarem dourados.</li><br>
+<li> Adicione o arroz arbóreo e mexa até ficar translúcido.</li><br>
+<li> Deglace com vinho branco e, em seguida, adicione o caldo de peixe aos poucos, mexendo constantemente.</li><br>
+<li> Adicione os frutos do mar e continue cozinhando até que o arroz fique al dente e os frutos do mar cozidos.</li><br>
+<li> Misture o parmesão, tempere com sal e pimenta, e sirva.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Risoto de Frutos do Mar é um prato sofisticado e delicioso que destaca a riqueza dos frutos do mar em conjunto com a cremosidade e sabores característicos do risoto. Esta receita proporciona uma experiência gastronômica refinada, ideal para benefícios especiais. Aqui está uma versão básica da receita:</p>
+                    <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/fc/85/c5/fc85c5c0b08bf1f1a431de349d316a90.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/77/49/c5/7749c56e51bc2512f90b9a7dfd4cf392.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/19/61/ec/1961ecc7c69c45881a05a110601cbeae.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Tournedos de Filé Mignon com Molho de Vinho Tinto</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Medalhões de filé mignon
+                    <li> Vinho tinto
+                    <li> Caldo de carne
+                    <li> Cebola
+                    <li> Manteiga
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Tempere os medalhões com sal e pimenta.</li><br>
+<li> Grelhe os medalhões até o ponto desejado.</li><br>
+<li> Em uma panela, refogue uma cebola em manteiga.</li><br>
+<li> Adicione vinho tinto e caldo de carne à panela, reduza até obter um molho espesso.</li><br>
+<li> Sirva os medalhões regados com o molho.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Os Tournedos de Filé Mignon com Molho de Vinho Tinto são uma escolha elegante e deliciosa para uma refeição refinada. Este prato combina a ternura do filé mignon com um molho incorporado de vinho tinto, resultando em uma experiência gastronômica sofisticada</p>
+                    <h2>Tempo de preparo: 30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/99/2b/88/992b88d13ad0f68d6953e6d4a14b854d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/11/7f/4c/117f4c7db2e4eaab99627b7d19a94e27.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e5/b9/0e/e5b90ec0a5dfb7d60d6b54fbc31912af.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Camarões Grelhados com Molho de Alho e Limão</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Medalhões de filé mignon
+                    <li> Vinho tinto
+                    <li> Caldo de carne
+                    <li> Cebola
+                    <li> Manteiga
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Misture os camarões com alho, suco de limão, azeite, sal e pimenta.</li><br>
+                    <li> Grelhe os camarões até que fiquem rosa.</li><br>
+                    
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Os Camarões Grelhados com Molho de Alho e Limão são uma opção irresistível, repleta de sabores frescos e intensos. Esta receita destaca a suculência dos camarões, realçada pela combinação equilibrada de alho e limão. </p>
+                    <h2>Tempo de preparo: 50min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/07/95/1b/07951b4757fe3ac817f956639d2f75d5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/99/04/1b/99041bde80661af8c5abdb6f7a95c059.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e5/a3/32/e5a332ad692789844cc72f69387c07dd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Lasanha de Espinafre e Ricota</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Massa de lasanha
+                    <li> Afresco de Espinafre
+                    <li> Ricota
+                    <li> Molho de tomate
+                    <li> Queijo mussarela
+                    <li> Parmesão ralado
+                    <li> Alho
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Refogue o espinafre e o alho em azeite até murchar.</li><br>
+<li> Misture o espinafre com ricota, sal e pimenta.</li><br>
+<li> Em um tabuleiro, faça camadas alternadas de massa de lasanha, molho de tomate, mistura de espinafre e queijos.</li><br>
+<li> Termine com queijo por cima e asse no forno conforme instruções da massa.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Lasanha de Espinafre e Ricota é uma opção deliciosa e nutritiva, perfeita para os amantes de vegetais e queijo. A combinação de camadas de massa de lasanha, espinafre refogado e ricota cremosa resulta em um prato reconfortante e cheio de sabor.</p>
+                    <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ac/e4/c5/ace4c5ad6c70c8115220118129c722d3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ab/30/e3/ab30e3d723e652262964c3dd518bf5f6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2d/5f/2f/2d5f2f195a87a73739a70d58fdee5a22.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Pato Assado com Laranja e Alecrim</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Pato inteiro
+                    <li> Laranjas
+                    <li> Afresco de Alecrim
+                    <li> Alho
+                    <li> Mel
+                    <li> Sal e pimenta a gosto
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Tempere o pato com sal, pimenta, alho picado e alecrim.</li><br>
+<li> Asse o pato no forno a uma temperatura média.</li><br>
+<li> Misture suco de laranja com mel e regue o pato durante o cozimento.</li><br>
+<li> Asse até que a pele esteja triste e a carne cozida.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Pato Assado com Laranja e Alecrim é uma receita clássica que combina a riqueza da carne de pato com os sabores cítricos e aromáticos da laranja e do alecrim. Este prato resulta em uma mistura harmoniosa de doce e salgado, criando uma experiência gastronômica sofisticada. </p>
+                    <h2>Tempo de preparo: 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e1/17/61/e117616b485cc86859481f8b018c6c24.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7a/af/f9/7aaff96a7bec0470965e2d75f7c7d034.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/0d/ba/12/0dba12d68cd0b8864d09affd91a94590.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Sorvete Caseiro de Baunilha com Calda de Chocolate</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Gemas de ovos
+                    <li> Açúcar
+                    <li> Leite
+                    <li> Creme de leite
+                    <li> Baunilha
+                    <li> Chocolate meio amargo
+                    
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Faça uma base de creme com gemas, açúcar, leite e creme de leite.</li><br>
+<li> Adicione extrato de baunilha.</li><br>
+<li> Leve à máquina de sorvete ou congelador.</li><br>
+<li> Derreta o chocolate e faça a calda para servir sobre o sorvete.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Sorvete Caseiro de Baunilha com Calda de Chocolate é uma sobremesa clássica que combina os ingredientes e a doçura da baunilha com a riqueza do chocolate. É uma opção refrescante e deliciosa para satisfazer os desejos por doces</p>
+                    <h2>Tempo de preparo: 6h(junto com o frezzer)</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ca/ba/c0/cabac0bac7ca617035747c2f6f7a3633.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3a/fc/45/3afc4503db9d4cec077b7eb21e82967a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/75/6a/32/756a321416458e3e6e86aef606617631.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Tarte Tatin de Maçã</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Maçãs
+                    <li> Massa folhada
+                    <li> Açúcar
+                    <li> Manteiga
+                    
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Descasque e corte maçãs em fatias.</li><br>
+<li> Em uma forma, derreta açúcar e manteiga até formar um caramelo.</li><br>
+<li> Arrume as maçãs na forma e assadeira com massa folhada.</li><br>
+<li> Asse até que a massa fique dourada.</li><br>
+<li> Desenforme com cuidado para que as maçãs fiquem por cima.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Tarte Tatin de Maçã é uma sobremesa francesa clássica que destaca a doçura das maçãs caramelizadas sob uma camada de massa folhada dourada. Esta receita oferece uma combinação perfeita de texturas e sabores, com a maçã macia contrastando com o crocante da massa e o caramelo pegajoso.</p>
+                    <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bc/d8/45/bcd8459d569cc0330a8aa4743479bf75.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2f/e3/bb/2fe3bbb900d12d85b432e69a797f03a2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/df/6d/75/df6d75e433cdad0c5fcf5fc53632f37c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Bife Wellington</h1>
+                <h2>INGREDIENTES</h2>
+                <li> Filé mignon
+                    <li> Massa folhada
+                    <li> Cogumelos
+                    <li> Patê de foie gras (opcional)
+                    <li> Mostarda
+                    <li> Ovo (para pintar)
+                    <li> Sal e pimenta a gosto                   
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Tempere o filé mignon com sal, pimenta e sele em uma frigideira.</li><br>
+                    <li> Refogue cogumelos até liberarem a umidade e reserva.</li><br>
+                    <li> Espalhe sobre mostarda o arquivo.</li><br>
+                    <li> Cubra com os cogumelos (e patê de foie gras, se usar).</li><br>
+                    <li> Matricule a massa folhada, pincelando com ovo.</li><br>
+                    <li> Asse até que a massa fique dourada e a carne atinja o ponto desejado.</li><br>
+                    
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bife Wellington é uma receita clássica da culinária britânica que combina filé mignon, cogumelos, presunto e massa folhada, resultando numa deliciosa mistura de sabores e texturas. Este prato é frequentemente associado a graças especiais devido à sua peculiaridade.</p>
+                    <h2>Tempo de preparo: 2h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/736x/2b/35/61/2b356129ed511eefcf56c73bf30c04c1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7a/d8/30/7ad830976430f9c1903ac769a8ed9ccb.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7a/e3/08/7ae3084094925e1909537e8acaaa22f3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

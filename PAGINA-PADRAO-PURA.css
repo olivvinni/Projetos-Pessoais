@@ -1,12 +1,10 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
-
 body,
 html {
   background: rgb(255, 255, 255);
   padding: 0;
   margin: 0;
-  font-family: 'Syncopate', sans-serif;
+  font-family: 'Corben', serif;
+  font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
 }
 
@@ -257,66 +255,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Sometype Mono', monospace;
   }
-
-  #drops ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  #drops li {
-    float: left;
-    list-style-type: none;
-  }
-
-  #drops li a, .dropbtn {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  #drops li a:hover, .dropdown:hover .dropbtn {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops li.dropdown {
-    display: inline-block;
-  }
-
-  #drops .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  #drops .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  #drops .dropdown-content a:hover {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  #seta-baixo {
-    margin-bottom: -9%;
-  }
-
 }
 
 @media (min-width: 800px) {
@@ -561,66 +499,6 @@ html {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Sometype Mono', monospace;
   }
-
-  #drops ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  #drops li {
-    float: left;
-    list-style-type: none;
-  }
-
-  #drops li a, .dropbtn {
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  #drops li a:hover, .dropdown:hover .dropbtn {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops li.dropdown {
-    display: inline-block;
-  }
-
-  #drops .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  #drops .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  #drops .dropdown-content a:hover {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-  #seta-baixo {
-    margin-bottom: -9%;
-  }
-
 }
 
 @media (min-width: 1120px) {
@@ -857,65 +735,8 @@ html {
     width: 100%;
   }
 
-  #drops ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    flex-wrap: wrap;
-  }
-
-  #drops li {
-    justify-content: center;
-    text-align: center;
-    list-style-type: none;
-  }
-
-  #drops li a, .dropbtn {
-    
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 12px 14px;
-    text-decoration: none;
-  }
-
-  #drops li a:hover, .dropdown:hover .dropbtn {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops li.dropdown {
-   
-  }
-
-  #drops .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
-
-  #drops .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  #drops .dropdown-content a:hover {
-    background-color: #F89D03;
-    transition: 0.5s;
-  }
-
-  #drops .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
   #seta-baixo {
-    margin-bottom: -5%;
+    margin-bottom: -9%;
   }
 
   #nome-logo {
@@ -952,7 +773,7 @@ html {
     transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   }
 
-  /*hover effect*/
+
   button:hover {
     color: #fff;
     background-color: #F89D03;
@@ -960,7 +781,6 @@ html {
     transform: translateY(-3px);
   }
 
-  /*button pressing effect*/
   button:active {
     box-shadow: none;
     transform: translateY(0);
@@ -975,366 +795,91 @@ html {
     padding: 24px 46px 24px 46px;
   }
 
-
-  .container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 300px;
-    gap: 10px;
-
-    >div {
-      flex: 0 0 135px;
-      border-radius: 0.5rem;
-      transition: 0.5s ease-in-out;
-      cursor: pointer;
-      box-shadow: 1px 5px 15px #ffa2001e;
-      position: relative;
-      overflow: hidden;
-
-      &:nth-of-type(1) {
-        background: url("https://th.bing.com/th/id/OIP.nkUjUwcKaH6rmSaTpIcRBwHaE-?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(2) {
-        background: url("https://th.bing.com/th/id/OIP.EkWpRoCy9p6JgLin3buhqQHaE8?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(3) {
-        background: url("https://th.bing.com/th/id/OIP.ZTst4is8-JJYvyfSdIqwvgHaHa?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(4) {
-        background: url("https://th.bing.com/th/id/R.38317b27d0d2a25278b74ede569b7f0d?rik=TFukTScIduCaQA&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(5) {
-        background: url("https://th.bing.com/th/id/R.a9cd1e350b2b07ac9bc0376656e273a3?rik=eGOZp2AmgkGTPA&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(6) {
-        background: url("https://i.pinimg.com/originals/dd/b6/89/ddb689c5dfbd5d219e872025ab9e9202.jpg") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(7) {
-        background: url("https://th.bing.com/th/id/OIP.0Sy5Vg9xYVbKOFUR1T6zQwHaE8?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(8) {
-        background: url("https://www.receiteria.com.br/wp-content/uploads/receitas-de-manicoba-1-747x482.jpg") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(9) {
-        background: url("https://th.bing.com/th/id/OIP.fdIXOCLxGxjvwJ_vGIJ5AwHaE8?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(10) {
-        background: url("https://th.bing.com/th/id/OIP.0rNd1eS8IyzJu-NQd8w2ewHaFj?w=234&h=180&c=7&r=0&o=5&pid=1.7") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(11) {
-        background: url("https://th.bing.com/th/id/R.ef6ac931558d8d4802fcb78d792c263f?rik=RGsb45r9fSe01g&riu=http%3a%2f%2fmulhermaisde40.com.br%2fwp-content%2fuploads%2f2018%2f03%2fantepasto-berinjela-receita-1.jpg&ehk=COtcbZoDphkQB66q7IkjSZFAm8gMQ1eN%2fMd0KZqcUE8%3d&risl=&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(12) {
-        background: url("https://th.bing.com/th/id/R.3c4c340d1541d67808cca7274823a5f7?rik=ODbo955Z9pFwCg&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(13) {
-        background: url("https://th.bing.com/th/id/OIP.IcBmW0x4iDij8xaiMnHedQHaE7?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(14) {
-        background: url("https://th.bing.com/th/id/OIP.cDou67apGWD-yQ8ssYS6WQHaE8?rs=1&pid=ImgDetMain") no-repeat 50% / cover;
-      }
-
-      .content {
-        font-size: 1rem;
-        color: #fff;
-        display: flex;
-        align-items: center;
-        opacity: 0;
-        flex-direction: column;
-        height: 100%;
-        justify-content: flex-end;
-        background: rgb(2, 2, 46);
-        background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077030812324) 0%, rgba(255, 255, 255, 0) 100%);
-        transform: translatey(100%);
-        transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
-        visibility: hidden;
-
-        span {
-          display: block;
-          font-size: 0.4rem;
-        }
-      }
-
-      &:hover {
-        flex: 0 0 500px;
-        box-shadow: 1px 3px 15px #8d791c80;
-        transform: translatey(-30px);
-      }
-
-      &:hover .content {
-        opacity: 1;
-        transform: translatey(0%);
-        visibility: visible;
-      }
-    }
-  }
-
-
-  .containerum {
-    margin-bottom: 1%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    gap: 10px;
-
-    >div {
-      flex: 0 0 400px;
-      border-radius: 0.5rem;
-      transition: 0.5s ease-in-out;
-      cursor: pointer;
-      box-shadow: 1px 5px 15px #ffa2001e;
-      position: relative;
-      overflow: hidden;
-
-      &:nth-of-type(1) {
-        background: url("") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(2) {
-        background: url("") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(3) {
-        background: url("") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(4) {
-        background: url("") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(5) {
-        background: url("https://www.cardamomo.news/__export/1610560169066/sites/dimg/2021/01/13/8_comidas_deliciosas_y_bajas_en_grasas_para_perder_peso_crop1610560087396.jpeg_242310155.jpeg") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(6) {
-        background: url("https://s2-receitas.glbimg.com/x7TGabzB_IW78N-3yzkh6Pyq_jE=/0x0:1600x900/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2023/0/Q/nu8QgPRTSoYISY5EHPhw/bolo-de-cenoura-vegano.jpg") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(7) {
-        background: url("https://th.bing.com/th/id/R.c0af5de8c8715e13208363465b3883e5?rik=M9ZpzQGLu6biHQ&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(8) {
-        background: url("https://img.cybercook.com.br/receitas/904/macarrao-caprese-em-uma-panela-so-1.jpeg") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(9) {
-        background: url("https://th.bing.com/th/id/OIP.4BVFiece0QMZHFjdoSvj-QHaFj?pid=ImgDet&rs=1") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(10) {
-        background: url("https://th.bing.com/th/id/R.017dea4baeda9ff407769649f752b00d?rik=G%2fgu9oGEF%2bOegw&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(11) {
-        background: url("https://th.bing.com/th/id/R.f717867788859803c92e8e6ce0d2c48d?rik=ohLTz688agNFbw&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(12) {
-        background: url("https://th.bing.com/th/id/R.da455321000007744ad79ef9c2ec44db?rik=EI3YEBv3KK7SHw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-nO7Sk1ZgSFM%2fUETN1e8BKaI%2fAAAAAAAAAEw%2ftVNne22mBcw%2fs1600%2f_MG_0006.jpg&ehk=a69DUTpdRtdGZqf1o%2bovqB4K9G6rgq6bVWdOhGyDYjE%3d&risl=&pid=ImgRaw&r=0") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(13) {
-        background: url("https://th.bing.com/th/id/OIP.JWMiZfXJg0Oy-G_pU8q4cgAAAA?pid=ImgDet&rs=1") no-repeat 50% / cover;
-      }
-
-      &:nth-of-type(14) {
-        background: url("https://th.bing.com/th/id/OIP.TfVebZGyOAbZQLivR1hCOgHaEf?pid=ImgDet&rs=1") no-repeat 50% / cover;
-      }
-
-      &:hover {
-        flex: 0 0 350px;
-        box-shadow: 1px 3px 15px #8d791c80;
-        transform: translatey(-30px);
-      }
-    }
-  }
-
-
-
-  #titulo {
-    background-color: rgba(0, 128, 0, 0);
-    justify-content: center;
-    text-align: center;
-    margin-top: 5%;
-  }
-
-  #titulo h1 {
-    letter-spacing: 3px;
-    font-size: 30px;
-    color: #F89D03;
-  }
-
-  #titulo hr {
-    border-color: rgba(0, 0, 0, 0.03);
-  }
-
-  #pontos {
-    text-align: center;
-    margin-bottom: -150px;
-  }
-
-  #pontos img {
-    margin: 5px;
-  }
-
-  .bloco {
-    display: flex;
-    width: 100%;
-
-  }
-
-  #foto-receita {
-    width: 40%;
-  }
-
-  #desc-receita {
-    width: 60%;
-    padding-right: 30%;
-    text-align: justify;
-  }
-
-  #desc-receita h1 {
-    font-size: 30px;
-  }
-
-  #desc-receita p {
-    font-size: 13px;
-  }
-
-  .bloco2 {
-    display: flex;
-    width: 100%;
-
-  }
-
-  #foto-receita2 {
-    width: 40%;
-  }
-
-  #desc-receita2 {
-    width: 60%;
-    text-align: justify;
-    padding-left: 30%;
-  }
-
-  #desc-receita2 h1 {
-    font-size: 30px;
-    text-align: right;
-  }
-
-  #desc-receita2 p {
-    text-align: justify;
-    font-size: 13px;
-  }
-
-
-  #blocao {
+  #blocao{
     background-color: #252627;
     display: flex;
     color: white;
     padding: 1%;
     margin-top: 20%;
   }
-
-  #bloquinho1 {
+  #bloquinho1{
     width: 25%;
     text-align: center;
     margin-top: 4%;
   }
 
-  #bloquinho1 h1 {
+  #bloquinho1 h1{
     font-size: 30px;
   }
 
-  #bloquinho1 ul {
+  #bloquinho1 ul{
     list-style-type: none;
     text-align: left;
     margin-left: 26%;
   }
-
-  #bloquinho1 ul li {
+  #bloquinho1 ul li{
     margin-top: 10%;
   }
 
-  #bloquinho1 ul li a {
+  #bloquinho1 ul li a{
     text-decoration: none;
     color: white;
     font-size: 11px;
   }
 
-  #bloquinho1 ul li a:hover {
+  #bloquinho1 ul li a:hover{
     color: #F89D03;
     transition: 0.4s;
   }
 
-  #bloquinho2 {
+  #bloquinho2{
     margin-top: 3%;
     width: 50%;
     text-align: center;
   }
 
-  #bloquinho2 img {
+  #bloquinho2 img{
     width: 40%;
   }
-
-  #bloquinho3 {
+  #bloquinho3{
     width: 25%;
     text-align: center;
     margin-top: 2%;
   }
 
-  #bloquinho3 h1 {
+  #bloquinho3 h1{
     font-size: 30px;
   }
-
-  #bloquinho3 p {
+  #bloquinho3 p{
     text-align: justify;
     padding-right: 5%;
   }
 
-  #creditos {
+  #creditos{
     text-align: center;
     background-color: #F89D03;
     padding: 0.5%;
     width: 100%;
   }
 
-  #maisop {
+  #maisop{
     text-align: center;
   }
 
-  #maisop ul {
+  #maisop ul{
     display: flex;
     justify-content: center;
   }
-
-  #maisop ul li {
+  #maisop ul li{
     margin: 1%;
     list-style-type: none;
   }
-
-  #maisop ul li a {
+  #maisop ul li a{
     color: black;
     font-style: italic;
   }
 
-  #maisop ul li a:hover {
+  #maisop ul li a:hover{
     transition: 0.4s;
     color: #F89D03;
   }

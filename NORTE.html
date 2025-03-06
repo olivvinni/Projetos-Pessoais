@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norte</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>NORTE</h1>
+            <hr>
+            <p>A culinária do Norte do Brasil é rica e diversificada, refletindo uma variedade de ingredientes disponíveis na região, que incluem frutas tropicais, peixes de água doce, carnes exóticas, raízes, ervas e especiarias. Essa culinária é fortemente influenciada pela cultura indígena, afro-brasileira e portuguesa, resultando em pratos únicos e deliciosos.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Tacacá</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 xícaras (chá) de água</li>
+                <li>1/2 xícara (chá) de polvilho azedo (ou goma de mandioca)</li>
+                <li>1 colher (chá) de sal</li>
+                <li>500 g de camarão salgado (seco)</li>
+                <li>4 folhas de chicória</li>
+                <li>4 dentes de alho bem amassados</li>
+                <li>3 pimentas-de-cheiro</li>
+                <li>2 maços de jambu</li>
+                <li>2 litros de tucupi</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque o tucupi em uma panela com o alho bem amassado, o sal, a chicória e as pimentas.</li><br>
+
+                    <li>Leve ao fogo.</li><br>
+                    
+                    <li>Quando começar a ferver, abaixe o fogo, tampe a panela e deixe cozinhar por 30 minutos aproximadamente.</li><br>
+                    
+                    <li>Simultaneamente em outra panela, cozinhe o jambu até ficar tenro.</li><br>
+                    
+                    <li>Retire do fogo, escorra e reserve.</li><br>
+                    
+                    <li>Lave bem os camarões e leve-os ao fogo em uma panela com 4 xícaras de água.</li><br>
+                    
+                    <li>Deixe ferver por aproximadamente 5 minutos.</li><br>
+                    
+                    <li>Retire a cabeça e a casca.</li><br>
+                    
+                    <li>Em uma panela, misture o polvilho com a água dos camarões, leve ao fogo e mexa até obter um mingau.</li><br>
+                    
+                    <li>Sirva em uma cuia com uma concha de tucupi, um pouco do mingau, algumas folhas de jambu e os camarões.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Tacacá é uma sopa típica da região Norte do Brasil, especialmente popular no estado do Pará. Essa iguaria representa uma riqueza da culinária amazônica, incorporando ingredientes locais e sabores únicos. O Tacacá é conhecido não apenas pela sua complexidade de sabores, mas também pela experiência sensorial que proporciona.</p>
+                <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/95/91/b8/9591b84a2431308280ee523e4306f9dd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b7/63/9e/b7639e70892851b8412132199c7a453e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/dd/aa/84/ddaa842ea758db82b6573b023b92aa34.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Pato no tucupi</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 pato grande</li>
+                <li>3 cebolas pequenas, cortadas em rodelas</li>
+                <li>4 dentes de alho</li>
+                <li>100 g de bacon em fatias</li>
+                <li>5 tomates maduros (opcional)</li>
+                <li>1/3 de xícara de chá de vinagre</li>
+                <li>1 folha de louro picado</li>
+                <li>1/2 colher de café de cominho e pimenta do reino</li>
+                <li>1 xícara de chá de óleo</li>
+                <li>1 maço de jambu (ou agrião)</li>
+                <li>1 litro de tucupi</li>
+                <li>12 colheres de sopa de farinha de mandioca torrada</li>
+                <li>Sal a gosto</li>
+                
+                    <h2>MODO DE PREPARO</h2>
+                    <ol>
+                        
+                        <li>Limpe muito bem o pato.</li><br>
+
+                        <li>A seguir, fure-o ligeiramente com um garfo e tempere com alho socado, sal, louro, pimenta do reino, cominho e vinagre.</li><br>
+                        
+                        <li>Deixe tomar gosto de um dia para o outro.</li><br>
+                        
+                        <li>Após este tempo, cubra o pato com fatias de bacon, coloque-o numa assadeira, arrume por cima as fatias de cebola e tomate.</li><br>
+                        
+                        <li>Regue com óleo e leve ao forno moderado, deixando assar até que o pato fique corado e macio.</li><br>
+                        
+                        <li>Retire, corte-o em pedaços e deixe no próprio molho.</li><br>
+                        
+                        <li>Limpe o jambu, lave e pique (conserve os talos para dar mais gosto), ferva o tucupi com 2 dentes de alho previamente socados, por mais ou menos 15 minutos.</li><br>
+                        
+                        <li>Se usar agrião, não se deve ferver.</li><br>
+                        
+                        <li>Adicione os pedaços do pato no molho e deixe ferver por 20 minutos.</li><br>
+                        
+                        <li>Na hora de servir, coloque em cada prato 2 colheres de sopa de farinha de mandioca, arrume por cima 1 ou 2 pedaços de pato e despeje bastante molho (bem quente).</li><br>
+                        
+                        <li>O molho misturado com a farinha formará uma espécie de pirão.</li><br>
+                        
+                        <li>Para fazer o molho do tucupi: Rale a mandioca, esprema o caldo e coloque para cozinhar com bastante alho.</li><br>
+                        
+                        <li>Depois de frio engarrafe.</li><br>
+                        
+                        <li>Uma boa opção para se fazer com tucupi é o famoso tacacá: Ferva um litro de tucupi com um galho de jambu e três pimentas malaguetas.</li><br>
+                        
+                        <li>Faça uma massa bem espessa com meio quilo de polvilho e água.</li><br>
+                        
+                        <li>Misture meio quilo de camarões secos e sirva com molho de tucupi por cima, quente.</li><br>
+                        
+                    </ol>
+                    <h2>DESCRIÇÃO</h2>
+                    <p>O Pato no Tucupi é um prato tradicional da culinária paraense, destacando-se como um dos sabores mais autênticos e representativos da região Norte do Brasil. Este prato exibe uma fusão única de ingredientes locais, incorporando elementos indígenas, africanos e portugueses, que são característicos da rica cultura paraense.</p>
+                    <h2>Tempo de preparo: 2h</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d3/e0/24/d3e024d0fdca2508c3f338fe75319229.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/76/3a/37/763a370b4766e835cf80d7c776c48320.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f8/40/38/f84038d9d73335a46051f1540474098d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Pirarucu de casaca</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de pirarucu (peixe) salgado</li>
+                <li>200 g de farinha de trigo</li>
+                <li>200 g de farinha de mandioca</li>
+                <li>5 bananas da terra bem maduras</li>
+                <li>1 vidro de leite de coco (200 ml)</li>
+                <li>1 lata de azeite (200 ml)</li>
+                <li>Batata palha</li>
+                <li>4 tomates</li>
+                <li>2 cebolas grandes</li>
+                <li>1 pimentão pequeno</li>
+                <li>1 cheiro verde (salsa e cebolinha)</li>
+                
+                    <h2>MODO DE PREPARO</h2>
+                    <ol>
+                        <li>Demolhe o pirarucu durante 24 horas dentro da geladeira, trocando sempre a água.</li><br>
+
+                        <li>No dia seguinte, colocar o peixe para ferver em água limpa durante 15 minutos, escorrer, desfiar e reservar.</li><br>
+                        
+                        <li>Cortar em pedaços pequenos o tomate, cebola e o pimentão e fazer um refogado com o azeite até ficar bem mole.</li><br>
+                        
+                        <li>Colocar o peixe já desfiado para fritar um pouco dentro desse refogado.</li><br>
+                        
+                        <li>Adicionar 1/4 do leite de coco ao peixe para que fique um pouco úmido.</li><br>
+                        
+                        <li>Em uma bacia à parte, coloque a farinha, o restante do leite de coco e o cheiro verde bem picadinho e faça uma farofa.</li><br>
+                        
+                        <li>Frite as 5 bananas em tiras não muito grossas.</li><br>
+                        
+                        <li>Montagem: Em um pirex, coloque toda a farofa no fundo, depois todo o refogado do peixe, depois as bananas fritas e, por último, a batata palha.</li><br>
+                        
+                        <li>Na hora de servir, colocar por 10 minutos em forno quente.</li><br>
+                        
+                    </ol>
+                    <h2>DESCRIÇÃO</h2>
+                    <p>O Pirarucu de Casaca é um prato tradicional da culinária amazônica, especialmente popular na região Norte do Brasil, onde o pirarucu é um dos peixes mais emblemáticos. Essa receita se destaca pela combinação de sabores intensos e pela utilização de ingredientes regionais, representando a riqueza gastronômica e cultural da Amazônia.</p>
+                    <h2>Tempo de preparo: 45min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e5/91/53/e59153a38dedbcc0ca17f50d01335040.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/25/a5/cc/25a5cc99837a81934a2a5e1b91dbb6b0.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d9/7c/75/d97c75bba729e97fb8dd11ba2b0d1941.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Moqueca de gurijuba fresca</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1,5 kg de gurijuba fresca</li>
+                <li>800 g de camarão sem cabeça (fresco ou salgado)</li>
+                <li>500 ml de leite de coco</li>
+                <li>1 vidro pequeno de azeite de dendê</li>
+                <li>Suco de 2 limões</li>
+                <li>Cheiro-verde (salsa e cebolinha)</li>
+                <li>Tomate</li>
+                <li>Pimentão verde</li>
+                <li>Alho picado</li>
+                <li>Cebola a gosto</li>
+                <li>Sal a gosto</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Corte a gurijuba em postas não muito finas, tempere o peixe com o suco do limão, o alho, sal a gosto e um pouco de cheiro-verde. Deixe pegar o tempero por volta de 1 hora e reserve.</li><br>
+
+                    <li>Em uma panela grande, refogue o alho com azeite de dendê (4 colheres de sopa).</li><br>
+                    
+                    <li>Coloque uma camada de peixe e outra com cebola, tomate, pimentão (cortados em rodelas), cheiro-verde e o camarão, assim sucessivamente.</li><br>
+                    
+                    <li>Assim que colocar todos os ingredientes, acrescente o leite de coco e deixe cozinhar por 20 minutos.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Moqueca de Gurijuba Fresca é uma variação de moqueca típica da região amazônica, onde a gurijuba é um peixe bastante apreciado. Este prato se destaca por sua combinação de sabores intensos, temperos regionais e a utilização de frescos, representando a riqueza da culinária amazônica.</p>
+                <h2>tempo de preparo: 20min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/11/48/5a/11485ae678c8186f11432dafc0251d17.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bc/3d/e7/bc3de7412f177119ada7e2c03623e512.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6c/a0/0c/6ca00c359c9f28374936cfcd0e1db0e8.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5.  Maniçoba</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1,5 kg de maniva pré-cozida</li>
+                <li>Folhas de louro</li>
+                <li>1 kg de toucinho salgado</li>
+                <li>1 kg de linguiça calabresa</li>
+                <li>1/2 kg de charque</li>
+                <li>1/2 kg de paio</li>
+                <li>1/2 kg de carne de porco assada de forno</li>
+                <li>1/2 kg de bacon</li>
+                <li>Costelinha de porco defumada</li>
+                
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque para ferver a maniva e as folhas de louro em bastante água em uma panela grande.</li><br>
+
+                    <li>Em outra panela, escalde por 2 vezes o toucinho e acrescente a maniva, deixe cozinhar até dissolvê-lo totalmente.</li><br>
+                    
+                    <li>Quando dissolver e começar a ficar escura a maniva, acrescente uns pedaços de bacon e de chouriços em cubos grandes.</li><br>
+                    
+                    <li>Deixe ferver bem.</li><br>
+                    
+                    <li>Em uma tigela, corte a calabresa em rodelas, o paio, o restante do chouriço e o bacon.</li><br>
+                    
+                    <li>Escalde o charque e junte aos pedaços, quando estiver bem pretinha a maniva com os ingredientes, coloque a carne de porco cortada em pedaços, já assada em forno, e o restante dos ingredientes.</li><br>
+                    
+                    <li>Deixe encorpar, a maniçoba fica preta e bem encorpada.</li><br>
+                    
+                    <li>Sirva com arroz escorrido e molho de pimenta de cheiro.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Maniçoba é um prato típico da culinária paraense, especialmente associado às festividades do Círio de Nazaré, uma das maiores celebrações religiosas da região. Essa iguaria é conhecida por sua complexidade na preparação e pelos sabores intensos que resultam de um longo processo de cozimento.</p>
+                <h2>Tempo de preparo: 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/56/90/cf/5690cf6d5ad3272b061d21b72f723442.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d1/53/7b/d1537b5afe68da871c83cce63fd04c3a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6d/26/4a/6d264a1839e85ad9721d0e575caf7832.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. A Caldeirada de Tambaqui</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de tambaqui (pode ser só costela ou só lombo ou os dois)</li>
+                <li>3 tomates sem sementes cortados em 4 partes</li>
+                <li>3 cebolas cortadas igual ao tomate</li>
+                <li>15 pimentas de cheiro sem sementes e cortadas ao meio (opcional)</li>
+                <li>1 maço de cheiro verde (coentro) picadinho</li>
+                <li>1 maço de cebolinha picadinha</li>
+                <li>Colorau (colorífico) ou massa de tomate a gosto, mas o suficiente para dar uma corzinha ao caldo</li>
+                <li>Azeite de oliva a gosto</li>
+                <li>1 colher de sobremesa de vinagre</li>
+                <li>Sal a gosto</li>
+                <li>Limão para preparar o peixe</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>No dia anterior, lave bem o peixe com água fria. Coloque-o em uma vasilha banhando-o com sumo (caldo) de limão e sal, tampe a vasilha e coloque na geladeira.</li><br>
+
+                    <li>No dia seguinte, passe o peixe apenas uma vez na água para tirar o excesso do limão e do sal.</li><br>
+                    
+                    <li>Em uma panela grande, coloque o peixe, o tomate, a cebola, a pimenta de cheiro e parte do coentro e da cebolinha.</li><br>
+                    
+                    <li>Coloque água o suficiente para cobrir o peixe.</li><br>
+                    
+                    <li>Acrescente o azeite a gosto, 1 colher de sobremesa de vinagre e o colorau ou extrato de tomate.</li><br>
+                    
+                    <li>Coloque o sal aos poucos, pois durante a fervura o sal que está no peixe vai soltando no caldo.</li><br>
+                    
+                    <li>Ferva por aproximadamente 20 minutos.</li><br>
+                    
+                    <li>Após os 20 minutos, apague o fogo, coloque o resto do coentro e da cebolinha e sirva a seguir.</li><br>
+                    
+                    <li>Essa caldeirada pode ser acompanhada de arroz branco.</li><br>
+                    
+                </ol>
+
+                <h2>DESCRIÇÃO</h2>
+                <p>A Caldeirada de Tambaqui é um prato tradicional da culinária amazônica, destacando-se pela utilização do tambaqui, um peixe de água doce amplamente encontrado na região. Essa iguaria reflete a riqueza dos recursos aquáticos da Amazônia e a habilidade dos cozinheiros locais em criar pratos saborosos e representativos da cultura regional.</p>
+                <h2>Tempo de preparo: 30min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a1/ea/bc/a1eabc4ac9870ae55afc5b6bbc1572fd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/53/1b/9c/531b9c8f6ad3de97c838cf33079a79ef.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c1/c8/2a/c1c82aed3b43ab502f1dc22ea0cdbd0f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Mujica de Peixe</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 2 kg de filé de pintado em cubos</li>
+                <li> 1,5 kg de mandioca cozida em cubos</li>
+                <li> 1 cebola média picada</li>
+                <li> 1 alho amassado</li>
+                <li> 1 pimentão vermelho em cubos</li>
+                <li> 1 pimentão verde em cubos</li>
+                <li> 1 lata de molho de tomate</li>
+                <li> 1/2 vidro de leite de coco</li>
+                <li> Sal a gosto</li>
+                <li> 1 xícara de cheiro verde picado (salsa, coentro e cebolinha)</li>
+                <li> Limão</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li> Tempere o peixe com alho, sal e limão.</li><br>
+                    <li> Reserve.</li><br>
+                    <li> Leve ao fogo em uma panela o óleo e alho até dourar.</li><br>
+                    <li> Acrescente a cebola, deixe murchar, acrescente os pimentões e o molho de tomate.</li><br>
+                    <li> Deixe por 1 minuto.</li><br>
+                    <li> Acrescente a mandioca cozida com a água e deixe ferver.</li><br>
+                    <li> Por último, coloque o peixe, deixe cozinhar mais um pouco.</li><br>
+                    <li> Acerte o sal e acrescente o cheiro verde e o leite de coco.</li><br>
+                    <li> Sirva com arroz branco, pirão e salada de folhas.</li><br>
+
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Mujica de peixe é uma deliciosa receita típica da culinária brasileira, especialmente popular em litorâneas. Esse prato encanta pelos sabores marcantes e pela combinação equilibrada de ingredientes. Para preparar uma mujica de peixe autêntica, comece temperando o peixe com alho, sal e limão , proporcionando um sabor fresco e cítrico</p>
+                <h2>Tempo de preparo: 30MIN</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6a/19/89/6a1989656d1177ab163176d0b2123b3e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c0/3b/3a/c03b3a08ef27f95a5a4d6e8b46ed5f72.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2c/c8/e0/2cc8e0c4e78312b8259306dc168f830c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Açaí</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de polpa açaí</li>
+                <li>1 banana prata</li>
+                <li>400 ml de xarope de guaraná</li>                
+                <h2>Sugestões de Recheios</h2>
+                <li>Granola</li>
+                <li>Paçoca</li>
+                <li>Sucrilhos</li>
+                <li>Confeti</li>
+                <li>Granulado</li>
+                <li>Bolinhas de chocolates</li>
+                <li>Coco ralado</li>
+                <li>Amendoim picado</li>
+                <li>Chocoboll</li>
+                <li>Leite Ninho</li>
+                <li>Ovomaltine</li>
+                <li>Coberturas de sorvete</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Bata a polpa, a banana e o xarope no liquidificador.</li><br>
+
+                    <li>Despeje num pote e deixe na geladeira.</li><br>
+                    
+                    <li>Depois de uns 20 minutos pode tomar.</li><br>
+                    
+                    <li>Pode servir em copos descartáveis de 100 ml até 700 ml.</li><br>
+                    
+                    <li>Encha o copo de açaí até a metade e depois coloque os recheios e termine de completar com açaí.</li><br>
+                    
+                    <li>Coloque as coberturas de sorvetes.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O açaí é um fruto originário da região amazônica e tem ganhado popularidade em todo o mundo devido aos seus benefícios à saúde e ao sabor único.</p>
+                <h2>Tempo de preparo: 30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2a/e1/90/2ae190a765db73b942d17cf8abe60771.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e8/75/bb/e875bb74000dc183c4d7b961150756b5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ca/e8/0c/cae80c709dfffb0fad187d56cc1347e5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Caruru</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de quiabo picadinho</li>
+                <li>250 ml de leite de coco</li>
+                <li>100 g de amendoim torrado e sem casca</li>
+                <li>2 cebolas pequenas</li>
+                <li>100 g de camarão seco</li>
+                <li>1/2 limão</li>
+                <li>1/2 xícara de chá de azeite de dendê</li>
+                <li>Sal a gosto</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque em uma panela o quiabo picado.</li><br>
+
+                    <li>Bata 50 g de camarão no liquidificador com meia xícara de água e peneire.</li><br>
+                    
+                    <li>O restante do camarão coloque na panela com o quiabo e meio limão espremido.</li><br>
+                    
+                    <li>No liquidificador, bata o caldo do camarão, a cebola cortada em quatro partes, o leite de coco e o amendoim.</li><br>
+                    
+                    <li>Bata bem.</li><br>
+                    
+                    <li>Verifique o sal.</li><br>
+                    
+                    <li>Em seguida, coloque na panela que está o quiabo o conteúdo do liquidificador.</li><br>
+                    
+                    <li>Ligue o fogo médio e adicione o azeite de dendê e os camarões restantes.</li><br>
+                    
+                    <li>Mexa com uma colher de pau por uns 25 minutos.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Caruru é um prato típico da culinária afro-brasileira, especialmente associado às festas religiosas como as comemorações de candomblé e festas populares, como a festa de São João. Essa iguaria reflete a rica herança cultural trazida pelos africanos que foram trazidos como escravizados para o Brasil.</p>
+                <h2>Tempo de preparo: 1h20min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6c/8f/8c/6c8f8c8f38c0931747ac5951cdb99783.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/5b/29/6d/5b296dbbafc9641e56b753f4a8390c3e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/47/5e/c1/475ec1b1d6d1083c11eef9dfcabbcdc6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Bolo de Macaxeira</h1>
+                <h2>INGREDIENTES</h2>
+                <li>200 g de margarina</li>
+                <li>4 xícaras de açúcar</li>
+                <li>4 ovos</li>
+                <li>1 kg de macaxeira crua ralada no ralador grosso</li>
+                <li>1 coco fresco ralado (não deve ser coco de saquinho)</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em um recipiente misture com uma colher, a margarina e 3 xícaras de açúcar, acrescente os ovos e continue misturando até obter uma massa homogênea.</li><br>
+
+                    <li>A essa massa misture a macaxeira ralada e o côco ralado sempre com uma colher levemente (não deve usar batedeira).</li><br>
+                    
+                    <li>Use a xícara de açúcar que sobrou para caramelar uma fôrma: basta colocar o açúcar na forma, sobre o fogão e esperar derreter, então mele toda a forma com essa calda, e retire do fogo).</li><br>
+                    
+                    <li>Coloque a massa que você reservou nessa forma e leve diretamente ao forno pré-aquecido por aproximadamente 40 minutos, ou até que o teste da faca dê certo (colocar uma faca e ela não sair melada).</li><br>
+                    
+                    <li>O bolo deve ficar bem dourado, caso fique cozido, mas não dourado, pode deixar no forno mais um pouco, sempre atento.</li><br>
+                    
+                    <li>Esse bolo é bem simples de fazer, gasta poucos ingredientes e rende muito, além de ser especialmente delicioso.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bolo de Macaxeira, também conhecido em algumas regiões como Bolo de Aipim ou Bolo de Mandioca, é uma deliciosa iguaria da culinária brasileira. Ele destaca as peculiaridades da mandioca, uma raiz abundante e amplamente utilizada na gastronomia do país.</p>
+                <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/51/0a/35/510a35129fe18f108914e886928fe1c6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3c/57/ec/3c57ec2523a716fdfd36c9091dd88bcd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a1/af/18/a1af18f47604a352035600113626f466.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

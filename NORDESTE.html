@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordeste</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas do Nordeste</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>NORDESTE</h1>
+            <hr>
+            <p>A culinária do Nordeste do Brasil é uma festa de sabores, cores e aromas, refletindo a rica diversidade
+                cultural da região. Com influências indígenas, africanas e portuguesas, a gastronomia nordestina é única
+                e deliciosa. A culinária do Nordeste é uma celebração da diversidade de ingredientes locais,
+                destacando-se por seus acontecimentos e sabor marcantes. Cada prato conta uma história, transmitindo a
+                rica herança cultural dessa região vibrante do Brasil.
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Tapioca de carne-seca</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 xícaras (chá) de polvilho doce</li>
+                <li>1/2 xícara (chá) de água</li>
+                <h2>Recheio</h2>
+                <li>1 colher (sopa) de alho picado</li>
+                <li>3 colheres (sopa) de azeite</li>
+                <li>1 pimentão amarelo picado</li>
+                <li>2 cebolas em rodelas finas</li>
+                <li>4 tomates sem sementes picados</li>
+                <li>1 cubo de caldo de legumes</li>
+                <li>4 xícaras (chá) de carne-seca dessalgada, cozida e desfiada</li>
+                <li>Sal e pimenta-do-reino a gosto</li>
+                <li>1/2 xícara (chá) de cebolinha picada</li>
+                <li>1 xícara (chá) de requeijão cremoso</li>
+
+                <h2>MODO DE PREPARO</h2>
+
+                <ol>
+                    <li>Em uma panela, em fogo médio aqueça o azeite</li><br>
+                    <li>Refogue a cebola e o alho.</li><br>
+                    <li>Adicione o pimentão, o caldo de legumes e o tomate</li><br>
+                    <li>Frite até amaciar</li><br>
+                  <li>Acrescente a carne desfiada e misture bem</li><br>
+                    <li>Tempere com sal e pimenta a gosto</li><br>
+                  <li>Desligue o fogo</li><br>
+                    <li>Adicione a cebolinha e reserve.</li><br>
+                    <li>Para a tapioca, misture o polvilho com a água, aos poucos, e vá esfregando com as mãos até obter uma farinha granulada e úmida</li><br>
+                    
+                    
+                  <li>Se necessário, acrescente mais água</li><br>
+                  <li>Passe a mistura por uma peneira e reserve.</li><br>
+                    <li>Coloque uma frigideira antiaderente seca no fogo baixo até aquecer um pouco</li><br>
+                    <li>Espalhe uma porção da mistura reservada até que cubra o fundo da frigideira.</li><br>
+                  <li>Espera a massa firmar e vire com uma espátula.</li><br>
+                    <li>Coloque uma porção do recheio em metade da massa</li><br>
+                    <li>Junto com uma porção do requeijão e dobre ao meio.</li><br>
+                  <li>Repita o procedimento até que acabe a massa e o recheio.</li><br>
+                    <li>Transfira para uma travessa e sirva polvilhado com cebolinha.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A tapioca de carne seca é uma deliciosa variação da tapioca, uma especialidade nordestina que ganhou
+                    popularidade em todo o Brasil. Essa iguaria combina a textura macia e leve da tapioca com o sabor
+                    robusto da carne seca, criando uma experiência gastronômica única.</p>
+                <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/62/62/a9/6262a9cb5ab1b9447e660d8315b7dac1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/63/66/5e/63665ecd36f34a2d2dab3e42b8d3670e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/60/40/ef/6040ef44e22bea09ad1ef5b3f1538137.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Cuscuz nordestino com queijo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 colher (café) de sal</li><br>
+                <li>500g de farinha de milho</li><br>
+                 <li>1 colher (sopa) de açúcar</li><br>
+                 <li>2 xícaras (chá) de água</li><br>
+             <li>1 xícara (chá) de queijo coalho em cubos</li><br>
+             <li>1 colher (sopa) de manteiga de garrafa</li><br>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Misture em uma tigela a água, o sal, a farinha, o açúcar e o queijo até formar uma farofa úmida.</li><br>
+                  <li>Coloque em uma cuscuzeira de vapor.</li><br>
+                    <li>Leve ao fogo médio por 15 minutos ou até firmar e cozinhar.</li><br>
+                    <li>Desenforme e sirva regado com a manteiga.</li><br>
+
+                </ol>
+                <h2> DESCRIÇÃO </h2>
+                <p>O cuscuz nordestino com queijo é uma variação deliciosa e reconfortante do tradicional cuscuz
+                    nordestino. Essa receita tem uma textura leve e sabor neutro do cuscuz de milho com a riqueza e
+                    cremosidade do queijo, resultando em uma combinação irresistível de sabores. Aqui está uma </p>
+                <h2>Tempo de preparo: 20min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/01/9d/02/019d02254c73e5e987ed2941944fbc20.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/89/88/25/89882589ff50c5d2c89b1a76222f2638.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b2/98/46/b298465417c6223136846eb6e382b7a1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Acarajé baiano</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1kg de feijão-fradinho</li>
+                <li>3 cebolas grandes picadas</li>
+                <li>Sal a gosto</li>
+                <li>Azeite de dendê para fritar</li>
+                <li>Vatapá</li>
+                <li>100g de castanha de caju torrada</li>
+                <li>2 vidros de leite de coco (400ml)</li>
+                <li>1/2 xícara (chá) de leite</li>
+                <li>2 colheres (sopa) de gengibre picado</li>
+                <li>100g de amendoim torrado</li>
+                <li>2 pães amanhecidos picados</li>
+                <li>1/2 xícara (chá) de azeite de dendê</li>
+                <li>2 dentes de alho picados</li>
+                <li>1 cebola picada</li>
+                <li>500g de camarão limpo</li>
+                <li>1/2 pimenta dedo-de-moça sem sementes picada</li>
+                <li>1 xícara (chá) de coentro picado</li>
+                <li>Sal a gosto</li>
+
+                <h2>MODO DE PREPARO</h2>
+
+                <ol>
+                    <li>Coloque o feijão em uma tigela</li><br>
+                    <li>Cubra com água e deixe de molho por 12 horas.</li><br>
+                    <li>Esfregue os grãos de feijão entre as mãos para retirar a pele.</li><br>
+                    <li>Bata o feijão no liquidificador junto com a cebola e sal até formar uma massa homogênea.</li><br>
+                    <li>Se preciso, adicione água para bater.</li><br>
+                    <li>Modele pequenas bolinhas com a massa, com a ajuda de 2 colheres grandes, e frite, aos poucos, em azeite de dendê.</li><br>
+                    <li>Escorra em papel absorvente e reserve.</li><br>
+                  <li>Para o vatapá, no liquidificador, bata o leite de coco, o leite, a castanha de caju, o amendoim, o gengibre e o pão até triturar bem.</li><br>
+                  <li>Reserve.</li><br>
+                    <li>Aqueça uma panela com o azeite de dendê e frite o alho e a cebola por 2 minutos.</li><br>
+                    <li>Adicione o camarão, a pimenta e o coentro e refogue por mais 3 minutos.</li><br>
+                    <li>Junte o conteúdo batido do liquidificador, tempere com sal a gosto e cozinhe.</li><br>
+                    <li>Mexa sempre até engrossar.</li><br>
+                    <li>Abra os acarajés ao meio, recheie com uma porção do vatapá e sirva.</li><br>
+
+                </ol>
+
+                <h2>DESCRIÇÃO</h2>
+                <p>O acarajé baiano é uma iguaria icônica e chinesa originária da Bahia, no Nordeste do Brasil. É um
+                    quitute que representa a riqueza da cultura afro-brasileira e é uma parte essencial das festas e
+                    celebrações na região.</p>
+                <h2>Tempo de preparo: 1h30 (+12h de molho)</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a0/37/51/a037514c633993a12d9af2eacb3a970b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f2/f2/a6/f2f2a6303dd7ff82744d1aeac9ceea9c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c3/e1/6e/c3e16e59eeef8815e89a6b8ea668a395.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Paçoca de carne-seca</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 colheres (sopa) de manteiga de garrafa</li>
+                <li>2 xícaras (chá) de carne-seca dessalgada, cozida e desfiada</li>
+                <li>1 cebola picada</li>
+                <li>2 dentes de alho amassados</li>
+                <li>1/2 xícara (chá) de farofa de mandioca pronta e temperada</li>
+                <li>Coentro picado a gosto</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Derreta a manteiga e frite a carne até ficar bem sequinha</li><br>
+                    <li>Acrescente a cebola, o alho e refogue.</li><br>
+                    <li>Desligue o fogo e misture a farofa e coentro.</li><br>
+                  <li>Coloque em uma travessa e sirva em seguida.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A paçoca de carne seca é uma iguaria brasileira que combina a intensidade e sabor marcante da carne
+                    seca com a textura e sabores característicos da farinha de mandioca. Essa receita é especialmente
+                    popular nas regiões Nordeste e Centro-Oeste do Brasil, oferecendo uma explosão de sabores que
+                    encanta os apreciadores da culinária brasileira.</p>
+                <h2>Tempo de preparo: 20min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d2/39/9f/d2399f2b976c83f733488ee18fc8aecf.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a5/c3/2f/a5c32fd3813a08f58e4f12e89e1d30a5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/56/59/69/5659694655524721888b3a660865a46b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Bolinho de baião de dois</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1/2 xícara (chá) de manteiga</li>
+                <li>1 xícara (chá) de bacon em cubos</li>
+                <li>2 dentes de alho amassados</li>
+                <li>1 gomo de linguiça calabresa em cubos</li>
+                <li>3 xícaras (chá) de arroz branco cozido</li>
+                <li>1 cebola picada</li>
+                <li>2 xícaras (chá) de feijão-fradinho cozido com o caldo</li>
+                <li>Sal, pimenta-do-reino e salsa picada a gosto</li>
+                <li>3 ovos</li>
+              <li>1/2 xícara (chá) de leite</li>
+                <li>1 e 1/2 xícara (chá) de farinha de trigo</li>
+                <li>Óleo para untar e fritar</li>
+                <li>2 xícaras (chá) de queijo coalho em cubos para rechear</li>
+                <li>Farinha de trigo para empanar</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma panela, em fogo médio, derreta a manteiga e frite o bacon até dourar.</li><br>
+                    <li>Adicione a calabresa, a cebola, o alho e frite por 3 minutos.</li><br>
+                    <li>Acrescente o arroz, o feijão e refogue por 2 minutos, mexendo.</li><br>
+                    <li>Tempere com sal, pimenta, salsa e misture.</li><br>
+                     <li>Junte os ovos batidos com o leite e mexa.</li><br>
+                    <li>Acrescente a farinha de trigo e cozinhe até engrossar e desgrudar do fundo da panela.</li><br>
+                     <li>Desligue o fogo, transfira para um prato untado e deixe amornar.</li><br>
+                     <li>Retire porções da massa nas mãos e recheie com o queijo coalho.</li><br>
+                    <li>Feche em formato de bolinhas. Empane na farinha de trigo e frite, aos poucos, em óleo quente até dourar.</li><br>
+                    <li>Escorra sobre papel-toalha e sirva em seguida.</li><br>
+
+                </ol>
+
+                <h2>DESCRIÇÃO</h2>
+                <p>O 'Baião de Dois' é um prato típico do Nordeste do Brasil, vindo do Ceará. É um preparado de arroz e
+                    feijão, usado prefencialmente o feijão de corda. O nome “baião” deriva de uma dança típica, um ritmo
+                    musical que foi muito difundido por Luiz Gonzaga, que ficou conhecido nacionalmente como “O Rei do
+                    Baião”.</p>
+                <h2>Tempo de preparo: 1h20min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b6/3a/69/b63a69b89833fe6eb8c442e2c4125e20.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d9/71/32/d97132c948f97eb206de92c928f75597.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/03/db/50/03db5094c52752a1e620493b9a273870.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Escondidinho de carne-seca com abóbora e mandioca</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 colheres (sopa) de azeite</li>
+                <li>2 cebolas picadas</li>
+                <li>800g de carne-seca dessalgada, cozida e desfiada</li>
+                <li>1 tomate sem sementes picado</li>
+                <li>Sal e cheiro-verde picado a gosto</li>
+                <li>250g de queijo mussarela fatiado</li>
+                <li>1 pote de requeijão cremoso (200g)</li>
+                <li>Purê de abóbora</li>
+                <li>2 xícaras (chá) de abóbora cabotiã cozida e amassada</li>
+                <li>1 colher (sopa) de manteiga</li>
+                <li>1/2 xícara (chá) de creme de leite</li>
+                <li>Sal a gosto</li>
+                <li>Purê de mandioca</li>
+                <li>3 xícaras (chá) de mandioca cozida e amassada</li>
+                <li>2 colheres (sopa) de manteiga</li>
+                <li>1/2 xícara (chá) de creme de leite</li>
+                <li>Sal a gosto</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Aqueça uma panela com o azeite, em fogo médio, e frite a cebola até dourar.</li><br>
+                    <li>Adicione a carne, o tomate, sal, cheiro-verde e refogue por 3 minutos.</li><br>
+                    <li>Desligue.</li><br>
+                    <li>Para o purê de abóbora, leve todos os ingredientes ao fogo médio em uma panela, mexendo até incorporar e ficar cremoso.</li><br>
+                    <li>Para o purê de mandioca, leve todos os ingredientes ao fogo médio em uma panela, mexendo até incorporar e ficar cremoso.</li><br>
+                    <li>Em um refratário grande, faça uma camada de purê de abóbora, espalhe metade da mussarela por cima e faça uma camada com o refogado de carne-seca.</li><br>
+                    <li>Espalhe o requeijão por cima, cubra com o purê de mandioca e polvilhe com a mussarela restante.</li><br>
+                  <li>Leve ao forno médio, preaquecido, por 10 minutos ou até gratinar.</li><br>
+                <li>Retire e sirva em seguida.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O escondidinho de carne-seca com abóbora e mandioca é uma variação deliciosa e reconfortante do
+                    escondidinho clássico brasileiro. Essa receita combina a suculência da carne seca com a doçura da
+                    abóbora e a cremosidade da mandioca, resultando em um prato rico em sabores e texturas. </p>
+
+                <h2>Tempo de preparo: 1h</h2>
+
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/29/bd/d7/29bdd7ed16fd32c6f838f6c81ccb6771.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/55/c0/a1/55c0a1403286c4c76527f753ad394e31.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bd/de/ac/bddeacef10d6fff64d1f327098bdc790.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Canjica com carne-seca</h1>
+                <li>1 folha de louro</li>
+                <li>100g de bacon em cubos pequenos</li>
+                <li>1 cebola pequena em cubos</li>
+                <li>2 xícaras (chá) de canjica de milho branco</li>
+                <li>1 dente de alho picado</li>
+                <li>Sal e pimenta-do-reino a gosto</li>
+                <li>Carne-seca</li>
+                <li>2 colheres (sopa) de manteiga</li>
+                <li>Sal, pimenta-do-reino e cheiro-verde picado a gosto</li>
+                
+               
+              <li>2 cebolas médias fatiadas</li>
+                <li>2 xícaras (chá) de carne-seca dessalgada, cozida e desfiada</li>
+                <li>Farofa</li>
+                <li>2 colheres (sopa) de manteiga</li>
+                <li>1 cebola em cubos</li>
+                <li>1/2 xícara (chá) de farinha de mandioca fina</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Lave a canjica em água corrente e deixe de molho em água por 2 horas.</li><br>
+                    <li>Escorra, despeje em uma panela de pressão, cubra com água, acrescente o louro e tampe.</li><br>
+                    <li>Cozinhe por 30 minutos, em fogo baixo depois de iniciada a pressão e desligue.</li><br>
+                    <li>Enquanto isso, prepare a farofa derretendo a manteiga em uma frigideira grossa, em fogo médio.</li><br>
+                    <li>Adicione a cebola e refogue até dourar. Polvilhe a farinha e frite por 2 minutos. Reserve.</li><br>
+                    <li>Em uma panela, frite o bacon na própria gordura até começar a dourar.</li><br>
+                    <li>Acrescente a cebola e o alho e deixe dourar.</li><br>
+                    <li>Despeje a canjica com o caldo do cozimento, sal, pimenta e cozinhe por 10 minutos ou até engrossar.</li><br>
+                    <li>Em uma panela, derreta a manteiga e refogue a cebola por 5 minutos ou até murchar.</li><br>
+                    <li>Acrescente a carne e refogue por 5 minutos. Tempere com sal, pimenta e cheiro-verde e despeje em uma travessa com a farofa.</li><br>
+                    <li>Sirva acompanhado da canjica.</li><br>
+
+                </ol>
+
+                <h2>DESCRIÇÃO</h2>
+                <p>A Canjica com Carne-Seca é um prato tradicional da culinária brasileira, especialmente apreciado em festas juninas. Essa iguaria combina a doçura da canjica com a intensidade de sabor da carne seca, resultando em uma mistura de sabores contrastantes e deliciosos.</p>
+
+                <h2>Tempo de preparo: 1h (+2h de molho)</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3b/03/b8/3b03b8c04fadfdd8ff752adb7cd58ada.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f0/1a/65/f01a65f7e504d4f9e40a9a8a19bed146.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/92/96/79/9296797677a87afa8c29de4b4a05eb2a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Moqueca de cação</h1>
+                <li>1kg de cação em postas</li>
+                <li>4 dentes de alho amassados</li>
+                <li>2 cebolas em rodelas</li>
+                <li>Suco de 4 limões</li>
+                <li>2 tomates em rodelas</li>
+                <li>1/2 pimentão verde em rodelas</li>
+                <li>Sal, pimenta-do-reino e coentro picado a gosto</li>
+                <li>1/2 pimentão amarelo em rodelas</li>
+                <li>2 colheres (sopa) de colorau</li>   
+              <li>1/2 pimentão vermelho em rodelas</li>
+                <li>1 vidro de leite de coco (200g)</li>
+                <li>2 colheres (sopa) de azeite de dendê</li>
+
+                <h2>MODOD DE PREPARO</h2>
+                <ol>
+                    <li>Tempere o peixe com o suco, o colorau, o alho, sal e pimenta.</li><br>
+                    <li>Deixe descansar por 30 minutos.</li><br>
+                    <li>Em uma panela de barro, faça camadas com a cebola, o tomate, os pimentões e o peixe, polvilhando os legumes com sal.</li><br>
+                    <li>Repita as camadas até acabarem os ingredientes.</li><br>
+                    <li>Regue com o leite de coco e cozinhe em fogo baixo por 30 minutos, após levantar fervura.</li><br>
+                    <li>Regue com o azeite de dendê, polvilhe com coentro e sirva em seguida.</li><br>
+
+                </ol>
+
+                <h2>DESCRIÇÃO</h2>
+                <p>A moqueca de cação é um prato típico da culinária brasileira, especialmente associado às litorâneas,
+                    onde os frutos do mar são abundantes. A moqueca é um cozido de peixe, preparado com ingredientes que
+                    realçam o sabor do mar e destacam a diversidade de sabores encontrados na culinária tropical.</p>
+                <h2>Tempo de preparo: 50min (+30min de descanso)</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9c/38/67/9c3867b64cf86b344f6e51128566bfdf.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/00/73/79/007379749dfded1c3705d9bb493857f5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/11/9d/15/119d15c4300f102901b96a72f8cef973.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Bobó de camarão</h1>
+               <li>1kg de mandioca em pedaços</li>
+                <li>2 dentes de alho picados</li>
+                <li>1 cebola cortada em 4 partes</li>
+                <li>8 xícaras (chá) de água</li>
+                <li>1 cubo de caldo de peixe</li>
+                <li>Sal e pimenta-do-reino a gosto</li>
+                <li>1,5kg de camarão médio sem casca</li>
+                <li>4 colheres (sopa) de azeite</li>
+                <li>1 cebola ralada</li>
+                <li>1/2 colher (sopa) de alho picado</li>
+                <li>2 colheres (sopa) de extrato de tomate</li>
+                <li>1 xícara (chá) de água</li>
+                <li>3 tomates maduros sem pele e sem semente picados</li>
+                <li>1 xícara (chá) de leite de coco</li>
+                <li>3 colheres (sopa) de salsa picada</li>
+                <li>1/2 colher (sopa) de azeite de dendê</li>
+                <li>1 colher (sopa) de coentro picado</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma panela de pressão, cozinhe a mandioca com a cebola cortada, o alho, a água e o caldo de peixe em fogo baixo por 30 minutos após iniciada a pressão.<li><br>
+  <li>Tempere o camarão com sal e pimenta e reserve.</li><br>
+  <li>Em uma panela de fundo grosso, aqueça o azeite, em fogo médio e frite a cebola ralada até ficar macia e adicione o alho picado e o tomate.</li><br>
+  <li>Refogue por 5 minutos ou até derreter. Coloque o camarão e refogue por mais 5 minutos.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O bobó de camarão é um prato brasileiro que faz parte da rica tradição culinária afro-brasileira,
+                    especialmente popular nas regiões Nordeste e Sudeste do país. Essa iguaria é conhecida pela
+                    combinação de camarões suculentos, um purê cremoso de mandioca (aipim) e um caldo rico em sabores
+                    tropicais.</p>
+                <h2>Tempo de preparo: 1h</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/99/cb/66/99cb665ac53261e33e026d20aaa46660.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9c/66/87/9c6687dcd28464518c807729bf404acb.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d4/81/ed/d481edf5bd104b44ff5d8396adcd4a5a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Bolo de rolo</h1>
+                <h2>INGREDIENTES</h2>
+          <li>1 pote de manteiga em temperatura ambiente (200g)</li>
+            <li>Açúcar de confeiteiro para polvilhar</li>
+            <li>1 e 1/2 xícara (chá) de açúcar</li>
+            <li>6 ovos (claras e gemas separadas)</li>
+            <li>1 e 1/2 xícara (chá) de farinha de trigo</li>
+            <li>1/2 xícara (chá) de leite</li>
+            <li>1 colher (chá) de fermento em pó</li>
+            <li>Margarina e farinha de trigo para untar</li>
+            <li>Recheio</li>
+            <li>500g de goiabada cremosa</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Na batedeira, bata a manteiga, o açúcar e as gemas até formar um creme esbranquiçado.</li><br>
+                    <li>Acrescente a farinha, o leite e o fermento, aos poucos, sem parar de bater.</li><br>
+                    <li>Retire da batedeira e misture delicadamente as claras em neve.</li><br>
+                    <li>Unte e enfarinhe 5 fôrmas de retangulares grandes e divida a massa entre elas, espalhando bem.</li><br>
+                    <li>Leve cada fôrma ao forno médio, preaquecido, por 5 minutos.</li><br>
+                    <li>Retire do forno, desenforme em um pano úmido, passe o recheio e enrole.</li><br>
+                    <li>Asse o segundo bolo, coloque sobre o pano úmido, passe o recheio, enrole sobre o bolo já enrolado e repita este procedimento até o último bolo.</li><br>
+                    <li>Coloque em uma travessa e polvilhe com o açúcar de confeiteiro.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p></p>
+                <h2>Tempo de preparo: 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7a/2c/12/7a2c121cd723ecc1a04a0a9970450eef.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3c/c2/53/3cc2537b572937c1d029e8b68d301814.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3c/01/2a/3c012a0b4af368d2603faf91bbd06cdd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

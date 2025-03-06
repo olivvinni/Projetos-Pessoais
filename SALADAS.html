@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saladas</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>SALADAS</h1>
+            <hr>
+            <p>A Salada Rápida é a solução perfeita para aqueles momentos em que você deseja uma refeição leve, fresca e nutritiva em pouco tempo. Com ingredientes simples e saborosos, esta salada é uma combinação de cores vibrantes, sabores frescos e texturas variadas. Ideal para dias agitados, ela oferece uma opção saudável e deliciosa que pode ser adaptada conforme os ingredientes disponíveis na geladeira.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Salada de Rúcula com Morangos</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Rúcula</li>
+                    <li>Morangos</li>
+                    <li>Queijo feta</li>
+                    <li>Nozes</li>
+                    <li>Molho balsâmico</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Lave e seque a rúcula e os morangos.</li><br>
+                    <li>Misture rúcula, morangos, queijo feta e nozes.</li><br>
+                    <li>Regue com molho balsâmico antes de servir.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Salada de Rúcula com Morangos é uma opção deliciosa e refrescante, combinando a suavidade da rúcula com a doçura dos morangos. O contraste de sabores e texturas torna esta salada uma escolha perfeita para uma entrada leve ou acompanhamento em uma refeição. O toque agridoce dos morangos complementa a leve picância da rúcula, enquanto o queijo e as nozes adicionam uma camada de sabor e crocância.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://cheffacil.com.br/wp-content/uploads/2019/10/salada-rucula-morango-min.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://receitinhas.com.br/wp-content/uploads/2016/12/salada_de_ru%CC%81cula_com_morango-1200x800.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.laylita.com/receitas/wp-content/uploads/2016/01/Salada-de-morango-queijo-de-cabra-e-rC3BAcula.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Salada Caprese</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Tomate</li>
+                    <li>Mussarela de búfala</li>
+                    <li>Manjericão fresco</li>
+                    <li>Azeite de oliva</li>
+                    <li>Vinagre balsâmico</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Intercale fatias de tomate, mussarela e folhas de manjericão.</li>
+                    <li>Regue com azeite de oliva e vinagre balsâmico.</li>
+               </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Salada Caprese é uma clássica e simples salada italiana que destaca os sabores frescos e vibrantes dos tomates, mussarela de búfala, manjericão e azeite de oliva. Com suas cores da bandeira italiana, essa salada é uma celebração da simplicidade e qualidade dos ingredientes. Ideal para os meses mais quentes, a Salada Caprese é uma entrada leve e deliciosa.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 10 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.cozinhatecnica.com/wp-content/uploads/2020/03/salada_caprese.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.confeiteiradesucesso.com/wp-content/uploads/2023/01/saladacaprese.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://jdreceitas.com.br/wp-content/uploads/2016/01/salada-caprese-com-pesto.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Salada Grega</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Pepino</li>
+                    <li>Tomate</li>
+                    <li>Azeitonas pretas</li>
+                    <li>Queijo feta</li>
+                    <li>Molho de iogurte com hortelã</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Combine pepino, tomate, azeitonas pretas e queijo feta.</li><br>
+                    <li>Regue com molho de iogurte com hortelã.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>EA Salada Grega, ou "Horiatiki Salata", é uma salada clássica da culinária grega, conhecida por sua simplicidade e sabores frescos. Com uma combinação de tomates maduros, pepinos, azeitonas, queijo feta e temperada com azeite de oliva e orégano, esta salada é uma explosão de sabores mediterrâneos. Aqui está uma receita básica para preparar a Salada Grega.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://conteudo.imguol.com.br/c/entretenimento/c6/2023/01/13/salada-grega-do-avec-1673627091351_v2_4x3.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.cozinhatecnica.com/wp-content/uploads/2020/08/salada-grega.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://colherdesaia.files.wordpress.com/2014/06/img_8890.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Salada Waldorf</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Maçãs</li>
+                    <li>Aipo</li>
+                    <li>Uvas</li>
+                    <li>Nozes</li>
+                    <li>Maionese</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture maçãs, aipo, uvas e nozes.</li><br>
+                    <li>Adicione maionese e mexa bem.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>
+                    A Salada Waldorf é uma clássica salada de origem americana, conhecida por sua combinação equilibrada de maçãs frescas, aipo, nozes e uvas, tudo envolto em um molho cremoso. Essa salada é refrescante, crocante e levemente doce, tornando-se uma opção popular para refeições leves ou como acompanhamento. Aqui está uma receita básica para a Salada Waldorf.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/salada-waldorf-1.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/auto-auto/1822243b661f7e7ec7428f383eb19db1/receita-de-salada-waldorf.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.saborosos.com.br/imagens/salada-waldorf.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Salada de Lentilhas</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Lentilhas cozidas</li>
+                    <li>Tomate</li>
+                    <li>Cebola roxa</li>
+                    <li>Salsinha</li>
+                    <li>Vinagrete de mostarda</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture lentilhas cozidas, tomate, cebola roxa e salsinha.</li><br>
+                    <li>Tempere com vinagrete de mostarda.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Salada de Lentilhas é uma opção saudável, nutritiva e deliciosa, repleta de proteínas, fibras e sabores vibrantes. As lentilhas fornecem uma base robusta para a salada, enquanto os vegetais frescos, ervas e um molho saboroso completam o prato. Essa salada é ótima para refeições leves ou como acompanhamento. Aqui está uma receita básica para a Salada de Lentilhas.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-675/8360cebbfd303938b0e2cd383ffb17d3/348739-original.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://cdn5.soreceitasfaceis.com/wp-content/uploads/2016/11/salada_de_lentilha.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://cozinhalegal.com.br/wp-content/uploads/2019/12/Salada-Lentilha-capa-1.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Salada de Folhas Verdes com Pêra e Gorgonzola</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Mix de folhas verdes</li>
+                    <li>Pêra fatiada</li>
+                    <li>Gorgonzola</li>
+                    <li>Nozes</li>
+                    <li>Vinagrete de mel</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Disponha mix de folhas, pêra, gorgonzola e nozes.</li><br>
+                    <li>Regue com vinagrete de mel.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta Salada de Folhas Verdes com Pêra e Gorgonzola é uma combinação deliciosa de sabores e texturas. As folhas verdes frescas fornecem uma base leve e crocante, enquanto as fatias de pêra adicionam um toque de doçura, e o queijo gorgonzola traz uma nota salgada e cremosa. Regada com um molho de vinagrete, esta salada é uma opção sofisticada e fácil de preparar.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.scala.com.br/wp-content/uploads/2021/10/shutterstock_1740695078-GORG-scaled.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://4.bp.blogspot.com/-REhOIO0B794/VK58G2w0hwI/AAAAAAAAFm8/ih7sHatUXCU/s1600/IMG_6077.JPG)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://assets.unileversolutions.com/recipes-v2/215484.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7 .Salada de Abacate com Camarão</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Abacate</li>
+                    <li>Camarões grelhados</li>
+                    <li>Tomate cereja</li>
+                    <li>Coentro</li>
+                    <li>Molho de limão</li>
+                  </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Combine abacate, camarões grelhados, tomate e coentro.</li><br>
+                    <li>Regue com molho de limão.</li>
+                </ol>              
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta Salada de Abacate com Camarão é uma mistura fresca e saborosa que combina a cremosidade do abacate com a suculência dos camarões. Adicionando ingredientes frescos e um molho leve, você terá uma salada que é ao mesmo tempo satisfatória e refrescante. Ideal como prato principal ou entrada em uma refeição especial.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://laferretti.com.br/wp-content/uploads/2022/02/Salada-de-abacate-e-camarao-985x515.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i0.wp.com/chacarastrapasson.com.br/wp-content/uploads/2018/06/Salada-de-Camar%C3%A3o-e-Abacate.jpg?fit=1532%2C1124&ssl=1)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://cozinhaadois.com.br/wp-content/uploads/2020/02/abacate-camar%C3%A3o-5.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Salada de Brócolis com Bacon</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Brócolis cozidos</li>
+                    <li>Bacon crocante</li>
+                    <li>Uvas-passas</li>
+                    <li>Queijo cheddar</li>
+                    <li>Molho de iogurte</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe brócolis, misture com bacon crocante, uvas-passas e queijo cheddar.</li><br>
+                    <li>Tempere com molho de iogurte.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Salada de Brócolis com Bacon é uma combinação irresistível de brócolis crocantes, pedaços de bacon defumado, cebola roxa picada e um molho cremoso delicioso. Esta salada é uma ótima opção para acompanhar churrascos, piqueniques ou como uma entrada substancial em refeições mais leves. Aqui está uma receita básica para preparar esta deliciosa salada.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://cdn0.tudoreceitas.com/pt/posts/4/9/8/brocolis_refogado_com_bacon_5894_orig.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://guiadacozinha.com.br/wp-content/uploads/2019/10/brocolis-ao-bacon.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.sabornamesa.com.br/media/k2/items/cache/ceea1c7fab940e109aadfc32733906a2_L.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Salada de Atum com Feijão Branco</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Peitos de frango</li>
+                    <li>Mix de legumes (cenoura, brócolis, pimentão)</li>
+                    <li>Azeite de oliva</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture atum, feijão branco, tomate, cebola roxa e azeitonas pretas.</li><br>
+                </ol> 
+                <h2>DESCRIÇÃO:</h2>
+                <p>
+                    Esta Salada de Atum com Feijão Branco é uma opção saudável, rica em proteínas e cheia de sabores frescos. O atum enlatado fornece uma fonte rápida de proteína, enquanto o feijão branco adiciona fibras e textura. Esta salada é perfeita para refeições leves, almoços rápidos ou como acompanhamento em um churrasco. Aqui está uma receita básica para preparar esta deliciosa salada.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://guiadacozinha.com.br/wp-content/uploads/2019/10/feijao-branco-salada-atum.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.cybercook.com.br/receitas/908/salada-de-feijao-branco-com-atum.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.segs.com.br/media/k2/items/cache/abba3ab6eba7ff9bd0aaa72ad61bc728_XL.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Salada de Pêssego com Queijo de Cabra</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Pêssegos fatiados</li>
+                    <li>Queijo de cabra</li>
+                    <li>Amêndoas tostadas</li>
+                    <li>Rúcula</li>
+                    <li>Vinagrete de mel</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Combine pêssegos, queijo de cabra, amêndoas e rúcula.</li><br>
+                    <li>Regue com vinagrete de mel.</li>
+                </ol>  
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta Salada de Pêssego com Queijo de Cabra é uma mistura deliciosa de sabores agridoces, proporcionando uma experiência fresca e vibrante. Os pêssegos suculentos adicionam doçura, enquanto o queijo de cabra oferece uma textura cremosa e sabor salgado. Combinado com folhas verdes e um molho leve, esta salada é uma escolha elegante e fácil de preparar.
+                </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://png.pngtree.com/thumb_back/fw800/background/20230730/pngtree-peach-and-goat-cheese-salad-dish-with-fresh-fig-and-lavender-image_10229503.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://png.pngtree.com/thumb_back/fw800/background/20230730/pngtree-peach-and-goat-cheese-salad-dish-with-fresh-fig-and-lavender-image_10229502.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://png.pngtree.com/thumb_back/fw800/background/20230730/pngtree-peach-and-goat-cheese-salad-dish-with-fresh-fig-and-lavender-image_10229501.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

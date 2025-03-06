@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café da Tarde</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Para o Café da Tarde</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>CAFÉ DA TARDE</h1>
+            <hr>
+            <p>O café da tarde é uma refeição leve e chinesa que geralmente ocorre entre o almoço e o jantar, preenchendo o espaço entre essas duas refeições principais. Essa tradição varia em diferentes culturas, mas em muitos lugares, é uma oportunidade para desfrutar de uma pausa relaxante e socializar com amigos ou familiares. O café da tarde pode incluir uma variedade de alimentos, desde opções mais saudáveis, como frutas e chás, até itens mais indulgentes, como bolos, biscoitos e sanduíches.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Bolo de cenoura</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 cenouras médias</li>
+                <li>1 xícara de óleo</li>
+                <li>4 ovos</li>
+                <li>2 xícaras de açúcar</li>
+                <li>2 xícaras de farinha de trigo</li>
+                <li>1 colher de sopa de fermento em pó</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Bata no liquidificador cenoura, óleo e ovos.</li><br>
+                    <li>Em uma tigela, misture a farinha, o açúcar e o fermento.</li><br>
+                    <li>Adicione a mistura do liquidificador à tigela e mexa bem.</li><br>
+                    <li>Derrame em uma forma untada e asse em forno pré-aquecido a 180°C por cerca de 40 minutos.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O bolo de cenoura é uma sobremesa clássica e reconfortante. Com uma massa fofa e cobertura cremosa de chocolate, esse bolo é uma combinação perfeita de sabores que agrada a todos.</p>
+                    <h2>Tempo de preparo: 55min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b7/69/cf/b769cf0208c4763d4c84b088642c3bb4.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/26/1d/4f/261d4fc036e20a4d603d92dcdc4493fb.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/70/22/43/7022430b9a1613fb43ed8040c8918966.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Sanduíches de Pepino e Cream Cheese</h1>
+                <h2>INGREDIENTES</h2>
+                <li>Pão de forma</li>
+                <li>Requeijão cremoso</li>
+                <li>Pepinos fatiados</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Espalhe cream cheese em fatias de pão.</li><br>
+                    <li>Adicione fatias finas de pepino.</li><br>
+                    <li>Monte os sanduíches e corte em triângulos.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Esses sanduíches são uma opção leve e refrescante, perfeita para um lanche rápido ou para servir em eventos mais elegantes. A combinação crocante do pepino com a cremosidade do queijo cream cheese cria um equilíbrio delicioso.</p>
+                    <h2>Tempo de preparo: 15min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/88/f5/f2/88f5f2987a3b824054af730a0024c95a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f2/04/68/f204682dc97149544f2a3cad1acb695e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/64/80/17/6480170893191e0784e86c233945322c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Torta de Frutas</h1>
+                <h2>INGREDIENTES</h2>
+
+                <li>Massa para torta (pronta ou caseira)</li>
+                <li>Frutas frescas (morangos, kiwi, manga, etc.)</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Prepare uma massa da torta.</li><br>
+                    <li>Preencha com frutas frescas cortadas.</li><br>
+                    <li>Asse até dourar e sirva frio.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Uma torta de frutas é uma sobremesa colorida e deliciosa que destaca a frescura e doçura das frutas da estação. A combinação de uma crosta de massa com recheio de creme e frutas frescas faz desta torta uma opção irresistível.</p>
+                    <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/af/d0/5c/afd05cf12e918d8ea0b3c47f5b8ec6fd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/09/8d/c6/098dc686788a78514633878569e73e38.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/56/46/c6/5646c6ba5eb29f1bf0e205103aae2c61.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Biscoitos de Chocolate com Nozes</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 xícara de manteiga</li>
+                <li>1 xícara de açúcar</li>
+                <li>2 xícaras de farinha de trigo</li>
+                <li>1 colher de chá de fermento em pó</li>
+                <li>1 xícara de chocolate picado</li>
+                <li>1 xícara de nozes picadas</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Misture os ingredientes secos e adicione os líquidos.</li><br>
+                    <li>Adicione chocolate e nozes.</li><br>
+                    <li>Modele montinhos de massa e asse em forno a 180°C por 10-12 minutos.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Esses biscoitos de chocolate com nozes combinam a riqueza do chocolate com a crocância das nozes, proporcionando uma deliciosa experiência para os amantes de biscoitos. Perfeitos para um lanche ou sobremesa, esses biscoitos são irresistíveis e simples de fazer.</p>
+                    <h2>Tempo de preparo: 1h30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e1/2f/b1/e12fb17251a150b86086fa63b091d916.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3e/31/6c/3e316cd5b64acedde14feabd1c0cece1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d1/87/1b/d1871b92e7ff1030d39245fbe5087be5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Salada de Frutas Frescas</h1>
+                <li>Variedade de frutas (morangos, kiwi, abacaxi, uvas, etc.)</li>
+                <li>Mel</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Corte as frutas em pedaços.</li><br>
+                    <li>Misture as frutas e regue com mel.</li><br>
+                    <li>Sirva gelado.</li><br>
+                    
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Uma salada de frutas frescas é uma opção leve, saudável e refrescante que combina uma variedade de frutas deliciosas. Essa receita oferece uma explosão de sabores naturais e nutrientes, tornando-a perfeita para qualquer estação do ano.</p>
+                    <h2>Tempo de preparo: 20min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9c/14/10/9c14103a82e91c1b0580b9b931f879f1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bb/6f/34/bb6f34323d26e7e801c0b7e2326dc0df.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7b/af/2c/7baf2cfe3fffcf99f0ae738e1b69a1c1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Chá Gelado com Hortelã</h1>
+                <h2>INGREDIENTES</h2>
+                <li>Saquinhos de chá</li>
+                <li>Hortelã</li>
+                <li>Mel</li>
+                <li>Água fervorosa</li>
+
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Faça o chá com os saquinhos.</li><br>
+                    <li>Adoce com mel.</li><br>
+                    <li>Adicione folhas.</li><br>
+                    <li>Sirva com gelo.</li><br>
+                    
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Chá Gelado com Hortelã é uma bebida refrescante e aromática, perfeita para os dias quentes. Combinando o sabor suave do chá com a frescura da hortelã, essa receita oferece uma opção deliciosa para se hidratar com estilo.</p>
+                    <h2>Tempo de preparo: 20min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d4/b4/f2/d4b4f2396a5fdfcacae7bd28aa79a02b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6e/60/4b/6e604b13e1e2262c702eb014d830ab5b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/72/8d/04/728d04a32bc9a1350501ff7bfb581aab.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7.  Mini Quiches de Queijo e Ervas</h1>
+                <h2>INGREDIENTES</h2>
+                <li>Massa para quiche (pronta ou caseira)</li>
+                <li>Queijo ralado</li>
+                <li>Ervas frescas (salsinha, cebolinha, etc.)</li>
+                <li>Ovos</li>
+                <li>Creme de leite</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Forre forminhas com papel manteiga.</li><br>
+                    <li>Misture ovos, queijo, ervas e creme de leite.</li><br>
+                    <li>Desenforme nas forminhas.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>As Mini Quiches de Queijo e Ervas são uma opção deliciosa e versátil para servir como aperitivo em eventos ou como lanche. A combinação de queijos e ervas frescas cria uma explosão de sabores em cada mordida, proporcionando uma experiência gastronômica encantadora.</p>
+                    <h2>Tempo de preparo: 25min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/0e/7f/7c/0e7f7c6a4dcef2941dc429d02445d135.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/16/92/2c/16922cf6ab79920ee9a969fbd757b53f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/1b/c0/e9/1bc0e9f589dd3523ce198bf255342e3b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Panquecas de Banana</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 bananas maduras</li>
+                <li>1 ovo</li>
+                <li>1 xícara de farinha de trigo</li>
+                <li>1 xícara de leite</li>
+                <li>1 colher de chá de fermento em pó</li>
+                <li>Pitada de sal</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Junte as bananas e misture com o ovo.</li><br>
+                    <li>Adicione farinha, leite, fermento e sal.</li><br>
+                    <li>Cozinhe porções em uma frigideira.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>As Panquecas de Banana são uma opção deliciosa e saudável para o café da manhã ou lanche. Com uma mistura irresistível de sabores, essas panquecas são macias por dentro e douradas por fora, criando uma experiência reconfortante para o paladar.</p>
+                    <h2>Tempo de preparo: 15min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/71/81/74/718174dec8e521778bbbc9ee0b2d494e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/47/f9/16/47f91619807ffe48001126ad9f921c2c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/99/21/89/992189f1c3adb3a2a02332982a1d2ced.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Muffins de Mirtilo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 xícaras de mirtilos</li>
+                <li>1 xícara de açúcar</li>
+                <li>1 colher de sopa de fermento em pó</li>
+                <li>1 xícara de leite</li>
+                <li>1/2 xícara</li>
+                <li>2 ovos</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Misture ingredientes</li><br>
+                    <li>Adicione leite, óleo e ovos</li><br>
+                    <li>Incorporar os mirtilos</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Os Muffins de Mirtilo são uma delícia fofa e repleta de sabor, perfeitos para um café da manhã ou lanche irresistível. A doçura dos mirtilos se destaca, proporcionando uma experiência deliciosamente frutada.</p>
+                    <h2>Tempo de preparo: 25min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/39/22/27/392227e111b1f9969f3405f5389fe78b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/12/77/c9/1277c953e8b0256197437328e32770f2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/80/f9/55/80f955ec865629c29d3d370aeb5f496a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Chá de Camomila com Mel</h1>
+                <h2>INGREDIENTES</h2>
+                <li>Saquinhos de chá de camomila</li>
+                <li>Mel a gosto</li>
+                <li>Água fervendo</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Faça chá de camomila</li><br>
+                    <li>Adoce com mel</li><br>
+                    <li>Sirva quente</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Chá de Camomila com Mel é uma bebida reconfortante e relaxante, perfeita para enganar os sentidos e proporcionar momentos de tranquilidade. A engenharia da camomila combinada com a doçura natural do mel cria uma infusão deliciosa.</p>
+                    <h2>Tempo de preparo: 5min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/04/82/3e/04823ea57c1999b186543e14f03d1357.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/77/5e/66/775e66a1b611ddb2f465cd8e3dd1e769.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/8d/46/a4/8d46a4eaa21395a3c4e3e1b768ac84cc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

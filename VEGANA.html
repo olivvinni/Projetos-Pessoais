@@ -1,0 +1,693 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGANA</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>RECEITAS VEGANAS</h1>
+            
+            <hr>
+            <p>A comida vegana serve como uma escolha alimentar que se alinha a diferentes valores, desde preocupações éticas até a busca por um estilo de vida mais saudável e sustentável. Independentemente da motivação, é importante planejar uma dieta vegana de maneira equilibrada para garantir a obtenção de todos os nutrientes necessários para uma boa saúde.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Strogonoff Vegano</h1>
+                <ul>
+                    <li>Cogumelos</li>
+                    <li>Cebola</li>
+                    <li>Alho</li>
+                    <li>Leite de coco</li>
+                    <li>Mostarda</li>
+                    <li>Ketchup</li>
+                    <li>Batatas</li>
+                    <li>Lata de milho verde</li>
+                    <li>Cenoura</li>
+                    <li>Manteiga</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Acrescente a cenoura, a batata, o caldo de legumes e o ketchup, misture bem.</li> <br>
+                   <li>Acrescente aproximadamente 300 ml de água para cozinhar.</li> <br>
+                   <li>Quando os legumes estiverem macios e o caldo bem reduzido, junte o milho, o cogumelo ou o palmito.</li> <br>
+                   <li>Misture bem e apague o fogo.</li> <br>
+                   <li>Acrescente o creme de leite, aos poucos, sempre misturando bem, está pronto.</li> <br>
+                   <li>Caso queira, o estrogonofe pode ser flambado normalmente, basta acrescentar 2 colheres de rum e com cautela acender com o fósforo. A batata ainda pode ser substituída por chuchu ou outra verdura.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>O Strogonoff Vegano é uma versão sem ingredientes de origem animal do clássico Strogonoff. Em vez de carne, utiliza-se uma proteína vegetal, como cogumelos, proteína de soja ou seitan. O prato é preparado com um molho cremoso à base de creme de soja, leite vegetal ou creme de castanha de caju. Os vegetais, como cebola, alho e cogumelos, são refogados e incorporados ao molho, resultando em uma mistura saborosa e reconfortante. Serve-se geralmente com arroz, massa ou batatas. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 25-30 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.guiadasemana.com.br/contentFiles/image/2020/11/FEA/principal/66421_w840h0_1605277466shutterstock-1766235470.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i1.wp.com/overdoso.com.br/wp-content/uploads/2019/04/Strogonfe-Vegano.jpg?resize=1332%2C888&ssl=1)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.pDZNSjne1lxFEGc5tTGhCQHaIm?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Empadão vegano</h1>
+                <ul>
+                    <li>Palmito pupunha</li>
+                    <li>Lata de seleta de legumes</li>
+                    <li>Cebola</li>
+                    <li>Orégano</li>
+                    <li>Amido de milho</li>
+                    <li>Vagem</li>
+                    <li>Azeitona preta</li>
+                    <li>Azeite</li>
+                    <li>Água</li>
+                    <li>Sal a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Para o recheio, refogue a cebola com azeite.</li> <br>
+                   <li>Acrescente o palmito, a vagem, a cenoura e o orégano; cozinhe com a água até que fique ao dente. Tempere com sal e pimenta.</li> <br>
+                   <li>Coloque o amido de milho dissolvido em um pouco de água, mexendo sempre até incorporar no recheio.</li> <br>
+                   <li>Acrescente a azeitona e desligue o fogo.</li> <br>
+                   <li>Na tigela com a farinha de arroz, adicione a mistura e mexa com a ajuda das mãos até formar uma massa firme.</li> <br>
+                   <li>Forre o fundo de pequenos recipientes com parte da massa.</li> <br>
+                   <li>Coloque o recheio.</li> <br>
+                   <li>Cubra com uma outra parte da massa.</li> <br>
+                   <li>Leve forno preaquecido a 180° C por aproximadamente 30 minutos.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>empadão vegano, que combina uma massa deliciosa, um recheio rico em vegetais e proteínas vegetais, além de um molho saboroso, criando uma opção vegana reconfortante e cheia de sabor.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 35-45 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.9c7e0140d1e57cb0bda04ef4d2f9538c?rik=9iMC4Bn4Zlpuvg&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.8svlMyqmJDEYpkiu-6ik-QHaG6?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.6acc1a578791224c213b87f28b0eae4d?rik=488di6GkfBhtQA&riu=http%3a%2f%2folhaavegana.weebly.com%2fuploads%2f3%2f1%2f5%2f9%2f31598885%2fpublished%2f270ae521-cf7d-4b69-89dc-b309bfb4fdf6-12616-000009733ce11ac9.jpeg%3f1619991026&ehk=OiUD%2fl71y9PpLI%2bP2JT4JtFgivgfN19j19xV5b5bROI%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Mousse de chocolate vegano</h1>
+                <ul>
+                    <li>Abacate</li>
+                    <li>Canela em pó</li>
+                    <li>Essência de baunilha</li>
+                    <li>Cacau em pó</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>No liquidificador, adicione o abacate, o cacau, a canela, o melado e a essência de baunilha.</li> <br>
+                   <li>Bata bem e leve à geladeira por 2 horas.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>
+                    A Mousse de Chocolate Vegano é uma versão deliciosa e livre de ingredientes de origem animal da clássica sobremesa. Ela é feita sem ovos, laticínios ou outros produtos de origem animal, sendo uma opção perfeita para quem segue uma dieta vegana. Aqui está uma descrição geral de como preparar essa delícia. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 2 Horas.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.161c2b9783adb4fa9ab0f00e1f491903?rik=c9gJrV9wj96zCg&riu=http%3a%2f%2fwellnesscenter101.com%2fwp-content%2fuploads%2f2019%2f11%2fclose-up-photo-of-chocolate-mousse-3026810.jpg&ehk=Zvm%2bYPM07X9b1hT9%2bb5TRsXawWtwv%2bjuPFUIVCVV0Dg%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.LkEiEo0KZ62dukCguzuVswHaHt?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.R1zhaTfb1ARl88tOEdBb7AHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Pão de queijo vegano</h1>
+                <ul>
+                    <li>Polvilho doce</li>
+                    <li>Óleo</li>
+                    <li>Água quente</li>
+                    <li>Polvilho azedo</li>
+                    <li>Batata salsa</li>
+                    <li>Temperos a gosto (salsinha desidratada, ervas finas, alho desidratado, gergelim, linhaça)</li>
+                    <li>Sal a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Cozinhar em água fervente, a batata salsa já descascada.</li> <br>
+                   <li>Reservar a água utilizada após o fervimento.</li> <br>
+                   <li>Amassar as batatas, até a consistência de um purê.</li> <br>
+                   <li>Em uma travessa, adicionar o polvilho azedo, o polvilho doce, o óleo, o sal e a água quente do fervimento das batatas.</li> <br>
+                   <li>Misturar bem, podendo utilizar as próprias mãos, até virar uma massa uniforme.</li> <br>
+                   <li>Acrescentar os temperos que preferir.</li> <br>
+                   <li>Pode separar a massa em pedaços e acrescentar temperos diferentes para cada pedaço.</li> <br>
+                   <li>Fazer bolinhas, de preferência pequenas, e coloque em uma assadeira antiaderente com espaço entre uma bolinha e outra, pois quase duplica de tamanho.</li> <br>
+                   <li>Em forno preaquecido a 180°C, colocar seus pães de queijo veganos por aproximadamente 20 minutos, ou quanto achar necessário.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Esta receita é uma opção deliciosa para quem procura uma versão vegana do clássico pão de queijo brasileiro. Você pode experimentar diferentes variações, ajustando os ingredientes de acordo com suas preferências.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 40-45 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://agotablogsite.files.wordpress.com/2020/12/pao-de-queijo-vegano.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://s2.glbimg.com/PZ5PtKYxLZpS9itxqA2Whfv4ybc=/1200x/smart/filters:cover:strip_icc/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/W/P/U0FA0GRjqAkeQSz5g7sg/pao-de-queijo-vegano.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.06dca2a6259c641b5a532bdf83d6837e?rik=RBXq2vMSf%2furVQ&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Cookie vegano</h1>
+                <ul>
+                    <li>Açúcar mascavo</li>
+                    <li>Óleo de coco</li>
+                    <li>Pitada de sal</li>
+                    <li>Fermento em pó</li>
+                    <li>Leite de coco</li>
+                    <li>Essência de baunilha</li>
+                    <li>Farinha de trigo</li>
+                    <li>Chocolate amargo vegano picado a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Em uma tigela, misture o açúcar mascavo, o leite de coco, o óleo de coco, a essência de baunilha e o sal.</li> <br>
+                   <li>Acrescente a farinha de trigo e o fermento, misture bem.</li> <br>
+                   <li>Por último, adicione o chocolate amargo e misture.</li> <br>
+                   <li>Molde os cookies e coloque-os em uma forma.</li> <br>
+                   <li>Deixe na geladeira por 20 minutos.</li> <br>
+                   <li>Em seguida, leve ao forno preaquecido (200° C) por cerca de 20 minutos.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Essa receita pode ser facilmente adaptada para incluir outros ingredientes como frutas secas, sementes ou outros sabores de sua preferência. Experimente e ajuste conforme seu gosto pessoal.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 20-35 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th?id=OIF.WXOK2sfWgIX%2fMQznLEUirw&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIF.IY0mFxGwFExmuDmdWsaF3Q?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP._WaVUDG37elUD0Ry_jCX0wHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Hambúrguer de feijão-fradinho vegano</h1>
+                <ul>
+                    <li>Farinha de rosca</li>
+                    <li>Cebola</li>
+                    <li>Farinha de milho</li>
+                    <li>Alho</li>
+                    <li>Feijão-fradinho cozido</li>
+                    <li>Páprica picante</li>
+                    <li>Óleo de soja ou azeite de oliva</li>
+                    <li>Água quente</li>
+                    <li>Sal a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Amasse bem o feijão-fradinho cozido, juntando a água para ajudar a amassar.</li> <br>
+                   <li>Caso o feijão esteja recém cozido, use a água conforme necessidade, pois ele já estará úmido.</li> <br>
+                   <li>Tempere com sal a seu gosto e adicione a páprica, misture bem.</li> <br>
+                   <li>Depois coloque o óleo de soja (a massa ficara mais homogênea).</li> <br>
+                   <li>Corte a cebola e o alho em pedaços bem pequenos e adicione à massa (se preferir pode passar a cebola na frigideira).</li> <br>
+                   <li>Vá colocando as colheres de farinha de milho, de uma a uma e vá misturando com as mãos mesmo.</li> <br>
+                   <li>A massa fica um pouco úmida mesmo, então, se não houver necessidade, não utilize todas as 6 colheres de farinha de milho.</li> <br>
+                   <li>Molde-os com as mãos e unte com a farinha de rosca.</li> <br>
+                   <li>Para fritar, deixe de 3 a 4 minutos de cada lado e está pronto.</li> <br>
+                   <li>Tome cuidado com o manuseio na hora de fritar.</li> <br>
+                   <li>Você pode fazer e congelar também.</li> <br>
+                   <li>Depois é só ir direto para a frigideira.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Este hambúrguer de feijão-fradinho vegano é uma excelente fonte de proteínas vegetais, fibras e outros nutrientes essenciais. Além disso, é uma opção versátil que pode ser personalizada com temperos e ingredientes adicionais de sua escolha. Experimente ajustar a receita de acordo com seu gosto pessoal e aproveite uma alternativa saudável e deliciosa aos hambúrgueres tradicionais.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 25-35 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.V4cO3tw9W4IGSto0jSyIwwHaFj?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://ogimg.infoglobo.com.br/in/24647581-f42-fb4/FT1086A/652/WhatsApp-Image-2020-09-18-at-15.06.53.jpeg.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.3c107862f698c16789a1ed4fa2d01d37?rik=HrWVs29OVPaHLg&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Sorvete vegano de maracujá</h1>
+                <ul>
+                    <li>Maracujá </li>
+                    <li>Água</li>
+                    <li>Açúcar refinado</li>
+                    <li>Creme de soja (substitui o creme de leite)</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Liquidifique o conteúdo do maracujá com a água e 5 colheres de açúcar, quando as sementes estiverem bem quebradas desligue o liquidificador o coe esse suco o máximo possivel.</li> <br>
+                   <li>Alguns pedacinhos de semente passarão, mas não tem problema.</li> <br>
+                   <li>Em outro recipiente (que vá ao congelador) coloque as 2 caixas de creme de soja, o restante do açúcar e o suco de maracujá previamente coado.</li> <br>
+                   <li>Bata na batedeira por 3 minutos até formar bastante bolhas.</li> <br>
+                   <li>Leve ao congelador.</li> <br>
+                   <li>O segredo para o sorvete ficar cremoso é bater várias vezes durante o congelamento.</li> <br>
+                   <li>Quando você perceber que boa parte dele já está congelado retire do congelador, misture e bata por mais alguns minutos na batedeira. Repita esse procedimento no minimo mais 2 vezes, lembrando que quanto mais bater mais cremoso fica.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>O sorvete vegano de maracujá é uma opção refrescante e deliciosa para quem busca uma alternativa sem ingredientes de origem animal. Aqui está uma receita simples para preparar um sorvete vegano de maracujá.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.2ddjgYQpNoAwY-hgyLCQeQHaEK?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.kZ8Nwka0gEz7gBjwLDEGsAHaGl?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://granpremium.com.br/wp-content/uploads/2019/08/img_como_fazer_sorvete_de_maracuja_22486_orig.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Bolo de fubá molhadinho vegano</h1>
+                <ul>
+                    <li>Farinha de trigo com fermento </li>
+                    <li>Óleo de soja</li>
+                    <li>Fermento em pó</li>
+                    <li>Pacotinho de erva doce em grão</li>
+                    <li>Fubá mimoso</li>
+                    <li>Açúcar (pode ser o cristal ou o refinado)</li>
+                    <li>Água em temperatura ambiente</li>
+                    <li>Opcional: substitua uma das xícaras de água por uma xícara de leite de coco</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Primeiramente unte e enfarinhe uma fôrma média redonda com aro, dessas para pudim, usando o óleo de soja e o fubá.</li> <br>
+                   <li>Pré-aqueça o forno na temperatura máxima por 10 minutos.</li> <br>
+                   <li>Enquanto o forno está preaquecendo, numa batedeira bata todos os ingredientes, menos o fermento, na segunda velocidade.</li> <br>
+                   <li>Diminua a velocidade e acrescente o fermento em pó.</li> <br>
+                   <li>Coloque a massa na fôrma já untada e enfarinhada, sacuda com cuidado a fôrma para não formar bolhas de ar, diminua o forno para a temperatura mínima e leve a massa para assar por cerca de 45 a 50 minutos.</li> <br>
+                   <li>Não abra o forno antes de 45 minutos.</li> <br>
+                   <li>O bolo vai estar assado, mas ainda clarinho, então aumente a temperatura para média alta e deixe mais 10 minutos.</li> <br>
+                   <li>Desligue o forno e retire o bolo, deixe esfriar e reserve.</li> <br>
+                   <li>Leve à geladeira e sirva somente no dia seguinte.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>O bolo de fubá molhadinho vegano é uma opção deliciosa para quem busca uma receita sem ingredientes de origem animal. Aqui está uma receita simples para preparar um delicioso bolo de fubá vegano.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 1 Hora.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.ytimg.com/vi/TVIZ6TEYWNU/maxresdefault.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.SZjxhRf7NDTgu4pKVprwcQHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2021/03/Bolo-fuba-768x410.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Macarrão com queijo vegano</h1>
+                <ul>
+                    <li>Limão</li>
+                    <li>Batatas </li>
+                    <li>Cenoura</li>
+                    <li>Água para cozer os legumes</li>
+                    <li>Alho a gosto</li>
+                    <li>Mandioquinha picada</li>
+                    <li>Macarrão de sêmola </li>
+                    <li>Temperos a gosto (usei sal marinho, mostarda liquida, chimichurri, e pasta de soja de alho poró)</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Descasque e pique os legumes em quadradinhos.</li> <br>
+                   <li>Pique o alho e frite num fio de óleo até dourar.</li> <br>
+                   <li>Coloque os legumes e deixe fritar um pouco.</li> <br>
+                   <li>Coloque todos os temperos, mexendo sempre.</li> <br>
+                   <li>Abaixe o fogo, coloque água aos poucos, verificando a textura com o garfo.</li> <br>
+                   <li>Vá acrescentando água até ficarem macios e meio cremoso (sem aspecto de sopa), desligue o fogo e reserve.</li> <br>
+                   <li>Coloque água para ferver (suficiente para cozer o macarrão), quando estiver fervendo, coloque um fio de óleo e sal a gosto.</li> <br>
+                   <li>Coloque o macarrão, e deixe cozinhar até ficar macio (meio al dente) escorra e reserve.</li> <br>
+                   <li>Coloque os legumes no liquidificador, esprema meio limão e bata até formar um molho bem cremoso (coloque um pouquinho de água se não bater).</li> <br>
+                   <li>Misture o molho ao macarrão, e sirva.</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>O macarrão com queijo vegano, conhecido como "mac and cheese" vegano, é uma alternativa deliciosa e sem ingredientes de origem animal ao clássico prato. Aqui está uma receita simples para preparar um mac and cheese vegano.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 20-25 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.nlXeaR8TmrYqEzP_kyzdkgHaJP?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://static.chloeting.com/recipes/6200cf93382ba4ec17394113/images/hidden-veggie-mac-cheese-3.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.BgKPj3rhKS-1G-bvsvlsaQHaF_?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Quibe de assadeira vegano (berinjela)</h1>
+                <ul>
+                    <li>Água fervente</li>
+                    <li>Cebola picada </li>
+                    <li>Limão</li>
+                    <li>Trigo</li>
+                    <li>Colher de tahine (opcional)</li>
+                    <li>Dentes de alho</li>
+                    <li>Berinjela grande ou 3 a 4 pequenas</li>
+                    <li>Salsinha, hortelã e sal a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Corte as berinjelas ao meio (com a casca) e faça cortes cruzados, coloque de molho em 1 litro de água com 1 colher de vinagre e deixe por 15 minutos.</li> <br>
+                   <li>Leve as berinjelas para o forno junto com os dentes de alho (com a casca) e regue com azeite.</li> <br>
+                   <li>Deixe assar por 30 minutos.</li> <br>
+                   <li>Enquanto isso, coloque o trigo em uma tigela e despeje a água fervente sobre ela.</li> <br>
+                   <li>Deixe por aproximadamente 15 minutos até o trigo absorver toda água.</li> <br>
+                   <li>Não será necessário espremer o trigo.</li> <br>
+                   <li>Raspe toda a berinjela da casca e misture com todos os temperos.</li> <br>
+                   <li>Por último misture o trigo.</li> <br>
+                   <li>Assente essa mistura em um refratário ou assadeira é leve ao forno por 30 a 40 minutos até dourar bem.</li> <br>
+                   <li>Pode acrescentar azeite na hora de servir e bom apetite!</li> <br>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>O quibe de assadeira vegano com berinjela é uma opção deliciosa e nutritiva para quem busca uma versão sem carne desse prato tradicional da culinária árabe. Aqui está uma receita simples para preparar quibe de berinjela assado.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 1 Hora e 30 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.uF2OFwGJXhIM-NqT6hvbQgHaFj?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://anamaria.uol.com.br/images/large/2016/03/04/quibe-de-berinjela-versao-vegetariana-deliciosa.jpg?0.84145500%201629383447)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.4991fe3a467fbd3253cb29391d350d30?rik=q9ZsaxF5lPH%2f9A&riu=http%3a%2f%2f3.bp.blogspot.com%2f-H1PiggKN3tY%2fUn43Lmv241I%2fAAAAAAAAW44%2fEo2-mB-k5U0%2fs1600%2fquibe-de-berinjela.png&ehk=iFDu3x9yrwMHu6KUS5qC5lY60ZmrGe7u4qAVjIO1eRQ%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

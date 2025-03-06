@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobremesas</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>SOBREMESAS</h1>
+            <hr>
+            <p>Desenvolver sobremesas rápidas pode ser uma experiência culinária gratificante, permitindo que você crie indulgências doces sem comprometer muito do seu tempo. Uma opção popular é o clássico mug cake, onde ingredientes simples, como farinha, açúcar e chocolate, são misturados em uma caneca e cozidos no micro-ondas em poucos minutos. Esse bolo instantâneo é perfeito para satisfazer os desejos por algo doce sem a necessidade de pré-aquecer um forno.
+                    <br><br>
+            Outra alternativa rápida é a salada de frutas com um toque especial. Misture uma variedade de frutas frescas, como morangos, kiwis e mangas, e adicione uma cobertura de iogurte grego com mel e raspas de limão. Essa combinação leve e refrescante é uma maneira deliciosa de encerrar uma refeição.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Pudim de Leite Condensado</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Leite condensado</li>
+                    <li>Leite</li>
+                    <li>Ovos</li>
+                    <li>Açúcar para a calda</li>
+                  </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture leite condensado, leite e ovos.</li><br> 
+                    <li>Asse em banho-maria.</li><br>
+                    <li>Faça uma calda caramelizada para cobrir.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Pudim de Leite Condensado é uma sobremesa clássica e popular, conhecida por sua textura suave e sabor irresistivelmente doce. Esta receita tradicional é à base de leite condensado, ovos e açúcar, resultando em um pudim cremoso com uma camada de caramelo dourado por cima. O contraste entre a suavidade do pudim e o sabor caramelizado cria uma combinação deliciosa que agrada a todos os paladares.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 2-3 horas.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/9954f57d1ba0fc9a818b8bbf267e31ce.jpg?itok=O1S0J0AC)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://toquedesabor.com.br/wp-content/uploads/2021/01/pudim-de-leite-condensado.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.aperitifalafrancaise.com.br/wp-content/uploads/2023/06/Receita-de-Pudim-de-Leite-Condensado.webp)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Salada de Frutas com Iogurte</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Frutas variadas (morangos, kiwi, abacaxi)</li>
+                    <li>Iogurte natural</li>
+                    <li>Mel</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Corte as frutas.</li><br>
+                    <li>Misture as frutas com iogurte.</li><br>
+                    <li>Regue com mel.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Salada de Frutas com Iogurte é uma opção refrescante, saudável e deliciosa que combina a doçura natural das frutas frescas com a cremosidade e acidez suave do iogurte. Esta salada é uma escolha versátil, ideal para o café da manhã, lanche ou sobremesa. Além de ser uma opção nutritiva, a variedade de cores e sabores das frutas torna a salada visualmente atraente.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-675/acd75ee81dbd966e047728b6e5a8d297/54934-original.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://entendendoacozinha.com.br/wp-content/uploads/2023/09/30-salada-de-frutas-com-iogurte-grego-fitness.webp)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://s2.glbimg.com/hTz-PgMh-evYngcj20OOucN23zk=/620x455/e.glbimg.com/og/ed/f/original/2019/06/11/salada-de-frutas.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Torta de Limão</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Massa de torta</li>
+                    <li>Leite condensado</li>
+                    <li>Suco de limão</li>
+                    <li>Raspas de limão</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture o leite condensado com suco de limão.</li><br>
+                    <li>Despeje a mistura sobre a massa de torta.</li><br>
+                    <li>Adicione raspas de limão.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>
+               A Torta de Limão é uma sobremesa clássica conhecida pela combinação irresistível de uma base crocante de massa, um recheio cremoso e azedinho de limão, e uma cobertura de merengue macio. Esta torta é refrescante e perfeita para os amantes de sobremesas cítricas. A acidez do limão equilibra a doçura, proporcionando uma experiência de sabor deliciosamente contrastante.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 2-3 horas.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.confeiteiradesucesso.com/wp-content/uploads/2020/10/tortalimao-fb.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/torta-de-limao-facil-capa.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://receitatodahora.com.br/wp-content/uploads/2022/11/torta-de-limao-receita-toda-hora.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Mousse de Chocolate com Morangos</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Chocolate amargo derretido</li>
+                    <li>Morangos frescos</li>
+                    <li>Creme de leite</li>
+                    <li>Açúcar</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture o chocolate amargo derretido com o creme de leite e açúcar.</li><br>
+                    <li>Resfrie o Mousse na geladeiras.</li><br>
+                    <li>Coloque a mistura sobre morangos frescos.</li>
+                </ol>  
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Mousse de Chocolate com Morangos é uma sobremesa deliciosa e irresistível que combina a riqueza do chocolate com a doçura dos morangos frescos. Essa sobremesa cremosa e aerada derrete na boca, proporcionando uma experiência indulgente para os amantes de chocolate. A combinação do sabor intenso do chocolate com a acidez suave dos morangos cria um equilíbrio perfeito, tornando essa mousse uma opção popular em diversas ocasiões.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://static.soujusto.com.br/recipes/fly/Mousse-de-chocolate-proteico-07-1648649808576.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://pilotandofogao.com.br/wp-content/uploads/2022/10/Mousse-de-chocolate-com-morango-perfeito-para-o-natal.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://1.bp.blogspot.com/-5K2mjfBIe0E/Xnnl-MY9RuI/AAAAAAAAug8/LJzn0ySFqUwAgAwukK42esP57q1Q8AybwCLcBGAsYHQ/s1600/90815004_517762072495745_3786400227070574592_n.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Brownie de Chocolate</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Chocolate amargo</li>
+                    <li>Manteiga</li>
+                    <li>Ovos</li>
+                    <li>Açúcar</li>
+                    <li>Farinha de trigo</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                    <ol>
+                        <li>Derreta chocolate com manteiga.</li><br>
+                        <li>Misture a mistura de chocolate com ovos, açúcar e farinha.</li><br>
+                        <li>Asse.</li>
+                    </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Brownie de Chocolate é uma sobremesa indulgente e reconfortante, conhecida por sua textura densa, rica em chocolate e com uma crosta externa delicadamente quebradiça. Este doce é fácil de fazer e sempre agrada aos amantes de chocolate. Pode ser servido puro, com uma pitada de açúcar de confeiteiro, acompanhado de sorvete ou até mesmo com uma cobertura de ganache de chocolate.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 45 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.confeiteiradesucesso.com/wp-content/uploads/2020/08/receitabrownieamericano.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://comidinhasdochef.com/wp-content/uploads/2019/08/Brownie-de-Achocolatado-em-P%C3%B3.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.sabornamesa.com.br/media/k2/items/cache/dfa7f6322712614e6e049fc346875c0a_XL.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Arroz Doce Cremoso</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Arroz</li>
+                    <li>Leite</li>
+                    <li>Leite condensado</li>
+                    <li>Canela em pau</li>
+                </ul>  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe o arroz com leite e canela.</li><br>
+                    <li>Adoce com leite condensado.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Arroz Doce Cremoso é uma sobremesa clássica e reconfortante, presente em muitas culturas ao redor do mundo. Com uma mistura de arroz cozido, leite, açúcar e aromas como canela e baunilha, o arroz doce é uma delícia suave e cremosa que aquece o coração. Este doce é frequentemente polvilhado com canela por cima, proporcionando um toque final aromático.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 40 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://marolacomcarambola.com.br/wp-content/uploads/2019/06/receita-de-arroz-doce-com-leite-condensado-12.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://caldobom.com.br/uploads/2019/08/arroz-doce-1.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://redeunissul.com.br/wp-content/uploads/2021/04/arroz-doce.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Pavê de Morango</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Bolachas champagne</li>
+                    <li>Morangos</li>
+                    <li>Creme de leite</li>
+                    <li>Leite condensado</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Faça camadas de bolachas.</li><br>
+                    <li>Adicione camadas de morangos.</li><br>
+                    <li>Coloque camadas de creme (mistura de creme de leite com leite condensado).</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Pavê de Morango é uma sobremesa clássica, composta por camadas de biscoitos ou bolachas intercaladas com creme e morangos frescos. É uma opção refrescante e deliciosa, perfeita para ocasiões especiais ou para saborear em dias mais quentes. A doçura dos morangos combina harmoniosamente com o creme, criando uma sobremesa irresistível.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30-40 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://cdn0.tudoreceitas.com/pt/posts/5/9/6/pave_de_morango_com_biscoito_maizena_3695_orig.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.anamariareceitas.com.br/wp-content/uploads/2022/10/Pave-de-morango-com-biscoito-folhado.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://renata.com.br/images/receitas/146/renata-imagem-receitas-pave-de-leite-em-po-com-morangos-share.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Tiramisu</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Café forte</li>
+                    <li>Queijo mascarpone</li>
+                    <li>Biscoitos tipo ladyfinger</li>
+                    <li>Cacau em pó</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Mergulhe os biscoitos no café.</li><br>
+                    <li>Alterne camadas com queijo mascarpone.</li><br>
+                    <li>Polvilhe cacau em pó.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Tiramisu é uma clássica sobremesa italiana conhecida por suas camadas de biscoitos de champanhe embebidos em café, intercalados com um creme de mascarpone levemente doce. Esta sobremesa é muitas vezes finalizada com uma generosa polvilhada de cacau em pó, proporcionando um contraste sutil ao sabor do café e do mascarpone. É uma escolha elegante e deliciosa para encerrar uma refeição.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://p2.trrsf.com/image/fget/cf/1200/1200/middle/images.terra.com/2022/12/19/67791397-tiramisu-diferentes-versoes.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.coisasdaleia.com.br/wp-content/uploads/2023/05/tiramisu-fatia.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://static01.nyt.com/images/2017/04/05/dining/05COOKING-TIRAMISU1/05COOKING-TIRAMISU1-videoSixteenByNineJumbo1600.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Cocada Cremosa</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Coco ralado</li>
+                    <li>Leite condensado</li>
+                    <li>Leite</li>
+                    <li>Manteiga</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe coco ralado com leite condensado, leite e manteiga.</li><br>
+                    <li>Cozinhe até obter uma textura cremosa.</li>
+                </ol>  
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Cocada Cremosa é uma sobremesa brasileira deliciosa e reconfortante, feita com coco ralado, açúcar e leite condensado. Ela tem uma textura cremosa e um sabor irresistivelmente doce de coco. Esta receita é fácil de fazer e é uma opção popular para servir em festas, celebrações ou simplesmente para saborear como uma doce indulgência.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.receitasnestle.com.br/sites/default/files/srh_recipes/303f45e27872a6ad408fdf0345fc277f.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://receitastanahora.com.br/wp-content/uploads/2017/02/cocada-cremosa-img-destacada.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i.pinimg.com/736x/b8/16/cf/b816cf18c896d957818c3119cf997c42.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Brigadeiro de Colher</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Lata de leite condensado</li>
+                    <li>Colheres de sopa de chocolate em pó</li>
+                    <li>Colher de sopa de manteiga</li>
+                    <li>Chocolate granulado para decorar</li>
+                </ul>                  
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.</li><br>
+                    <li>Leve ao fogo baixo, mexendo sempre até desgrudar do fundo da panela e atingir ponto de brigadeiro.</li><br>
+                    <li>Desligue o fogo e deixe esfriar um pouco.</li><br>
+                    <li>Transfira para potinhos individuais e decore com chocolate granulado.</li><br>
+                    <li>Sirva ainda morno, para ser degustado de colher.</li>
+                </ol>                  
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Brigadeiro de Colher é uma versão mais cremosa e indulgente do tradicional brigadeiro de enrolar. Nesta receita, o brigadeiro é preparado para ser servido em potinhos ou copinhos, e pode ser saboreado com colher, resultando em uma experiência deliciosamente decadente. É uma opção perfeita para quem ama brigadeiro, mas deseja desfrutar de uma versão mais suave e aconchegante.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-675/d3eef984db9b069cf9876ede374b9f46/358934-original.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.cybercook.com.br/receitas/960/brigadeiro-de-colher-com-mel.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://static.ric.com.br/uploads/2023/03/brigadeiro-1.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

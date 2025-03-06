@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro-Oeste</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas do Centro-Oeste</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Centro-Oeste</h1>
+            <hr>
+            <p>Bem-vindo ao coração do Brasil, onde a culinária do Centro-Oeste se revela como um verdadeiro festival para os sentidos. Nesta região vasta e diversificada, a riqueza do cerrado se manifesta não apenas nas paisagens deslumbrantes, mas também nos pratos que contam a história da cultura e da tradição local. Dos sabores robustos do Pantanal às delícias típicas do Planalto Central, cada mordida é uma viagem pelos campos e rios que definem essa parte única do país.
+
+                Prepare-se para descobrir as exceções dos pratos regionais, onde a carne de gado se mistura a ingredientes nativos como pequi, guariroba e arroz-vermelho, criando uma sinfonia de sabores que só o Centro-Oeste pode oferecer. Seja em um churrasco pantaneiro, um peixe fresco assado na telha, ou um arroz carreteiro que conta histórias de viagens pelo cerrado, cada receita é uma celebração do espírito acolhedor e da rica herança cultural que permeia esta região fascinante. Venha conosco nesta jornada culinária, onde a tradição se encontra com a inovação, e cada prato é uma obra-prima que honra as raízes do Centro-Oeste brasileiro. Bom apetite!
+                </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Caldo de piranha sem espinho</h1>
+               <h2> INGREDIENTES </h2>
+               <li> 4 piranhas grande</li>
+               <li> óleo </li>
+                <li>1/2 copo (americano) de óleo </l1>
+                <li>caldo de legumes</li>
+               <li> 1 tablete de caldo de legumes</li>
+                <li>4 tomates (sem pele) ou molho de tomate</li>
+                <li>batata</li>
+                <li>2 batatas medias</li>
+                <li>2 cebolas</li>
+                <li>Cheiro verde e pimenta a gosto</li>
+                <li>2 dentes de alho</li>
+                <li>caldo de legumes</li>
+                <li>1 tablete de caldo de legumes</li>
+                <h2> MODO DE PREPARO </h2>
+                <ol>
+                    <li>Cozinhe as piranhas em uma panela de pressão com escamas por 10 minutos.</li> <br>
+                    <li>Retire as piranhas, esfrie e retire as escamas e os ossos da costela da piranha.</li> <br>
+                    <li>Bata no liquidificador por 4 minutos para triturar os espinhos pequenos.</li> <br>
+                    <li>Lave a panela e retorne a carne com meio copo de óleo e deixe em fogo alto.</li> <br>
+                    <li>Adicione o caldo de legumes.</li> <br>
+                    <li>Bata no liquidificador: os tomates, a batata, o alho, o cheiro verde e adicione junto a carne na panela.</li> <br>
+                    <li>Deixe apurar por 15 minutos.</li> <br>
+                    <li>Controle a seu gosto o sal e a pimenta.</li> <br>
+                    <li>Dica: Se estiver grosso, adicione mais água.</li> <br>
+                    <li>Se estiver ralo adicione mais batata.</li> <br>
+                </ol>
+                <h2> DESCRIÇÃO</h2>
+                <p> O caldo de piranha sem espinho é uma sopa tradicionalmente preparada em algumas regiões da Amazônia, conhecida por sua riqueza de sabores e ingredientes únicos. Esta receita é uma variação que busca garantir uma experiência mais segura e fácil ao remover as espinhas características das piranhas, enquanto mantém o sabor autêntico da região.</p>
+                <h2> Tempo de preparo : 25min</h2> <br> 
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-630/462f9d66d95766b44181ec2de39298bc/354996-original.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i0.wp.com/paraisodacozinha.com.br/wp-content/uploads/caldo-de-piranha.jpg?resize=575%2C383)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.cozinhatradicional.com/wp-content/uploads/2023/09/caldo-de-piranha-450x270.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Farofa de banana da terra</h1>
+                <h2> INGREDIENTES </h2>
+                <li>3 bananas da terra médias</li>
+                <li>2 cenouras médias</li>
+                <li>1/2 lata de milho verde</li>
+                <li>4 gomos de linguiça de pernil</li>
+                <li>200 g de bacon</li>
+                <li>1 cebola média</li>
+                <li>farinha de mandioca (branca ou amarela)</li>
+                <li>sal (se necessário porque o bacon já tem sal)</li>
+                <h2> MODO DE PREPARO</h2>
+                <ol>
+                    <li>Descasque as bananas da terra, corte em cubos e reserve.</li><br> 
+                    <li>Em um recipiente tire as linguiças do envolucro e com as mãos deixe-as bem separadas e reserve.</li><br> 
+                    <li>Corte o bacon em cubos e reserve.</li><br> 
+                    <li>Rale a cebola em um ralo grosso e reserve.</li><br> 
+                    <li>Rale também as cenouras no mesmo ralo e reserve.</li><br> 
+                    <li>Em uma panela coloque um pouco de óleo deixe esquentar bem e coloque o bacon para fritar, quando estiver quase no ponto misture a linguiça e vai mexendo até fritar bem.</li><br> 
+                    <li>Enquanto isso pode ser numa frigideira que não seja tão rasa.</li><br> 
+                    <li>Coloque umas duas xícaras de óleo deixe esquentar bem e frite metade da banana da terra até dourar, com uma escumadeira já passe pra mesma panela que está a linguiça e o bacon, termine de fritar a outra metade da banana e despeje na panela que deve estar com o fogo baixo.</li><br> 
+                    <li>Acrescente a cebola, deixe fritar um pouco, a cenoura e o milho e mexa bem e, aos poucos, coloque a farinha de mandioca, mexendo bem.</li><br> 
+                    <li>Por último o sal.</li><br> 
+                </ol>
+                <h2> DESCRIÇÃO </h2>
+                <p> A Farofa de Banana-da-terra é uma deliciosa preparação culinária brasileira que combina a textura crocante da farofa com a doçura e o sabor único da banana-da-terra. Essa iguaria é muito apreciada na culinária brasileira, especialmente em diversas regiões do país.
+                A receita básica envolve o uso de farinha de mandioca, que é torrada em uma panela com cebola como ingredientes, alho, manteiga ou óleo, e, claro, bananas-da-terra maduras cortadas em pedaços pequenos. A combinação desses elementos resulta em uma farofa que possui uma mistura equilibrada de sabores e texturas.</p>
+                <h2> Tempo de preparo: 40min</h2><br> 
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://p2.trrsf.com/image/fget/cf/942/530/images.terra.com/2022/10/04/705427521-farofa-de-banana-da-terra.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://naminhapanela.com/wp-content/uploads/2019/04/farofa-de-banana-da-terra6-735x490.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://cadareceita.com.br/wp-content/uploads/2020/10/farofadebanana-cadareceita.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Frango com quiabo</h1>
+                <h2> INGREDIENTES</h2>
+                <li>kg de frango, limpo e cortado a passarinho</li>
+                <li>2 colheres sopa de óleo</li>
+                <li>1 cebola ralada</li>
+                <li>2 dentes de alho amassado</li>
+                <li>Pimenta do reino, cheiro verde picadinho a gosto</li>
+                <li>400g de quiabo picado</li>
+                <li>Sal a gosto</li>
+                <h2> MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma panela coloque óleo e vá fritando o frango aos poucos.</li><br>
+                    <li>Reserve.</li><br>
+                    <li>Na mesma panela que fritou o frango coloque alho, cebola, pimenta, sal e refogue o quiabo deixe dourar mexendo de vez em quando.</li><br>
+                    <li>Depois que o quiabo estiver dourado junte o frango e deixe cozinhar com a panela tampada até ficarem macios.</li><br>
+                    <li>Adicione 1 xícara de chá de água para formar caldinho depois de tudo bem cozido retire e sirva com angu.</li><br>
+                    <li>É tudo de bom.</li><br>
+                </ol>
+                <h2> DESCRIÇÃO</h2>
+                <p> O Frango com Quiabo é um prato tradicional da culinária brasileira que combina o sabor suculento do frango com a textura única e levemente viscosa do quiabo. Essa receita é uma expressão autêntica da diversidade gastronômica do Brasil, especialmente associada à região nordeste do país.
+
+                    A preparação começa geralmente com pedaços de frango, que podem incluir coxas, sobrecoxas ou peito, temperos com uma mistura de ervas e especiarias típicas, como alho, cebola, pimenta-do-reino, e coentro. O quiabo, cortado em pedaços, é adicionado à panela juntamente com o frango, oferecendo uma interação única de sabores e texturas.</p>
+                    <h2> Tempo de Preparo: 20min</h2>
+
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://anamariabraga.globo.com/wp-content/uploads/2019/03/frango-com-quiabo-bem-temperado-scaled.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.lowcarbtododia.com.br/wp-content/uploads/2019/06/receita-frango-com-quiabo-02.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://receitagratis.com/wp-content/uploads/2023/01/Frango-com-quiabo-mineiro.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Mojica de pintado à cuiabana</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de pintado</li>
+                <li>1½ colher (sopa) de azeite</li>
+                <li>1 dente de alho amassado</li>
+                <li>Salsinha a gosto</li>
+                <li>Cebolinha a gosto</li>
+                <li>sal</li>
+                <li>1 limão</li>
+                <li>azeite</li>
+                <li>1 kg de mandioca</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Tempere o pintado cortado em cubinhos com limão, alho amassado e sal.</li><br>
+                    <li>Em seguida deixe descansar por 15 minutos para pegar gosto.</li><br>
+                    <li>Em uma panela coloque o azeite e o alho picado e deixe fritar um pouco.</li><br>
+                    <li>Em seguida faça o mesmo com os cubos de pintado.</li><br>
+                    <li>Acrescente a mandioca pré-cozida com sal e cortada em pedaços e água suficiente para cobrir tudo.</li><br>
+                    <li>Coloque a salsinha e a cebolinha, dê uma mexida e deixe cozinhar por aproximadamente 20 minutos, ou até a mandioca se desmanchar.</li><br>
+                </ol>
+                <h2> DESCRIÇÃO</h2>
+                <p>A Mojica de Pintado à Cuiabana é um prato típico da culinária regional do centro-oeste brasileiro, em particular do estado de Mato Grosso. Este prato é conhecido por combinar a carne chinesa do pintado, um peixe de água doce comum na região, com ingredientes locais e um método de preparo que realça os sabores característicos da culinária cuiabana.
+
+                    A base da mojica é um caldo rico, geralmente preparado com ingredientes como cebola, alho, tomate, pimentão, coentro, e outras ervas e temperos regionais. O pintado, limpo e cortado em pedaços, é então adicionado ao caldo, absorvendo os sabores dos temperos e das especiarias.</p>
+                    <h2> Tempo de preparo: 20min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://hotelmt.com.br/wp-content/uploads/2020/03/original-2187e32d37ac80325435f96992898246.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://2.bp.blogspot.com/-mpUecXwIOJ8/UXrV_8OeGzI/AAAAAAAANro/FMRjgDFEZco/s640/mojica-pintado.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.dicasonline.com/wp-content/uploads/mojica-de-Pintado.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Arroz com pequi</h1>
+                <h2> INGREDIENTES</h2>
+                <li>10 xícaras de arroz</li>
+                <li>1/2 frango cortado e temperado gosto</li>
+                <li>1 litro de pequi</li>
+                <li>sal,alho,cebola,cheiro verde</li>
+                <li>1/2 litro de óleo</li>
+                <li>>água</li>
+                <h2> MODO DE PREPARO </h2>
+               <ol>
+                <li>Corte o frango, tempere ou deixe posar temperado.</li><br>
+                <li>Frite até ficar dourado.</li><br>
+                <li>Retire todo óleo da fritura deixando só uma xícara.</li><br>
+                <li>Coloque a cebola e vá pingando água ate derreter a cebola.</li><br>
+                <li>Refogue o pequi, coloque o arroz e, em seguida, confira o sal.</li><br>
+                <li>Coloque água até um dedo acima do arroz.</li><br>
+                <li>>Deixe ferver, tampe e coloque em fogo baixo.</li><br>
+                <li>Sirva.</li><br>
+               </ol>
+               <h2> DESCRIÇÃO </h2>                
+               <p>O Arroz com Pequi é uma iguaria característica da culinária do cerrado brasileiro, especialmente encontrada nas regiões de Goiás, Minas Gerais e parte do Centro-Oeste. Essa receita destaca o sabor marcante do pequi, um fruto amarelo e carnudo, comumente encontrado em árvores da região, chamadas de pequeizeiros.
+
+                A preparação do prato geralmente começa com o refogado de temperos como alho, cebola e, em algumas variações, tomate. O pequi, por sua vez, é adicionado à panela, liberando seu aroma único e sabor peculiar. O arroz é então incorporado à mistura, absorvendo os sabores do pequi e dos temperos.</p>
+              <h2> Tempo de preparado: 40min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-MyjGV_esFA2-v0ArI7X6A9y0pu7ph5l7F6MuiX6k9hYAdDN9vg2H4tXd9LaH-AsJbNA&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Hy1o3pjfYlPrv2BZJMG-p-ZjhbA3Fs6IBsClK31rQRkQ-wHGhesZ4puRiznSFGYY1qY&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/736x/e1/2f/8f/e12f8f3c217faa3f84a3dd70198f2239.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Jacaré à passarinho</h1>
+                <h2> INGREDIENTES</h2>
+                <li>4 dentes de alho</li>
+                <li>1 cebola picada</li>
+                <li>1 copo de óleo de soja</li>
+                <li>300 g de carne de jacaré (descongelado)</li>
+                <li>2 tomates e sal</li>
+                <h2> MODO DE PREPARO</h2>
+                <ol>
+                    <li>Amasse o alho e pique a cebola.</li><br>
+                    <li>Corte a carne em cubos, acrescente o alho e sal até dar o ponto.</li><br>
+                    <li>Coloque o óleo no fogo, quando estiver bem quente coloque a carne.</li><br>
+                    <li>Tire do fogo quando estiver bem dourado.</li><br>
+                    <li>Pique o tomate e coloque no prato espalhado de maneira que a carne frita fique toda em cima dos tomates.</li><br>
+                    <li>Doure bem a cebola e coloque por cima da carne.</li><br>
+                </ol>
+                <h2> DESCRIÇÃO</h2>
+                <p> O Jacaré à Passarinho é um prato exótico e saboroso da culinária brasileira, especialmente popular em regiões onde a carne de jacaré é consumida. Esse prato destaca a carne tenra e suculenta do jacaré, preparada de maneira semelhante a outros pratos "à passarinho", que geralmente envolvem cortes pequenos e fritura.
+
+                    A preparação do Jacaré à Passarinho envolve cortar a carne de jacaré em pedaços pequenos, geralmente do tamanho de bocados, que são então temperados com uma mistura de ervas e especiarias. Os temperos podem incluir alho, limão, pimenta e outros condimentos para realçar o sabor único da carne de jacaré.</p>
+               <h2> Tempo de preparo: 30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-630/878a184a46adb87039b6d3d30ece2398/21554-original.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://live.staticflickr.com/5163/5274001263_24859222c3_z.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/736x/d8/e3/d6/d8e3d6e7ebd6e31b4a5dd63611cf42b5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Arroz Maria Isabel </h1>
+                <li>1 kg de arroz</li>
+                <li>1 kg de carne de sol picada</li>
+                <li>2 cebolas</li>
+                <li>1 cabeça de alho</li>
+                <li>cheiro-verde (salsa e cebolinha)</li>
+                <li>2 maços de cheiro verde</li>
+                <li>4 pimentas de cheiro</li>
+                <li>4 folhas de louro</li>
+                <li>10 ml de azeite de oliva</li>
+                <li>50 ml de óleo</li>
+                <h2> MODO DE PREPARO</h2>
+<ol>
+        <li>Lave a carne seca picada e coloque-a para dourar em óleo quente.</li><br>
+        <li>Em seguida, acrescente a cebola e o alho e deixe refogar bem.</li><br>
+        <li>o arroz misturando bastante com os tempeiros e a carne seca, acrescenteem seguida água quente e a pimenta de cheiro cortada ao meio.</li><br>
+        <li>Abafe a panela e agurade até que o arroz fique solto.</li><br>
+</ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Arroz Maria Isabel é um prato típico da culinária nordestina do Brasil, especialmente popular no estado do Maranhão. Essa receita se destaca pela combinação harmoniosa de arroz, carne seca desfiada e outros ingredientes que conferem sabor e textura únicos.
+
+                    A preparação começa geralmente com o cozimento do arroz em água ou caldo de carne, garantindo que absorva os sabores adicionados durante o processo de preparo. A carne seca, que é previamente dessalgada e desfiada, é então incluída no arroz. Essa carne, muitas vezes retirada do sol e da brisa do nordeste brasileiro, traz um sabor intenso e uma textura característica ao prato.</p>
+                    <h2>Tempo de descanso: 30min</h2>
+
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvOEFTMzkGmOciN_2mT62Y-bOXQosCKAp4Rg&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvOEFTMzkGmOciN_2mT62Y-bOXQosCKAp4Rg&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFXkxt6T6TnyTOGnY_zN6hSo2Jg0vBTKTGvQ&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Broa de milho</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 ovos</li>
+                <li>1 1/2 xícara de chá de açúcar</li>
+                <li>1 xícara de chá de margarina ou manteiga</li>
+                <li>2 colheres de sopa de erva-doce (opcional)</li>
+              <li>2 xícaras de chá de farinha de milho fina</li>
+                <li>3 xícaras de chá de farinha de trigo</li>
+                <li>1 colher de sopa de fermento em pó químico</li>
+                <li>Uma pitada de sal</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Bata na batedeira a margarina ou manteiga com o açúcar por cerca de 1 minuto, em velocidade média.</li><br>
+                    <li>Acrescente os ovos, um a um, a pitada de sal e a erva - doce, bata isso por mais 1 minuto em velocidade média.</li><br>
+                    <li>Acrescente alternadamente a farinha de milho e a farinha de trigo, primeiro uma xícara de farinha de milho, depois a de trigo e assim sucessivamente, e por último o fermento em pó.</li><br>
+                    <li>Faça bolinhas e coloque - as em uma forma retangular untada e enfarinhada.</li><br>
+                    <li>Leve ao forno pré - aquecido e asse por 30 minutos ou até dourar.</li><br>
+                </ol>
+                <h2> DESCRIÇÃO </h2>
+                <p>A Broa de Milho é uma iguaria tradicional da culinária brasileira, especialmente popular em regiões onde o milho é um ingrediente abundante, como no Nordeste e em algumas partes do Sudeste. Essa receita simples, porém deliciosa, destaca-se pela combinação de farinha de milho, farinha de trigo, e outros ingredientes que resultam em um pãozinho de textura densa e sabor marcante.
+
+                    A base da Broa de Milho é uma farinha de milho, que confere à broa sua cor amarelada característica e um sabor levemente adocicado. Essa farinha é muitas vezes misturada com farinha de trigo para fornecer uma textura mais macia e uma consistência equilibrada. Além das farinhas, outros ingredientes comuns incluem água, sal, açúcar e fermento.</p>
+                    <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i0.wp.com/porkworld.com.br/wp-content/uploads/2022/06/img-6295.jpg?fit=3291%2C1851&ssl=1)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSREbVubw725171b2M7_OIiEdOulwe_DxJlcQkFEj0QZKKFyDfdq41vpL1vsm3g8MLrBbU&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.26cf286df0684de6602dd111f754c5f0?rik=Hqk0VqOo6R7xfw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Pamonha salgada com queijo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>10 espigas de milho com as palhas</li><br>
+                <li>10 tiras de queijo qualho</li><br>
+                <li>200 ml de óleo</li><br>
+                <li>1 colher de sopa de sal</li><br>
+                <li>1 pitada de açúcar</li><br>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Descasque o milho, separando as palhas boas, maiores e limpas.</li><br>
+                    <li>Rale as espigas ou retire os grão cortando com uma faca e bata no liquidificador para chegar ao mesmo efeito de milho ralado.</li><br>
+                    <li>Coe o milho ralado em uma peneira grossa.</li><br>
+                    <li>Acrescente o óleo bastante quente, o sal e o açúcar.</li><br>
+                    <li>Pegue a palha limpa e sem defeitos, dobre-a formando um copinho.</li><br>
+                    <li>Encha o copinho com a massa até um pouco mais da metade.</li><br>
+                    <li>Coloque a tira do queijo no meio da massa.</li><br>
+                    <li>Pegue outra palha para fechar o copinho, da mesma maneira.</li><br>
+                    <li>Amarre com tiras da própria palha, com liga de borracha ou barbante.</li><br>
+                    <li>Deixe as pamonhas em água fervente por 30 minutos.</li><br>
+                    <li>Sirva a seguir.</li><br>
+                </ol>
+                <h2> DESCRIÇÃO</h2>
+                <p>A Pamonha Salgada com Queijo Festas é uma variação deliciosa da pamonha tradicional, uma receita tipicamente brasileira, popular especialmente nas juninas. A pamonha é um prato feito à base de milho verde, que pode ser doce ou salgado, e é cozido envolto em folhas de milho.
+
+                    Na versão salgada com queijo, a pamonha é preparada com uma mistura de milho verde ralado, queijo, temperos e, às vezes, outros ingredientes, como cebola, pimentão ervas ou ervas frescas. Essa combinação resulta em uma massa cremosa e chinesa que é cozida e envolta em folhas de milho, formando uma espécie de pacote.</p>
+                    <h2>Tempo de preparo: 1h30min</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIf1v9jAha9T19BekUtKOLw5u3BqBhRFgO6Q&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdlxvN2SQUh6FW_YRDCWtO972dtZwiPE90eg&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz-VlXnLyb2uJTaNsNIpzS50N2IoHAHCrUyA&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Arroz com guariroba</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 colheres de sopa de manteiga</li>
+                <li>400 g de guariroba ou palmito cortado em pedaços pequenos</li>
+                <li>2 dentes de alho picados</li>
+                <li>2 cebolas médias picadas</li>
+                <li>Sal a gosto</li>
+                <li>2 xícaras de chá de arroz</li>
+                <li>4 xícaras de chá de água quente</li>
+                <li>1 pimenta de cheiro picadinha</li>
+                <li>Salsinha e cebolinha picada para polvilhar</li>
+                <li>Pimenta-do-reino a gosto</li>
+                <li>1 cebola pequena bem picadinha</li>
+                <li>1 colher de chá de vinagre</li>  
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Numa panela, derreta a manteiga, acrescente o alho e a cebola e deixe refogar em fogo baixo, mexendo de vez em quando.</li><br>
+                    <li>Adicione a guariroba e refogue por uns 5 minutos, mexendo sempre com uma colher de pau.</li><br>
+                    <li>Acrescente o arroz, frite um pouco, e junte água.</li><br>
+                    <li>Tampe a panela e deixe cozinhar.</li><br>
+                    <li>Antes de apagar o fogo, ponha pimenta de cheiro, e, na hora de servir, acrescente e misture cebolinha, salsinha, pimenta do reino, a cebola e o vinagre.</li><br>
+                    <li>Se a guariroba estiver em conserva, use-a diretamente.</li><br>
+                    <li>Se for 'in natura', afervente-a por uns 50 minutos trocando a água para não ficar tão amarga.</li><br>
+                    <li>Se desejar, adicione um pouco de suco de limão.</li><br>
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Arroz com Guariroba é um prato típico da culinária brasileira, especialmente associado à região Centro-Oeste, onde a guariroba é nativa. A guariroba é um tipo de palmito extraído do interior da palmeira Syagrus oleracea, comum em algumas áreas do cerrado brasileiro.
+
+                    O prato é preparado cozinhando a guariroba em pedaços, removendo sua camada externa fibrosa e cortando-a em pedaços menores. Em seguida, ela está ocupada até ficar macia. O arroz é preparado separadamente, muitas vezes temperado com alho, cebola e outros condimentos.</p>
+                    <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsLILt7lLxs0P5D8zSYMOF_g1T-7zraNnaMQ&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOaRSXmXYtKhnnT2iIr_TWTq-oSIg-hOgj_g&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMYQa8uQW-RzAJe4pYLDC8i8bJ9Jt4lsBS1Q&usqp=CAU)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

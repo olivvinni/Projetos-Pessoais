@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sul</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Sul</h1>
+            <hr>
+            <p>A culinária do Sul do Brasil é marcada por uma rica diversidade de sabores, influências étnicas e ingredientes regionais. Com uma forte presença das tradições dos imigrantes italianos, alemães, poloneses e de outras comunidades, a gastronomia sulista é única e oferece uma variedade de pratos saborosos.</p>
+
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Arroz Carreteiro</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 1 kg de carne seca</li>
+                <li> 1 cebola picada</li>
+                <li> 1 colher de sopa de cheiro-verde</li>
+                <li> 2 xícaras de chá de arroz</li>
+                <li> 2 dentes de alho picados</li>
+                <li> 6 colheres de sopa de azeite</li>
+                <li> Sal a gosto</li>
+
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Deixe a carne seca de molho de véspera, troque a água e cozinhe até ficar macia.</li><br>
+                    <li>Desfie.</li><br>
+                    <li>Frite-a em uma panela com azeite.</li><br>
+                    <li>Quando a carne estiver dourada, coloque a cebola e o alho.</li><br>
+                    <li>Junte o arroz e frite.</li><br>
+                    <li>Acrescente a água fervente e cozinhe em fogo baixo até o arroz ficar macio.</li><br>
+                    <li>Salpique o cheiro-verde e sirva em seguida.</li><br>
+                    <li>Bom apetite.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Arroz Carreteiro é um prato típico da culinária brasileira, especialmente associado à região sul do país. Essa receita tem raízes na tradição gaúcha e foi influenciada pela culinária dos tropeiros.</p>
+                <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b5/fe/6c/b5fe6cffc104019421699cea501d13a9.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/04/d7/5d/04d75db381d88e2ae49d03d223138e28.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a1/b8/5d/a1b85df7fd6c0eddb08ca5b85e3cf31f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Vovó Sentada</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 350 g de biscoitos tipo mignon (vovó sentada, aqueles com formato em v, bem pequenos)</li>
+                <li> 1 xícara de açúcar</li>
+                <li> 6 colheres (de sopa) de Nescau</li>
+                <li> 6 colheres (de sopa) de leite</li>
+                <li> 2 colheres de (sopa) de margarina</li>
+                
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque todos os ingredientes (exceto os biscoitos) em uma panela grande.</li><br>
+                    <li>Misture bem até a calda começar a borbulhar.</li><br>
+                    <li>Quando isso ocorrer, acrescente os biscoitos pouco a pouco.</li><br>
+                    <li>Nunca pare de mexer e procure deixar os biscoitos bem lambuzados, não permitindo que a calda se acumule no fundo da panela ou em um pequeno grupo de biscoitos.</li><br>
+                    <li>Com o passar do tempo, a calda vai começar a secar.</li><br>
+                    <li>Nesse momento, mexa com mais cuidado para que os biscoitos não se quebrem.</li><br>
+                    <li>Abaixe o fogo.</li><br>
+                    <li>Quando perceber que todos os biscoitos estão cobertos pela calda e ela estiver seca em todos eles, coloque-os em um recipiente.</li><br>
+                    <li>Deixe esfriar ou, se preferir, coma quentinhos.</li><br>
+
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Esse biscoito leva esse nome, pelo seu formatop em "v" que lembra uma vovó sentada em sua cadeira </p>
+                <h2>Tempo de preparo: 2h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/87/46/f9/8746f951cee4421177eaaf1f34c09799.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ed/a9/3b/eda93b8099709cfdc971fb96f984412f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/51/fe/45/51fe45f25022b43c2b05906be031a9ac.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Costela Assada</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 3 kg de costela não muito gordurosa</li>
+                <li> Alho a gosto</li>
+                <li> Sal a gosto</li>
+                <li> Pimenta bode a gosto</li>
+                <li> Cebola a gosto</li>
+                <li> 2 sachês sazon para carne (em embalagem vermelha)</li>
+                <li> Papel alumínio</li>
+
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Amasse o alho, juntamente com o sal, pimenta, cebola e sazon, passe esse tempero muito bem na costela.</li><br>
+                    <li>Envolva a costela já temperada no papel alumínio por três vezes (três folhas de papel alumínio). Deixando a costela em contato com o lado mais brilhante do papel, lembrando de apertar bem as bordas para ficar bem lacrado.</li><br>
+                    <li>Leve ao forno quente por 2 horas.</li><br>
+                    <li>Depois deste tempo, retire o papel alumínio e deixe no forno para dar uma douradinha.</li><br>
+                    <li>Fica uma delícia.</li><br>
+                    <li>Lembrete: É melhor quando temperada de véspera.</li><br>
+
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A costela assada é um prato suculento e saboroso, frequentemente associado a churrascos, mas também preparado no forno. Esse corte de carne bovina é conhecido por sua riqueza de sabor e pela textura macia quando cozido lentamente.</p>
+                <h2>Tempo de preparo: 2h a 4h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/02/d5/3a/02d53aa30e60e1b48031431445f0415c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/dd/8e/54/dd8e544f3f14e08de01ea7acdc20b2f1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/6f/38/26/6f38267afd36234596e6dc4c9f961378.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Matambre Recheado</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 1 matambre inteiro</li>
+                <li> 200 g de coração de frango</li>
+                <li> 2 linguiças calabresa fininhas</li>
+                <li> 2 tiras de bacon cortadas finas</li>
+                <li> Cheiro-verde (salsa e cebolinha) a gosto</li>
+                <li> 2 cebolas médias cortadas em cubos</li>
+                <li> Tempero a gosto</li>
+
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Abra o matambre sobre a mesa com a parte interna para cima.</li><br>
+                    <li>Tempere-o por completo.</li><br>
+                    <li>Espalhe o tempero verde em todo o matambre.</li><br>
+                    <li>Coloque na ponta de baixo uma carreira de cebola, a linguiça, o coração e o bacon.</li><br>
+                    <li>Enrole como se fosse um rocambole.</li><br>
+                    <li>Amarre-o com barbante.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Matambre recheado é uma deliciosa opção de prato que destaca essa carne fina e suculenta, geralmente preparada em churrascos ou assada no forno. Aqui está uma descrição geral e o tempo de preparo pode variar dependendo da receita específica</p>
+                <h2>Tempo de preparo: 2h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c3/2a/2c/c32a2cedc964af07ee02eda638d9497d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4d/79/32/4d7932e6ae2894acf6c354a9caf749be.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/05/9c/f0/059cf0550db88debd0653cc259568900.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Joelho de Porco</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 1 joelho de porco</li>
+                <li> 1 colher (sopa) de salsinha</li>
+                <li> 1 colher (sopa) de cebolinha</li>
+                <li> 1 cebola grande cortada em pedaços grandes</li>
+                <li> 3 dentes de alho grande cortados redondinhos</li>
+                <li> Sal e pimenta-do-reino a gosto</li>
+                <li> 1 colher (sopa) de colorau</li>
+                <li> 2 folhas de louro</li>
+                <li> 1 colher (chá) de açúcar</li>
+                <li> 2 colheres de azeite</li>
+
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Lavar bem e secar o joelho.</li><br>
+                    <li>Em uma panela, coloque o azeite e a colher de açúcar e deixe caramelar.</li><br>
+                    <li>Em seguida, coloque o joelho para dar uma douradinha, em seguida coloque todos os temperos e cubra com água.</li><br>
+                    <li>Tampar a panela e levar ao fogo forte, quando ferver, abaixe o fogo e cozinhe até que a carne fique macia.</li><br>
+                    <li>Retire do caldo, pois fica muito gorduroso, coloque em outra vasilha, salpique com salsinha, sirva com batatas cozidas.</li><br>
+
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O joelho de porco é uma iguaria apreciada em muitas culinárias ao redor do mundo, conhecida por sua textura suculenta e sabor marcante. Este prato, quando preparado adequadamente, resulta em uma carne macia por dentro e uma pele crocante por fora, proporcionando uma experiência gastronômica única.</p>
+                <h2>Tempo de preparo: 2h a 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4f/47/ba/4f47ba7469e346a0ea5c56d8b434613c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/63/e8/b0/63e8b06509f0ded3d1bf77c1b9c8c4c9.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/15/36/a4/1536a40f71dd33f190b217f22a1423f0.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Capeletti</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 500 g capeletti de frango</li>
+                <li> 1 pacote de sopa de aspargos</li>
+                <li> 800 ml de leite</li>
+                <li> 500 g de nata (creme de leite fresco)</li>
+                <li> 400 g de presunto picado</li>
+                <li> 1 xícara de cheiro verde picado</li>
+                <li> Sal a gosto</li>
+                <li> Queijo parmesão ralado a gosto</li>
+                
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Cozinhe o capeletti em água abundante e sal à gosto (al dente).</li><br>
+                    <li>Coloque o capeletti em um refratário untado e reserve.</li><br>
+                    <li>Dissolva a sopa de aspargos no leite frio e acrescente a nata, o presunto picado e o cheiro verde.</li><br>
+                    <li>Coloque esta mistura sobre o capeletti e polvilhe com queijo parmesão ralado.</li><br>
+                    <li>Leve ao forno para gratinar por 30 minutos em forno médio.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Capeletti é uma massa recheada tradicional da culinária italiana, conhecida por sua forma característica em pequenos chapéus ou bonés. Essa delícia conquistou o paladar de muitos ao redor do mundo, tornando-se um prato versátil e apreciado em diversas receitas.</p>
+                <h2>Tempo de preparo: 2h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d2/30/a8/d230a8dee4fbc5cd74fb4441d6957587.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3a/93/96/3a9396ab9b9a52aee6ac1418c55408a8.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/42/28/ae/4228aeb4edf3f8c2cf4d80349336b3b6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Barreado</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 2,5 kg de coxão mole</li>
+                <li> 300 g de bacon em cubos</li>
+                <li> 2 cebolas grandes, picadas</li>
+                <li> 5 dentes de alho, picados</li>
+                <li> 10 g de cominho em pó</li>
+                <li> 3 folhas de louro</li>
+                <li> Sal e pimenta do reino, a gosto</li>
+                <li> 200 ml de vinagre de vinho</li>
+                <li> 4 colheres de sopa de óleo de milho</li>
+                <li> 2 litros de água fervente</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Cortar a carne em cubos de 2 cm.</li><br>
+                    <li>Em uma vasilha plástica, juntar a carne, o bacon, as cebolas, os dentes de alho, o cominho, o vinagre, o sal e a pimenta do reino.</li><br>
+                    <li>Misturar tudo muito bem e deixar descansando por uma hora.</li><br>
+                    <li>Adicionar o óleo de milho em uma panela de barro (de 5 l), untando-a por dentro e levar ao fogo brando.</li><br>
+                    <li>Quando o óleo estiver bem quente, acrescentar a carne temperada, mexer bem com uma colher de pau durante cinco minutos.</li><br>
+                    <li>Acrescentar a água fervente.</li><br>
+                    <li>Tampar a panela e barrear a tampa com pirão de farinha de mandioca;</li><br>
+                    <li>Deixar cozinhando por cinco horas.</li><br>
+                    <li>Após, abrir a panela e verificar o nível da água (2 cm acima da carne) e o sal, se necessário, completar.</li><br>
+                    <li>Acrescentar as folhas de louro.</li><br>
+                    <li>Tampar e barrear novamente a panela e deixar cozinhando por mais quatro horas.</li><br>
+                    <li>Levar a panela, com cuidado à mesa, servir em prato fundo, acompanhado de farinha de mandioca crua e banana prata.</li><br>
+                    <li>Para esta receita ser servida no almoço eu começo o primeiro cozimento às 19:00h horas e desligo o fogo às 24:00 h.</li><br>
+                    <li>Na manhã seguinte, às 08:00 horas, após verificar o nível da água e o sal, tampo e barreio novamente a panela, religo o fogo e deixo cozinhando até às 12:00 horas.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Barreado é um prato típico do litoral do Paraná, Brasil, conhecido por sua consistência de carne desfiada e sabor marcante. É uma receita tradicional preparada em grandes panelas de barro, que são vedadas com uma mistura de farinha e água, conhecida como "barro" - daí o nome "barreado". Essa técnica de colocação ajuda a manter o calor e a cozinhar lentamente a carne, resultando em uma textura desfiada e suculenta.</p>
+                <h2>Tempo de preparo: 12h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/7d/3b/91/7d3b911ab77e9a968129133352444389.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/cf/74/0b/cf740b433014eb31caeae55820960fb5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/14/9e/eb/149eebf808c0f8cc24cea356078e2864.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Polenta</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 2 xícaras de fubá/farinha de milho fina</li>
+                <li> 2 xícaras de água em temperatura ambiente</li>
+                <li> 3 xícaras de água quente</li>
+                <li> 2 caldos de galinha</li>
+                <li> 1 colher (sopa) de manteiga ou margarina</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Dissolva muito bem as xícaras de fubá nas 2 xícaras de água fria em um recipiente separado.</li><br>
+                    <li>Numa panela, coloque as 3 xícaras de água quente misturadas com os caldos de galinha e com a colher de manteiga, até ferver e dissolver bem a mistura.</li><br>
+                    <li>Junte o fubá dissolvido na água fria com a mistura quente na panela, mexendo por 45 minutos aproximadamente, até que a polenta esteja bem cozida.</li><br>
+
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Polenta é um prato tradicional da culinária italiana, feito a partir de fubá (farinha de milho) e água, cozidos até atingir uma consistência cremosa. Pode ser servido de diversas formas, sendo moldado em formato de bloco, cortado em fatias e posteriormente grelhado, ou ainda servido como acompanhamento para molhos, carnes e vegetais.</p>
+                <h2>Tempo de preparo: 30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/0d/3a/2c/0d3a2cdba2650ce4a0119a44c16fbafd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9e/c7/de/9ec7de40700a4cfa5165681ed347ea29.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bb/f1/c3/bbf1c3348baa25ef5728e9ef8028b125.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Fondue</h1>
+                <h2>INGREDIENTES</h2>
+                <li> 400g de chocolate ao leite em barra</li>
+                <li> 100g de chocolate meio-amargo</li>
+                <li> 1 lata de creme de leite light</li>
+                <li> 1 cálice de licor de Amarula</li>
+                <li> Frutas picadas (banana, morango, kiwi)</li>
+                <li> Marshmallow</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Derreta no microondas o chocolate, colocando num recipiente de vidro, próprio para microondas. Deixe em potência alta por 1 minuto, retire e veja se dá para mexer o chocolate até ficar bem derretido. Caso não dê, leve ao microondas por mais 30 segundos, vá repetindo o procedimento até que o chocolate derreta.</li><br>
+                    <li>Leve ao fogo médio (do fogão) o chocolate e misture o licor e o creme de leite. Mexa até ficar com uma consistência cremosa. O importante é mexer sempre para não empelotar. Quando estiver pronto é só levar para o richaud e servir-se, espetando as frutas, marshmallow e molhando na mistura.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Fondue é um prato originário da Suíça, famoso por sua abordagem interativa e social na hora da refeição. A palavra "fondue" vem do francês e significa "fundido". A receita tradicional de fondue envolve um queijo derretido servido em um conjunto especial de panelas, conhecido como caquelon, sobre um rechaud (aquecedor).</p>
+                <h2>Tempo de preparo: 15min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9f/81/ce/9f81ce9058af5c80a4ffb049ffc38f58.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/40/b9/ad/40b9ad1534ba2a84f0fd27daf2aa2bce.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2b/08/28/2b08283b50b0fbd42978f369437f9438.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Paçoca de Pinhão com Carne Assada</h1>
+                <h2>INGREDIENTES</h2>
+
+                <li> 2 kg de pinhão cozido e moído</li>
+                <li> 300 g de bacon</li>
+                <li> 1/2 kg carne de gado moída</li>
+                <li> 1/2 kg carne de porco moída</li>
+                <li> 1/2 kg de linguiça</li>
+                <li> 2 cebolas picadas</li>
+                <li> 3 dentes de alho amassados</li>
+                <li> Pimenta do reino</li>
+                <li> Cheiro-verde (salsa e cebolinha)</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Fritar o bacon, as carnes e a linguiça.<li><br>
+                    <li>Juntar a cebola, o alho e refogar.</li><br>
+                    <li>Juntar o pinhão e o tempero verde.</li><br>
+                    
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Paçoca de Pinhão com Carne Assada é uma receita tradicional brasileira que combina a textura e o sabor marcante do pinhão com a suculência da carne assada. Essa deliciosa iguaria é preparada com pinhões cozidos e moídos, bacon, carne bovina e suína moída, cebola, alho, pimenta-do-reino e tempero verde (salsa e cebolinha). O pinhão adiciona um toque especial e uma consistência única à paçoca, enquanto a carne assada proporciona um sabor robusto e irresistível.</p>
+                <h2>Tempo de preparo: 2h a 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/ab/9f/43/ab9f435b0fef6bf7aa2b016a62bcebaf.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f1/23/23/f12323e9b8f4426462702bd0104a55ea.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/736x/52/bf/c7/52bfc7ecf12e174223b3b0734148a87c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

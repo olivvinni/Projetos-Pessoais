@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanches</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Rapidas Para a Hora do Lanche</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>LANCHES</h1>
+            <hr>
+            <p>Os lanches desempenham um papel crucial na manutenção de uma alimentação equilibrada ao longo do dia,
+                prevenindo a sensação de fome entre o café da manhã, almoço e jantar. Entretanto, sabemos que a rotina
+                muitas vezes nos impõe desafios e pode ser difícil encontrar tempo para preparar algo mais elaborado. É
+                nesse contexto que as receitas de lanches rápidos se tornam uma opção irresistível!
+                <BR> <BR>
+                Desfrutar de pães frescos, Rap10 macios, bolos de caneca fofinhos e uma variedade de petiscos saborosos
+                é a solução perfeita para os dias corridos. Essas receitas não apenas oferecem praticidade, mas também
+                proporcionam momentos deliciosos ao paladar, mesmo nos momentos mais agitados da rotina diária.
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Sanduíche de Frango com Cream Cheese</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Peito de frango desfiado</li>
+                <li>Cream cheese</li>
+                <li>Alface</li>
+                <li>Tomate</li>
+                <li>Pão integral</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture o frango desfiado com cream cheese.</li> <br>
+                    <li>Monte o sanduíche colocando a mistura sobre o pão integral.</li> <br>
+                    <li>Adicione alface e tomate a gosto.</li> <br>
+                    <li>Sirva!</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Essa receita prática permite que você desfrute de um sanduíche cremoso e saudável sem comprometer a
+                    sua agenda. Ideal para aqueles momentos em que a fome aperta, mas o tempo é limitado. Além disso, a
+                    combinação do frango desfiado com o cream cheese, a alface crocante e o tomate fresco torna esse
+                    sanduíche uma escolha equilibrada e deliciosa. Sirva e aproveite!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 10 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://static.itdg.com.br/images/1200-675/8fcc485f53e9524c24056b8a5d220648/344835-original.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i0.wp.com/emagrecercerto.com/wp-content/uploads/2018/01/sanduiche-natural-de-frango.jpg?fit=1000%2C667&ssl=1)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://j6t2y8j5.rocketcdn.me/wp-content/uploads/2019/06/sanduiche-natural-ajuda-na-dieta-10-receitas-para-fazer-em-casa-1.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Wrap de Vegetais e Frango</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Peito de frango grelhado</li>
+                <li>Tortilhas de trigo</li>
+                <li>Abacate</li>
+                <li>Cenoura ralada</li>
+                <li>Molho de iogurte</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Espalhe o molho de iogurte sobre a tortilha.</li> <br>
+                    <li>Adicione o frango, abacate e cenoura.</li> <br>
+                    <li>Enrole a tortilha e corte ao meio.</li> <br>
+                    <li>Sirva!</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Este wrap é uma opção prática e deliciosa para aqueles momentos em que você precisa de algo rápido,
+                    mas não quer abrir mão do sabor e da qualidade nutricional. Seja como um almoço rápido ou um lanche
+                    satisfatório, o Wrap de Vegetais e Frango é uma escolha versátil e deliciosa. Aproveite!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/burritos-wraps-com-frango-e-legumes-em-fundo-escuro-comida-mexicana_179068-7747.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://vitat.com.br/wp-content/uploads/2019/11/burritos-wraps-with-chicken-and-1-e1577382093473.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.sodexobeneficios.com.br/data/files/3E/56/CD/02/9DE5A71071CC54A77118F9C2/xreceita-wrap-saudavel.jpg.pagespeed.ic.FIGdNoNGuz.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Salada de Atum com Grãos</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Atum em lata</li>
+                <li>Grão-de-bico cozido</li>
+                <li>Pepino</li>
+                <li>Tomate cereja</li>
+                <li>Azeite de oliva</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture o atum, grão-de-bico, pepino e tomate em uma tigela.</li> <br>
+                    <li>Regue com azeite de oliva.</li> <br>
+                    <li>Tempere a gosto.</li> <br>
+                    <li>Está pronto para servir!</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Este Wrap de Vegetais e Frango é uma opção versátil, ideal para almoços rápidos, lanches ou até mesmo
+                    para levar como marmita. Além de ser uma escolha saudável, a variedade de ingredientes proporciona
+                    uma experiência gastronômica deliciosa e nutritiva. Desfrute de uma refeição equilibrada em pouco
+                    tempo!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.receitasnestle.com.br/sites/default/files/styles/recipe_detail_desktop/public/srh_recipes/182bf0e20ac3e9205738f0e6efeecb6d.jpg?itok=AMVLvDJe)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.comidaereceitas.com.br/wp-content/uploads/2015/04/salada_grao_atum.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://raquelicias.com.br/wp-content/uploads/2014/05/grao-de-bico_gordelicias2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Omelete de Queijo e Espinafre</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Ovos</li>
+                <li>Queijo ralado</li>
+                <li>Espinafre fresco</li>
+                <li>Sal e pimentaa</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Bata os ovos em uma tigela e tempere com sal e pimenta.</li> <br>
+                    <li>Despeje os ovos em uma frigideira quente.</li> <br>
+                    <li>Adicione queijo e espinafre.</li> <br>
+                    <li>Dobre ao meio e cozinhe até o queijo derreter.</li><br>
+                    <li>Sirva imediatamente.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta omelete é uma opção versátil e rápida para o café da manhã, almoço ou jantar. O queijo derretido
+                    proporciona uma cremosidade irresistível, enquanto o espinafre adiciona um toque de frescor e
+                    nutrientes. Em apenas alguns minutos, você pode desfrutar de uma refeição nutritiva e reconfortante.
+                </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 10 minutos.</h2>
+
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://fitgress.com/wp-content/uploads/2016/12/omolete_queijo_feta_e_brocolos-e1482847529199.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2015/11/omelete-espinafre.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/omelete-de-frango-com-espinafre.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Bruschetta de Tomate e Manjericão</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Tomates maduros</li>
+                <li>Manjericão fresco</li>
+                <li>Alho</li>
+                <li>Azeite de oliva</li>
+                <li>Pão italiano</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture os tomates, manjericão e alho em cubos.</li> <br>
+                    <li>Regue com azeite de oliva e misture.</li> <br>
+                    <li>Torre fatias de pão italiano.</li> <br>
+                    <li>Coloque a mistura de tomate sobre as fatias de pão.</li><br>
+                    <li>Sirva como aperitivo ou entrada.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Essa Bruschetta é uma escolha elegante e fácil de preparar para impressionar seus convidados ou
+                    simplesmente para desfrutar como um aperitivo. A combinação do suculento tomate com a fragrância do
+                    manjericão e o toque do azeite de oliva cria uma experiência sensorial única. Sirva imediatamente
+                    para aproveitar o pão crocante contrastando com o recheio fresco e saboroso. Uma opção perfeita para
+                    ocasiões especiais ou para saborear em um dia comum.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.anamariareceitas.com.br/wp-content/uploads/2023/04/Bruschetta-de-tomate-e-manjericao-1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://cdn.casaeculinaria.com/wp-content/uploads/2023/02/15154355/Bruschetta-de-tomate-e-manjericao.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://oquetempracomer.com.br/wp-content/uploads/elementor/thumbs/Bruschetta-de-tomate-e-manjericao-4-px2njxh0qkgxangg92j9taxu8qalzc3hwb36x417ks.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Smoothie de Frutas</h1>
+                <h2>INGREDIENTES:</h2>
+                <li>Banana congelada</li>
+                <li>Morangos</li>
+                <li>Iogurte natural</li>
+                <li>Mel</li>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture todos os ingredientes no liquidificador..</li> <br>
+                    <li>Bata até obter uma consistência cremosa.</li> <br>
+                    <li>Torre fatias de pão italiano.</li> <br>
+                    <li>Despeje em um copo e aproveite.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Este smoothie de frutas é uma explosão refrescante de sabores. A combinação de bananas
+                    congeladas e morangos cria uma base cremosa, enquanto o iogurte natural adiciona uma textura
+                    suave e um toque de acidez. O mel é usado para adoçar naturalmente, e a mistura resultante é
+                    uma bebida saudável, cheia de nutrientes e perfeita para um impulso de energia a qualquer
+                    momento do dia.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 5 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://essareceitafunciona.com.br/wp-content/uploads/2023/09/Smoothie-de-frutas-vermelhas-Essa-Receita-Funciona-2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2022/02/Smoothie-frutas-vermelhas.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Batata Doce Assada com Guacamole</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Batata doce</li>
+                    <li>Abacate maduro</li>
+                    <li>Tomate</li>
+                    <li>Coentro</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Asse a batata doce no forno.</li><br>
+                    <li>Amasse o abacate, misture com tomate e coentro.</li><br>
+                    <li>Cubra a batata doce com o guacamole.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esta receita é uma opção versátil que pode ser apreciada como acompanhamento, lanche ou mesmo
+                    como uma refeição leve. Aproveite a combinação única de sabores e nutrientes que esta
+                    receita oferece.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30-40 minutos.</h2>
+                <div class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://melepimenta.com/wp-content/uploads/2020/06/Batata-doce-picante-guacamole-Baixa-4.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://organicosinbox.com.br/wp-content/uploads/2020/09/73-WZ1A5649.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://i.pinimg.com/736x/aa/40/0c/aa400c30259cc58a3e14f59665e38a05.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Muffins de Banana com Aveia</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Bananas maduras</li>
+                    <li>Aveia</li>
+                    <li>Ovos</li>
+                    <li>Mel</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Amasse as bananas e misture com aveia, ovos e mel.</li><br>
+                    <li>Coloque em formas de muffin e asse.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Esses muffins são uma opção versátil, podendo ser armazenados por alguns dias e são
+                    ótimos para levar como um lanche saudável em movimento. Aproveite a combinação nutritiva
+                    e deliciosa desses muffins de banana com aveia!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 40 minutos.</h2>
+                <div class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://img.cybercook.com.br/receitas/512/muffin-de-banana-e-aveia-3.jpeg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://www.adrianalauffer.com.br/wp-content/uploads/2020/03/receita-de-muffin-de-banana-e-aveia.png)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://reviewairfryer.com.br/wp-content/uploads/2023/04/muffin-de-banana-na-airfryer.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Pizza de Pão Sírio</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Pão sírio</li>
+                    <li>Molho de tomate</li>
+                    <li>Queijo mozarela</li>
+                    <li>Tomate e manjericão</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Espalhe o molho de tomate no pão sírio.</li><br>
+                    <li>Cubra com queijo, tomate e manjericão.</li><br>
+                    <li>Asse até o queijo derreter.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Essa pizza de pão sírio é uma solução rápida para os desejos de pizza, ideal para
+                    aqueles momentos em que você quer uma refeição deliciosa em pouco tempo.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://cdn.gourmetadois.com/data/imagens/receitas/2014/07/G2_pizza-de-pao-arabe_54dcf10aaf5f9_org.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://www.daninoce.com.br/wp-content/uploads/2017/09/pizza.png)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://www.ciscandonacozinha.com.br/public/images/thumb.php?src=https://www.ciscandonacozinha.com.br/public/_IMG/receitas/receita_314.jpg&w=800&h=600)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Molho de Pesto de Rúcula</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Rúcula</li>
+                    <li>Parmesão ralado</li>
+                    <li>Pinhões</li>
+                    <li>Alho</li>
+                    <li>Azeite de oliva</li>
+                    <li>Sal e pimenta a gosto</li>
+                  </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Triture rúcula, parmesão, pinhões e alho em um processador.</li><br>
+                    <li>Adicione azeite de oliva até obter a consistência desejada.</li><br>
+                    <li>Tempere com sal e pimenta.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>Essa Chips de Maçã com Canela é uma escolha elegante e fácil de preparar para impressionar seus
+                    convidados
+                    ou
+                    simplesmente para desfrutar como um aperitivo. Aproveite a combinação nutritiva
+                    e deliciosa desses chips de maçã com canela!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 2 horas 10 minutos.</h2>
+                <div class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://quemtemmedodecozinha.files.wordpress.com/2015/07/img_0380-0.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://4.bp.blogspot.com/-Vzci3tPfE7I/WrALaWwxwRI/AAAAAAAAZMg/4mSnefZuPq8woJPHIVSmMig4AcaG873fwCLcBGAs/s1600/como%2Bfazer%2Bchips%2Bde%2Bma%25C3%25A7%25C3%25A3%2B%25287%2529.png)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://static.wixstatic.com/media/3a5cca_ccacfa6e99af4ebcba4d3c5114cd59b6~mv2.png/v1/fill/w_292,h_224,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a5cca_ccacfa6e99af4ebcba4d3c5114cd59b6~mv2.png)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Receitas-->
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

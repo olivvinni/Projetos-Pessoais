@@ -3,524 +3,579 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Home.css">
-    <link rel="Website Icon" type="png" href="IMGs/logo.png">
-    <title>www.JoãoVieiradeAlmeida.com.br</title>
-    <script src="function.js"></script>
+    <title>Home</title>
+    <script src="/JS/function.js"></script>
 </head>
 
 <body>
-    <!--Main-->
-    <div class="fle">
 
-        <!--SideBar Responsiva-->
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="area"></div><nav class="main-menu">
-            <ul>
-                <li style="list-style-image:url(icons/home-branca.png);margin-left: 8%;">
-                    <a href="Home.html">
-                        <i class="fa fa-home fa-2x"></i>
-                        <span class="nav-text">
-                           Home
-                        </span>
-                    </a>
-                  
-                </li>
-                <li  style="list-style-image:url(icons/noticias.png);margin-left: 8%;" class="has-subnav">
-                    <a href="Noticias.html">
-                        <i class="fa fa-globe fa-2x"></i>
-                        <span class="nav-text">
-                            Noticias
-                        </span>
-                    </a>
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;font-size: 11px;" href="#">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a>
+            </li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href="/HTML - 1/Home.html"><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+        <!--Dropdowns-->
+        <section>
+            <ul id="drops">
+                <div>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href=""
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png" alt="">Destaques
+                            da Semana</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/OCASIÕES/ALMOCO.html">Almoço</a>
+                            <a href="/HTML - 3/OCASIÕES/CAFE DA MANHA.html">Café da Manha</a>
+                            <a href="/HTML - 3/TOPs 10/SALGADOS.html">Salgado</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="javascript:void(0)"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png" alt="">Receias
+                            Especiais</a>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                Peixe Pão de Açúcar</a>
+                            <a href="#">Miojo do Erick Jacquin</a>
+                            <a href="#">Tiramisu</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="javascript:void(0)"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png" alt="">Receitas
+                            Com...</a>
+                        <div class="dropdown-content">
+                            <a href="#">Banana</a>
+                            <a href="#">Laranja</a>
+                            <a href="#">Melancia</a>
+                            <a href="#">Pera</a>
+                            <a href="#">Morango</a>
+                            <a href="#">Maça</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="/HTML - 2/Dietas.html"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png" alt="">Dietas</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/DIETAS/DIET.html">Diet</a>
+                            <a href="/HTML - 3/DIETAS/VEGANA.html">Vegana</a>
+                            <a href="/HTML - 3/DIETAS/SEM LACTOSE.html">Sem Lactose</a>
+                            <a href="/HTML - 3/DIETAS/SAUDAVEL.html"></a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="/HTML - 2/Regional.html"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png"
+                                alt="">Regional</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/REGIONAL/SUDESTE.html">Sudeste</a>
+                            <a href="/HTML - 3/REGIONAL/NORDESTE.html">Nordeste</a>
+                            <a href="/HTML - 3/REGIONAL/CENTRO-OESTE.html">Centro-Oeste</a>
+                            <a href="/HTML - 3/REGIONAL/SUL.html">Sul</a>
+                            <a href="/HTML - 3/REGIONAL/NORTE.html">Norte</a>
+                        </div>
+                    </li>
+                </div>
+                <div>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="/HTML - 2/ReceitasRapidas.html"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png"
+                                alt="">receitas Rapidas</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/RECEITAS RAPIDAS/LANCHES.html">Lanches</a>
+                            <a href="/HTML - 3/RECEITAS RAPIDAS/PARA O ALMOCO.html">Para o Almoço</a>
+                            <a href="/HTML - 3/RECEITAS RAPIDAS/PARA O JANTAR.html">para a Janta</a>
+                            <a href="/HTML - 3/RECEITAS RAPIDAS/SALADAS.html">Saladas</a>
+                            <a href="/HTML - 3/RECEITAS RAPIDAS/SOBREMESAS.html">Sobremesas</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="/HTML - 2/Ocasiões.html"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png"
+                                alt="">Ocasiões</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/OCASIÕES/ALMOCO.html">Almoço</a>
+                            <a href="/HTML - 3/OCASIÕES/CAFE DA MANHA.html">Café da Manha</a>
+                            <a href="/HTML - 3/OCASIÕES/CAFE DA TARDE.html">Café da Tarde</a>
+                            <a href="/HTML - 3/OCASIÕES/JANTAR.html">Jantar</a>
+                            <a href="/HTML - 3/OCASIÕES/OCASIOES ESPECIAIS.html">Ocasiões Especiais</a>
+                        </div>
+                    </li>
                     
-                </li>
-                <li  style="list-style-image:url(icons/pessoas.png);margin-left: 8%;" class="has-subnav">
-                    <a href="Ambiente.html">
-                       <i class="fa fa-comments fa-2x"></i>
-                        <span class="nav-text">
-                            Ambiente
-                        </span>
-                    </a>
-                    
-                </li>
-                <li  style="list-style-image:url(icons/historia.png);margin-left: 8%;" class="has-subnav">
-                    <a href="Historia.html">
-                       <i class="fa fa-camera-retro fa-2x"></i>
-                        <span class="nav-text">
-                            Historia
-                        </span>
-                    </a>
-                   
-                </li>
-                <li  style="list-style-image:url(icons/eletivas.png);margin-left: 8%;">
-                    <a href="Eletivas.html">
-                        <i class="fa fa-film fa-2x"></i>
-                        <span class="nav-text">
-                            Eletivas
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/alunos.png);margin-left: 8%;">
-                    <a href="Anuario-3a.html">
-                        <i class="fa fa-book fa-2x"></i>
-                        <span class="nav-text">
-                           Alunos
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/professores.png);margin-left: 8%;">
-                   <a href="Professores.html">
-                       <i class="fa fa-cogs fa-2x"></i>
-                        <span class="nav-text">
-                            Professores
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/gremio.png);margin-left: 8%;">
-                   <a href="Gremio.css">
-                        <i class="fa fa-map-marker fa-2x"></i>
-                        <span class="nav-text">
-                            Gremio
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/faqs.png);margin-left: 8%;">
-                    <a href="faqs.html">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         Faqs
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/contato.png);margin-left: 8%;">
-                    <a href="Contato.html">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         Contato
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/creditos.png);margin-left: 8%;">
-                    <a href="Creditos.html">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         Créditos
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/sed.png);margin-left: 8%;">
-                    <a href="https://www.bing.com/ck/a?!&&p=4a55425e742ac67aJmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE4Mg&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=sed+secretaria+digital&u=a1aHR0cHM6Ly9zZWQuZWR1Y2FjYW8uc3AuZ292LmJyLw&ntb=1">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         Sed
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/cmsp.PNG);margin-left: 8%;">
-                    <a href="https://www.bing.com/ck/a?!&&p=4baa4fb3efc41b00JmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTIwNA&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=cmsp&u=a1aHR0cHM6Ly9jZW50cm9kZW1pZGlhc3AuZWR1Y2FjYW8uc3AuZ292LmJyLw&ntb=1">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         CMSP
-                        </span>
-                    </a>
-                </li>
-                <li  style="list-style-image:url(icons/boletim.png );margin-left: 8%;">
-                    <a href="https://www.bing.com/ck/a?!&&p=f9e000e8bf0f6f27JmltdHM9MTY5MDE1NjgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE4Ng&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=boletim+escolar&u=a1aHR0cHM6Ly9zZWQuZWR1Y2FjYW8uc3AuZ292LmJyL0JvbGV0aW0vQm9sZXRpbUVzY29sYXI&ntb=1">
-                       <i class="fa fa-info fa-2x"></i>
-                        <span class="nav-text">
-                         Boletin Escolar
-                        </span>
-                    </a>
-                </li>
+                    <li class="dropdown">
+                        <a style="list-style-image: url(/IMGs/seta-para-baixo-preto.png);" href="/HTML - 2/ArtigosEDicas.html"
+                            class="dropbtn"><img id="seta-baixo" src="/IMGs/seta-para-baixo-preto.png" alt="">Dicas</a>
+                        <div class="dropdown-content">
+                            <a href="/HTML - 3/ARTIGOS E DICAS/DICA 1.html">Tecnicas de Corte</a>
+                            <a href="/HTML - 3/ARTIGOS E DICAS/DICA 3.html">
+                                5 Receitas Basicas do Dia-a-Dia</a>
+                            <a href="/HTML - 3/ARTIGOS E DICAS/DICA 4.html">Uso de Temperos</a>
+                        </div>
+                    </li>
+                 
+              
+
+                </div>
             </ul>
+        </section>
+        <!--Dropdowns-->
 
-           
-        </nav>
-        </div>
-        <!--SideBar Responsiva-->
-
-        <!--Conteudo Principal-->
-        <div id="main">
+        <!--Carrossel-->
+        <div style="margin-top: 5%;" class="container">
             <div>
-                <!--Cabeçalho-->
-                <header>
-                    <!--Barra de Navegação-->
-                    <section class="top-nav">
-                        <span onclick="openNav()"><img style="width: 20px;" src="icons/tres-opcoes-branca.png"
-                                alt=""></span>
-                        <div class="menu-fixo">
-                            <ul>
-                                <a id="opa" href="Home.html">
-                                    HOME
-                                </a>
-                                <a id="opa" href="Contato.html">
-                                    CONTATO
-                                </a>
-                                <a id="opa" href="Faqs.html">
-                                    FAQs
-                                </a>
-                                <a id="opa" href="Noticias.html">
-                                    NOTICIAS
-                                </a>
-                                <a id="opa" href="Creditos.html">
-                                    CREDITOS
-                                </a>
-                            </ul>
-                        </div>
-                        <div>
-                            <a href="index.html"><img id="icon" src="icons/hom-preto.png" alt=""></a>
-                        </div>
-                    </section>
-                    <!--Barra de Navegação-->
-
-                    <!--Logo/Nome da Escola-->
-                    <div id="logo-nome">
-                        <img id="logo" src="IMGs/logo.png" alt="">
-                        <h3>ESCOLA PUBLICA ESTADUAL</h3>
-                        <h1>JOÃO VIEIRA DE ALMEIDA</h1>
-                    </div>
-                    <!--Logo/Nome da Escola-->
-
-                    <!--Botões Inferiores-->
-                    <nav class="navMenu">
-                        <li><a href="Historia.html">Historia</a></li>
-                        <li><a href="Ambiente.html">Ambiente</a></li>
-                        <li><a href="Professores.html">Professores</a></li>
-                        <li> <a href="Anuario-3a.html">Anuario</a></li>
-                        <li> <a href="Eletivas.html">Eletivas</a></li>
-                    </nav>
-                    <!--Botões Inferiores-->
-                </header>
-                <!--Cabeçalho-->
-
-                <!--Sobre a Escola-->
-                <section>
-                    <div id="sobre">
-                        <div class="box-1"><img id="ft-escola" src="IMGs/ft-escola-antiga.jfif" alt=""></div>
-                        <div class="box-2">
-                            <h1>SOBRE A ESCOLA JOÃO VIEIRA DE ALMEIDA</h1>
-                            <p>A JOAO VIEIRA DE ALMEIDA foi criada no dia 13/06/1988. A instituição privada de educação
-                                básica JOAO
-                                VIEIRA DE ALMEIDA fica no bairro de VILA MARIA , em São Paulo ( SP ).
-                                Nossa escola oferece toda a estrutura necessária para o conforto e desenvolvimento
-                                educacional dos
-                                seus alunos, como por exemplo: Internet, Banda Larga, Refeitório, Quadra Esportiva ao
-                                ar-livre,
-                                Quadra Esportiva Coberta, Laboratório de Ciência, Laboratório de Informática, Sala de
-                                Leitura,
-                                Auditório, Pátio Descoberto, Sala do Professor e Alimentação.</p>
-                        </div>
-                        <div class="box-1"><img id="ft-escola" src="/IMGs/ft-escola-nova.jfif" alt=""></div>
-                    </div>
-                    <!--Localização-->
-                    <div id="localizacao">
-                        <fieldset id="field">
-                            <legend id="legend">Localização</legend>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.393584425747!2d-46.592027887410026!3d-23.518342359928102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f3409fee687%3A0x5a14399179516fe7!2sE.E.%20Jo%C3%A3o%20Vieira%20de%20Almeida!5e0!3m2!1spt-BR!2sbr!4v1684759795270!5m2!1spt-BR!2sbr"
-                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </fieldset>
-                    </div>
-                    <!--Localização-->
-                </section>
-                <!--Sobre a Escola-->
-
-                <!--Infrasestrutura-->
-                <div id="infra">
-                    <h1>NOSSA INFRAESTRUTURA</h1>
-                    <div id="qualidade">
-                        <div class="qualidades">
-                            <h3>Alimentação, Saúde e Higiene</h3>
-                            <ul>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Alimentação escolar para os alunos
-                                </li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Água filtrada</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Água de rede pública</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Energia de rede pública</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Esgoto da rede pública</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Acesso à internet</li>
-                            </ul>
-                            <h3>Equipamentos</h3>
-                            <ul>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">TV</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">DVD</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Copiadora</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Impressora</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Aparelho de Som</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Projetor Multimidia ( DataShow )
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="qualidades">
-                            <h3>Instalação de Ensino</h3>
-                            <ul>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">15 Salas de Aula</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Sala de Diretoria</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Sala dos Professores</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Laboratorio de Informatica</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">laboratorio de Ciencias</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Quadra de Esportes coberta</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Cozinha</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Sala de Leitura</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Banheiro adequado a alunos com
-                                    deficiência ou mobilidade reduzida</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Sala de secretaria</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Refeitório</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Despensa</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Auditório</li>
-                                <li><img id="bolinha" src="icons/bolinha.png" alt="">Pátio descoberto</li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="content">
+                    <h2>Lasanha Vegetariana</h2>
+                    <span>Jantar</span>
                 </div>
-                <!--Infrasestrutura-->
-
-                <!--Como é instruturada a nossa escola?-->
-                <div id="titulo">
-                    <h1 style="font-size: 25px;">Como é estruturado o ensino em nossa escola ?</h1>
-                    <p style="font-size: 20px;">Oferecemos aulas de Ensino fundamental II e Ensino médio. Nos
-                        respectivos periodos diurno,
-                        vesperino e
-                        noturno.</p>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Frango Grelhado</h2>
+                    <span>Almoço</span>
                 </div>
-                <div id="turma">
-                    <div class="turmas">
-                        <img src="" alt="">
-                        <h2>MANHA</h2>
-                        <h3>ESINO MEDIO</h3>
-                        <h5>1ª SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 6</li>
-                            <li>Média de alunos por turma: 34</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li>Inglês</li>
-                            <li>Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li>Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li>Educação Física</li>
-                            <li>Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li>Física</li>
-                            <li>Biologia</li>
-                            <li>Itinerários</li>
-                        </ul>
-                        <h5>2 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 39</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li> Inglês</li>
-                            <li>Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li>Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li>Educação Física</li>
-                            <li>Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Física</li>
-                            <li> Biologia</li>
-                            <li> Itinerários</li>
-                        </ul>
-                        <h5>3 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 36</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li> Inglês</li>
-                            <li>Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li>Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li>Educação Física</li>
-                            <li>Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Física</li>
-                            <li> Biologia</li>
-                            <li> Itinerários</li>
-                        </ul>
-                    </div>
-                    <div class="turmas">
-                        <img src="" alt="">
-                        <h2>TARDE</h2>
-                        <h3>ENSINO FUNDAMENTAL II</h3>
-                        <h5>6 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 28</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li>Inglês</li>
-                            <li> Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li> Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li> Educação Física</li>
-                            <li> Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Ciencias Humanas</li>
-                            <li>Ciencias Naturais</li>
-                        </ul>
-                        <h5>7 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 28</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li>Inglês</li>
-                            <li> Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li> Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li> Educação Física</li>
-                            <li> Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Ciencias Humanas</li>
-                            <li>Ciencias Naturais</li>
-                        </ul>
-                        <h5>8 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 32</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li>Inglês</li>
-                            <li> Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li> Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li> Educação Física</li>
-                            <li> Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Ciencias Humanas</li>
-                            <li>Ciencias Naturais</li>
-                        </ul>
-                        <h5>9 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas: 3</li>
-                            <li>Média de alunos por turma: 33</li>
-                            <li>Aula Presencial</li>
-                            <li>Materias:</li>
-                            <li>Inglês</li>
-                            <li> Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li> Filosofia</li>
-                            <li>Sociologia</li>
-                            <li>Estudos Sociais ou Sociologia</li>
-                            <li> Educação Física</li>
-                            <li> Matematica</li>
-                            <li> L.Portuguesa</li>
-                            <li> Ciencias Humanas</li>
-                            <li>Ciencias Naturais</li>
-                        </ul>
-                    </div>
-                    <div class="turmas">
-                        <img src="" alt="">
-                        <h2>NOITE</h2>
-                        <h3>ENSINO MEDIO-EJA</h3>
-                        <h5>1; 2; E 3 SERIE</h5>
-                        <ul>
-                            <li>Número de turmas 6 / Média de alunos por turma: 46</li>
-                            <li> Aula Presencial</li>
-                            <li> Inglês</li>
-                            <li>Artes (Educação Artística, Teatro, Dança, Música, Artes Plásticas e outras)</li>
-                            <li> Filosofia</li>
-                            <li>Sociologia</li>
-                            <li> Estudos Sociais ou Sociologia</li>
-                            <li> Educação Física</li>
-                        </ul>
-                    </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Omelete de Queijo e Espinafre</h2>
+                    <span>Lanches</span>
                 </div>
-                <!--Como é instruturada a nossa escola?-->
-
-                <!--Rodapé-->
-                <footer>
-                    <hr id="hrs">
-                    <div id="rodape">
-                        <div class="rodas">
-                            <h2>PRINCIPAL</h2>
-                            <ul>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Home.html">Home</img></li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Historia.html">História</img>
-                                </li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Ambiente.html">Ambiente</img>
-                                </li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Professores.html">Professores</img>
-                                </li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Noticias.html">Noticias</img>
-                                </li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Gremio.html">Gremio</img></li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Faqs.html">FaQs</img></li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Eletivas.html">Eletivas</img>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="rodas">
-                            <h2>CONTATO</h2>
-                            <ul>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Gmail:</a></li>
-                                <li style="list-style-image: url(icons/gmail.png);"><a
-                                        href="https://www.bing.com/ck/a?!&&p=837dd5d961831696JmltdHM9MTY5MDkzNDQwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE5Mw&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=gamil&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbD9obD1wdC1CUg&ntb=1">e000838a@see.sp.gov.br@gmail.com</img></li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Redes
-                                        Sociais</img></li>
-                                <li style="list-style-image: url(icons/facebook.png);"><a
-                                        href="https://www.bing.com/ck/a?!&&p=9c1d3b2bb503dd81JmltdHM9MTY4ODQyODgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE5OQ&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=facebook+escola+joao+vieira+de+almeida&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0pvYW9WaWVpcmFEZUFsbWVpZGEv&ntb=1">@JoaoVieiraDeAlmeida/facebook.com</img>
-                                </li>
-                                <li style="list-style-image: url(icons/instagram.png);"><a
-                                        href="https://www.bing.com/ck/a?!&&p=6f009fcda5d9278eJmltdHM9MTY4ODQyODgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE4OA&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=instagram+escola+joao+vieira+de+almeida&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9lc2NvbGEuanZhLw&ntb=1">@escola.jva/instagram.com</img>
-                                </li>
-                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Telefones:</img>
-                                </li>
-                                <li style="list-style-image: url(icons/fone.png);"><a href="">(11) 2631-1732</img></li>
-                            </ul>
-                        </div>
-                        <div class="rodas">
-                            <h3 id="txt"><a href="">
-                                    Caros alunos, pais e professores :
-                                    <br>
-                                    Queremos agradecer a confiança e o apoio de todos vocês, que contribuíram para o
-                                    sucesso
-                                    das nossas atividades pedagógicas, culturais e sociais.
-                                    <br>
-                                    Parabenizamos os nossos alunos pelo excelente desempenho acadêmico e pela
-                                    participação
-                                    nos projetos desenvolvidos pela escola. Reconhecemos o esforço dos nossos
-                                    professores,
-                                    que se empenharam em oferecer um ensino de qualidade e inovador, utilizando as
-                                    ferramentas digitais disponíveis. E agradecemos aos pais, que nos apoiaram e nos
-                                    acompanharam nessa jornada educativa.
-                                </a>
-                            </h3>
-                        </div>
-                        <div class="rodas">
-                            <img id="logo-rodape" src="IMGs/logo.png" alt="">
-                        </div>
-                    </div>
-                    <div id="creditos">
-                        <div class="credito">
-                            Copyright © 2023 - Todos os direitos reservados - Escola JVA
-                        </div>
-                        <div class="credito">
-                            Desenvolvido por: 3ºA TURMA DE 2023 e Profº Paulo Henrique
-                        </div>
-                    </div>
-                </footer>
-                <!--Rodapé-->
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Risoto de Cogumelos</h2>
+                    <span>Almoço</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Mousse De Chocolate</h2>
+                    <span>Sobremesa</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Jacaré a Passarinho</h2>
+                    <span>Regional</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Iogurte Com Granola e Mel</h2>
+                    <span>Sobremesa</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Manisoba</h2>
+                    <span>Regional</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Pirarucu</h2>
+                    <span>Regional</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Cuscuz Marroquino</h2>
+                    <span>Dieta</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Antepasto de Berinjela</h2>
+                    <span>Dieta</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Bolo-de-Caneca</h2>
+                    <span>Sobremesa</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Brigadeiro</h2>
+                    <span>Sobremesa</span>
+                </div>
+            </div>
+            <div>
+                <div class="content">
+                    <h2>Bruschettas De Abobrinha</h2>
+                    <span>Dieta</span>
+                </div>
             </div>
 
         </div>
-        <!--Conteudo Principal-->
+        <!--Carrossel-->
+
+        <!--Pontos-->
+        <div id="pontos">
+            <img src="/IMGs/pontosgrande.png" alt=""> <img src="/IMGs/pontosgrande.png" alt="">
+            <img src="/IMGs/pontosgrande.png" alt=""> <img src="/IMGs/pontosgrande.png" alt="">
+
+        </div>
+        <!--Pontos-->
+
+        <!--Destaque-->
+        <div>
+            <div style="margin-top: 10%;" class="containerum">
+                <div style="background: url(/IMGs/strogonoff.jpg)no-repeat 50% / cover;">
+                    <h2 style="margin-left: 30%;margin-top: 34%;color: white;">Strogonoff</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/macarronada.jfif)no-repeat 50% / cover;">
+                    <h2 style="margin-left: 12%;margin-top: 34%;color: white;">Macarronada de Carne</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/lasanha.jfif)no-repeat 50% / cover;">
+                    <h2 style="margin-left: 38%;margin-top: 34%;color: white;">Lasanha</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/curry.jfif)no-repeat 50% / cover;">
+                    <h2 style="margin-left: 40%;margin-top: 34%;color: white;">Curry</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+            </div>
+
+            <div id="titulo">
+                <hr>
+                <h1 style="font-size: 50px;">Destaques da Semana</h1>
+                <hr style="margin-bottom: 5%;">
+            </div>
+
+            <div style="margin-bottom: 10%;" class="containerum">
+                <div style="background: url(/IMGs/panqueca.jpg)no-repeat 50% / cover;" >
+                    <h2 style="margin-left: 35%;margin-top: 34%;color: white;">Panqueca</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/pasta-alfredo.jfif)no-repeat 50% / cover;" >
+                    <h2 style="margin-left: 30%;margin-top: 34%;color: white;">Pasta Alfredo</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/almondega.webp)no-repeat 50% / cover;" >
+                    <h2 style="margin-left: 30%;margin-top: 34%;color: white;">Almondegas</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+                <div style="background: url(/IMGs/Arroz-doce.webp)no-repeat 50% / cover;" >
+                    <h2 style="margin-left: 35%;margin-top: 34%;color: white;">Arroz Doce</h2>
+                    <span style="margin-left: 37%;color: white;"></span>
+                </div>
+            </div>
+        </div>
+        <!--Destaque-->
+
+        <!--Receitas Especiais-->
+        <div>
+            <div style="margin-bottom: 5%;margin-top: -100px;" id="titulo">
+                <h1>Receitas Especiais</h1>
+                <hr>
+            </div>
+
+            <div class="bloco">
+                <div id="foto-receita">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/pao-de-acucar.jfif)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+                <div id="desc-receita">
+                    <h1>Peixe Pão de Açúcar</h1>
+                    <p>Peixe Pão de Açúcar é um prato de origem francesa conhecido como "Poisson en Papillote" (peixe em papel alumínio ou papel manteiga). É uma maneira deliciosa e saudável de preparar peixe, onde o peixe é cozido no vapor dentro de um invólucro de papel, que pode ser papel alumínio ou papel manteiga, geralmente acompanhado de legumes, ervas e um líquido aromatizado. O nome "Pão de Açúcar" provavelmente se refere à montanha homônima no Rio de Janeiro, que é famosa por sua forma distintiva.</p>
+                </div>
+            </div>
+
+            <hr style="margin: 3%;border-color: rgba(0, 0, 0, 0.076);border-width: 1px;">
+
+            <div class="bloco2">
+                <div id="desc-receita2">
+                    <h1>Pernil de Cordeiro Assado</h1>
+                    <p>O Pernil de Cordeiro Assado é um prato clássico que apresenta uma carne saborosa e suculenta, geralmente feita a partir da perna ou da paleta de cordeiro. É uma iguaria apreciada em muitas culinárias ao redor do mundo, incluindo a mediterrânea e a do Oriente Médio. Este prato é frequentemente preparado em ocasiões especiais e festivas devido à sua sofisticação e sabor.</p>
+                </div>
+                <div id="foto-receita2">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/Pernil\ de\ Cordeiro\ Assado.jfif)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 3%;border-color: rgba(0, 0, 0, 0.076);border-width: 1px;">
+
+            <div class="bloco">
+                <div id="foto-receita">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/Salada\ Niçoise.jfif)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+                <div id="desc-receita">
+                    <h1>Salada Niçoise</h1>
+                    <p>A Salada Niçoise é uma famosa e deliciosa salada originária da cidade de Nice, na França, e é conhecida por sua combinação de ingredientes frescos e saborosos. É uma opção de refeição leve e saudável que pode ser servida como entrada ou prato principal, e é particularmente popular durante os meses quentes de verão.</p>
+                </div>
+            </div>
+
+            <hr style="margin: 3%;border-color: rgba(0, 0, 0, 0.076);border-width: 1px;">
+
+            <div class="bloco2">
+                <div id="desc-receita2">
+                    <h1>Bacalhau à Brás</h1>
+                    <p>O Bacalhau à Brás é um prato tradicional da culinária portuguesa que tem como ingrediente principal o bacalhau. É uma receita bastante popular em Portugal, especialmente durante a Semana Santa e outras ocasiões festivas. O nome "à Brás" está associado a um dos seus possíveis criadores, um taberneiro lisboeta do século XIX.</p>
+                </div>
+                <div id="foto-receita2">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/Bacalhau\ à\ Brás.jfif)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin: 3%;border-color: rgba(0, 0, 0, 0.076);border-width: 1px;">
+
+            <div class="bloco">
+                <div id="foto-receita">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/miojo.png)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+                <div id="desc-receita">
+                    <h1>Miojo do Erick Jacquin</h1>
+                    <p>O jurado do MasterChef Brasil afirma: o macarrão instantâneo deve ser feito na frigideira e com pouca água. “Ferva um pouco de água. Depois, coloque o ‘miojo’ inteiro e abra a massa no meio. Deixe cozinhar e adicione um pouco mais de água. Mexa e cozinhe por mais dois minutos”, diz Jacquin em entrevista ao podcast Flow.</p>
+                </div>
+            </div>
+
+            <hr style="margin: 3%;border-color: rgba(0, 0, 0, 0.076);border-width: 1px;">
+
+            <div class="bloco2">
+                <div id="desc-receita2">
+                    <h1>Tiramisu</h1>
+                    <p>O Tiramisu é uma sobremesa clássica italiana, conhecida por sua combinação irresistível de sabores e texturas. Nessa receita, você aprenderá a preparar essa delícia de forma fácil e deliciosa. O Tiramisu é perfeito para encerrar uma refeição especial ou para ser servido em ocasiões especiais. Siga os passos dessa receita e desfrute desse clássico italiano que conquista paladares ao redor do mundo.</p>
+                </div>
+                <div id="foto-receita2">
+                    <div class="containerum">
+                        <div style="background: url(/IMGs/Tiramisu.jfif)no-repeat 50% / cover;" >
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
-    </div>
-    <!--Main-->
+
+        </div>
+        <!--Receitas Especiais-->
+
+        <!--Receitas com...-->
+        <div>
+            <div style="margin-bottom: 5%;" id="titulo">
+                <h1>Receitas com...</h1>
+                <hr>
+                <div style="margin-top: 2%;" class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.CouZVPKhcW8z6scDVkw7YgHaEK?pid=ImgDet&rs=1)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">BANANA</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.fiWRfu-G-fXlTCvZJcG4bwHaFj?pid=ImgDet&rs=1)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">LARANJA</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/R.a9eaae239cf5da29de4a5c052d0dfb03?rik=5lPYmBM0Z%2fLlAQ&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">COCO</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://dicademusculacao.com.br/wp-content/uploads/2017/07/mexerica-1.jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">MEXIRICA</h2>
+                    </div>
+
+                </div>
+                <div class="containerum">
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/R.8d68a3f89606e237a31ad2cc2e8d8cf0?rik=FEKGkkGiT1INxg&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">MELANCIA</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://images.pexels.com/photos/867349/pexels-photo-867349.jpeg?cs=srgb&dl=sliced-kiwi-fruits-867349.jpg&fm=jpg)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">KIWI</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/R.0e3373d9927b8e9a04c17af272f90da4?rik=MKpAOFexbzl9fg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-HOSHH6QHJuo%2fUaOd8efz9gI%2fAAAAAAAAAbo%2fivgCbKDdjrY%2fs1600%2fmorango-vitaminas-morango%2b%2525284%252529.jpg&ehk=7qj0CxKpYFiP0zQIM%2feczVv26dmT%2bkuc6xLYwnrq7C8%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">MORANGO</h2>
+                    </div>
+                    <div
+                        style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.vbD0kGapPYQCkWa1BfKnogHaE7?pid=ImgDet&rs=1)no-repeat 50% / cover;">
+                        <h2 style="margin-top:15%;color: white;font-size: 30px;">MAÇA</h2>
+                    </div>
+                </div>
+                <div>
+                    <div class="containerum">
+                        <div
+                            style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.T_d6sxcB1gBHADClVzb-hwHaE8?pid=ImgDet&rs=1)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;">UVA</h2>
+                        </div>
+                        <div
+                            style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.xDgQcGcV_CND8BBcQy6y_AHaE8?pid=ImgDet&rs=1)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;">MELÃO</h2>
+                        </div>
+                        <div
+                            style="margin: 1%;background: url(https://th.bing.com/th/id/R.851928d3264a61207dcf7a7fb7cfa847?rik=HpFGfvUxGVvlpw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;">PERA</h2>
+                        </div>
+                        <div
+                            style="margin: 1%;background: url(https://th.bing.com/th/id/R.26cf286df0684de6602dd111f754c5f0?rik=Hqk0VqOo6R7xfw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                            <h2 style="margin-top:15%;color: white;font-size: 30px;">FRUTAS VERMELHAS</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas com...-->
+
+        <!--Mais Opçõoes-->
+        <div>
+            <div id="titulo">
+                <h1 style="font-size: 30px;">Mais Opções</h1>
+            </div>
+
+            <div id="maisop">
+                <nav>
+                    <ul>
+                        <li><a href="/HTML - 2/Tops10.html">Tops 10</a></li>
+                        <li><a href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+                        <li><a href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+                        <li><a href="/HTML - 2/Dietas.html">Dietas</a></li>
+                        <li><a href="/HTML - 2/Regional.html">Regional</a></li>
+                        <li><a href="/HTML - 2/ReceitasRapidas.html">Receitas Rapidas</a></li>
+                        <li><a href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!--Mais Opçõoes-->
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnunciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p> Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
 </body>
 
 </html>

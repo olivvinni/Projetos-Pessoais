@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VEGETARIANA</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>RECEITAS VEGETARIANA</h1>
+            <hr>
+            <p>Receitas vegetarianas são elaboradas sem o uso de carne, incluindo carne vermelha, aves, peixe e frutos do mar. Em vez disso, essas receitas concentram-se em ingredientes à base de plantas, como frutas, vegetais, legumes, grãos, nozes e sementes. As receitas vegetarianas servem para diversas finalidades, atendendo a diferentes necessidades e preferências. </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Risoto de cogumelos</h1>
+                <ul>
+                    <li>Arroz arbóreo</li>
+                    <li>Cebola</li>
+                    <li>Talos de salsão picados na longitudinal e depois picados em pedaços pequenos</li>
+                    <li>Azeite</li>
+                    <li>Pimenta-do-reino</li>
+                    <li>Queijo parmesão</li>
+                    <li>Tomate sem sementes picado</li>
+                    <li>Alho </li>
+                    <li>Vinho branco seco</li>
+                    <li>Creme de leite fresco ou de manteiga</li>
+                    <li>Salsinha e cebolinha picadas</li>
+                    <li>Bandeja de cogumelos Paris, ou outro de sua preferência, cortados na transversal</li>
+                    <li>Sal</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Esquente o azeite, frite o alho, em seguida a cebola, depois coloque o cogumelo, adicione a metade do vinho, o tomate, o salsão, meio copo do caldo de legumes e deixe cozinhar até ficarem macios. Na sequencia coloque o arroz, o restante do caldo de legumes, o vinho que sobrou, a pimenta-do-reino moída na hora e o sal. Mexa constantemente.</li><br>
+                    <li>Quando o arroz estiver cozido coloque o creme de leite ou manteiga, mexa ainda mais, e depois adicione o queijo parmesão ao final.</li> <br>
+                    <li>Sirva com salsinha e cebolinha picada sobre o Risoto e mais parmesão, se desejar. Pode disponibilizar pimenta.</li><br>
+                    <li>Um bom vinho pode acompanhá-lo.</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p> O risoto de cogumelos é um prato delicioso e reconfortante, conhecido pela cremosidade e sabor rico. </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  1 Hora 15 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.epa.com.br/wp-content/uploads/2019/05/risoto.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.0f212d05a98c2c414b222df85b79e8fd?rik=v3durCby%2b%2bqhkg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-LxlVTpe-dNM%2fU5N4KvJWDMI%2fAAAAAAAAbq0%2fRai83gEqbD8%2fs1600%2f6.jpg&ehk=2buU33AJFAJNCnTa9yIcRgpbnK8lrjoepQ8HhgfwJqE%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://tobemnacozinha.com.br/wp-content/uploads/2020/05/risotodecogumelos3-scaled.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Panqueca de legumes </h1>
+                <ul>
+                    <li>Abobrinha crua ralada</li>
+                    <li>Cenoura</li>
+                    <li>Batata-doce crua</li>
+                    <li>Farinha de aveia</li>
+                    <li>Ovo</li>
+                    <li>Sal, pimenta-do-reino e orégano a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Em um recipiente, coloque a abobrinha, a cenoura, a batata-doce e misture.</li><br>
+                    <li>Adicione o ovo, o sal, a pimenta e o orégano. Misture bem.</li> <br>
+                    <li>Coloque a farinha de aveia e misture até incorporar.</li><br>
+                    <li>Esquente uma frigideira e coloque uma porção generosa da massa bem no centro, espalhe e deixe dourar os dois lados. Repita o processo até acabar a massa.</li> <br>
+                    <li>Agora é só servir com o molho de sua preferência. Bom apetite!</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p> O hambúrguer de feijão preto é uma opção deliciosa e saudável para quem procura alternativas vegetarianas ou veganas. Aqui está uma receita simples para fazer hambúrgueres de feijão preto em casa </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  35-40 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://3.bp.blogspot.com/-Pqv7eK4_zA8/WXhgkrGOB0I/AAAAAAAARjc/SauCdK7gn18aakusuI7EkCgTkNhRXBRggCLcBGAs/s1600/Panquecas%20Legumes%202.JPG)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://s2.glbimg.com/tONodzfxoO4ID7GfNesjdurOVTg=/1200x/smart/filters:cover:strip_icc/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/H/s/7rCiF3SViW1hhLENwdGg/foto-panqueca.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ADtePjMaAfnsplXu4V33UQHaDr?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Macarrão vegetariano</h1>
+                <ul>
+                    <li>Macarrão tipo parafuso</li>
+                    <li>Abobrinha</li>
+                    <li>Orégano</li>
+                    <li>Cebola</li>
+                    <li>Cebolinha verde picadinha</li>
+                    <li>Berinjela</li>
+                    <li>Tomates sem pele e sem sementes picadinhos</li>
+                    <li>Óleo de girassol etc</li>
+                    <li>Alho</li>
+                    <li>Queijo minas light</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Cozinhe o macarrão em água e sal.</li><br>
+                    <li>Refogue a cebola, o alho, junto com o óleo.</li> <br>
+                    <li>Junte a abobrinha e deixe amolecer um pouco.</li><br>
+                    <li>Acrescente a berinjela até que também amoleça, acescente o orégano, a cebolinha verde.</li> <br>
+                    <li>Em uma travessa coloque o macarrão já cozido.</li><br> 
+                    <li>  Despeje sobre ele o refogado, Misture para incorporar o molho ao macarrão, acrescente o queijo e leve ao forno para derreter um pouco o queijo.</li><br> 
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Fazer um macarrão vegetariano é uma opção versátil e deliciosa para quem prefere pratos sem carne. Aqui está uma receita básica de macarrão vegetariano, mas sinta-se à vontade para personalizar com seus vegetais e molhos favoritos.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  25-30 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ZDgDlMw-76VatYC2rF1S0QHaFj?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.comidaereceitas.com.br/wp-content/uploads/2022/10/Macarrao-vegetariano.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.daninoce.com.br/wp-content/uploads/2019/02/macarrao-vegano-destaque.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Lasanha Vegetariana</h1>
+                <ul>
+                    <li>Massa para lasanha (pré-cozida)</li>
+                    <li>Cenouras</li>
+                    <li>Cebola</li>
+                    <li>Folhas de louro</li>
+                    <li>Manteiga</li>
+                    <li>Leite</li>
+                    <li>Creme de leite</li>
+                    <li>Maço de espinafre, lavado, aferventado, bem picadinho e bem espremido</li>
+                    <li>Abobrinha</li>
+                    <li>Alho</li>
+                    <li>Cravos</li>
+                    <li>Óleo</li>
+                    <li>Farinha de trigo</li>
+                    <li>Queijo mussarela</li>
+                    <li>Sal a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Refogar o espinafre com óleo e alho e sal a gosto e reservar.</li><br>
+                    <li>Refogar as cenouras com óleo e alho e sal a gosto e reservar.</li><br>
+                    <li>Refogar a abobrinha com óleo e alho e sal a gosto e reservar.</li><br>
+                    <li>Colocar o leite para ferver em fogo baixo com a cebola cortada em 4 partes, a manteiga, o louro, o cravo e sal a gosto.</li> <br>
+                    <li>Após ferver, em fogo baixo, por aproximadamente 5 minutos, retirar o louro, os cravos e a cebola, colocar a farinha de trigo, dissolvida em água e deixe cozinhar mexendo bem, fazendo assim o molho branco.</li><br> 
+                    <li>Se o molho branco ficou empelotado, coloque no liquidificador, bata e ficará maravilhoso.</li><br> 
+                    <li>Montar a lasanha começando com molho branco, massa, espinafre, queijo, molho branco, massa, abobrinha, molho branco, massa, cenoura, molho branco, queijo e por aí vai, até acabar os ingredientes.</li><br> 
+                    <li>Leve ao forno por uns 40 minutos ou até que borbulhe.</li><br> 
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>A lasanha vegetariana é uma opção deliciosa e recheada de sabores. </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  1 Hora.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.dicasdemulher.com.br/wp-content/uploads/2021/07/lasanha-vegetariana-01.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://belmassas.com.br/site/wp-content/uploads/2019/11/bel-massas-receita-lasanha-vegetariana-1-980x603.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.comidaereceitas.com.br/wp-content/uploads/2020/02/lasanha_vegetariana-780x458.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Tacos de lentilha</h1>
+                <ul>
+                    <li>Lentilha rosa</li>
+                    <li>Água</li>
+                    <li>Temperinhos a gosto (páprica defumada, pimenta-preta, sal e salsinha)</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Cubra a lentilha com água e deixe de molho por 2 horas.</li><br>
+                    <li>Coe a lentilha e descarte essa água.</li><br>
+                    <li>Em uma tigela ou no liquidificador, coloque a lentilha e a água da receita.</li><br>
+                    <li>Bata com os temperos secos até homogeneizar.</li> <br>
+                    <li>Acrescente a salsinha picada depois de bater e misture com uma colher.</li><br> 
+                    <li>Em uma frigideira antiaderente e untada com azeite, disponha a massa e deixe dourar de ambos os lados.</li><br> 
+                    <li>Está pronto! Recheie como preferir e aproveite.</li><br> 
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Essa receita de tacos de lentilha é uma alternativa saudável e saborosa para refeições vegetarianas. Você pode ajustar os toppings de acordo com suas preferências pessoais.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  15-20 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/ef/5c/fa/ef5cfa7767dc8351d9d65a81788dec84.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/9e/02/d0/9e02d0dece655a881bfe7eeb14189a1c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/be/f7/d9/bef7d97535265452c3169791d06ca374.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Sopa de Abóbora Assada</h1>
+                <ul>
+                    <li>Abóbora</li>
+                    <li>Cebola</li>
+                    <li>Água</li>
+                    <li>Cebolinha verde picada</li>
+                    <li>Batata média (descascada e cortada)</li>
+                    <li>Alho</li>
+                    <li>Cubo de caldo de legumes</li>
+                    <li>Sal somente se necessário</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Em uma panela grande, doure o alho em um fio de óleo e logo acrescente a cebola picada.</li><br>
+                    <li>Mexa rápido e acrescente a abóbora picada e a batata.</li><br>
+                    <li>Coloque a água e deixe ferver, após fervura colocar o caldo de legumes e mexer.</li><br>
+                    <li>Deixe cozinhar com tampa até a abóbora e a batata estarem cozidas.</li> <br>
+                    <li>Desligue o fogo. E Espere amornar um pouco.</li><br> 
+                    <li>Depois despeje tudo no liquidificador e bata até virar creme.</li><br> 
+                    <li>Despeje na panela novamente e cozinhe uns 3 minutos com a cebolinha, acrescente sal se necessário.</li><br>   
+                    <li>Sirva quente, com cubinhos de queijo branco e torradas.</li><br>  
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>A sopa de abóbora assada é reconfortante, nutritiva e perfeita para os dias mais frios. </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  35-40 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/57/6b/e6/576be6a4ebef0903a070566d550e0ab5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/8e/d4/6b/8ed46b30b692846d53a10177ba757a75.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://luciannajardim.com.br/wp-content/uploads/2019/02/nutricionista-rio-de-janeiro-lucianna-jardim-receita-low-carb-fit-paleo-88.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Hambúrguer de feijão preto</h1>
+                <ul>
+                    <li>Feijão preto</li>
+                    <li>Alhos </li>
+                    <li>Óleo</li>
+                    <li>Suco de limão</li>
+                    <li>Aveia em flocos finos</li>
+                    <li>Cebola</li>
+                    <li>Orégano</li>
+                    <li>Salsinha picada</li>
+                    <li>Farinha de trigo</li>
+                    <li>Farinha de arroz</li>
+                    <li>Sal e pimenta a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Cozinhe o feijão como de costume e reserve sem o caldo.</li><br>
+                    <li>Amasse ou leve para o processador.</li><br>
+                    <li>Junte os demais ingredientes, exceto a farinha.</li><br>
+                    <li>Adicione a aveia e a farinha, acerte no sal.</li> <br>
+                    <li>Misture bem e caso precisar de mais farinha, coloque aos poucos.</li><br> 
+                    <li>Reserve a massa na geladeira por 4 horas.</li><br> 
+                    <li>Modele os hambúrgueres e frite com fogo médio em uma frigideira antiaderente com um fio de óleo.</li><br>   
+                    <li>Aguarde ficar dourados em ambos os lados.</li><br>  
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Esses hambúrgueres são uma excelente opção para quem procura uma refeição vegetariana substancial.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  6 Horas.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.fcfbf43bc1b55a8a6d59afc33097ce96?rik=WbxyO42nhD4%2fdQ&riu=http%3a%2f%2fs2.glbimg.com%2f4oMu7_7_pY-Tw-pZH28x3K6zJFs%3d%2f960x540%2fg.glbimg.com%2fog%2fgs%2fgsat5%2ff%2fthumbs%2fmateria%2f2014%2f06%2f03%2fbela-cozinha-receita-1-385.jpg&ehk=ol1%2bxLwk4yM7z74iRSmXuIzC14fSWutjhG6cC40rUww%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://blog.mundoverde.com.br/wp-content/uploads/2021/01/hamburguer-de-feijao-preto-2.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.hDMsb0a-Anin_cBiceaZVAHaF5?w=1125&h=895&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Bruschettas de Tomate e Manjericão</h1>
+                <ul>
+                    <li>Queijo parmesão ralado</li>
+                    <li>Azeite oliva </li>
+                    <li>Manjericão</li>
+                    <li>Pão (tipo panhoquinha)</li>
+                    <li>Alhos</li>
+                    <li>Tomates </li>
+                    <li>Sal, pimenta e calabresa a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Prepare a cobertura, em uma tigela funda, coloque os tomates cortados, o alho amassado, o manjericão, o sal e a pimenta e, regue com o azeite.</li><br>
+                    <li>Misture bem, Aplique sobre os pães cortados.</li><br>
+                    <li>Caso as fatias sejam muito grandes pode-se cortar cada fatia ao meio.</li><br>
+                    <li>Tome cuidado ao colocar a cobertura para que fique bem distribuída e com uma boa apresentação.</li> <br>
+                    <li>Coloque delicadamente queijo ralado sobre cada fatia de pão já com a cobertura e leve ao forno pré-aquecido, por aproximadamente 15 minutos, em temperatura média.</li><br> 
+                    <li>O pão deve ter sido fatiado não muito grosso para que ao forno fique um pouco torradinho.</li><br> 
+                    <li>Essa receita pode ser usada como entrada ou como petisco, acompanhando vinho ou uma cervejinha bem gelada.</li><br>   
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Essas bruschettas são uma ótima opção para aperitivos em festas ou como uma entrada leve. Elas destacam os sabores frescos dos tomates e do manjericão, tornando-as uma escolha clássica e deliciosa.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  20-25 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.Rdvq2PNQW97CzqAOmcg0UwHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.gHgMl9vEWE-EOMLsfHr0SwHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.ytimg.com/vi/4KddTGYx6rQ/maxresdefault.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9.Moussaka vegetariana</h1>
+                <ul>
+                    <li>Berinjela</li>
+                    <li>Extrato de tomate</li>
+                    <li>Água</li>
+                    <li>Cebola</li>
+                    <li>Salsinha picada</li>
+                    <li>Óleo de soja</li>
+                    <li>Azeite</li>
+                    <li>Pimenta síria</li>
+                    <li>Mix de cogumelos (Paris, shitake e shimeji)</li>
+                    <li>Sal a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li> Em primeiro lugar, corte a berinjela em fatias no sentido do comprimento e frite-as em uma frigideira grande com bastante óleo quente.</li><br>
+                    <li>Logo depois, escorra sobre papel toalha e reserve.</li><br>
+                    <li>Em terceiro lugar, em uma panela grande, aqueça o azeite, doure a cebola, acrescente os cogumelos e a salsinha.</li><br>
+                    <li>Assim que os cogumelos começarem a soltar líquido, tempere com sal, adicione a pimenta e o extrato dissolvido na água.</li> <br>
+                    <li>Cozinhe, então, por 10 minutos ou até que os cogumelos estejam macios.</li><br> 
+                    <li>Em seguida, em um refratário, faça camadas alternadas de berinjela e molho de cogumelos, terminando com uma camada de berinjela.</li><br> 
+                    <li>Por fim, cubra com o molho branco e leve ao forno pré-aquecido 220°C por 20 minutos para gratinar.</li><br>   
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>A moussaka (muitas vezes chamada também de mussaca, mussacá ou mussaká) é um uma especialidade da gastronomia do Oriente Médio, é muito comum encontrar variações diferentes tanto na culinária grega quanto na culinária turca. Na maioria delas utiliza-se carne no preparo – geralmente carne de carneiro, por isso, é comum que os adeptos da culinária vegetariana busquem alternativas para preparar e saborear essa delícia, mas sem utilizar nenhum tipo de carne no preparo.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente  20-25 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.14d63005b3250141f908054a03573d14?rik=icNfFIlvGy33mQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-Qc6QW_zd9bE%2fU6cervFdvAI%2fAAAAAAAAAKs%2f1kfWmQdjndc%2fs1600%2f8eac1d81a91ca87d128ca019ee52f6f7.jpg&ehk=h3iPz2dctl9f5LIuH%2bfBC3IDSh5f%2b0CinQcF%2b5RFpDw%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.cure-naturali.it/.imaging/default/dam/cure-naturali/articoli/alimentazione/moussaka-ricetta.jpg/jcr:content.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.knorr.com/content/dam/unilever/knorr_world/global/general_image/savoury/meal_solutions/10_knorr_tips_how_to_make_fresh_lasagne_01-709342.jpg.ulenscale.405x405.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Sushi de abacate e pepino</h1>
+                <ul>
+                    <li>Água</li>
+                    <li>Arroz para sushi</li>
+                    <li>Vinagre de arroz</li>
+                    <li>Folhas de nori (alga seca)</li>
+                    <li>Pepinos cortado em palitos</li>
+                    <li>Abacate pequeno - sem caroço e cortado em bastões</li>
+                    <li>Sal e pimenta</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Leve ao fogo a água e o arroz. Quando ferver, abaixe o fogo e tampe a panela. Cozinhe o arroz durante 20 minutos ou até que esteja macio e seco. Retire do fogo, misture o vinagre e coloque uma pitada de sal. Deixe esfriar.</li><br>
+                    <li>Forre uma esteira de bambu para sushi com filme Pvc, isso é para evitar que o arroz grude. Sobre o filme, coloque uma folha de nori. Espalhe o arroz com as mãos sobre a folha, deixando um espaço de mais ou menos 1 cm na parte inferior da folha. Arrume o pepino e o abacate sobre o meio do arroz. Use a esteira para ajudar a enrolar a folha, pressionando-a levemente para deixar o pepino e o abacate bem fixos. Para ajudar a enrolar o sushi, você pode umedecer as bordas do nori com água. Faça o mesmo com o restante dos ingredientes.</li><br>
+                    <li>Com uma faca afiada, corte os rolos em 5 ou 6 rodelas. Sirva o sushi com o lado cortado virado para cima e acompanhado dos seus molhos favoritos.</li><br>  
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Esses sushis de abacate e pepino são uma opção fresca e saudável para os amantes de sushi vegetariano.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 1 Hora.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.5mnF0GP85VuvuhH6YQ22_AHaD3?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://thumbs.dreamstime.com/b/rolo-de-sushi-com-abacate-pepino-e-caviar-51850186.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.bca88c486028cc365258756b6aa934f3?rik=%2bvhVD%2fKEY5wQ8w&riu=http%3a%2f%2fwww.clickgratis.com.br%2f_upload%2frecipes%2f2013%2f07%2f26%2fsushi-de-avocado-51f30b3e40046.jpg&ehk=EJrmEKVXNqj45RQi8Ton9Y%2f83h4BnWN2HpDVwjttL9k%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

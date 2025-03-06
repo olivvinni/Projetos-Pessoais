@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café da Manha</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a>
+            </li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Para o Café da Manha</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>CAFÉ DA MANHÃ</h1>
+            <hr>
+            <p>O café da manhã é uma refeição fundamental que inicia o dia com energia e sabor. Trata-se de um momento
+                especial, onde uma variedade de alimentos deliciosos e nutritivos se reúne para criar uma experiência
+                matinal alternativa. Essa refeição oferece uma oportunidade de nutrir o corpo após o período de jejum
+                noturno, fornecendo os nutrientes essenciais para o metabolismo e promovendo a concentração ao longo do
+                dia.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Ovos Mexidos</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 ovos</li>
+                <li>1 colher (sopa) de manteiga</li>
+                <li>100 ml de leite</li>
+                <li>Sal</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Passe toda a manteiga no fundo de uma frigideira e coloque os ovos sobre a manteiga.</li><br>
+
+                    <li>Em seguida, quebre as gemas sem mexer os ovos.</li><br>
+
+                    <li>Só depois deste passo, leve a frigideira para o fogo com fogo baixo.</li><br>
+
+                    <li>A clara vai cozinhar primeiro que a gema.</li><br>
+
+                    <li>Quando a gema começar a ficar cozida, acrescente o leite e mexa vigorosamente para misturar a
+                        manteiga do fundo da frigideira e o leite.</li><br>
+
+                    <li>Não frite demais, pois o mexido deve ficar úmido e cremoso.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>Ovos mexidos são feitos quebrando ovos numa tigela, batendo-os e cozinhando-os lentamente numa
+                    frigideira. A chave para obter ovos mexidos macios e cremosos é mexer constantemente durante o
+                    cozimento, evitando que sequem demais. Adicione sal e pimenta a gosto para realçar os sabores
+                    naturais dos ovos.</p>
+                <h2>Tempo de preparo: 5min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/13/96/c5/1396c527093de3396474a868ed6d8411.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9c/1b/4a/9c1b4a681b446cb65f7fd40b79ddc0a3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9f/0c/4a/9f0c4af919744a4e203ef7b4c883773b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Danoninho caseiro</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 lata de leite condensado</li>
+                <li>2 caixas de creme de leite</li>
+                <li>200 g de iogurte natural</li>
+                <li>1 pacote de suco em pó sabor morango</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em um liquidificador, bata todos os ingredientes até obter uma consistência cremosa.</li><br>
+
+                    <li>Dispense a mistura em um recipiente e leve à geladeira até que esteja firme.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Danoninho caseiro é uma alternativa fresca e chinesa, feita com ingredientes naturais. Essa receita
+                    normalmente inclui morangos frescos, iogurte natural e um adoçante de sua escolha. O resultado é um
+                    creme rosa cremoso, sem aditivos ou conservantes artificiais.</p>
+                <h2>Tempo de preparo: 15min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a0/2f/70/a02f70692ce927d637f93f12fc4c129f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a3/bf/28/a3bf28729b770b260dc5eac7fce91cd4.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/be/16/84/be168438e6467bcc168b4a922b7db627.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Bolo de fubá</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 ovos</li>
+                <li>2 xícaras (chá) de açúcar</li>
+                <li>2 xícaras (chá) de trigo</li>
+                <li>1 xícara (chá) de fubá</li>
+                <li>3 colheres (sopa) de margarina</li>
+                <li>1 xícara (chá) de leite</li>
+                <li>4 colheres (chá) de fermento em pó químico</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma batedeira, bata as claras em neve e acrescente o açúcar.</li><br>
+
+                    <li>Adicione as gemas, a margarina, o leite, a farinha de trigo, o fubá e continue batendo.</li><br>
+
+                    <li>Acrescente por último o fermento e misture com uma colher ou espátula.</li><br>
+
+                    <li>Despeje a massa em uma forma untada e deixe assar em forno médio (180°C), preaquecido, por
+                        aproximadamente 30 minutos.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bolo de Fubá é uma iguaria tradicional na culinária brasileira, conhecida por sua textura macia e
+                    sabor reconfortante. Preparado com ingredientes simples, o bolo incorpora o fubá, um tipo de farinha
+                    de milho, proporcionando uma experiência única e agradável.</p>
+                <h2>Tempo de preparo: 40min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/90/bf/89/90bf89eb9a1916985d6e0718ab7d16e0.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3c/a4/4e/3ca44e927702404840b3612c0edfc6b4.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/dd/3a/e1/dd3ae13cf80187e48ecc0712dd2a2a1f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Café cremoso</h1>
+                <h2>INGREDIENTES</h2>
+                <li>50 g de café solúvel</li>
+                <li>2 xícaras de açúcar refinado</li>
+                <li>1 xícara de água</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Junte todos os ingredientes e bata na batedeira durante 15 minutos até ficar um creme.</li><br>
+
+                    <li>Guarde no congelador em pote fechado.</li><br>
+
+                    <li>Este creme é para ser servido do seguinte modo:</li><br>
+
+                    <li>1 colher de sobremesa em 1 xícara de café quente (já pronto) ou 2 colheres de sobremesa em 1
+                        xícara de leite fervendo.</li><br>
+
+                    <li>Está pronto uma deliciosa bebida cremosa para aquecer as noites frias de inverno.</li><br>
+
+                    <li>Fica muito delicioso.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Café Cremoso, também conhecido como "Dalgona Coffee", é uma bebida irresistível que combina a
+                    riqueza do café com uma espuma cremosa e doce por cima. Popularizado nas redes sociais, esse café se
+                    tornou uma sensação devido à sua aparência atraente e sabor delicioso.</p>
+                <h2>Tempo de preparo: 7min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/bf/6b/14/bf6b14bb706aa94fa229200d4e8ff69e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b0/4b/30/b04b30a973bed1f0eec28eea548d49e0.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/62/49/bc/6249bc8d69703e1c1fbc4a052942cde6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Pão integral</h1>
+                <h2>INGREDIENTES</h2>
+                <li>400 ml de água morna</li>
+                <li>25 g de fermento fresco para pão</li>
+                <li>100 ml de óleo</li>
+                <li>1 colher (sobremesa) de sal</li>
+                <li>2 colheres (sopa) de açúcar mascavo</li>
+                <li>1 xícara (chá) de aveia</li>
+                <li>1/2 xícara (chá) de gérmen de trigo</li>
+                <li>1 xícara (café) de semente de linhaça</li>
+                <li>2 copos (requeijão) de farinha de trigo integral</li>
+                <li>Farinha de trigo até dar o ponto</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma vasilha, misture o fermento com o açúcar e acrescente os outros ingredientes.</li><br>
+
+                    <li>Em uma superfície lisa e enfarinhada, sove bem a massa e deixe crescer até dobrar de volume.
+                    </li><br>
+
+                    <li>Modele os pães e coloque em forma de bolo inglês forrada com papel manteiga.</li><br>
+
+                    <li>Deixe crescer novamente.</li><br>
+
+                    <li>Leve ao forno a 200º C, por aproximadamente 25 a 30 minutos (observe, já que o tempo pode ser
+                        alterado, dependendo do forno).</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Pão Integral é uma opção saudável e nutritiva, repleta de fibras e sabor robusto. Com uma textura
+                    densa e rica em grãos inteiros, é uma escolha deliciosa para acompanhar refeições ou fazer
+                    sanduíches saudáveis.</p>
+                <h2>Tempo de preparo: 2h</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e0/c9/c7/e0c9c7feae6426350b69b5361e67c385.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/86/ab/fe/86abfe92e898c3c61f8d3ec695593c96.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/22/35/0b/22350b0a6acecc7a3b01f35836f04f80.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Bolo mesclado de liquidificador</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 ovos</li>
+                <li>1 xícara de leite</li>
+                <li>2 colheres cheias de margarina</li>
+                <li>1 xícara de açúcar</li>
+                <li>2 xícaras de trigo</li>
+                <li>1 colher de fermento em pó</li>
+                <li>3 colheres de achocolatado</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Bata no liquidificador primeiro os ovos, açúcar, margarina e o leite por 2 minutos.</li><br>
+
+                    <li>Coloque aos poucos a farinha de trigo no liquidificador.</li><br>
+
+                    <li>Em seguida, despeje tudo em uma tigela e verifique se a massa está no ponto.</li><br>
+
+                    <li>Se já estiver, acrescente o fermento em pó.</li><br>
+
+                    <li>Separe 1/2 xícara da massa e coloque o nescau.</li><br>
+
+                    <li>Mexa tudo até a massa ficar homogênea.</li><br>
+
+                    <li>Coloque em uma forma untada e enfarinhada primeiro a massa branca e logo em seguida a de
+                        chocolate em fios pequenos sobre a massa branca.</li><br>
+
+                    <li>Leve para assar na temperatura de 180°C por 40 minutos.</li><br>
+
+                    <li>Faça uma cobertura de chocolate e cubra o bolo.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bolo Mesclado é uma deliciosa combinação de sabores de chocolate e baunilha, formando um visual
+                    incrível com suas camadas mescladas. Essa versão de liquidificador torna o preparo ainda mais fácil
+                    e rápido, mantendo a maciez e o sabor irresistível.</p>
+                <h2>Tempo de preparo: 1h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/59/26/98/592698191dc142e6539865b474d35641.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2a/38/f7/2a38f724691a4cd43e097451b579b6de.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4d/25/8b/4d258b67f4b1932e89bb041bbaa12589.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Pão caseiro</h1>
+                <h2>INGREDIENTES</h2>
+                <li>5 colheres (sopa) de óleo</li>
+                <li>5 colheres de açúcar</li>
+                <li>1 pitada de sal</li>
+                <li>4 copos (da máquina) de farinha de trigo</li>
+                <li>1 colher (sopa) de fermento biológico</li>
+                <li>1 copo e 1/2 (da máquina) de água ou leite bem morno</li>
+                <li>1 ovo (opcional)</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque todos os ingredientes na panificadora, programe-a para preparar o pão em 3 horas,
+                        escolha a cor clara para a casca.</li><br>
+
+                    <li>Esta receita fica deliciosa e pode ser feita com farinha integral, de soja, linho.</li><br>
+
+                    <li>Nas farinhas integrais (soja, linho, integral) pode-se substituir o açúcar branco pelo mascavo.
+                    </li><br>
+
+                    <li>Fica light.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O pão caseiro é uma delícia que proporciona aquele aroma irresistível pela casa. Feito com
+                    ingredientes simples, esse pão é uma opção versátil para qualquer refeição.</p>
+                <h2>Tempo de preparo: 3h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/35/45/ef/3545ef3a6e051271d9caf0a676cf548b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/32/f8/8c/32f88c620228831d4ab33a107a29ff74.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/b6/3c/69/b63c690a505f7d1403f9f8d56d5c9cbb.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Bolo de banana e canela</h1>
+                <h2>INGREDIENTES</h2>
+                <li>2 bananas nanicas</li>
+                <li>2 ovos</li>
+                <li>2 xícaras (chá) de farinha de trigo</li>
+                <li>1/2 xícara de óleo</li>
+                <li>1/2 colher (sopa) de fermento em pó</li>
+                <li>2 xícaras (chá) de açúcar</li>
+                <li>1/2 colher (sopa) de canela em pó</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Na batedeira, bata primeiro o óleo, os ovos e o açúcar.</li><br>
+
+                    <li>Bata até formar uma massa lisa.</li><br>
+
+                    <li>Depois acrescente as bananas aos poucos, em pedaços.</li><br>
+
+                    <li>Em seguida, a farinha de trigo e a canela e bata bem.</li><br>
+
+                    <li>A massa ficará bem consistente.</li><br>
+
+                    <li>Por último, acrescente o fermento em pó misturando delicadamente.</li><br>
+
+                    <li>Assar por 30 minutos em forma redonda untada com manteiga a 220º C.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O bolo de banana e canela é uma combinação clássica e reconfortante. A doçura das bananas, junto com
+                    o toque quente da canela, cria um bolo deliciosamente úmido e cheio de sabor.</p>
+                <h2>Tempo de preparo: 20min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/8d/0d/4b/8d0d4b56b8dd33e08d3ddcb891e4f9c3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/72/db/ca/72dbca7b5ffbc3e15c92f80a7da643d6.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/2e/83/d1/2e83d1bd08c6adb544a72ff1dcc40294.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Bolo de limão </h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 ovos inteiros</li>
+                <li>1 xícara de chá de óleo</li>
+                <li>2 xícaras de chá de açúcar</li>
+                <li>1/2 copo de suco de limão natural</li>
+                <li>1/2 copo de leite gelado</li>
+                <li>1 colher de fermento em pó</li>
+                <li>3 xícaras de farinha de trigo</li>
+                <li>1 colher de raspa de limão</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>1 vidro de leite de coco pequeno</li><br>
+                    <li>1 lata de leite condensado</li><br>
+                    <li>1 copo de suco de limão natural</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O bolo de limão é uma sobremesa refrescante e deliciosa, perfeita para quem aprecia o sabor cítrico e
+                    leveza. A massa úmida e o glacê de limão conferem a esse bolo um equilíbrio perfeito entre doce e
+                    azedo.</p>
+                <h2>Tempo de preparo: 1h </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c1/08/6c/c1086cf4bcb7392a3c6558e1cb564bdc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/c4/a5/74/c4a57459f64d9ebff8d5b7567960a89c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3d/a7/9c/3da79c3932ea8b7eb10eacddc2dc1adc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Misto quente</h1>
+                <h2>INGREDIENTES</h2>
+                <li>400 g de presunto magro</li>
+                <li>400 g de queijo</li>
+                <li>Extrato de tomate</li>
+                <li>1 caixinha de creme de leite</li>
+                <li>1 pacote de pão de sanduíche</li>
+                <li>Orégano seco</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Em uma forma, colocar uma camada de pão de forma, certificando-se de cobrir toda a forma.</li>
+                    <br>
+                    <li>Passar sobre esta camada o extrato de tomate.</li><br>
+                    <li>Colocar uma camada de presunto e uma de queijo; cobrir com outra camada de pão.</li><br>
+                    <li>Passar o creme de leite uniformemente; em seguida, colocar a 2ª camada de presunto, deixando o
+                        queijo por último.</li><br>
+                    <li>Despejar o orégano por cima do queijo para dar um gostinho especial.</li><br>
+                    <li>Levar ao forno até derreter o queijo.</li><br>
+
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O misto quente é um lanche clássico brasileiro, simples de preparar e irresistível. Com uma
+                    combinação perfeita de queijo derretido e presunto entre fatias de pão, esse sanduíche é uma opção
+                    rápida e deliciosa para qualquer refeição.</p>
+                <h2>Tempo de preparo: 20min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/df/30/54/df30542d71b010c25934f8b76bf984f5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/98/b2/a8/98b2a878c3c3af2878b82a3e75783e56.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/af/6e/cd/af6ecd58617b50f38d6530fc86b8eb21.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

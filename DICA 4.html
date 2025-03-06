@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Temperos</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="#">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque-dica4">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>Uso de Temperos</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Explorando o Mundo dos Temperos</h1>
+            <hr>
+            <p>Bem-vindo à nossa maravilhosa jornada culinária, onde os sabores se encontram e as experiências
+                gastronômicas ganham vida! Nesta seção dedicada aos temperos, mergulhe em um universo de aromas
+                irresistíveis e descubra como transformar suas receitas com o toque mágico de uma variedade exuberante
+                de condimentos. Dos clássicos aos mais exóticos, explore conosco o fascinante mundo dos temperos e
+                aprenda a aprimorar cada prato, elevando seus dotes culinários a novos patamares de sabor e
+                sofisticação. Prepare-se para uma viagem sensorial única, onde cada colherada é uma celebração de aromas
+                e cada refeição se torna uma experiência inesquecível. Vamos juntos desbravar os segredos dos temperos e
+                transformar suas receitas em verdadeiras obras-primas culinárias!</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Sal</h1>
+                <p>
+
+                    O sal é mais do que um simples condimento; é uma peça fundamental na arte da culinária, capaz de
+                    transformar um prato simples em uma experiência gastronômica extraordinária. Seu papel vai além de
+                    apenas conferir um gosto salgado, desempenhando funções cruciais que afetam textura, preservação e
+                    até mesmo a percepção geral do sabor. Vamos explorar o fascinante mundo do sal na cozinha:
+                    <br>
+                    <br>
+                <h3>Realçador de Sabores:</h3>
+                <li> O sal tem o poder mágico de realçar os sabores naturais dos alimentos, tornando cada mordida mais
+                    intensa e prazerosa. Utilizado com parcimônia, ele destaca os perfis gustativos, equilibrando
+                    doçura, acidez e umami.</li>
+
+                <h3>Textura e Preservação</h3>
+                <li>Além de adicionar sabor, o sal desempenha um papel crucial na textura de certos alimentos, como no
+                    amaciamento de carnes através do processo de salmoura. Também é um agente de conservação, utilizado
+                    tradicionalmente em métodos de cura e secagem para prolongar a vida útil de alimentos.</li>
+
+                <h3>Variedade de Tipos de Sal:</h3>
+                <li> A diversidade de sais disponíveis oferece uma gama de sabores e texturas. Desde o sal marinho com
+                    sua crocância até sais mais exóticos, como o sal negro do Havaí, cada tipo adiciona nuances únicas
+                    aos pratos, permitindo uma personalização sofisticada.</li>
+
+                <h3> Finalização e Apresentação:</h3>
+                <li>A adição de um toque final de sal, como a flor de sal, pode elevar um prato de bom para excepcional.
+                    Esse gesto final ressalta a atenção aos detalhes e confere uma experiência sensorial refinada.</li>
+                <h3> Harmonização com Outros Ingredientes:</h3>
+                <li> Saber equilibrar o sal em conjunto com outros temperos é uma habilidade crucial. Ele pode
+                    potencializar ervas, especiarias e ingredientes ácidos, criando uma sinfonia de sabores complexos e
+                    equilibrados.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(data:image/jpeg;base64,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)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.hgviVNKqRWxWKxv2WEvXSgAAAA?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Table_salt_with_salt_shaker_V1.jpg/1920px-Table_salt_with_salt_shaker_V1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Açúcar</h1>
+                <p>Adoçante Fundamental:
+
+                    O papel mais óbvio do açúcar é adoçar. Ele equilibra sabores e suaviza a acidez, proporcionando uma
+                    base doce para uma ampla variedade de receitas, desde bolos e biscoitos até molhos agridoces.
+                    Caramelização e Complexidade de Sabor:
+
+                    Ao ser aquecido, o açúcar passa por caramelização, um processo que confere profundidade e
+                    complexidade de sabor a pratos doces e salgados. Isso é evidente em sobremesas como creme brûlée e
+                    em molhos para carnes.
+                    <br>
+                    <br>
+                <h3> Textura e Conservação:</h3>
+                <li>Além de adoçar, o açúcar contribui para a textura de muitas preparações, como em merengues e
+                    coberturas
+                    crocantes. Em conservas e geleias, atua como agente de preservação, ajudando a prolongar a vida útil
+                    desses produtos.</li>
+                <h3> Reações Químicas na Panificação:</h3>
+                <li> Na panificação, o açúcar desempenha um papel vital. Além de fornecer doçura, ajuda a reter umidade,
+                    influencia na cor e textura dos produtos assados e até mesmo contribui para o processo de
+                    fermentação em
+                    pães.</li>
+
+
+
+
+                <h3> Explorando Variedades de Açúcar:</h3>
+                <li> A diversidade de açúcares disponíveis, como açúcar mascavo, açúcar de coco e açúcar de confeiteiro,
+                    oferece uma gama de sabores e texturas. Cada tipo adiciona características únicas às receitas,
+                    permitindo uma personalização refinada.</li>
+
+
+
+                <h3> Harmonização com Sabores Contrastantes:</h3>
+                <li> O açúcar também é usado estrategicamente para equilibrar sabores, criando contrastes atraentes. A
+                    combinação de doce e salgado, por exemplo, é uma prática comum que eleva o perfil de sabor de muitos
+                    pratos.</li>
+
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(data:image/jpeg;base64,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)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.Tve1PHkYBdDiweL4hss6RAHaFj?w=249&h=187&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.Bugxw7AA_43EnInpjnzdGwAAAA?w=214&h=161&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Alho</h1>
+                <p>O alho é um ingrediente indispensável na culinária brasileira, desempenhando um papel fundamental na
+                    criação de sabores robustos e aromáticos. Sua presença é praticamente onipresente na cozinha do
+                    país, e suas propriedades aromáticas e sabor intensamente característico são exploradas em uma ampla
+                    variedade de pratos. Aqui estão alguns aspectos importantes sobre o uso do alho na culinária
+                    brasileira:
+                    <br>
+                    <br>
+                <h3>Base Aromática:</h3>
+                <li>Base Aromática:</li>
+
+                <h3> Tempero Universal:</h3>
+                <li> O alho é um tempero praticamente universal em marinadas para carnes, aves e peixes. O sabor
+                    pungente
+                    do alho adiciona profundidade aos pratos e é especialmente apreciado em churrascos, onde é comum
+                    encontrar carnes temperadas com alho.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.a_CAGEtwbIPvgFe3dLiQ0gHaE8?w=290&h=193&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP._59nVilQzEGSJG0EuDLmMQHaFj?w=263&h=197&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.n3KvgWTeE3TVGNS1GwLmgQHaHb?w=162&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Cebola</h1>
+                <p>A cebola é um ingrediente essencial e versátil na culinária brasileira, desempenhando um papel
+                    fundamental na construção de sabores e aromas em uma variedade de pratos. Aqui estão alguns aspectos
+                    importantes sobre o uso da cebola na culinária brasileira:
+                    <br>
+                    <br>
+                <h3>Base Aromática:</h3>
+                <li>Assim como o alho, a cebola é frequentemente utilizada como base aromática para muitos pratos. Seja
+                    refogada em óleo ou adicionada ao início do preparo de uma receita, a cebola libera seus sabores
+                    doces e aromáticos, formando a base para sopas, molhos, ensopados e refogados.</li>
+
+                <h3> Refogados e Arrozes:</h3>
+                <li> A cebola é uma presença constante em refogados de carnes, aves e vegetais. Sua doçura natural
+                    intensifica-se quando cozida, adicionando profundidade de sabor a pratos como arroz de carreteiro e
+                    feijão tropeiro.</li>
+
+
+
+                <h3>Churrascos e Grelhados:</h3>
+                <li>Em churrascos e grelhados, a cebola muitas vezes é cortada em rodelas e grelhada junto com carnes,
+                    acrescentando um sabor caramelizado e adocicado. Esse método de preparo é comum em pratos como
+                    espetinhos e churrascos ao estilo brasileiro.</li>
+
+
+
+                <h3>Conservas e Marinadas:</h3>
+                <li> Cebolas são frequentemente usadas em conservas, marinadas e vinagretes. Elas não apenas contribuem
+                    para o sabor, mas também adicionam uma textura suave e crocante a pratos como o vinagrete utilizado
+                    em churrascos.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.-iOCaQK13OaetoPT-NcJTwHaE8?w=243&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.Bdf2XgEy1_MJl3A9xMigIQHaE9?w=236&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.PUOiJTB0fwQ5wuK_GKqXqQHaFj?w=242&h=182&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Pimenta</h1>
+                <p>
+                    A pimenta é um elemento vibrante e picante que desempenha um papel crucial na culinária brasileira,
+                    conferindo calor e intensidade aos pratos. Sua presença é marcante em várias regiões do país, e a
+                    diversidade de tipos de pimentas utilizadas contribui para a riqueza e complexidade dos sabores na
+                    gastronomia brasileira. Aqui estão alguns pontos importantes sobre o uso da pimenta na culinária:
+                    <br>
+                    <br>
+                <h3> Diversidade de Pimentas:</h3>
+                <li>O Brasil é lar de uma ampla variedade de pimentas, desde as mais suaves até as extremamente
+                    picantes. Entre as mais populares estão a malagueta, a pimenta-de-cheiro, a dedo-de-moça e a cumari.
+                    Cada variedade contribui com diferentes níveis de calor e aromas característicos.</li>
+
+
+
+                <h3> Moquecas e Ensopados:</h3>
+                <li>Em pratos como moquecas, ensopados e cozidos, a pimenta é frequentemente utilizada para adicionar
+                    calor e profundidade de sabor. A pimenta-de-cheiro é comum nesses pratos, proporcionando um toque
+                    picante sutil.</li>
+
+
+
+                <h3> Molhos e Temperos:</h3>
+                <li>A pimenta é frequentemente incorporada a molhos, temperos e marinadas. Molhos como o famoso molho de
+                    pimenta brasileiro são um acompanhamento comum em muitas refeições, permitindo que os comensais
+                    ajustem o nível de picância de acordo com suas preferências.</li>
+
+
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.LNscORg8CW3JKDJzjQaykQHaEK?w=282&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.4A88Bgh-3vSYjXu1QZPa4wHaE7?w=292&h=195&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.2SppZK0DRnvJ5XwABFT0egHaEo?w=313&h=195&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p> Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

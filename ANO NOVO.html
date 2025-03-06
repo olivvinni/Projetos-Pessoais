@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ano Novo</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas sobre ano novo</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Ano Novo</h1>
+            <hr>
+            <p>O ano-novo acontece dia 1.º de janeiro e corresponde a uma comemoração baseada no calendário gregoriano, também chamado de cristão ou ocidental. A partir dessa data, que é feriado nacional, tem início um novo calendário anual
+                A história do ano-novo é antiga. Algumas civilizações da antiguidade comemoravam a passagem de ano em março, tendo em conta o fim do inverno e a chegada da primavera.
+                No império romano, a população celebrava esse dia em homenagem ao deus Jano, deus das mudanças e transições.
+                Foi em 46 a.C. que o imperador Júlio César decretou que nesse dia seria comemorado o ano-novo, baseado no calendário juliano.
+                Somente no final do século XVI, essa data foi finalmente oficializada com a adoção do calendário gregoriano, pela igreja católica.
+                Assim, com o passar do tempo, a data tornou-se um marco e, hoje em dia, a maioria dos países comemora a chegada do novo ano em 1.º de janeiro.
+                O significado do ano-novo é esperança, renovação e mudança. Existe muita expectativa por parte das pessoas de que esse momento celebra o abandono do que não precisamos mais com a chegada de algo novo e de muitas realizações.
+                 Por esse motivo, diversas pessoas costumam fazer listas do que pretendem iniciar e conquistar nessa nova fase.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Filé mignon suíno com batata assada na manteiga e salsa</h1>
+                <h2>INGREDIENTES PARA PREPARAR A CARNE:</h2>
+                <ul>
+                    <li>1/2 kg de filé mignon suíno</li>
+                    <li>2 limões</li>
+                    <li>2 colheres de chá de alho triturado</li>
+                    <li>Sal a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>Cominho a gosto</li>
+                    <li>1/4 de cebola picada</li>
+                    <li>2 copos de vinho branco</li>
+                    <li>1 colher de sopa de margarina</li>
+                  </ul>
+                  
+                <h2>INGREDIENTES DA BATATA:</h2>
+                <ul>
+                    <li>1/2 kg de batata</li>
+                    <li>1 maço de salsa</li>
+                    <li>Orégano a gosto</li>
+                    <li>2 colheres de margarina</li>
+                  </ul>
+
+                  <h2>MODO DE PREPARO DA CARNE:</h2>
+                  <ol>
+                    <li>Tempere os filés com limão, alho, sal, pimenta-do-reino, cominho e cebola.</li><br>
+                    <li>Deixe por 1 hora.</li><br>
+                    <li>Unte uma assadeira com margarina.</li><br>
+                    <li>Na mesma assadeira, ordene os filés com o caldo do tempero e espalhe a margarina Qualy pelos filés.</li><br>
+                    <li>Leve ao forno por 1 hora coberto com papel alumínio.</li><br>
+                    <li>Se ressecar, coloque mais margarina.</li><br>
+                    <li>Regue com 1 copo de vinho branco com 30 minutos.</li><br>
+                    <li>Depois de 1 hora, tire o papel alumínio e deixe mais 30 minutos, virando e regando com o caldo que se formou e com o outro copo de vinho branco.</li><br>
+                  </ol>
+                  
+                  <h2>MODO DE PREPARO DA BATATA:</h2>
+                  <ol>
+                    <li>Descasque as batatas e leve ao fogo com água e sal até ferver.</li><br>
+                    <li>Não é para cozinhar.</li><br>
+                    <li>Em uma assadeira, coloque a metade da mistura da margarina com a salsa e o orégano.</li><br>
+                    <li>Coloque as batatas.</li><br>
+                    <li>Coloque o resto da mistura da margarina e leve ao forno até a batata assar.</li><br>
+                    <li>Junte tudo.</li><br>
+                    <li>Pegue a assadeira com a carne e leve ao fogo, coloque a boca do fogo no mínimo, e deixe o caldo ferver, sempre regando.</li><br>
+                    <li>Pegue as batatas e misture na assadeira da carne.</li><br>
+                    <li>Regue todo o caldo na batata e na carne e desligue o fogo.</li><br>
+                    <li>Sirva com arroz e feijão.</li><br>
+                  </ol>
+                  
+
+                  <h2>TEMPO DE PREPARO: Aproximadamente 1h30min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ZeTpTSylIMVVzSXrQE6csgHaEP?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.0APSyZuyld0-QP-52sRdNAHaE8?w=2560&h=1707&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.xKXNgjFQCrrK9SXQKQoxJgHaE8?w=612&h=408&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Arroz à grega tradicional</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>2 xícaras de chá de arroz</li>
+                    <li>1 fio de azeite</li>
+                    <li>1/2 cebola picada</li>
+                    <li>2 dentes de alho picados</li>
+                    <li>1 cenoura média picada</li>
+                    <li>1/2 xícara de chá de pimentão vermelho picado</li>
+                    <li>1/2 xícara de chá de pimentão amarelo picado</li>
+                    <li>1/2 xícara de chá de uva-passa</li>
+                    <li>1 latinha de milho-verde (sem água)</li>
+                    <li>1 latinha de ervilha (sem água)</li>
+                    <li>1/2 colher de sopa de sal</li>
+                    <li>4 xícaras de chá de água</li>
+                    <li>3 colheres de sopa de cheiro-verde picado</li>
+                  </ul>
+                  
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Reúna todos os ingredientes do arroz à grega tradicional.</li><br>
+                    <li>Em uma panela, em fogo médio, esquente o azeite e refogue a cebola até que ela fique transparente.</li><br>
+                    <li>Coloque o alho em seguida e refogue até dourar.</li><br>
+                    <li>Acrescente a cenoura, os pimentões, a uva-passa e mexa bem até dar uma leve refogada.</li><br>
+                    <li>Junte o milho-verde, a ervilha, o arroz e mexa por cerca de 3 minutos para refogar mais um pouco.</li><br>
+                    <li>Coloque a água, o sal e tampe a panela, deixando cozinhar em fogo médio por cerca de 20 minutos ou até a água secar.</li><br>
+                    <li>Desligue o fogo e finalize com o cheiro-verde.</li><br>
+                    <li>Sirva com a carne de sua preferência. Aproveite e bom apetite!</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 50 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.0491c36ecbc3dfe19f76ea0bb17f07e5?rik=3cmIJFtp0u%2fXWw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.0491c36ecbc3dfe19f76ea0bb17f07e5?rik=3cmIJFtp0u%2fXWw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.ytimg.com/vi/6QNAlCOWgHM/maxresdefault.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Salada russa</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Água para cozinhar o frango</li>
+                    <li>Tomilho a gosto</li>
+                    <li>Louro a gosto</li>
+                    <li>1 peito de frango</li>
+                    <li>3 batatas</li>
+                    <li>2 cenouras</li>
+                    <li>Cebolinha picada</li>
+                    <li>Endro dill picado (opcional)</li>
+                    <li>3 ovos cozidos</li>
+                    <li>Ervilha</li>
+                    <li>Picles de pepino</li>
+                    <li>Maionese</li>
+                    <li>Mostarda</li>
+                    <li>Sal</li>
+                  </ul>
+                  
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Reúna todos os ingredientes.</li><br>
+                    <li>Em uma panela com água fervente, cozinhe o peito de frango junto com o tomilho e o louro.</li><br>
+                    <li>Em um tábua, descasque as batatas, as cenouras e corte-as em cubos.</li><br>
+                    <li>Junte, respectivamente, a batata e a cenoura ao frango. Cozinhe por cerca de 8 minutos.</li><br>
+                    <li>Depois de cozidos, escorra a água e reserve os vegetais e o frango separadamente.</li><br>
+                    <li>De volta à tábua, pique o picles, os ovos e desfie o frango.</li><br>
+                    <li>Junte esses picados, a ervilha e as ervas picadas aos vegetais reservados. Misture.</li><br>
+                    <li>Tempere com sal, limão, mostarda e maionese. Misture mais.</li><br>
+                    <li>Leve à geladeira antes de servir e aproveite essa delícia. Bom apetite!</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.EWqtpX1_ivySiSWTX2eKjgHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.xowocOx6LwYktm_th_tvdgHaE8?w=1200&h=800&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP._fQ5mFJ4B3oJo67oyirm5gHaFS?w=1850&h=1320&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Maionese de batatas com legumes </h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>2 batatas médias (sem casca) picadas</li>
+                    <li>3 xícaras de chá de maionese</li>
+                    <li>1 colher de chá de mostarda</li>
+                    <li>1 lata de seleta de legumes</li>
+                    <li>½ xícara de chá de milho</li>
+                    <li>Sal e pimenta a gosto</li>
+                    <li>Salsinha a gosto</li>
+                  </ul>
+
+                  <h2>MODO DE PREPARO:</h2>
+                  <ol>
+                    <li>Reúna todos os ingredientes.</li><br>
+                    <li>Leve uma panela com água ao fogo médio, adicione as batatas e cozinhe até que fiquem bem macias.</li><br>
+                    <li>Transfira as batatas cozidas para um vasilha, adicione a maionese, a mostarda e amasse tudo.</li><br>
+                    <li>Acrescente a seleta de legumes, o milho, o sal, a pimenta, a salsinha e misture.</li><br>
+                    <li>Agora é só servir. Bom apetite!</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 40 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.8ddf855fbe95926c2c87d859cb47f682?rik=HTUNZN5%2fXK9HmA&riu=http%3a%2f%2fwww.saboresajinomoto.com.br%2fuploads%2fimages%2frecipes%2fmaionese-de-legumes.jpg&ehk=Bx3ralApbBuboIZqLhsV%2fY2w0nWrsOY7BhZTy8et8mM%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2012/09/Salada_especial_catupiryy.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://fb.ru/misc/i/gallery/17472/2281601.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Farofa de bacon</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>4 colheres de sopa de manteiga</li>
+                    <li>1/2 xícara de chá de bacon cortado em cubinhos</li>
+                    <li>1 e 1/2 cebola roxa picada</li>
+                    <li>1 talo de alho-poró fatiado finamente</li>
+                    <li>1/2 xícara de chá de damascos cortados em cubinhos (opcional)</li>
+                    <li>1/2 xícara de chá de ameixa seca sem caroço cortada em cubinhos (opcional)</li>
+                    <li>1/2 xícara de chá de nozes picadas grosseiramente (opcional)</li>
+                    <li>1/2 xícara de chá de castanha-do-pará picada grosseiramente (opcional)</li>
+                    <li>1 xícara de chá de farinha de mandioca crua</li>
+                    <li>100 gramas de farinha de amêndoas</li>
+                    <li>1/2 xícara de chá de castanha-de-caju picada grosseiramente (opcional)</li>
+                    <li>Sal a gosto</li>
+                    <li>2 colheres de sopa de salsinha picada</li>
+                  </ul>
+
+                  <h2>MODO DE PREPARO:</h2>
+                  <ol>
+                    <li>Reúna todos os ingredientes;</li><br>
+                    <li>Em uma frigideira quente, derreta uma colher de sopa de manteiga e frite o bacon até dourar;</li><br>
+                    <li>Em seguida, reserve o bacon em um papel toalha, para tirar o excesso de gordura;</li><br>
+                    <li>Na mesma frigideira, derreta mais 3 colheres de sopa de manteiga. Desta vez, refogue a cebola e o alho-poró por cerca de 4 minutos, até caramelizar;</li><br>
+                    <li>Adicione o damasco, as ameixas, as nozes e as castanhas. Misture bem;</li><br>
+                    <li>Junte o bacon, as farinhas, misture bem e desligue o fogo;</li><br>
+                    <li>Abra um espaço no meio da frigideira, coloque a última colher de manteiga, deixe derreter e misture bem;</li><br>
+                    <li>Finalize com o sal, a salsinha, mexa bem e transfira para um refratário. Agora é só servir. Bom apetite!</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.7bd8b35d3d777e726595cfde83551bea?rik=zJh8dWDxLnNg4w&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.0YbG5NIKkAJ7SfRfVvu46wHaFj?w=640&h=480&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/originals/11/76/62/11766233bbec6c1ece6c140232cccc21.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+       
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

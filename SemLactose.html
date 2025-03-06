@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEM LACTOSE</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>DIETA SEM LACTOSE</h1>
+            <hr>
+            <p>Uma dieta sem lactose é projetada para pessoas que têm intolerância à lactose, uma condição na qual o
+                corpo tem dificuldade em digerir a lactose, um açúcar presente nos produtos lácteos. Esta dieta exclui
+                alimentos que contenham lactose, proporcionando uma abordagem alimentar alternativa e bem tolerada. </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Smoothie de Frutas Tropicais Sem Lactose</h1>
+                <ul>
+                    <li>Leite de coco</li>
+                    <li>Banana média</li>
+                    <li>Morangos médios</li>
+                    <li>Gelo a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li> para deixar ainda mais cremoso, congele as frutas antes.</li> <br>
+                    <li>Coloque todos os ingredientes no liquidificador e bata até ficar homogêneo.</li> <br>
+                    <li> Coloque em um copo</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Este smoothie é uma explosão de sabores tropicais, oferecendo uma alternativa deliciosa e saudável
+                    aos smoothies tradicionais com produtos lácteos. Rico em nutrientes e fácil de preparar, é uma
+                    escolha vibrante para satisfazer seu paladar tropical sem comprometer a leveza e a frescura.
+                    Aproveite o seu smoothie sem lactose e repleto de benefícios para a saúde. </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20-30 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div style="margin: 1%;background: url(https://claudia.abril.com.br/wp-content/uploads/2020/02/thinkstockphotos-839497302-1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ZN44Y_Zjvcxyzo2XfRUqNAHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/R.859053eec79b11397cea5b48d90082a2?rik=NrxgpOERFStu7A&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Panqueca de banana aveia e mel</h1>
+                <ul>
+                    <li>Bananas (grandes e prata)</li>
+                    <li>Ovos</li>
+                    <li>Aveia</li>
+                    <li>Mel</li>
+                    <li>Café de canela em pó (Kitano - Canela)</li>
+                    <li>Manteiga ou margarina para passar as panquecas</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li> Junte todos os ingredientes, menos a manteiga e bata no liquidificador até obter uma mistura homogênea.</li> <br>
+                    <li>Coloque a manteiga em uma frigideira antiaderente em fogo baixo.</li> <br>
+                    <li>Vá colocando pequenas quantidades da mistura do liquidificador. </li> <br>
+                    <li>Quando começar a aparecer furinhos, vire a massa com o auxílio de uma espátula.</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p> Essas panquecas são uma opção versátil. Podem ser personalizadas de acordo com suas preferências,
+                    seja adicionando frutas, nozes ou outros toppings de sua escolha. Além de serem uma alternativa mais
+                    saudável, são uma maneira deliciosa de começar o dia.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30-35 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/R.bb7fbabf0e266be3d17798e6f9562722?rik=hRJClHk1cM4gQA&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://cdn.vidaativa.pt/uploads/2019/12/receita-de-panquecas-de-aveia-e-banana.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://www.kitchencenter.cl/s/files/1/0104/4391/5319/files/content_PANCAKES_DE_AVENA_Y_PLATANO-1.jpg?em-origin=cdn.shopify.com&em-format=auto)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Suco de laranja e gengibre</h1>
+                <ul>
+                    <li>Laranja</li>
+                    <li>Gengibre</li>
+                    <li>Água gelada</li>
+                    <li>Mel</li>
+                    <li>Adoçante (opcional)</li>
+                    <li>Para deixar a bebida mais saborosa, deixe o gengibre em um vidro com mel por alguns dias na geladeira e use essa mistura no preparo.</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li> Junte todos os ingredientes</li><br>
+                    <li> Descasque a laranja retirando toda a casca e também a parte branca.</li><br>
+                    <li> Corte a laranja em 4 partes e Rale o gengibre.</li><br>
+                    <li>Coloque tudo dentro de um liquidificador, se desejar adicione limão ou alguns pedaços de cenoura.</li> <br>
+                    <li>Comece batendo no modo pulsar, em seguida bata por mais 2 minutos ou até que tudo fique bem triturado.</li> <br>
+                    <li>Para deixar a bebida mais saborosa, deixe o gengibre em um vidro com mel por alguns dias na geladeira e use essa mistura no preparo.</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p> Este suco refrescante combina a doçura cítrica da laranja com o toque picante e aromático do
+                    gengibre. Rico em vitamina C e antioxidantes, é uma bebida revitalizante que pode ser apreciada a
+                    qualquer momento do dia. </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 10-15 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2017/07/suco-de-laranja-gengibre-620x324.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.b668786c42bd1e0f7f2d7d7df2ce1d3c?rik=7Loi9U21oPVp5A&riu=http%3a%2f%2fblogs.correiobraziliense.com.br%2fmariza%2fwp-content%2fuploads%2fsites%2f41%2f2018%2f09%2flaranja_gengibre2.jpg&ehk=i23PqSqi7FUw9VxOk4x0Bsvu5vAeKtTE128dFjPL0pE%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://baudasdicas.com.br/wp-content/uploads/2017/08/suco-de-laranja-com-gengibre-elimina-toxinas-e-ajuda-emagrecer.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Bolo de banana com amendoim</h1>
+                <ul>
+                    <li>Ovos</li>
+                    <li>Óleo</li>
+                    <li>Bananas caturra (nanica) grandes e bem maduras</li>
+                    <li>Açúcar</li>
+                    <li>Farinha de trigo</li>
+                    <li>Farinha de rosca</li>
+                    <li>Amendoim triturado grosseiramente </li>
+                    <li>Fermento</li>
+                    <li>Açúcar e canela para polvilhar</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Bata, no liquidificador, o óleo e os ovos.</li><br>
+                    <li>Adicione três bananas e açúcar. Bata até ficar uma massa lisa.</li> <br>
+                    <li>Coloque as farinhas em uma tigela.</li><br>
+                    <li>Adicione a mistura e incorpore.</li> <br>
+                    <li>Adicione a outra banana cortada em pedaços, o amendoim e o fermento.</li> <br>
+                    <li>Misture delicadamente até ficar homogêneo.</li><br>
+                    <li>Coloque em uma forma untada e enfarinhada.</li><br>
+                    <li>Leve ao forno preaquecido a 180 °C por, aproximadamente, 40 minutos ou até passar no teste do palito.</li><br>
+                    <li>Desenforme e sirva! Bom apetite.</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Este bolo é uma opção maravilhosa para o café da manhã, lanche da tarde ou até mesmo como sobremesa.
+                    A combinação de banana e amendoim traz um sabor rico e reconfortante.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 45-55 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.LoCkUS-gzpgA0NEom25yXwHaFS?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/R.5d86f46f1551439dcf8827bc3559c86e?rik=sTBbaRmB31%2bHVQ&riu=http%3a%2f%2fwww.irmaosnacozinha.com%2fwp-content%2fuploads%2f2016%2f04%2fbolo-2.jpg&ehk=%2fzeJouWEIffbsQRpkSAjH2Sja4B27ZBtt%2b1R%2f4VRXww%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/bolo-de-banana-com-pasta-de-amendoim-1-730x730.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Torta de frango zero lactose</h1>
+                <ul>
+                    <li>Leite zero lactose</li>
+                    <li>Azeite</li>
+                    <li>Fermento em pó</li>
+                    <li>Molho de tomate</li>
+                    <li>Ovos</li>
+                    <li>Creme de leite zero lactose</li>
+                    <li>Farinha de trigo</li>
+                    <li>Frango cozido e temperado a gosto</li>
+                    <li>Milho cozido</li>
+                    <li>Sal a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>No liquidificador, misture o leite, os ovos, o azeite, o creme de leite e o sal.</li><br>
+                    <li>Bata até formar uma mistura homogênea.</li> <br>
+                    <li>Despeje essa mistura em uma tigela e adicione a farinha de trigo.</li> <br>
+                    <li>Misture com o auxílio de um fouet.</li> <br>
+                    <li>Acrescente o fermento e volte a mexer.</li> <br>
+                    <li>Em uma tigela, misture o frango cozido e temperado a gosto, o molho de tomate e o milho.</li><br>
+                    <li>Separe uma travessa untada com azeite e enfarinhada.</li><br>
+                    <li>Despeje metade da massa, acrescente o recheio e cubra com o restante da massa.</li><br>
+                    <li>Leve ao forno preaquecido (180° C) por cerca de 45 minutos.</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Uma torta de frango sem lactose é uma opção deliciosa para quem precisa ou prefere evitar produtos
+                    lácteos. Aqui está uma receita simples para uma torta de frango sem lactose.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 1 Hora minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div style="margin: 1%;background: url(https://tudodereceitas.com.br/wp-content/uploads/2022/02/Torta-de-frango-low-carb.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.LWocgoqm80FAYrBJ3nHQMwHaFP?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://i.pinimg.com/originals/64/26/f5/6426f5f9a64fee073569a20c4149dfb8.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Pizza sem glúten, sem lactose, rápida e saborosa</h1>
+                <ul>
+                    <li>Farinha de arroz</li>
+                    <li>Amido de milho</li>
+                    <li>Fermento</li>
+                    <li>Açúcar</li>
+                    <li>Ovo</li>
+                    <li>Colher (chá) rasa de agar-agar (opcional, para melhorar a massa)</li>
+                    <li>Fécula de batata</li>
+                    <li>Batata média amassada ou mandioca</li>
+                    <li>Água</li>
+                    <li>Óleo ou azeite</li>
+                    <li>Sal a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Adicione todos os ingredientes em uma vasilha.</li><br>
+                    <li>Mexa bem todos os ingredientes, até a massa ficar boa para mexer com as mãos. Se necessário
+                        coloque mais farinha de arroz.</li> <br>
+                    <li>Unte as mãos e coloque a massa em uma forma untada e enfarinhada com farinha de arroz. É
+                        necessário limpar e repassar óleo nas mãos quando a massa começar a agarrar.</li> <br>
+                    <li>Deixe a massa no forno pré-aquecido a 200~250 graus por 10 minutos, dependendo da potência do
+                        seu forno.</li> <br>
+                    <li>Retire a massa, recheie como quiser e deixe por mais 7 a 10 minutos.</li> <br>
+                    <li>Rende uma pizza de 4 pedaços.</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Esta receita proporciona uma pizza sem glúten e sem lactose, repleta de sabores frescos e deliciosos.
+                    Adapte a cobertura de acordo com suas preferências pessoais, e desfrute de uma refeição saborosa e
+                    amigável para quem tem restrições alimentares.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 30-35 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.0c4b8be2f8103b3f4187118ecb9915ea?rik=GK8oGQmS8YTm8g&riu=http%3a%2f%2fmidia.gruposinos.com.br%2f_midias%2fjpg%2f2015%2f05%2f21%2f878x480%2fpizza_sem_lactose_e_sem_gluten_min_ebade-786050.jpg&ehk=BR%2bnlmVTCYuKQHFgUlcYihSfpAJMy14D7MiP8KGHdxg%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://menusemgluten.com/wp-content/uploads/2015/07/img_4784.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receitasedicasdochef.com.br/wp-content/uploads/2018/04/Deliciosa-Pizza-Sem-gl%C3%BAten-Sem-Lactose.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Almôndegas e bolinho de carne glúten e lactose</h1>
+                <ul>
+                    <li>carne moída</li>
+                    <li>especiarias da sua preferência</li>
+                    <li>temperinhos verdes picados</li>
+                    <li>farinha de arroz</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Misture muito bem até a farinha sumir.</li><br>
+                    <li>Frite ou faça assado, fica uma delícia.</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Essas receitas são versáteis e podem ser adaptadas de acordo com suas preferências. Lembre-se de
+                    verificar os rótulos dos ingredientes para garantir que não contenham glúten ou lactose.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 10-15 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.uo4LuqIxb9bUa1V3ARUYPwHaD4?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.quer-cafe.com/wp-content/uploads/2021/08/bolinho-de-carne-delicioso.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/7a/3a/27/7a3a276649652cb97c9fa07b040df971.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Coxinha fit de batata doce sem glúten e lactose</h1>
+                <ul>
+                    <li>batata doce</li>
+                    <li>farinha sem glúten</li>
+                    <li>farinha de rosca sem glúten para empanar</li>
+                    <li>Frango desfiado e temperado a gosto</li>
+                    <li> leite de amêndoas</li>
+                    <li> farinha de quinoa</li>
+                    <li>Sal a gosto</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Preaqueça o forno a 180° C.</li><br>
+                    <li>Faça um purê com a batata doc</li> <br>
+                    <li>Coloque todos os ingredientes em uma panela e, em fogo baixo, mexa até ficar firme e desgrudar
+                        da panela.</li> <br>
+                    <li>Espere esfriar um pouco e molde as coxinhas ainda quente.</li> <br>
+                    <li>Recheie com o frango e empane com farinha de rosca sem glúten.</li> <br>
+                    <li>Coloque no forno preaquecido por cerca de 35 minutos ou até que comecem a dourar.</li><br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>
+                    Coxinha fit de batata doce sem glúten e lactose é uma opção deliciosa e saudável. Aqui está uma receita para você experimentar.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 1 Hora.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/originals/5b/39/9b/5b399b31de98553030084d408e00b391.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ZwOUTSEvSZnXBjh8sdvHPgAAAA?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://folhago.com.br/blogs/receitas-faceis/wp-content/uploads/2021/06/coxinha-fit-de-batata-doce.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Requeijão sem lactose</h1>
+                <ul>
+                    <li>Tofu ou tofu orgânico picado em cubos</li>
+                    <li>Azeite de oliva</li>
+                    <li>Opcional: ervas finas, cebolinha, etc</li>
+                    <li>Água morna</li>
+                    <li>Sal a gosto - sal do himalaia (sal rosa)</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Adicione todos os ingredientes no liquidificador.</li><br>
+                    <li>Bata até formar um líquido consistente, a aparência da foto.</li> <br>
+                    <li>Coloque no recipiente e mantenha na geladeira.</li> <br>
+                    <li>Consumir em até 7 dias.</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Você pode usar esse requeijão sem lactose como um substituto em receitas que pedem requeijão tradicional. Ele é ótimo em sanduíches, bolachas ou como acompanhamento para diversos pratos. Além disso, essa versão caseira permite que você ajuste os ingredientes e temperos de acordo com suas preferências.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 3-5.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.x6xgnIiOhta3Bqh1SwF4ZwHaD_?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/39/1c/f8/391cf82537b5d337caa8629373ece4cd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/cf/1f/6f/cf1f6f6cac70c6c83ad5a1ff48187b76.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Muffins do Chico (sem glúten e sem lactose)</h1>
+                <ul>
+                    <li>Farinha de arroz</li>
+                    <li>Canela em pó</li>
+                    <li>Castanhas picadas</li>
+                    <li>Óleo</li>
+                    <li>Ovo</li>
+                    <li>Farinha de soja</li>
+                    <li>Açúcar mascavo</li>
+                    <li>Frutas secas picadas (ameixa, uvas, peras, damasco)</li>
+                    <li>Água</li>
+                    <li>Margarina</li>
+                    <li>Mel</li>
+                </ul>
+                <h3>MODO DE PREPARO</h3>
+                <ol>
+                    <li>Misture os ingredientes secos em uma vasilha.</li><br>
+                    <li>Adicione as frutas e as castanhas e misture bem.</li> <br>
+                    <li>Coloque o ovo, a água, o óleo e a manteiga, acrescentando por último o fermento em pó.</li> <br>
+                    <li>Coloque em forminhas de muffin untadas e leve ao forno pré aquecido por 20 minutos.</li> <br>
+                    <li>Abra o forno e pincele uma camada de mel sobre os muffins. Asse por aproximadamente mais 10 minutos.</li> <br>
+                </ol>
+                <h2>DESCRIÇÂO</h2>
+                <p>Esses muffins sem glúten e sem lactose são uma opção saborosa e saudável para quem busca alternativas alimentares. Lembre-se de ajustar a receita conforme necessário para atender às suas preferências e necessidades dietéticas específicas.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 35-40 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.d27af2d56e3f69ea8c97b327adb94552?rik=O3NmzqqPCeY8jA&riu=http%3a%2f%2fimg.itdg.com.br%2fimages%2frecipes%2f000%2f097%2f161%2f157398%2f157398_original.jpg&ehk=psJ%2f5qHxYql88mjUGdaEt9qfLHmah9KKz9C%2b8wt5dHw%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/cooking/krfk2GJFQszet6gz8Sj0s7W9sVQyBBWyKpOgNRkY.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://irmaosnacozinha.com/wp-content/uploads/2017/08/muffinchoco3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

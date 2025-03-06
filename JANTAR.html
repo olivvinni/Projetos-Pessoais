@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jantar</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a>
+            </li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas Rapidas Para o Jantar</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Jantar</h1>
+            <hr>
+            <p>Jantares rápidos representam uma solução prática e saborosa para os dias agitados, nos quais o tempo é um
+                recurso escasso, mas a vontade de saborear uma refeição deliciosa permanece alta. São momentos em que a
+                praticidade se alia ao desejo de uma alimentação balanceada e cheia de sabor. As opções são diversas,
+                proporcionando uma experiência gastronômica que se encaixa perfeitamente na rotina corrida.
+                <br> <br>
+                Uma alternativa versátil e rápida é o Wrap de Frango com Vegetais. Cozinhar pedaços de frango em uma
+                frigideira com temperos selecionados, combinados com alface, tomate, queijo e um toque de molho de
+                iogurte, resulta em uma refeição portátil e repleta de sabores frescos.
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Lasanha Vegetariana</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Massa para lasanha</li>
+                    <li>Abobrinha, berinjela, espinafre</li>
+                    <li>Molho de tomate</li>
+                    <li>Queijo mussarela</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe as folhas de lasanha e reserve.</li><br>
+                    <li>Faça camadas de massa, legumes grelhados e molho de tomate.</li><br>
+                    <li>Repita as camadas e finalize com queijo mussarela.</li><br>
+                    <li>Asse até que o queijo derreta.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo do tamanho da lasanha e do tipo de massa utilizada.
+                    Certifique-se de seguir as instruções específicas da embalagem para a massa pré-cozida. A Lasanha
+                    Vegetariana é uma opção saborosa e nutritiva que pode ser apreciada por vegetarianos e não
+                    vegetarianos. Aproveite essa versão deliciosa e colorida da lasanha clássica!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25-30 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://cdn0.tudoreceitas.com/pt/posts/1/2/3/lasanha_vegetariana_3321_600.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.band.uol.com.br/image/2023/05/22/lasanha-vegetariana-153049.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://receitas123.com/wp-content/uploads/2023/06/lasanha-vegetariana-479x270.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Frango Assado com Ervas e Batatas</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Peitos de frango</li>
+                    <li>Batatas cortadas em cubos</li>
+                    <li>Alecrim, tomilho, alho</li>
+                    <li>Azeite de oliva</li>
+                    <li>Sal e pimenta</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Tempere os peitos de frango com alecrim, tomilho, alho, sal e pimenta.</li><br>
+                    <li>Coloque os peitos de frango em uma assadeira junto com as batatas cortadas.</li><br>
+                    <li>Regue com azeite de oliva.</li><br>
+                    <li>Asse no forno preaquecido a 200°C por aproximadamente 30-40 minutos ou até que o frango esteja
+                        cozido e as batatas estejam douradas.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p> O Peito de Frango Grelhado com Legumes é uma refeição saudável, rica em proteínas e cheia de cores
+                    vibrantes. Nesta receita, peitos de frango são temperados e grelhados até ficarem suculentos e
+                    dourados. Os legumes, como abobrinha, pimentão e cenoura, são cortados em pedaços e grelhados para
+                    adicionar uma textura crocante e um toque de frescor. A combinação de sabores torna este prato uma
+                    opção deliciosa e equilibrada para uma refeição completa.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://receitinhas.com.br/wp-content/uploads/2018/01/Depositphotos_13885925_l-2015-1200x900.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/frango-assado-e-batata-americana-com-pimenta-e-ervas_341862-9016.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://s2.glbimg.com/K6joGtkRO77-41kKVgkPk1MuiHQ=/512x320/smart/e.glbimg.com/og/ed/f/original/2013/09/19/cc10_confort_08.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Pizza de Legumes com Massa Integral</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Massa de pizza integral</li>
+                    <li>Molho de tomate</li>
+                    <li>Abobrinha, pimentão, cebola</li>
+                    <li>Queijo mussarela</li>
+                </ul>
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Massa de pizza integral</li><br>
+                    <li>Molho de tomate</li><br>
+                    <li>Abobrinha, pimentão, cebola</li><br>
+                    <li>Queijo mussarela</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O Espaguete ao Pesto com Tomate Cereja é uma receita clássica que combina a simplicidade dos
+                    ingredientes com sabores frescos e intensos. Nesta deliciosa refeição, o espaguete é cozido al dente
+                    e depois misturado com um pesto caseiro, feito com manjericão, pinhões, queijo parmesão, alho e
+                    azeite de oliva. A adição de tomates cereja traz uma doçura e uma explosão de frescor à massa,
+                    resultando em um prato leve e cheio de aroma.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2020/03/pizza-massa-integral-cogumelos.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://d1uz88p17r663j.cloudfront.net/original/7eaa474705efd3bb0d7fe1b881c4266b_pizza-integral-liquidificador-escarola-ricota-receitas-nestle.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://storage.googleapis.com/imagens_videos_gou_cooking_prod/production/cooking/dB3xT5m4fJvkF4KDy9yYgY3a20LSb6XG4AqHdl6w.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Poke Bowl de Salmão</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Cubos de salmão cru</li>
+                    <li>Arroz de sushi</li>
+                    <li>Abacate</li>
+                    <li>Pepino em cubos</li>
+                    <li>Molho de soja e gergelim</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Corte cubos de salmão cru.<br></li>
+                    <li>Monte uma tigela com arroz de sushi, salmão, abacate e pepino em cubos.<br></li>
+                    <li>Regue com molho de soja e polvilhe com gergelim.<br></li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo da sua experiência na cozinha e da eficiência na preparação dos
+                    ingredientes. O Poke Bowl de Salmão é uma opção rápida e saudável, perfeita para os amantes de sushi
+                    que desejam uma refeição fresca e repleta de ingredientes vibrantes. Desfrute deste prato colorido e
+                    delicioso!</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.pingodoce.pt/wp-content/uploads/2021/06/coxa-de-peru-com-batata-doce-e-legumes-assados.jpeg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.receitasemenus.net/wp-content/uploads/2018/11/peito-peru-assado.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://espetinhodesucesso.com.br/wp-content/uploads/2023/09/Batata-doce-combina-com-qual-carne-1200x675.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Tigela de Arroz com Frango Teriyaki</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Arroz cozido</li>
+                    <li>Frango grelhado com molho teriyaki</li>
+                    <li>Brócolis</li>
+                    <li>Cenoura ralada</li>
+                    <li>Gergelim</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe a quinoa.</li><br>
+                    <li>Grelhe aspargos, abobrinha e cenoura.</li><br>
+                    <li>Monte uma tigela com quinoa cozida, legumes grelhados e tomate cereja.</li><br>
+                    <li>Regue com molho de limão.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>A Tigela de Arroz com Frango Teriyaki é uma refeição reconfortante e saborosa, inspirada na culinária
+                    asiática. Nessa receita, pedaços de frango são delicadamente cozidos em um molho teriyaki agridoce e
+                    servidos sobre uma tigela de arroz. A combinação de sabores doces, salgados e umami cria uma
+                    experiência deliciosa. A tigela é geralmente complementada com vegetais crocantes, como brócolis,
+                    cenoura ou pimentão, e pode ser finalizada com gergelim e cebolinha para um toque extra de frescor.
+                </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/tigela-de-arroz-de-frango-teriyaki_1339-67636.jpg?w=2000)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://st3.depositphotos.com/8687452/19417/i/1600/depositphotos_194175858-stock-photo-teriyaki-chicken-rice-bowl.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://i0.wp.com/yamfoods.pt/wp-content/uploads/2023/04/TERIAKY-de-FRANGO-Com-arroz-basmati.jpg?fit=600%2C600&ssl=1)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Wraps de Falafel com Tahine:</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Bolinhas de falafel</li>
+                    <li>Wrap de trigo integral</li>
+                    <li>Hummus</li>
+                    <li>Pepino em tiras</li>
+                    <li>Tomate em cubos</li>
+                </ul>
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Prepare as bolinhas de falafel.</li><br>
+                    <li>Aqueça os wraps e espalhe hummus.</li><br>
+                    <li>Coloque as bolinhas de falafel, regue com tahine, adicione pepino em tiras e tomate em cubos.
+                    </li><br>
+                    <li>Enrole e sirva.</li>
+                </ol>
+
+                <h2>DESCRIÇÃO:</h2>
+                <p>Os Wraps de Falafel com Tahine oferecem uma combinação deliciosa e saudável de sabores do Oriente
+                    Médio. Nesta receita, bolinhos de falafel crocantes são envolvidos em tortilhas, juntamente com uma
+                    variedade de vegetais frescos e regados com um molho de tahine cremoso. Esta refeição é perfeita
+                    para aqueles que procuram uma opção vegetariana ou vegana, rica em proteínas e repleta de
+                    ingredientes vibrantes.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/wrap-de-falafel-com-vegetais-frescos-de-homus-e-molho-de-tahine-ia-generativa_935188-189.jpg?w=2000)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://fooddoodz.tv/assets/images/2020-05-19-Falafel-Wraps/2020-05-19-Falafel-Wraps--Hero-Image-900.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://img.freepik.com/fotos-premium/envoltorio-de-falafel-fresco-e-picante-com-vegetais-frescos-de-homus-e-molho-de-tahine-generative-ai_935188-237.jpg?w=2000)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Panquecas de Batata Doce</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Batata doce cozida e amassada</li>
+                    <li>Ovos</li>
+                    <li>Farinha de aveia</li>
+                    <li>Canela</li>
+                    <li>Frutas para acompanhar</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Misture batata doce cozida e amassada com ovos, farinha de aveia e canela.</li><br>
+                    <li>Cozinhe porções da massa em uma frigideira até dourar.</li><br>
+                    <li>Sirva com frutas.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>As Panquecas de Batata Doce são uma opção nutritiva e deliciosa para um café da manhã ou lanche
+                    saudável. Elas têm uma textura fofa e um sabor ligeiramente adocicado da batata doce. Aqui está uma
+                    descrição básica da receita e o tempo aproximado de preparo</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/panqueca-de-batata-doce-com-aveia-00.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www.receitasnestle.com.br/sites/default/files/srh_recipes/33063d560dda93bfe0cb0e2add695539.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://receitinhas.com.br/wp-content/uploads/2022/07/panquecas-com-batata-doce-2.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Tacos de Carne com Guacamole</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Carne de sua escolha (carne moída, filé, frango)</li>
+                    <li>Tortilhas de milho</li>
+                    <li>Guacamole</li>
+                    <li>Tomate, cebola, coentro</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Cozinhe a carne e tempere a gosto.</li><br>
+                    <li>Aqueça as tortilhas e espalhe guacamole.</li><br>
+                    <li>Monte os tacos com carne, tomate, cebola e coentro.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>
+                    Os Tacos de Carne com Guacamole são uma opção deliciosa e reconfortante para uma refeição repleta de
+                    sabores vibrantes e texturas contrastantes. Nesta receita, pedaços suculentos de carne são
+                    temperados com uma mistura de especiarias, grelhados e servidos em tortilhas de milho macias. O
+                    guacamole fresco, com abacate, tomate, cebola, coentro e limão, complementa perfeitamente a carne,
+                    proporcionando uma explosão de sabores frescos e cremosos</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://i.pinimg.com/736x/aa/9e/e3/aa9ee36e0246c10ca977f6f1f2f2c3e5.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://truffle-assets.tastemadecontent.net/63d992d6-vid60842-tacos-de-chilli-l-thumb.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://www2.zaffari.com.br/imagens_receitas/fullsize/1659113904-19.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Salmão ao Molho de Maracujá</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Filé de salmão</li>
+                    <li>Suco de maracujá</li>
+                    <li>Mel</li>
+                    <li>Gengibre ralado</li>
+                    <li>Molho de soja</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Grelhe os filés de salmão até que estejam cozidos.</li><br>
+                    <li>Misture suco de maracujá, mel, gengibre ralado e molho de soja.</li><br>
+                    <li>Regue o salmão com o molho.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>
+                    O Salmão ao Molho de Maracujá é uma combinação deliciosa de sabores, onde a suculência do salmão
+                    encontra a doçura e acidez única do maracujá.O tempo total pode variar dependendo do método
+                    escolhido para cozinhar o salmão. Esta receita de Salmão ao Molho de Maracujá oferece uma combinação
+                    irresistível de doçura tropical e a textura tenra do salmão. É uma opção elegante para uma refeição
+                    especial ou para impressionar convidados. Aproveite essa explosão de sabores!
+                </p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 20 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://media.gazetadopovo.com.br/2023/02/10155217/Salm%C3%A3o-ao-molho-de-maracuj%C3%A1-2-960x540.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://pubimg.band.uol.com.br/files/22da8596ed38d31394c6.png)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://cdn.casaeculinaria.com/wp-content/uploads/2023/03/29105924/Salmao-ao-molho-de-maracuja.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Peito de Frango Recheado com Espinafre e Queijo Feta</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Peitos de frango</li>
+                    <li>Espinafre</li>
+                    <li>Queijo feta</li>
+                    <li>Alho</li>
+                    <li>Tomate seco</li>
+                </ul>
+                <h2>MODE DE PREPARO:</h2>
+                <ol>
+                    <li>Abra os peitos de frango e recheie com espinafre e queijo feta.</li><br>
+                    <li>Grelhe até que o frango esteja cozido.</li>
+                </ol>
+                <h2>DESCRIÇÃO:</h2>
+                <p>O tempo total pode variar dependendo da habilidade na cozinha e do método escolhido para cozinhar o
+                    frango. Este Peito de Frango Recheado com Espinafre e Queijo Feta é uma opção versátil que pode ser
+                    acompanhada por diversos acompanhamentos, como saladas, arroz ou vegetais assados.</p>
+                <h2>TEMPO DE PREPARO: Aproximadamente 25 minutos.</h2>
+                <div style="margin-bottom: 5%;" id="titulo">
+                    <div>
+                        <div class="containerum">
+                            <div
+                                style="margin: 1%;background: url(https://media.istockphoto.com/id/118313946/pt/foto/peitos-de-frango-recheado-com-espinafre-e-feta.jpg?s=612x612&w=0&k=20&c=Wq1_ply4YJbZ8Xw1-Vz1SlqpZB0wcmEt11jdeNH6lDc=)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://miro.medium.com/v2/resize:fit:1400/0*UG7T1Lr96pf5GbhU)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                            <div
+                                style="margin: 1%;background: url(https://1.bp.blogspot.com/-bxYLI_Z_5d4/YFtr5o5zCnI/AAAAAAAA12s/wLNEuzmbfNUZSvmNY0HnwVqb6HD7Je--QCLcBGAsYHQ/s2048/164630956_142410417796343_1329673974469370271_n.jpg)no-repeat 50% / cover;">
+                                <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

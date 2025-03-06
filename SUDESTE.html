@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudeste</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Sudeste</h1>
+            <hr>
+            <p>O Sudeste do Brasil é uma região rica e diversificada quando se trata de culinária, oferecendo uma variedade de pratos que refletem a influência de diversas culturas, como portuguesa, italiana, africana e indígena. Cada estado da região contribui com suas especialidades, resultando em uma culinária única e deliciosa.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Bife com quiabo</h1>
+                <h2>INGREDIENTES</h2>
+                   
+                <li>1 kg de bife de porco</li>
+                <li>1/2 kg de quiabo picados finos</li>
+                <li>1/2 caldo de bacon</li>
+                <li>1/2 colher de colorau</li>
+                <li>Extrato de tomate</li>
+                <li>1 colher de massa de tomate</li>
+                <li>Cebolinha em folha</li>
+                <li>Tempero a gosto</li>
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Frite o quiabo em uma caçarola e reserve!</li><br>
+
+                    <li>Tempere o bife com alho e sal, em uma frigideira frite mas não muito!</li><br>
+                    
+                    <li>Escorra a gordura da frigideira com os bifes já dentro da panela, coloque o colorau e 1 copo com água, misture uma colher de massa de tomate e deixe engrossar mas não muito.</li><br>
+                    
+                    <li>Em seguida, vire o quiabo na frigideira e a cebolinha espalhe por cima do bife, deixe por mais 2 minutos no fogo baixo.</li><br>
+                    
+                    <li>É só servir, bom apetite!</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bife com Quiabo é um prato delicioso que combina a suculência do bife de porco com a textura única e marcante do quiabo. Essa receita proporciona uma experiência gastronômica equilibrada, onde a carne é cuidadosamente temperada e frita para preservar seus sucos naturais, enquanto o quiabo é preparado de forma a manter sua crocância característica.</p>
+                <h2>Tempo de preparo: 40min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/11/1f/a3/111fa303472730ee9c325829a791bec9.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/94/4a/6e/944a6e1e51ecd724c682563631052606.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/5e/a9/be/5ea9be4fd1e39fad5f8af4f5e8181002.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Feijoada</h1>
+                <h2>INGREDIENTES</h2>
+
+                    <li>1 Kg de feijão preto</li>
+                    <li>Carne-seca</li>
+                    <li>100 g de carne seca</li>
+                    <li>Orelha de porco</li>
+                    <li>70 g de orelha de porco</li>
+                    <li>Rabo de porco</li>
+                    <li>70 g de rabo de porco</li>
+                    <li>Pé de porco</li>
+                    <li>70 g de pé de porco</li>
+                    <li>Costela de porco</li>
+                    <li>100 g de costelinha de porco</li>
+                    <li>Lombo de porco</li>
+                    <li>50 g de lombo de porco</li>
+                    <li>Linguiça paio</li>
+                    <li>100 g de paio</li>
+                    <li>Linguiça portuguesa</li>
+                    <li>150 g de linguiça portuguesa</li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque as carnes de molho por 36 horas ou mais, vá trocando a água várias vezes, se for ambiente quente ou verão, coloque gelo por cima ou em camadas frias.</li><br>
+
+                    <li>Coloque para cozinhar passo a passo: as carnes duras, em seguida as carnes moles.</li><br>
+                    
+                    <li>Quando estiver mole coloque o feijão, e retire as carnes.</li><br>
+                    
+                    <li>Finalmente tempere o feijão.</li><br>
+                    
+                    <li>Acompanhamentos</li>
+                    <li>Couve, arroz branco, laranja, bistecas, farofa, quibebe de abóbora, baião de dois, bacon, torresmo, linguiçinha e caldinho temperado - copinhos.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Feijoada é um prato tradicional da culinária brasileira, reconhecido por sua riqueza de sabores e ingredientes. É uma refeição robusta, que combina feijão preto cozido com diversas carnes, proporcionando uma explosão de aromas e texturas. A Feijoada é um reflexo da diversidade cultural do Brasil, sendo uma mistura única de influências africanas, indígenas e portuguesas.</p>
+                <h2>Tempo de preparo: 2h30min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3a/91/9c/3a919cdc60d2abc61b7a39ebd0055579.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/cd/a2/1f/cda21fd1a3c3c3ea8a3247117f7c9467.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/91/b4/aa/91b4aa904f4a14b186ed7ae61e326109.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Virado à Paulista</h1>
+                <h2>INGREDIENTES</h2>
+                <li>3 xícaras de feijão cozido, batido no liquidificador</li>
+                <li>2 dentes de alho, picados ou amassados</li>
+                <li>Cebola</li>
+                <li>1 cebola, picada</li>
+                <li>Sal</li>
+                <li>Sal a gosto</li>
+                <li>Pimenta-do-reino</li>
+                <li>Pimenta-do-reino a gosto</li>
+                <li>Farinha de mandioca</li>
+                <li>1/2 xícara de farinha de mandioca crua</li>
+                <li>2 colheres de sopa de óleo de soja ou azeite</li>
+                <li>Água</li>
+                <li>3 xícaras de água</li>
+                <li>Bisteca</li>
+                <li>2 bistecas</li>
+                <li>Limão</li>
+                <li>Suco de 2 limões</li>
+                <li>Óleo</li>
+                <li>Óleo para fritura</li>
+                <li>1/2 kg de linguiças fresca ou caipira</li>
+                <li>Água</li>
+                <li>3 litros de água fervente</li>
+                <li>Banana nanica</li>
+                <li>2 bananas nanicas</li>
+                <li>Ovo batido com 1 copo de leite</li>
+                <li>O suficiente de farinha de trigo para empanar</li>
+                <li>Sal a gosto</li>
+                <li>1 maço de couve, lavado e higienizado</li>
+                <li>1/2 kg de panceta</li>
+                <li>Bicarbonato de sódio</li>
+                <li>1 colher de chá de bicarbonato de sódio</li>
+                </li>
+                
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Refogar a cebola e o alho.</li><br>
+
+                    <li>Quando a cebola estiver transparente, juntar o feijão e deixar ferver por uns 10 minutos para que tome o gosto dos temperos.</li><br>
+                    
+                    <li>Acrescentar duas xícaras de água e sal a gosto.</li><br>
+                    
+                    <li>Quando estiver encorpado, juntar uma xícara de farinha de mandioca.</li><br>
+                    
+                    <li>Mexer sem parar, até que tome o aspecto de um pirão grosso.</li><br>
+                    
+                    <li>Bistecas suínas:</li>
+                    <li>Temperar as bistecas com o suco dos limões, o sal e a pimenta-do-reino a gosto.</li><br>
+                    <li>Deixar descansar por 1 hora.</li><br>
+                    <li>Depois, em uma panela pré-aquecida, acrescentar o óleo ou o azeite, as bistecas e fritar com a panela tampada, acrescentando água na medida em que for secando.</li><br>
+                    <li>Após uns 30 minutos, retirar do fogo e servir como acompanhamento do tutu.</li><br>
+                    
+                    <li>Linguiças:</li>
+                    <li>Cozinhar as linguiças em água fervente por 20 minutos ou até que estejam completamente cozidas.</li><br>
+                    <li>Cortar em rodela e fritar em uma panela pré-aquecida.</li><br>
+                    
+                    <li>Bananas fritas:</li>
+                    <li>Cortar as bananas ao meio, passar pelo ovo batido, depois pela farinha de trigo e em seguida pela farinha de rosca.</li><br>
+                    <li>Fritar em óleo bem quente e por imersão (mergulhando o ingrediente no óleo).</li><br>
+                    
+                    <li>Ovos:</li>
+                    <li>Em uma frigideira antiaderente e pré-aquecida, acrescentar um fio de óleo, em seguida o ovo.</li><br>
+                    <li>Salpicar o sal, tampar a panela e pingar água até atingir o ponto desejado.</li><br>
+                    <li>Retirar do cozimento e servir.</li><br>
+                    
+                    <li>Couve:</li>
+                    <li>Retirar os talos das folhas de couve, enrolar as folhas formando um rocambole.</li><br>
+                    <li>Com uma faca bem afiada e com a ajuda dos dedos para definir a espessura, cortar a couve finamente.</li><br>
+                    <li>Em uma panela pré-aquecida, acrescentar o óleo e o sal.</li><br>
+                    <li>Refogar a couve rapidamente e servir.</li><br>
+                    
+                    <li>Torresmo:</li>
+                    <li>Cortar a panceta em tiras para torresmo.</li><br>
+                    <li>Colocar o bicarbonato na água fervente, cozinhar o torresmo na água fervente, por uns 20 minutos ou até que solte bastante espuma.</li><br>
+                    <li>Depois retirar do cozimento, escorrer e fritar em óleo bem quente e com a panela tampada.</li><br>
+                    <li>Retirar da fritura e escorrer em papel toalha.</li><br>
+                    
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Virado à Paulista é um prato típico da culinária paulista que reflete a riqueza gastronômica e cultural do estado de São Paulo, Brasil. Este prato tradicional consiste em uma combinação de arroz chinês, feijão-tropeiro, bisteca de porco, couve refogada, ovo frito, torresmo e banana à milanesa. O Virado à Paulista é conhecido por sua variedade de sabores e texturas, proporcionando uma experiência culinária autêntica.</p>
+                <h2>Tempo de preparo: 3h </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/44/3f/8d/443f8dadaf254a454412f0b2276b9a6c.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/10/e9/43/10e943ff58d56ccd6e455541d5cfdb3b.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/5e/4c/44/5e4c44eef3c3bfa90770386926bee17a.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Moqueca Capixaba</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de peixe (badejo, dentão, robalo, papaterra, dourado, namorado ou xerne)</li>
+                <li>Coentro</li>
+                <li>1 maço de coentro</li>
+                <li>Cebolinha</li>
+                <li>1 maço de cebolinha verde</li>
+                <li>Cebola</li>
+                <li>1 cebola média</li>
+                <li>Alho</li>
+                <li>3 dentes de alho</li>
+                <li>Tomate</li>
+                <li>4 tomates</li>
+                <li>Pimenta-malagueta</li>
+                <li>Pimenta malagueta</li>
+                <li>Azeite</li>
+                <li>Azeite de oliva</li>
+                <li>Urucum</li>
+                <li>Urucum</li>
+                <li>Óleo de soja</li>
+                <li>Óleo de soja</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Escame bem o peixe, tire as vísceras e corte-o em postas de 5 cm de largura.</li><br>
+
+<li>Lave bem com limão e deixe descansando em um prato com água de sal fraca.</li><br>
+
+<li>Soque o alho, três rodelas de cebola, um maço de coentro picado, um maço de cebolinha verde e sal.</li><br>
+
+<li>Esfregue no fundo da panela de barro um pouco de óleo de soja (duas colheres) e azeite de oliva (uma colher).</li><br>
+
+<li>Adicione à panela a massa obtida no socador, passando-a no seu fundo.</li><br>
+
+<li>Retire as postas de peixe do prato com água e sal.</li><br>
+
+<li>Vire as postas de um lado para o outro nos temperos da panela.</li><br>
+
+<li>Arrume-as de modo que não fiquem umas por cima das outras.</li><br>
+
+<li>Corte o resto do coentro, da cebolinha verde, do tomate e da cebola e coloque nesta ordem por cima das postas de peixe que estão na panela.</li><br>
+
+<li>Regue com um pouco de azeite e suco de limão.</li><br>
+
+<li>Deixe tudo descansando por 20 a 60 minutos.</li><br>
+
+<li>Derreta em um pouco de óleo três colheres de urucum.</li><br>
+
+<li>Na hora de levar ao fogo para cozinhar, despeje um pouco deste caldo por cima da moqueca.</li><br>
+
+<li>Quando começar a abrir fervura, verifique o sal.</li><br>
+
+<li>Não ponha água, não vire as postas e cozinhe com a panela aberta.</li><br>
+
+<li>Vá verificando o paladar do sal e do limão.</li><br>
+
+<li>Deixe no fogo forte por 20 a 25 minutos.</li><br>
+
+<li>Balance de vez em quando a panela com o auxílio de um pedaço de pano grosso, para que as postas de peixe não agarrem no fundo.</li><br>
+
+<li>Vai bem com arroz branco, um belo pirão e um belo molho.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Moqueca Capixaba é uma iguaria da culinária capixaba, representando uma riqueza dos sabores da região. Este prato típico é uma combinação de frutos do mar, peixes frescos e uma mistura única de temperos e ervas. A Moqueca Capixaba se destaca pela simplicidade e desvantagens de seus ingredientes, sendo cozida lentamente em panela de barro para preservar os sabores naturais e criar um caldo suculento e aromático.</p>
+                <h2>Tempo de preparo: 1h50min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/8f/e8/29/8fe82942b7ba3f87e6d3f1ecec4c2c59.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a4/93/56/a49356319515d85dad09be934c375506.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/5c/be/15/5cbe15b4db5cea11663909ee8fc3f7c3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Bauru</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 pão de forma sem casca</li>
+                <li>Queijo mussarela</li>
+                <li>250 g de mussarela em fatias</li>
+                <li>Presunto</li>
+                <li>250 g de presunto em fatias</li>
+                <li>Tomate</li>
+                <li>1 tomate grande em rodelas</li>
+                <li>Sal, orégano</li>
+                <li>Leite</li>
+                <li>2 xícaras de chá de leite</li>
+                <li>Ovo</li>
+                <li>3 ovos</li>
+                <li>1 colher de sopa de margarina</li>
+                <li>Queijo ralado</li>
+                <li>3 colheres de sopa de queijo ralado</li>
+               
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Unte um pirex.</li><br>
+
+                    <li>Camadas: fatias de pão de forma, mussarela fatiada, rodelas de tomate temperadas com sal e orégano, presunto fatiado, outra camada de pão de forma.</li><br>
+                    
+                    <li>Bater no liquidificador o leite, os ovos, a margarina, o queijo ralado e jogar por cima do sanduichão.</li><br>
+                    
+                    <li>Polvilhar queijo ralado e levar ao forno quente até gratinar.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bauru é um sanduíche clássico brasileiro, originado na cidade de Bauru, no estado de São Paulo. Simples, porém delicioso, o Bauru é conhecido por sua combinação equilibrada de ingredientes que resulta em um sabor único e reconhecível.</p>
+                <h2>Tempo de preparo: 15min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/90/2e/38/902e384b0fc754c0e43ac589b10d8fc7.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/35/45/fe/3545fe7802899516d7355e837df565bf.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f3/11/7b/f3117bb694f1cb4ed5c57de5651bffc1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Bife a Cavalo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>8 bifes grandes (contra filé ou alcatra)</li>
+                <li>Sal e pimenta do reino</li>
+                <li>10 ovos</li>
+                <li>Óleo para fritar</li>
+                <li>Batata</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                
+                    <li>Tempere os bifes com sal, alho e pimenta-do-reino.</li><br>
+
+                    <li>Deixe descansar por 30 minutos.</li><br>
+                    
+                    <li>Leve ao fogo em uma frigideira com pouco óleo.</li><br>
+                    
+                    <li>Quando estiver bem quente, coloque o bife e deixe dourar.</li><br>
+                    
+                    <li>Frite um bife de cada vez, para não juntar água.</li><br>
+                    
+                    <li>Frite a seguir os ovos sem perfurar as gemas e coloque-os sobre os bifes.</li><br>
+                    
+                    <li>Depois corte as batatas em tiras e frite e coloque sobre os ovos.</li><br>
+                    
+                    <li>Sirva a seguir.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Bife a Cavalo é uma receita brasileira que combina a suculência de um bife grelhado com a indulgência de um ovo frito, resultando em um prato esmagador e reconfortante. O nome "a Cavalo" faz referência à semelhança visual do ovo montado sobre o bife com um cavaleiro montado em um cavalo.</p>
+                <h2>Tempo de preparo: 30min </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a2/fd/82/a2fd824dfe8a38c7bf3edad2a85f3922.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/9d/4d/0a/9d4d0a9d24fa7d7ec86b8c202b978866.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/f1/cd/9c/f1cd9cdc2f88104697862ab91c57f3d1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Pão de Queijo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>4 copos (americanos) de polvilho doce (500 g)</li>
+                <li>1 colher (sopa) tempero ou sal a gosto</li>
+                <li>2 copos (americanos) de leite (300 ml)</li>
+                <li>1 copo (americano) de óleo (150 ml)</li>
+                <li>2 ovos grandes ou 3 pequenos</li>
+                <li>4 copos (americanos) de queijo minas meia cura ralado</li>
+                <li>Óleo para untar</li>
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Coloque o polvilho em uma tigela grande.</li><br>
+
+                    <li>À parte, aqueça o sal, o leite e o óleo.</li><br>
+
+                    <li>Quando ferver, escalde o polvilho com essa mistura, mexa muito bem para desfazer pelotinhas.</li><br>
+
+                    <li>Deixe esfriar.</li><br>
+
+                    <li>Acrescente os ovos, um a um, alternando com o queijo e sovando bem após cada adição.</li><br>
+
+                    <li>Unte as mãos com óleo, se necessário.</li><br>
+
+                    <li>Enrole bolinhos de 2 cm de diâmetro e coloque-os em uma assadeira untada.</li><br>
+
+                    <li>Leve ao forno médio (180º C), preaquecido.</li><br>
+
+                    <li>Asse até ficarem douradinhos.</li><br>
+
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Pão de Queijo é uma iguaria brasileira que conquistou o paladar de muitos ao redor do mundo. Originário de Minas Gerais, esse quitute é conhecido por sua textura única, que combina uma casquinha crocante por fora com um interior macio e cheio de sabor. Feito principalmente com queijo e polvilho, o Pão de Queijo é uma mistura de tradição, simplicidade e delícia.</p>
+                <h2>Tempo de preparo: 40min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/86/4a/44/864a4437d85876984d32952812231315.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3b/fe/bb/3bfebb7d82b1c499f6f7b1f0e1f46a03.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/81/0f/ba/810fba904dc9a97caf35899b6a88ddcc.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Frango com Quiabo</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 quilo de quiabo</li>
+                <li>1 frango inteiro, cortado em pedaços</li>
+                <li>5 dentes de alho amassados</li>
+                <li>1 cebola grande bem picadinha</li>
+                <li>1 xícara (chá) de óleo</li>
+                <li>1 colher (sobremesa) de colorau</li>
+                <li>Pimenta a gosto</li>
+                <li>Sal a gosto</li>
+                <li>Cheiro-verde (salsa e cebolinha) a gosto</li>
+                
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Tempere o frango com o alho amassado, sal, pimenta e colorau.</li><br>
+
+                    <li>Se desejar, acrescente uma colher (sopa) de vinagre.</li><br>
+                    
+                    <li>Deixe marinar na geladeira por aproximadamente 30 minutos.</li><br>
+                    
+                    <li>Preparando o quiabo:</li>
+                    <li>Lave o quiabo e seque com um pano, deixando-o bem sequinho.</li><br>
+                    <li>Pique em rodelinhas finas.</li><br>
+                    <li>Em uma panela, aqueça uma xícara de óleo.</li><br>
+                    <li>Acrescente o quiabo picado e deixe refogar até que não tenha mais nenhuma baba. Tenha paciência, porque a baba sai! Este processo leva cerca de 20 minutos.</li><br>
+                    <li>Mexa de vez em quando, com cuidado para o quiabo não desmanchar.</li><br>
+                    <li>Quando estiver sem baba, desligue o fogo, espere amornar e coe, para retirar o óleo.</li><br>
+                    <li>Reserve somente o quiabo.</li><br>
+                    
+                    <li>Preparando o frango:</li>
+                    <li>Em uma panela, aqueça duas colheres (sopa) de óleo e doure muito bem a cebola, como se estivesse queimando (isso fará com que solte um corante natural no frango).</li><br>
+                    <li>Junte o frango e deixe-o fritar muito bem.</li><br>
+                    <li>Quando estiver bastante dourado, junte três xícaras de água fervente, ou um tanto que quase cubra o frango.</li><br>
+                    <li>Corrija o sal, se necessário, e deixe cozinhar em fogo médio, com a panela semi-tampada por mais ou menos 20 minutos, ou até que o frango esteja bem macio.</li><br>
+                    <li>Junte o quiabo reservado e deixe apurar até que fique encorpado.</li><br>
+                    <li>Se estiver com muito caldo, aumente o fogo e deixe secar um pouco mais.</li><br>
+                    <li>Verifique se está bom de sal.</li><br>
+                    <li>Por último, junte o cheiro-verde.</li><br>
+                    <li>Sirva com arroz e feijão fresquinhos e angu (ou polenta sem molho).</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Frango com Quiabo é um prato tradicional da culinária brasileira, conhecido por sua combinação única de sabores e pela presença marcante do quiabo, que adiciona uma textura especial ao prato. Essa receita é popular em diversas regiões do Brasil e destaca as características do frango em combinação com ingredientes regionais.</p>
+                <h2>Tempo de preparo: 1h </h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/90/84/c9/9084c9c8f6f8f766689e9b4290f647fe.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a2/76/ae/a276ae3fe84d7ef130270b1a0d149410.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/4d/7f/41/4d7f41038631f6a886bbee2aec05e915.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Cuscuz paulista </h1>
+                <h2>INGREDIENTES</h2>
+                <li>1/2 xícara (chá) de azeite</li>
+                <li>1 cebola picada</li>
+                <li>1 lata ou caixa de molho de tomate</li>
+                <li>2 latas de água</li>
+                <li>1 lata de ervilha</li>
+                <li>1 lata de milho verde</li>
+                <li>1 pimentão</li>
+                <li>2 latas de sardinha ou atum</li>
+                <li>Cheiro-verde (salsa e cebolinha) a gosto</li>
+                <li>Sal e temperos a gosto</li>
+                <li>1 tablete de caldo de legumes ou do seu sabor preferido</li>
+                <li>3 xícaras de farinha de milho grossa</li>
+                <li>3 ovos cozidos</li>
+                <li>Tomate para decorar</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Refogue no azeite, a cebola, o pimentão, as azeitonas, a ervilha, o milho verde, o molho de tomate, o cheiro-verde, a sardinha, os temperos e o tablete de caldo.</li><br>
+                    <li>Coloque a água, deixe ferver, coloque a farinha de milho e cozinhe.</li><br>
+                    <li>Unte a forma com azeite, e coloque os ovos, os tomates e a sardinha por baixo.</li><br>
+                    <li>Coloque a massa na forma, deixe esfriar e desenforme.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>O Cuscuz Paulista é um prato típico da culinária brasileira, especialmente popular no estado de São Paulo. Essa receita, apesar das influências árabes, foi adaptada ao paladar brasileiro e ganhou características únicas. O Cuscuz Paulista é uma mistura de sabores e texturas, apresentando camadas de peixe, ovos cozidos, legumes e uma base de cuscuz de milho, resultando em uma refeição deliciosa e reconfortante.</p>
+                <h2>Tempo de preparo: 1h15min</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/fb/cc/98/fbcc9856607a002ac2264a0919f61906.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/55/f8/62/55f8629d8e89c978ca4c86440059a639.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/e2/f1/81/e2f1817ca772a31f380024d0d2df8953.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Torta capixaba</h1>
+                <h2>INGREDIENTES</h2>
+                <li>1 kg de bacalhau</li>
+                <li>2 kg de palmito natural previamente ralado e cozido</li>
+                <li>12 ovos</li>
+                <li>350 ml de azeite de oliva</li>
+                <li>200 g de azeitona</li>
+                <li>Tomate</li>
+                <li>Alho bem picado, colorau e cebolas em rodelas</li>
+                <li>Tempero verde a gosto</li>
+                <li>Sal a gosto</li>
+
+
+                <h2>MODO DE PREPARO</h2>
+                <ol>
+                    <li>Numa panela, cozinhe o bacalhau e, depois de cozido, desfie-o.</li><br>
+
+                    <li>Escorra bem o palmito. Reserve.</li><br>
+                    
+                    <li>Refogue o bacalhau e o palmito em azeite por 20 minutos, juntamente com tomate, alho, colorau, cebolas, tempero verde e parte da azeitona sem caroço.</li><br>
+                    
+                    <li>Despeje 6 ovos e misture por 5 minutos.</li><br>
+                    
+                    <li>Unte as assadeiras com azeite e despeje o mexido.</li><br>
+                    
+                    <li>Bata os ovos que restaram e despeje uniformemente por cima.</li><br>
+                    
+                    <li>Enfeite com cebolas e azeitonas.</li><br>
+                    
+                    <li>Deixe assar por 40 minutos em temperatura média.</li><br>
+                    
+                </ol>
+                <h2>DESCRIÇÃO</h2>
+                <p>A Torta Capixaba é uma iguaria típica do Espírito Santo, estado localizado na região Sudeste do Brasil. Essa receita tem suas raízes nas tradições pesqueiras da região, destacando-se por ser uma torta recheada com frutos do mar e peixes frescos, criando um prato saboroso e representativo da cultura capixaba.</p>
+                <h2>Tempo de preparo: 2h</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/a7/ec/26/a7ec2673d80dc5dc83879f1d0f49e09d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/3b/89/41/3b8941a69ad6eae7f7b602e6ebaf4021.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/236x/d1/c9/b8/d1c9b88bf3e238da6478d17c759d0793.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

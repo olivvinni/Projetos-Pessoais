@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páscoa</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas sobre páscoa</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>PÁSCOA</h1>
+            <hr>
+            <p>A origem da Páscoa está intrinsecamente ligada às tradições religiosas cristãs, comemorando a ressurreição de Jesus Cristo dentre os mortos. A palavra "Páscoa" tem origem no hebraico "Pesach", que significa "passagem". A celebração cristã da Páscoa tem raízes nas tradições judaicas da festa da Páscoa, que comemora a libertação dos israelitas da escravidão no Egito, conforme relatado no Antigo Testamento da Bíblia
+                De acordo com a narrativa cristã, a Páscoa marca a ressurreição de Jesus, um evento central na fé cristã. A crucificação de Jesus ocorreu durante a festa judaica da Páscoa, e a ressurreição ocorreu três dias depois. Assim, a Páscoa cristã é celebrada no domingo seguinte à primeira lua cheia que ocorre no equinócio da primavera no hemisfério norte (março ou abril).
+                Ao longo dos séculos, várias tradições foram adicionadas à celebração da Páscoa, muitas das quais têm origens culturais e folclóricas. Por exemplo, os ovos de Páscoa têm suas raízes em tradições pagãs e antigas símbolos de fertilidade, renovação e vida nova. O coelho da Páscoa também é associado a símbolos de fertilidade e renascimento.
+                É importante notar que as tradições da Páscoa podem variar em diferentes culturas e denominações cristãs, mas a essência da celebração está sempre relacionada à ressurreição de Jesus Cristo.</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. lasanha</h1>
+                <h2>MASSA DA LASANHA:</h2>
+                    <li>Pode ser comprada pronta ou feita em casa. A massa é geralmente cozida antes de montar a lasanha.</li>
+                <h2>MOLHO DE CARNE:</h2>
+                    <li>Carne moída (bovina, suína, ou uma mistura)</li>
+                        <li>Cebola</li>
+                            <li>Alho</li>
+                                <li>Molho de tomate</li>
+                                    <li>Tomate (fresco ou enlatado)</li>
+                                        <li>Sal, pimenta e temperos a gosto (manjericão, orégano, etc.)</li>
+                <h2>MOLHO BRANCO:</h2>
+                                    <li> Manteiga</li>
+                                <li>Farinha de trigo </li>
+                            <li> Noz-moscada (opcional)</li>
+                        <li> Sal e pimenta a gosto</li>
+
+                <h2>QUEIJO:</h2>
+
+                    <li>Queijo muçarela ralado (pode ser usado outros queijos, como parmesão ou queijo ricota)</li>
+
+                <h2>MONTAGEM ADICIONAL:</h2>
+
+                        <li>Às vezes, adicionam-se camadas de espinafre cozido, presunto, cogumelos, ou outros vegetais, dependendo da preferência.</li>
+
+                <h2>MODO DE PREPARO:</h2>
+
+                <h3>PREPARE OS MOLHOS:</h3>
+                <ol>
+                    <li>Em uma panela, prepare o molho de carne. Refogue a cebola e o alho, adicione a carne moída e cozinhe até dourar.
+                         Acrescente o molho de tomate, os tomates, os temperos e deixe cozinhando em fogo baixo até obter um molho consistente. </li><br>
+                            <li>Em outra panela, prepare o molho branco (Béchamel). Derreta a manteiga, adicione a farinha e mexa até formar uma pasta. Acrescente o leite aos poucos, mexendo constantemente.
+                         Cozinhe até obter um molho cremoso. Tempere com sal, pimenta e noz-moscada a gosto.  </li><br>
+
+                    <h2>COZINHE A MASSA:</h2>
+
+                                <li>Cozinhe a massa para lasanha de acordo com as instruções da embalagem. Normalmente, é necessário pré-cozinhar a massa antes de montar a lasanha.</li><br>
+
+                    <h2>MONTE AS CAMADAS:</h2>
+
+                                <li>Unte uma assadeira com manteiga. Coloque uma camada fina de molho de carne no fundo.</li><br>
+                                    <li>Disponha uma camada de massa cozida sobre o molho.</li><br>
+                                        <li>Adicione uma camada de molho de carne, seguida por uma camada de molho branco e queijo muçarela ralado.</li><br>
+                                            <li>Repita as camadas até atingir a altura desejada ou acabarem os ingredientes, terminando com uma camada de molho branco e queijo muçarela por cima.</li>
+                    
+                    <h2>ASSE:</h2>
+                                
+                                <li>Cubra a assadeira com papel alumínio e leve ao forno pré-aquecido conforme as instruções da massa, geralmente em torno de 30-40 minutos.</li>
+                                    <li>Retire o papel alumínio nos últimos 10 minutos para dourar o queijo.</li>
+
+                    <h2>SIRVA:</h2>
+
+                                
+                                <li>Deixe a lasanha descansar por alguns minutos antes de cortar e servir. Isso ajuda a firmar as camadas.</li>
+                                    
+                                <h2>TEMPO DE PREPARO: Aproximadamente 50 minutos</h2>
+
+                </ol>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.1d79f3494a45b6cf63f308f0bdb6ba9d?rik=ovJu%2brw1ddIP3A&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.MOsTXIU9JxsRSJX57LaflwHaEK?w=780&h=438&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://lifeinitaly.com/wp-content/uploads/2018/08/Depositphotos_9569649_m-768x512.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Costelinha de porco caramelizada no forno</h1>
+                    <h2>INGREDIENTES:</h2>
+                    <li>1,5 kg de costela suína temperada </li>
+                        <li>Vinagre a gosto </li>
+                            <li>Chimichurri a gosto </li>
+                                <li>Alecrim fresco a gosto </li>
+                                    <li>Azeite a gosto </li>
+                                <li>Sal a gosto </li>
+                            <li>500 gramas de batata bolinha com casca </li>
+                        <li>3 colheres de sopa de ketchup   </li>
+                    <li>3 colheres de sopa de molho inglês   </li>
+                        <li>3 colheres de sopa de melado de cana   </li>
+                            <li>3 colheres de sopa de catchup   </li>
+                                <li> 3 colheres de sopa de molho inglês   </li>
+                                    <li>3 colheres de sopa de melado de cana</li>
+
+                <h2>MODO DE PREPARO:</h2>
+
+                <ol>
+                    <li>Reúna todos os ingredientes.</li><br>
+                    <li>Em uma tigela, borrife vinagre na costela e tempere com chimichurri, alecrim e regue com azeite.</li><br>
+                    <li>Disponha a costelinha temperada no centro de um refratário e adicione as batatas bolinhas ao redor.</li><br>
+                    <li>Tempere as batatas com sal.</li><br>
+                    <li>Cubra o refratário com papel alumínio e leve ao forno preaquecido a 160ºC por cerca de 1 hora.</li><br>
+                    <li>Enquanto assa, prepare o molho para costelinha misturando ketchup, molho inglês e melado de cana em um recipiente. Reserve.</li><br>
+                    <li>Após 1 hora, retire o papel alumínio do refratário, lambuze a carne com o molho e retorne ao forno a 160ºC por mais 20 minutos.</li><br>
+                    <li>Após esse tempo, vire a carne e deixe assar por mais 20 minutos.</li><br>
+                    <li>Ao final, a costelinha estará caramelizada no forno.</li><br>
+                    <li>Sirva e aproveite sua refeição! Bom apetite!</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 80 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.4fdbdbfcec87a037fc489bf88b66658b?rik=aDRb4e3cT8nelw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.pJ1DZdoSpqc6CxJQ_O86owHaFj?w=840&h=630&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ffgi_g-h396yUyxU3bydtwAAAA?w=304&h=400&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Cupim macio ao forno</h1>
+                    <h2>INGREDIENTES:</h2>
+                    <ul>
+                        <li>1 cupim de aproximadamente 1 kg</li>
+                        <li>2 cebolas médias em rodelas</li>
+                        <li>1/2 pimentão pequeno em tiras</li>
+                        <li>4 dentes de alho</li>
+                        <li>1 colher de sopa de molho shoyo ou inglês</li>
+                        <li>1 pitada de pimenta-do-reino</li>
+                        <li>1 folha de louro</li>
+                        <li>1 xícara de café de azeite</li>
+                        <li>1/2 copo americano de vinho seco</li>
+                        <li>Sal a gosto</li>
+                      </ul>
+                    <h2>MODO DE PREPARO:</h2>
+                    <ol>
+                        <li>Coloque em uma bacia 2 cebolas médias em rodelas, 1/2 pimentão pequeno em tiras, 4 dentes de alho, a folha de louro, pimenta-do-reino e o sal. Soque-os com um amassador.</li><br>
+                        <li>Acrescente o molho shoyu ou inglês, o azeite e o vinho, misturando tudo.</li><br>
+                        <li>Forre uma assadeira com papel alumínio, coloque o cupim (fure a carne com uma faca de ponta para que o tempero entre nela) e despeje o tempero por cima.</li><br>
+                        <li>Ao redor, coloque as batatas e a cebola.</li><br>
+                        <li>Envolva toda a carne com o papel alumínio, não deixe brechas (quanto mais lacrada no alumínio, melhor fica).</li><br>
+                        <li>Leve ao forno por aproximadamente 4 horas a uma temperatura média.</li><br>
+                      </ol>
+                                          
+                      <h2>TEMPO DE PREPARO: Aproximadamente 4 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.njLvbgtHmbQsf_PeHCot-QHaE7?w=258&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.KEahV0Nv1eoULmYXrT7JWgHaEK?w=290&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.TfN_hp9JnCXnGAmFTkUHVgHaEo?w=271&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Bacalhau ao forno </h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>500 gramas de bacalhau</li>
+                    <li>6 batatas médias cortadas em fatias e cozidas</li>
+                    <li>2 cebolas grandes em rodelas</li>
+                    <li>1 pimentão pequeno amarelo em rodelas</li>
+                    <li>1 pimentão pequeno vermelho em rodelas</li>
+                    <li>1 pimentão pequeno verde em rodelas</li>
+                    <li>1 tomate picado em rodelas</li>
+                    <li>4 ovos cozidos picados</li>
+                    <li>3 dentes de alho picados</li>
+                    <li>Sal a gosto</li>
+                    <li>Cheiro-verde a gosto</li>
+                    <li>Azeite a gosto</li>
+                    <li>Azeitonas a gosto</li>
+                  </ul>
+                  
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Reúna todos os ingredientes;</li><br>
+                    <li>Em uma panela grande, coloque o azeite, o alho e deixe dourar;</li><br>
+                    <li>Adicione a cebola em rodelas até murchar;</li><br>
+                    <li>Em seguida, coloque os pimentões, os tomates, os temperos e o cheiro-verde. Misture e refogue;</li><br>
+                    <li>Despeje o bacalhau já dessalgado na panela e incorpore;</li><br>
+                    <li>Deixe cozinhar por 2 minutos, desligue o fogo;</li><br>
+                    <li>Em uma travessa de ir ao forno, acomode as batatas cozidas no fundo;</li><br>
+                    <li>Coloque o refogado por cima e regue com muito azeite;</li><br>
+                    <li>Decore com os ovos cozidos e fatiados, as azeitonas e leve ao forno preaquecido a 180 °C por 10 minutos;</li><br>
+                    <li>Sirva e bom apetite.</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 30 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.d6740996c94bfaba672b81a2be2eccb8?rik=B%2fLmz5tM7CC4pg&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receitasagora.com.br/wp-content/uploads/2020/01/receita-de-torta-de-bacalhau-gratinado-com-batata.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.aguanaboca.org/wp-content/uploads/2018/02/21369154_339599853170037_1168755405738288218_n.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Arroz de forno com frango fácil </h1>
+                <h2>INGREDIENTES DO FRANGO:</h2>
+                <ul>
+                    <li>2 colheres de sopa de azeite</li>
+                    <li>1/2 cebola picada</li>
+                    <li>2 dentes de alho</li>
+                    <li>250 gramas de peito de frango cozido e desfiado</li>
+                    <li>1/2 colher de chá de pimenta-do-reino</li>
+                    <li>1/2 colher de chá de curry</li>
+                    <li>1/2 sachê de molho de tomate</li>
+                    <li>1/2 lata de milho escorrida</li>
+                    <li>Coentro a gosto</li>
+                  </ul>
+                <h2>INGREDIENTES DE MONTAGEM:</h2>
+                <ul>
+                    <li>500 gramas de arroz branco cozido</li>
+                    <li>150 gramas de presunto picado</li>
+                    <li>1 cenoura média ralada</li>
+                    <li>100 gramas de requeijão</li>
+                    <li>150 gramas de queijo mussarela</li>
+                    <li>Orégano a gosto</li>
+                  </ul>
+                  
+                <h2>MODO DE PREPARO:</h2>
+                <ol>
+                    <li>Em uma panela, aqueça o azeite e refogue a cebola e o alho;</li><br>
+                    <li>Acrescente o frango desfiado e deixe refogar mais um pouco;</li><br>
+                    <li>Tempere com a pimenta e o curry, adicione o molho de tomate, o milho e misture bem;</li><br>
+                    <li>Deixe terminar de cozinhar e finalize com o coentro. Reserve.</li><br>
+                  </ol>
+                  
+                <h2>FINALIZAÇÃO:</h2>
+                <ol>
+                    <li>Em uma travessa, coloque o arroz, o frango, o presunto, a cenoura, o requeijão e misture bem;</li><br>
+                    <li>Coloque metade da mistura em uma forma, fazendo uma camada uniforme;</li><br>
+                    <li>Por cima, faça uma camada com metade do queijo, outra com o restante do arroz e cubra com o restante da mussarela;</li><br>
+                    <li>Finalize com o orégano e leve ao forno preaquecido a 180 ºC até derreter o queijo;</li><br>
+                    <li>Está pronto para servir! Bom apetite.</li><br>
+                  </ol>
+                  
+                  <h2>TEMPO DE PREPARO: Aproximadamente 60 minutos</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.846b1165414375db89b4b42e7bdc3b03?rik=ryHrDjl%2f3WKWJw&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.d1NEzPIYQof1UQbY0SNhXQHaFj?w=800&h=600&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/736x/52/89/d3/5289d3a7d396b3d37b553e8d5ad5be2e.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+      
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

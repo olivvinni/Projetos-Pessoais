@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDITERRANEA</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 1/FiltrodeReceitas.html">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="/HTML - 1/Contato.html">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>10 Receitas de Comidas para Dietas/h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>DIETA MEDITERRÂNEA</h1>
+            <hr>
+            <p>A Dieta Mediterrânea é um padrão alimentar tradicional inspirado nos hábitos alimentares de populações que vivem em regiões banhadas pelo Mar Mediterrâneo. Essa dieta ganhou reconhecimento devido aos seus potenciais benefícios para a saúde, com vários estudos sugerindo que ela pode estar associada a uma redução do risco de doenças crônicas, como doenças cardíacas e diabetes.
+                
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Antepasto de berinjela</h1>
+                <h2>INGREDIENTES:</h2>
+                <ul>
+                    <li>Berinjelas (preferencialmente pequenas e firmes)</li>
+                    <li>Tomates maduros</li>
+                    <li>Pimentão vermelho</li>
+                    <li>Cebola</li>
+                    <li>Alho</li>
+                    <li>Azeite de oliva extra virgem</li>                    </li>
+                    <li>Vinagre balsâmico</li>
+                    <li>Folhas de manjericão fresco</li>
+                    <li>Azeitonas sem caroço</li>
+                    <li>Sal e pimenta a gosto</li>
+                    <li>Pimenta do reino, chimichurri, orégano a gosto</li>
+                  </ul>
+             <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Reúna todos os ingredientes.</li> <br>
+                <li>Em uma assadeira, faça uma camada com as berinjelas em tiras.</li> <br>
+                <li>Por cima, adicione uma camada com os pimentões e finalize com uma de cebola.</li> <br>
+                <li>Regue com o azeite, o vinagre e tempere com sal e o orégano.</li> 
+                <li>Cubra a forma com papel alumínio e leve ao forno preaquecido a 150 °C por cerca de 15 minutos.</li> 
+                <li>Retire o papel alumínio, acrescente as azeitonas, misture levemente, cubra novamente com o papel alumínio e volte ao forno por mais 1 hora e 30 minutos, ou até a berinjela escurecer e secar.</li> 
+                <li>Deixe esfriar e reserve na geladeira. DICA: quanto mais tempo você deixar marinando na geladeira, melhor fica. Agora é só servir.</li>
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> O antepasto de berinjela é uma deliciosa preparação culinária que destaca o sabor característico e a textura macia da berinjela. Este prato é popular na culinária mediterrânea e pode ser servido como aperitivo, acompanhamento ou até mesmo como um recheio saboroso para sanduíches. Aqui está uma descrição básica de como preparar antepasto de berinjela.</p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 2 horas.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/antepasto-de-berinjela-de-panela-00-730x548.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://guiadacozinha.com.br/wp-content/uploads/2019/10/antepasto-berinjela-768x619.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://atualreceitas.com/wp-content/uploads/2023/04/1-1.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Bruschettas de abobrinha</h1>
+                <ul>
+                    <li>Ovos</li>
+                    <li>Sal a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>Páprica picante a gosto</li>
+                    <li>Farinha de amêndoas</li>
+                    <li>Farinha de mandioca</li>
+                    <li>Ervas frescas de sua preferência</li>
+                    <li>Abobrinha (média) </li>
+                    <li>Muçarela de búfala a gosto</li>
+                    <li>Tomates (pequenos sem sementes e cortados em cubinhos)</li>
+                    <li>Azeite de oliva</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+               <ol>
+                <li>Em uma tigela, adicione os ovos, mexa com um garfo e acrescente sal e pimenta a gosto.</li> <br>
+                <li>Em outro recipiente, adicione as farinhas, a páprica picante, o sal e ervas.</li> <br>
+                <li>Passe as fatias de abobrinhas na mistura de ovos e depois na mistura de farinhas.</li> <br>
+                <li>Disponha as fatias em uma assadeira untada ou com papel manteiga.</li> 
+                <li>Em cada fatia de abobrinha, adicione uma porção de muçarela de búfala por cima, seguido de uma porção de tomate em cubinhos.</li> 
+                <li>Tempere as fatias com sal, ervas e um fio de azeite.</li> 
+                <li>Leve para assar em forno já preaquecido por cerca de 45 minutos, a 180 ºC.</li>
+               </ol>
+                   <h2>DESCRIÇÂO</h2>
+                   <p> Essas bruschettas de abobrinha são uma opção leve e cheia de sabor. Elas são perfeitas como aperitivo em eventos sociais ou como entrada em uma refeição. </p>
+               <h2>TEMPO DE PREPARO: Aproximadamente 20-30 minutos.</h2>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://claudia.abril.com.br/wp-content/uploads/2020/02/receita-bruschetta-de-abobrinha.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i1.wp.com/www.trisportmag.com.br/wp-content/uploads/2020/04/fernanda.jpg?fit=1080%2C736&ssl=1)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://4.bp.blogspot.com/-VgM-velELUY/U7XK5987p3I/AAAAAAAAC4I/GD0w4Q7xp4k/w1200-h630-p-k-no-nu/DSC_0709-1024x685.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Salada de repolho com cenoura</h1>
+                <ul>
+                    <li>Repolho roxo </li>
+                    <li>Cenoura</li>
+                    <li>Cebola</li>
+                    <li>Azeitonas picadas, milho, uva-passas e cebolinha a gosto</li>
+                    <li>Sal, azeite, orégano, gotas de limão, creme de leite e maionese (opcional e a gosto)</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Reúna todos os ingredientes.</li> <br>
+                   <li>Corte a cenoura em tiras.</li> <br>
+                   <li>Cozinhe ela até ficar al dente. Reserve</li> <br>
+                   <li>Corte o repolho em fatias finas e a cebola em cubinhos.</li> 
+                   <li>Em uma travessa, coloque os vegetais cortados e o restante dos ingredientes. Misture bem até incorporar tudo.</li> 
+                   <li>Leve à geladeira e deixe gelar por algum tempo.</li> 
+                  </ol>
+                      <h2>DESCRIÇÂO</h2>
+                      <p> Uma salada de repolho com cenoura é uma opção refrescante e crocante, perfeita como acompanhamento para diversas refeições. Aqui está um modo de preparo simples para essa salada. </p>
+                  <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+             
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://img.cybercook.com.br/receitas/625/salada-de-repolho-2.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2021/07/Salada-de-repolho-3.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/salada-de-repolho-com-cenoura.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Cuscuz marroquino com chá de hortelã</h1>
+                <ul>
+                    <li>Cuscuz marroquino</li>
+                    <li>Hortelã infusionado</li>
+                    <li>Cebola roxa em tiras</li>
+                    <li>Manteiga</li>
+                    <li>Sal a gosto</li>
+                    <li>Azeite a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>Pimenta-síria a gosto</li>
+                    <li>Castanha de caju tostada</li>
+                    <li>Uvas-passas hidratadas no rum</li>
+                    <li>Salsinha a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Em uma vasilha, coloque o cuscuz e o chá de hortelã quente.</li> <br>
+                   <li>Cubra com um pano e deixe hidratar por 10 minutos.</li> <br>
+                   <li>Enquanto isso, refogue a cebola na manteiga em uma frigideira.</li> <br>
+                   <li>Cozinhe por 3 minutos, mexendo bem, e desligue o fogo.</li> 
+                   <li>Misture o cuscuz com o chá de hortelã com um garfo para soltar os grãos.</li> 
+                   <li>Tempere com sal, azeite, pimenta-do-reino e pimenta-síria.</li> 
+                   <li>Acrescente as castanhas, as uvas-passas, a cebola refogada e a salsinha e mexa bem.</li>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Preparar cuscuz marroquino com chá de hortelã é uma maneira deliciosa de incorporar sabores e aromas característicos da culinária marroquina. Aqui está um modo de preparo simples. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://media.gazetadopovo.com.br/2021/12/27160317/couscous2-37789c10-670x540.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://4.bp.blogspot.com/-E6m9U7Qdpf4/V47FsfQtHaI/AAAAAAAAkdk/PckR-naRQEM-DKk8eKrmaqP_FeBUlIxAwCLcB/w1200-h630-p-k-no-nu/DSC04645.JPG)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://s2-vogue.glbimg.com/gMlovNUzkEDPFiXLVg2nuunUGPI=/0x0:3000x2250/888x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_5dfbcf92c1a84b20a5da5024d398ff2f/internal_photos/bs/2023/o/e/zfolQAT62QxLJjNBpBfw/gettyimages-500753068.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5.Penne ao molho de salmão com alcaparras </h1>
+                <ul>
+                    <li>Postas de salmão</li>
+                    <li>Sal a gosto</li>
+                    <li>Pimenta-do-reino a gosto</li>
+                    <li>Azeite a gosto</li>
+                    <li>Leite</li>
+                    <li>Creme de cebola em pó</li>
+                    <li>Creme de leite</li>
+                    <li>Noz-moscada a gosto</li>
+                    <li>Água fervente</li>
+                    <li>Massa tipo penne</li>
+                    <li>Alcaparras escorridas a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Tempere as postas de salmão com sal e pimenta-do-reino e grelhe o peixe em uma frigideira com azeite.</li> <br>
+                   <li>Desfie o salmão ligeiramente, deixando alguns pedaços mais inteiros, e reserve.</li> <br>
+                   <li>Em uma panela, misture o leite e o creme de cebola em pó e leve ao fogo, mexendo até engrossar levemente.</li> <br>
+                   <li>Quando ferver, desligue o fogo e adicione o creme de leite, a noz-moscada e mais pimenta-do-reino, mexendo bem.</li> 
+                   <li>Transfira esse molho para a frigideira com o salmão e misture bem.</li> 
+                   <li>Em uma panela com água fervente e sal, cozinhe o penne até ficar al dente.</li> 
+                   <li>Em outra frigideira, frite as alcaparras em um pouco de azeite até ficarem crocantes.</li>
+                   <li>Escorra a massa e coloque-a na frigideira com o molho de salmão, misturando com meia concha da água do cozimento.</li>
+                   <li>Finalize com as alcaparras por cima e está pronto.</li>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Esta receita resulta em um prato rico em sabores, com a textura macia do salmão e o toque especial das alcaparras. Sirva como prato principal em um jantar especial.  </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 30-35 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/penne-ao-molho-de-salmao-com-alcaparras.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://guiadacozinha.com.br/wp-content/uploads/2019/10/penne-ao-salmao-10858.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://s2.glbimg.com/pkz7gyTDaEdXEP_dpLZo4S9cAH4=/smart/e.glbimg.com/og/ed/f/original/2017/07/31/fratelli_penne_al_salmone_affumicato_vodka_e_zucchine_credito_rodrigo_castro.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>6. Tilápia mediterrânea</h1>
+                <ul>
+                    <li>Tilápia inteira eviscerada</li>
+                    <li>Tomate-cereja</li>
+                    <li>Azeitona preta</li>
+                    <li>Batatas-inglesas</li>
+                    <li>Cebola média</li>
+                    <li>Alho</li>
+                    <li>Azeite de oliva</li>
+                    <li>Alecrim, tomilho e sálvia a gosto</li>
+                    <li>Pimenta e sal a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Faça três cortes em ambos os lados da tilápia e tempere com a pimenta e o sal.</li> <br>
+                   <li>Unte uma assadeira com azeite e coloque a tilápia com a barriga para baixo.</li> <br>
+                   <li>Acrescente os ingredientes restantes e regue todo o conteúdo da assadeira com o azeite de oliva.</li> <br>
+                   <li>Cubra a assadeira com papel alumínio e leve ao forno preaquecido a 180 °C por cerca de 30 minutos.</li> 
+                   <li>Retire a assadeira do forno e remova o papel alumínio cuidadosamente.</li> 
+                   <li>Leve a assadeira novamente ao forno e deixe dourar por 10 minutos.</li> 
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Preparar tilápia mediterrânea é uma opção saudável e saborosa, com influências da culinária mediterrânea. Aqui está uma receita simples para preparar tilápia com sabores mediterrâneos. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 1 hora.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.rivierapescados.com/wp-content/uploads/2020/11/Foto_TilapiaMediterranea_1920x1230.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/41/ea/29/41ea2974bcbb9fc99f2022295a7008fd.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://ibassets.com.br/ib.item.image.large/l-c80ecd5ded1b4a87b512c481df25aa86.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>7. Pasta de berinjela na airfryer</h1>
+                <ul>
+                    <li>Berinjelas</li>
+                    <li>Alho</li>
+                    <li>Suco de limão</li>
+                    <li>Tahine</li>
+                    <li>Azeite</li>
+                    <li>Sal, páprica e pimenta a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Primeiramente, lave e seque bem as berinjelas.</li> <br>
+                   <li>Com uma faca, faça alguns furos nos legumes e coloque-os na airfryer por 15 minutos a 200 °C.</li> <br>
+                   <li>Feito isso, retire as berinjelas da máquina e coloque-as em uma travessa.</li> <br>
+                   <li>Corte-as ao meio e, com o auxílio de uma colher, retire toda a polpa. As cascas podem ser descartadas.</li> 
+                   <li>Coloque a polpa da berinjela e os demais ingredientes em um mixer ou processador de alimentos. Bata até que se torne uma pasta.</li> 
+                   <li>Transfira a massa para outro recipiente e deixe esfriar na geladeira.</li> 
+                   <li>Por fim, regue a pasta com um fio de azeite e salpique páprica, pimenta e cebolinha por cima.</li>
+                   <li>Está pronto! Sirva essa delícia com torradas ou outros acompanhamentos.</li>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Essa pasta de berinjela assada na air fryer é uma opção deliciosa e saudável. A textura e o sabor defumado adicionam um toque especial. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 40-50 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/pasta-de-berinjela-na-airfryer.jpeg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://stef.blog.br/wp-content/uploads/2023/01/Design-sem-nome-12.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://panelaboa.com/wp-content/uploads/2023/05/Pasta-de-Berinjela-na-Airfryer.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>8. Terrine de gorgonzola e figo</h1>
+                <ul>
+                    <li>Cream cheese</li>
+                    <li>Queijo gorgonzola</li>
+                    <li>Nozes picadas</li>
+                    <li>Figos frescos</li>
+                    <li>Sal e pimenta a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Pique as nozes e o queijo gorgonzola grosseiramente.</li> <br>
+                   <li>Tempere o cream cheese com sal e pimenta.</li> <br>
+                   <li>Em uma tigela, misture as nozes, o queijo e o cream cheese delicadamente.</li> <br>
+                   <li>Corte os figos em fatias finas.</li> 
+                   <li>Para a montagem, adicione a pasta em uma forma e leve para a geladeira.</li> 
+                   <li>Depois, desenforme a terrine e finalize com as fatias de figo.</li> 
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p> Essa terrine oferece uma combinação deliciosa de sabores intensos do gorgonzola, a doçura dos figos e a crocância das nozes. É uma ótima opção para servir como entrada em uma reunião especial ou como parte de uma tábua de queijos.</p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 20-30 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://3.bp.blogspot.com/-h5MKnYZNWMw/VKVXEYzzX8I/AAAAAAAADno/hh2250vd4MI/s1600/DSC_0004%2B.JPG)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.receiteria.com.br/wp-content/uploads/terrine-de-gorgonzola-e-figo-400x220.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://static.wixstatic.com/media/6428c4_b525f8549e80488e9e7595fa5f7fde50~mv2.jpg/v1/fill/w_640,h_640,al_c,q_85/6428c4_b525f8549e80488e9e7595fa5f7fde50~mv2.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>9. Sanduíche natural de atum</h1>
+                <ul>
+                    <li>Atum escorrida (atum em água)</li>
+                    <li>Cenoura (pequena)</li>
+                    <li>Salsinha</li>
+                    <li>Café de tempero completo (ou sal e pimenta)</li>
+                    <li>Mostarda</li>
+                    <li>Maionese light</li>
+                    <li>Pão integral de grão</li>
+                    <li>Folhas de alface a gosto</li>
+                  </ul>
+                  <h3>MODO DE PREPARO</h3>
+                  <ol>
+                   <li>Em um recipiente, coloque todos os ingredientes (menos o pão e a alface) e misture tudo (caso queira o recheio mais cremoso, é só colocar mais maionese).</li> <br>
+                   <li>Separe as fatias de pão, forre cada com folhas de alface e acrescente o recheio.</li> <br>
+                   <li>Feche os sanduíches.</li>
+                  </ol>
+                  <h2>DESCRIÇÂO</h2>
+                  <p>Esse sanduíche natural de atum é versátil, e você pode personalizá-lo conforme suas preferências adicionando ou substituindo ingredientes. Pode ser uma opção saudável para o almoço, lanche ou até mesmo para levar em um piquenique. </p>
+              <h2>TEMPO DE PREPARO: Aproximadamente 15-20 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://assets.unileversolutions.com/recipes-v2/99461.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://marolacomcarambola.com.br/wp-content/uploads/2019/07/receita-de-sanduiche-de-atum-18.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/3f/5f/b5/3f5fb52c5617e608b09d1f9bca7b7a9f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>10. Pão integral</h1>
+                <ul>
+                    <li>Farinha de trigo integral</li>
+                    <li>(1 sachê) de fermento biológico seco em pó para pão</li>
+                    <li>Açúcar demerara ou mascavo</li>
+                    <li>Chá de sal</li>
+                    <li>Ovos</li>
+                    <li>Azeite de oliva</li>
+                </ul>
+                        <h3>MODO DE PREPARO</h3>
+                        <ol>
+                         <li>Em uma vasilha, misture o fermento na água morna tolerante ao toque. Acrescente o açúcar, cubra com um pano e deixe descansar por cerca de 15 minutos para fermentar.</li> <br>
+                         <li>Com uma colher, mexa a mistura fermentada para homogenizar.</li> <br>
+                         <li>Adicione o sal, os ovos e o azeite. Misture bem com um fouet.</li> <br>
+                         <li>Gradualmente, coloque a farinha integral enquanto continua mexendo a mistura, com uma colher, até incorporar. Vá controlando a quantidade de farinha suficiente para uniformizar a massa.</li> 
+                         <li>Enfarinhe uma bancada ou superfície reta e lisa, e comece a sovar a massa. O processo deve levar cerca de 10 a 15 minutos</li> 
+                         <li>Continue acrescentando farinha até a massa desgrudar das mãos.</li> 
+                         <li>Coloque a massa em uma bacia e a cubra com azeite, para não ressecar.</li> 
+                         <li>Cubra o recipiente com um pano e deixe descansar por mais 40 a 60 minutos, dentro do forno desligado. O crescimento do pão pode depender do clima, temperatura e umidade da sua região.</li> 
+                         <li>Passado o tempo, divida em duas partes e abra a massa com um rolo em uma bancada enfarinhada, enrolando os pães como um rocambole, em formatos cilíndricos.</li> 
+                         <li>Disponha-os em uma assadeira enfarinhada, cubra com um pano e deixe descansar por mais 30 minutos ou até dobrar de tamanho.</li> 
+                         <li>Leve para assar no forno preaquecido a 180ºC por cerca de 20 a 25 minutos.</li> 
+                         <li>Agora é só servir.</li> 
+                        </ol>
+                        <h2>DESCRIÇÂO</h2>
+                        <p>Fazer pão integral em casa é uma maneira deliciosa de aproveitar um pão mais saudável. </p>
+                    <h2>TEMPO DE PREPARO: Aproximadamente 20-30 minutos.</h2>
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/e0/c9/c7/e0c9c7feae6426350b69b5361e67c385.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/0a/dd/53/0add538ef042ce954a80960882478b0f.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/564x/86/ab/fe/86abfe92e898c3c61f8d3ec695593c96.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas,
+                        receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais
+                        prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o
+                        chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre.
+                        Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

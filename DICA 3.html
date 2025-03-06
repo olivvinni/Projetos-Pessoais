@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 5 Receitas Basicas do Dia-a-Dia</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="#">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href=""><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque-dica3">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>5 Receitas Basicas do Dia-a-Dia</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Bem-Vindo à Cozinha Descomplicada!</h1>
+            <hr>
+            <p>
+                Em nossa jornada culinária, acreditamos que a cozinha deve ser um lugar de prazer e criatividade, sem
+                complicações. Na aba de "Receitas Fáceis", convidamos você a explorar um mundo de sabores deliciosos sem
+                a necessidade de horas intermináveis na cozinha ou ingredientes exóticos.
+
+                Descubra receitas simples, práticas e repletas de sabor que se encaixam perfeitamente na sua rotina
+                agitada. Desde pratos clássicos que remetem à confortável sensação de casa até opções mais
+                contemporâneas que surpreenderão seu paladar, nossa seleção é projetada para todos os níveis de
+                habilidade na cozinha.
+
+                Prepare-se para desfrutar de uma experiência culinária descomplicada, onde o foco está em ingredientes
+                comuns, técnicas simples e, é claro, refeições deliciosas. Seja você um novato na cozinha ou um
+                entusiasta experiente, encontrará inspiração para transformar sua casa em um verdadeiro refúgio
+                gastronômico.
+
+                Explore, experimente e mergulhe na alegria de cozinhar com nossas receitas fáceis. Afinal, a culinária
+                deve ser tão prazerosa quanto o resultado final em seu prato! Boas aventuras na cozinha!
+            </p>
+
+            </p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Arroz</h1>
+                <p>
+                    Fazer arroz é um processo básico, mas há várias maneiras de prepará-lo. Aqui está uma receita
+                    simples para fazer arroz na panela:
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                <h3>Ingredientes:</h3>
+
+                <li> 1 xícara de arroz (de sua escolha, como arroz branco, arroz integral, etc.)</li>
+                <li> 2 xícaras de água</li>
+                <li> Uma pitada de sal (opcional)</li>
+                <br>
+                <br>
+                <br>
+                <h3>Instruções:</h3>
+
+                <li>Lave o Arroz:
+
+                    Se você deseja reduzir o excesso de amido e obter um arroz mais soltinho, lave o arroz em água
+                    fria
+                    até que a água fique mais clara. Isso geralmente leva de 2 a 3 lavagens.
+                </li>
+
+                <li>
+                    Mensure os Ingredientes:
+
+                    Meça o arroz e a água. A proporção clássica é 1 parte de arroz para 2 partes de água.
+                    Cozinhe o Arroz:
+
+                    Em uma panela média, adicione o arroz, a água e o sal (se estiver usando).
+                    Leve a panela ao fogo alto até ferver.
+                </li>
+
+                <li>
+                    Reduza o Fogo:
+
+                    Assim que a água começar a ferver, reduza o fogo para o mínimo e tampe a panela.
+                </li>
+
+                <li>
+                    Cozinhe em Fogo Baixo:
+
+                    Deixe o arroz cozinhar em fogo baixo por cerca de 15 a 20 minutos. O tempo pode variar
+                    dependendo do
+                    tipo de arroz.
+                </li>
+
+                <li>
+
+                    Desligue e Deixe Descansar:
+
+                    Desligue o fogo e deixe o arroz descansar com a tampa fechada por mais 5 a 10 minutos. Isso
+                    permite
+                    que o vapor continue cozinhando o arroz.
+                </li>
+
+                <li>
+                    Solte com um Garfo:
+
+                    Após o descanso, use um garfo para soltar suavemente o arroz, separando os grãos.
+                    </p>
+                </li>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.uyv5j3fLIXs7ADFMRIyYGgHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.pY1E4HwBsi4qn71NuHq2GAHaEK?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.mundoboaforma.com.br/wp-content/uploads/2016/02/arroz-integral-beneficios-600x330.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Feijão</h1>
+                <p>
+                    Preparar feijão é um processo relativamente simples, mas requer tempo para garantir que os grãos
+                    fiquem macios e saborosos. Aqui está uma receita básica para fazer feijão na panela.
+                    <br>
+                    <br>
+                    <br>
+                <h3>Ingredientes:</h3>
+
+                <li> 1 xícara de feijão (preto, carioca, vermelho, etc.)</li>
+                <li>Água para o molho</li>
+                <li> 1 cebola média, picada</li>
+                <li>2 dentes de alho, picados</li>
+                <li>2 colheres de sopa de óleo ou azeite</li>
+                <li>Sal a gosto</li>
+                <br>
+                <br>
+                <br>
+                <h3>Instruções:</h3>
+
+                <li>Lave o Feijão:
+
+                    Coloque o feijão em uma peneira e lave sob água corrente para remover impurezas.</li>
+                <li> Molhe o Feijão:
+
+                    Coloque o feijão em uma tigela grande e cubra com água. Deixe de molho por pelo menos 8 horas ou
+                    durante a noite. Isso ajuda a reduzir o tempo de cozimento.</li>
+                <li> Cozinhe o Feijão:
+
+                    Escorra o feijão e coloque-o em uma panela grande. Cubra com água, garantindo que a água fique cerca
+                    de 5 cm acima dos grãos.
+                    Leve a panela ao fogo médio/alto até ferver. Reduza o fogo para médio e deixe cozinhar até que os
+                    grãos fiquem macios. Isso pode levar de 1 a 2 horas, dependendo do tipo de feijão e do tempo de
+                    molho.</li>
+                <li>Prepare o Refogado:
+
+                    Em outra panela, aqueça o óleo ou azeite em fogo médio. Adicione a cebola e o alho picados e refogue
+                    até que fiquem dourados.</li>
+                <li> Adicione o Feijão Cozido:
+
+                    Adicione o feijão cozido à panela do refogado, incluindo um pouco da água do cozimento. Isso ajudará
+                    a dar sabor ao feijão.</li>
+                <li> Tempere e Cozinhe:
+
+                    Adicione sal a gosto e deixe o feijão cozinhar por mais 15-20 minutos, permitindo que os sabores se
+                    misturem.</li>
+                <li> Sirva:
+
+                    Uma vez que o feijão esteja pronto, sirva quente como acompanhamento para arroz, carne, legumes ou
+                    como base para pratos como feijoada.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.I7SMTsaWIEy0JDtMAjJE0gHaDt?w=329&h=180&c=7&r=0&o=5&pid=1.7)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.a3870f8c0cef1be4b1fce0bae8c7d999?rik=xAeg8dpkfKUtiA&riu=http%3a%2f%2fcaldobom.com.br%2fuploads%2f2019%2f01%2fcomo-cozinhar-feijao.jpg&ehk=RBguEnTEyQm8FYdRy0Uf5hjFY2Kvs2LAnxOXoJNBqKc%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.Su1PiwrZgR7glO-YkGaw-gHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Macarrão</h1>
+                <p>
+                    Preparar macarrão é uma tarefa rápida e fácil. Aqui está uma receita básica para fazer macarrão
+                    cozido:
+                    <br>
+                    <br>
+                    <br>
+                <h3>Ingredientes:</h3>
+
+                <li> 200g de macarrão (escolha o tipo de sua preferência)</li>
+                <li> Água para cozinhar</li>
+                <li> Sal a gosto</li>
+                <br>
+                <br>
+                <br>
+                <h3> Instruções:</h3>
+
+                <li>Ferva Água:
+
+                    Em uma panela grande, coloque água em quantidade suficiente para cobrir o macarrão. Leve a água para
+                    ferver em fogo alto.
+                    Assim que a água estiver fervendo, adicione sal a gosto. O sal ajuda a dar sabor ao macarrão durante
+                    o cozimento.</li>
+
+                <li> Cozinhe o Macarrão:
+
+                    Adicione o macarrão à água fervente. Cozinhe de acordo com as instruções da embalagem para obter o
+                    ponto desejado de maciez. Mexa ocasionalmente para evitar que o macarrão grude.</li>
+                <li>
+                    Teste a Textura:
+
+                    Após o tempo de cozimento indicado na embalagem, experimente um pedaço para garantir que esteja
+                    cozido ao seu gosto. O macarrão deve estar al dente, ou seja, cozido, mas ainda firme quando
+                    mordido.
+                </li>
+                <li>
+                    Escorra o Macarrão:
+
+                    Usando um escorredor, escorra a água do macarrão.
+                </li>
+                <li>
+                    Enxágue (opcional):
+
+                    Alguns preferem enxaguar o macarrão sob água fria para interromper o processo de cozimento e evitar
+                    que grude. No entanto, isso é mais comum em receitas de saladas de macarrão.
+                </li>
+                <li>
+                    Sirva:
+
+                    Sirva o macarrão cozido imediatamente, acompanhado do molho de sua escolha, seja ele à bolonhesa,
+                    pesto, marinara, ou simplesmente com azeite, alho e ervas.
+                    </p>
+                </li>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.vuM62BFCx62TsslSzwL6iQHaFj?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.00rMUzwvM9KeySfqi0_DnAHaID?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.-wCNdVwgblP18hl90qlI_QHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Omelete</h1>
+                <p>
+                    Fazer uma omelete é uma opção rápida e versátil para uma refeição deliciosa. Aqui está uma receita
+                    básica para fazer uma omelete simples:
+                    <br>
+                    <br>
+                    <br>
+                <h3> Ingredientes:</h3>
+
+                <li> 2 a 3 ovos</li>
+                <li> Sal e pimenta a gosto</li>
+                <li> 1 colher de sopa de manteiga ou óleo</li>
+                <li> Ingredientes adicionais (opcional): queijo, presunto, cogumelos, tomate, cebola, espinafre, etc.
+                </li>
+                <br>
+                <br>
+                <br>
+                <h3>Instruções:</h3>
+
+                <li> Prepare os Ingredientes Adicionais (se estiver usando):
+
+                    Pique os ingredientes adicionais que deseja incluir na omelete.</li>
+                <li> Quebre os Ovos:
+
+                    Quebre os ovos em uma tigela. Adicione uma pitada de sal e pimenta.</li>
+                <li> Bata os Ovos:
+
+                    Bata os ovos com um garfo ou um batedor até que as claras e as gemas estejam bem misturadas.</li>
+                <li> Aqueça a Frigideira:
+
+                    Aqueça uma frigideira antiaderente em fogo médio. Adicione manteiga ou óleo, garantindo que a
+                    frigideira esteja bem revestida.</li>
+                <li> Despeje os Ovos na Frigideira:
+
+                    Despeje os ovos batidos na frigideira quente. Deixe os ovos começarem a cozinhar nas bordas.</li>
+                <li> Adicione os Ingredientes Adicionais (se estiver usando):
+
+                    Distribua os ingredientes picados sobre a metade dos ovos na frigideira.</li>
+                <li> Dobre a Omelete:
+
+                    Com uma espátula, dobre a outra metade dos ovos sobre os ingredientes adicionais, criando uma
+                    meia-lua.</li>
+                <li> Cozinhe até Firmar:
+
+                    Continue cozinhando a omelete por mais alguns minutos até que ela esteja firme, mas ainda úmida.
+                </li>
+                <li> Sirva:
+
+                    Deslize a omelete para um prato, dobre-a ao meio novamente, se desejar, e sirva imediatamente.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.jApu_futy8psSNP1-m3-WwHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://image.slidesharecdn.com/tle-151010031841-lva1-app6891/95/common-culinary-terms-sandwiches-5-638.jpg?cb=1444447300)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.sabornamesa.com.br/media/k2/items/cache/36778fed172d9c8502d2d42dc025835b_L.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Bolo</h1>
+                <p>
+                    Fazer um bolo caseiro é uma experiência deliciosa e gratificante. Aqui está uma receita básica para
+                    um bolo simples, que pode servir como base para diversas variações. Neste exemplo, será apresentado
+                    um bolo de baunilha:
+                    <br>
+                    <br>
+                    <br>
+                <h3>Ingredientes:</h3>
+
+                <li>2 e 1/2 xícaras de farinha de trigo</li>
+                <li> 2 e 1/2 colheres de chá de fermento em pó</li>
+                <li> 1/2 colher de chá de sal</li>
+                <li> 1 xícara (2 sticks) de manteiga amolecida</li>
+                <li> 2 xícaras de açúcar</li>
+                <li> 4 ovos</li>
+                <li> 1 colher de chá de extrato de baunilha</li>
+                <li> 1 xícara de leite</li>
+                <br>
+                <br>
+                <br>
+                <h3> Instruções:</h3>
+
+                <li> Pré-aqueça o Forno:
+
+                    Pré-aqueça o forno a 180°C. Unte e enfarinhe uma forma para bolo.</li>
+
+                <li> Misture Ingredientes Secos:
+
+                    Em uma tigela média, peneire a farinha de trigo, o fermento em pó e o sal. Reserve.</li>
+                <li> Bata a Manteiga e o Açúcar: Em uma tigela grande, bata a manteiga amolecida e o açúcar até obter
+                    uma mistura leve e fofa.</li>
+                <li> Adicione os Ovos e a Baunilha:
+
+                    Adicione os ovos um de cada vez, batendo bem após cada adição. Acrescente o extrato de baunilha e
+                    misture.</li>
+                <li> Adicione os Ingredientes Secos:
+
+                    Gradualmente, adicione os ingredientes secos à mistura de manteiga e açúcar, alternando com o leite.
+                    Comece e termine com os ingredientes secos.</li>
+                <li>
+                    Misture até Incorporar:
+
+                    Misture apenas até os ingredientes estarem incorporados. Evite bater demais para não deixar o bolo
+                    denso.
+                <li>
+                    Despeje na Forma:
+
+                    Despeje a massa na forma preparada, alisando a superfície com uma espátula.</li>
+                <li> Asse:
+
+                    Asse no forno pré-aquecido por cerca de 25-30 minutos, ou até que um palito inserido no centro saia
+                    limpo.</li>
+                <li> Resfrie e Desenforme:
+
+                    Deixe o bolo esfriar na forma por alguns minutos antes de transferi-lo para uma grade para esfriar
+                    completamente.</li>
+
+                <li> Decore (opcional):
+
+                    Depois que o bolo estiver completamente frio, você pode decorá-lo com glacê, chantilly, frutas ou
+                    polvilhar açúcar de confeiteiro por cima.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ONt0M64MBHLpvkRoJZ_E1gHaE7?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.pAQHre6YrerbhEYkpLzSVQHaEK?w=1024&h=575&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.dy014nyvlwZriZmeA3cU9wHaEK?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>  Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas, receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre. Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>

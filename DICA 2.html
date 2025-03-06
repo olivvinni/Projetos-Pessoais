@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/CSS/10-Receitas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Corben&family=Open+Sans:wght@800&family=Sometype+Mono:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Substituições Inteligentes e Ajustes de Receitas</title>
+    <script src="/JS/function.js"></script>
+</head>
+
+<body>
+
+    <!--Barra de Navegação Lateral-->
+    <nav>
+        <h2 id="nome-logo"><a href="/HTML - 1/Home.html"><img src="/IMGs/LOGO-MAIOR.png" alt=""></a></h2>
+        <ul>
+            <li class="ativo"><a href="/HTML - 1/Home.html">Home</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Lista de Desejos / Favoritos</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Tops10.html">Tops 10</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/DatasComemorativas.html">Datas Comemorativas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Ocasiões.html">Ocasiões</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/Dietas.html">Dietas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/Regional.html">Regional</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/HTML - 2/ReceitasRapidas.html">Receitas Rápidas</a></li>
+            <li><a style="background-color: #545454;" href="/HTML - 2/ArtigosEDicas.html">Artigos e Dicas</a></li>
+            <li><a style="background-color: #7F7F7F;" href="/">Filtro de Receitas</a></li>
+        </ul>
+        <span class="separador"></span>
+        <ul>
+            <li><a style="background-color: #F89D03;" id="hover-login" href="#">
+                    <p>Contato</p>
+                </a></li>
+        </ul>
+    </nav>
+    <a id="menu-btn" class="btn-toggle-menu" style="color:red;"><img id="icon-lateral" src="/IMGs/burger-branco.png">
+    </a>
+    <!--Barra de Navegação Lateral-->
+
+    <!--Conteudo Principal-->
+    <main>
+        <!--Barra de Navegação Principal-->
+        <header id="cabecalho">
+            <div class="elementos">
+                <h1><a href="/HTML - 1/Home.html"><img src="/IMGs/logo-secundaria-final.png" alt=""></a></h1>
+            </div>
+            <div class="elementos">
+                <h1>
+                    <div class="searchBox">
+                        <input class="searchInput" type="text" name="" placeholder="O que voce deseja hoje...">
+                        <button class="searchButton" href="#">
+
+
+
+                            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                fill="none">
+                                <g clip-path="url(#clip0_2_17)">
+                                    <g filter="url(#filter0_d_2_17)">
+                                        <path
+                                            d="M23.7953 23.9182L19.0585 19.1814M19.0585 19.1814C19.8188 18.4211 20.4219 17.5185 20.8333 16.5251C21.2448 15.5318 21.4566 14.4671 21.4566 13.3919C21.4566 12.3167 21.2448 11.252 20.8333 10.2587C20.4219 9.2653 19.8188 8.36271 19.0585 7.60242C18.2982 6.84214 17.3956 6.23905 16.4022 5.82759C15.4089 5.41612 14.3442 5.20435 13.269 5.20435C12.1938 5.20435 11.1291 5.41612 10.1358 5.82759C9.1424 6.23905 8.23981 6.84214 7.47953 7.60242C5.94407 9.13789 5.08145 11.2204 5.08145 13.3919C5.08145 15.5634 5.94407 17.6459 7.47953 19.1814C9.01499 20.7168 11.0975 21.5794 13.269 21.5794C15.4405 21.5794 17.523 20.7168 19.0585 19.1814Z"
+                                            stroke="white" stroke-width="3" stroke-linecap="round"
+                                            stroke-linejoin="round" shape-rendering="crispEdges"></path>
+                                    </g>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_2_17" x="-0.418549" y="3.70435" width="29.7139"
+                                        height="29.7139" filterUnits="userSpaceOnUse"
+                                        color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+                                        </feColorMatrix>
+                                        <feOffset dy="4"></feOffset>
+                                        <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+                                        <feComposite in2="hardAlpha" operator="out"></feComposite>
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_2_17"></feBlend>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_17"
+                                            result="shape"></feBlend>
+                                    </filter>
+                                    <clipPath id="clip0_2_17">
+                                        <rect width="28.0702" height="28.0702" fill="white"
+                                            transform="translate(0.403503 0.526367)"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                        </button>
+                    </div>
+
+
+                </h1>
+            </div>
+            <div class="elementos">
+                <h1><a href=""><img style="width:60px;" src="/IMGs/usuario-branco.png" alt=""></a></h1>
+            </div>
+        </header>
+        <!--Barra de Navegação Principal-->
+
+
+
+        <!--Titulo em Destaque-->
+        <div id="destaque-dica2">
+            <h3>Gastronomia Hoje Apresenta...</h3>
+            <h1>Substituições Inteligentes e Ajustes de Receitas</h1>
+            <h3>2023</h3>
+        </div>
+        <!--Titulo em Destaque-->
+
+        <!--Introdução-->
+        <div id="intro">
+            <h1>Cozinha Criativa!</h1>
+            <hr>
+            <p>Na nossa jornada culinária, a arte de cozinhar vai além das receitas convencionais. Aqui, na aba de
+                "Substituições Inteligentes e Ajustes de Receitas," exploramos o mundo emocionante da flexibilidade na
+                cozinha. Descubra como transformar simples ingredientes e utensílios em ferramentas versáteis para
+                expressar a sua criatividade culinária.
+
+                Aqui, você encontrará dicas práticas e inspiração para substituir utensílios comuns por soluções
+                improvisadas, bem como ajustar ingredientes para atender às suas preferências e restrições alimentares.
+                A culinária é uma jornada de experimentação, e esta seção é o seu guia para explorar novas
+                possibilidades, transformando cada receita em uma expressão única do seu gosto pessoal.
+
+                Vamos mergulhar juntos nesse mundo delicioso de substituições inteligentes e ajustes inovadores.
+                Desperte o chef criativo dentro de você e transforme cada prato em uma obra-prima única!</p>
+        </div>
+        <!--Introdução-->
+
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>1. Substituição de Utensílios</h1>
+                <p>
+                    <li> Rolo de Macarrão: Se você não tiver um rolo de macarrão, pode usar uma garrafa de vinho ou uma
+                        lata de massa para rolar a massa.</li>
+                    <li>Descascador de Legumes: Uma faca afiada pode funcionar como um descascador em muitos casos.</li>
+                    <li>Forma de Bolo: Para assar bolos, você pode usar uma assadeira redonda ou quadrada e ajustar o
+                        tempo de cozimento conforme necessário.</li>
+                    <li>Liquidificador: Um processador de alimentos pode muitas vezes ser uma alternativa ao
+                        liquidificador para misturar ingredientes.</li>
+                    <li>Peneira: Use uma peneira fina ou até mesmo uma gaze limpa para coar ingredientes.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.191521a1898b2d349d20a90c01edd025?rik=vcGPvavqs2%2bs4w&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.kxYhz98grU5JOOg5tvNF5AHaFI?w=1028&h=712&rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/originals/05/fb/76/05fb7617d14cc4adfdd05d411b531047.png)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>2. Substituição de Ingredientes</h1>
+                <p>
+                    <li>Ovos: Em receitas que exigem ovos, você pode substituí-los por bananas maduras esmagadas,iogurte
+                        ou purê de maçã, dependendo do perfil de sabor desejado.</li>
+                    <li> Açúcar: Tente substituir o açúcar branco por açúcar mascavo, mel ou xarope de bordo, ajustando
+                        a quantidade para manter o equilíbrio de doçura.</li>
+                    <li> Leite: Para receitas que pedem leite, você pode usar alternativas como leite de amêndoa, leite
+                        de coco ou leite de soja.</li>
+                    <li>Creme de Leite: Misture iogurte grego ou leite integral com suco de limão como uma alternativa
+                        rápida ao creme de leite em receitas.</li>
+                    <li> Farinha de Trigo: Substitua parte da farinha de trigo por farinha de aveia, farinha de amêndoa
+                        ou farinha de coco para adicionar variedade.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.ZPbap8o4EbTQhOi5ipxg_AHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://media.istockphoto.com/photos/ingredients-for-pastry-picture-id1065345356?k=6&m=1065345356&s=612x612&w=0&h=PQpjO_OQTxbOZOYDcgmR4r2j7tC8fvEJ7CVA_RjPhyk=)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://i.pinimg.com/originals/09/16/08/0916082663fa446da327f6f600131c3d.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>3. Ajuste de Temperatura e Tempo</h1>
+                <p>
+                    <li>Forno: Se sua receita pede um forno mais quente do que você tem disponível, você pode aumentar
+                        um pouco o tempo de cozimento e vice-versa.</li>
+                    <li>Micro-ondas: Em vez de fritar, algumas receitas podem ser adaptadas para cozinhar no
+                        micro-ondas. Isso é especialmente útil para vegetais.</li>
+                    <li> Temperos: Se você estiver sem um tempero específico, improvise com ervas e especiarias
+                        disponíveis em sua despensa.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.75Hy5y7g-2cG6QxxdRQQNgHaDy?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://www.wikihow.com/images/thumb/5/5f/Make-Pap-in-the-Microwave-Step-4.jpg/v4-728px-Make-Pap-in-the-Microwave-Step-4.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/R.f110965906370ae22f5f55c13e8d640a?rik=f%2beI1svYTUCDAw&riu=http%3a%2f%2fpremiertemperos.com.br%2fnovo%2fwp-content%2fuploads%2f2020%2f05%2f0409-1-1024x683.jpg&ehk=mUCFD%2bbdkKwurjZv64BXXKD%2fmldglM5ubB5I5lhpqx0%3d&risl=&pid=ImgRaw&r=0)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>4. Personalize para Preferências Alimentares</h1>
+                <p>
+                    <li> Vegetarianismo: Substitua carne em receitas por proteínas vegetais, como tofu, seitan ou
+                        legumes.</li>
+                    <li> Sem Glúten: Para tornar uma receita sem glúten, substitua a farinha de trigo por farinhas
+                        alternativas, como farinha de arroz, farinha de amêndoa ou farinha de aveia sem glúten.</li>
+                    <li> Restrições Alimentares: Adapte receitas para atender a restrições alimentares, como substituir
+                        laticínios por alternativas sem lactose.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.92HAmBi8lUth9dbNmU7HpQHaEK?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://s2.glbimg.com/vB7yh5K3P_x3EUAhjTpLj2VThcU=/smart/e.glbimg.com/og/ed/f/original/2020/02/28/pao_vegano_s_gluten_5.jpg)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div
+                                    style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.VDGJ66SqENbfCFZgR7iXfQHaEK?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+        <!--Receitas-->
+        <div id="bloco-re">
+            <div class="rece">
+                <h1>5. Experimente e Ajuste</h1>
+                <p>
+                    <li> Prove e Ajuste: Sempre prove enquanto cozinha e ajuste os temperos conforme necessário. O
+                        ajuste é uma parte essencial da culinária.</li>
+                    <li> Use a Criatividade: Não tenha medo de experimentar e ser criativo na cozinha. Às vezes, as
+                        melhores receitas vêm de improvisações e ajustes.</li>
+                </p>
+
+                <div>
+                    <div style="margin-bottom: 5%;" id="titulo">
+
+                        <div>
+                            <div class="containerum">
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.j0mS6lRUgTRCWhuils1sWgHaE8?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.bPkC-ELK3VS6eAQ02710yAHaFE?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                                <div style="margin: 1%;background: url(https://th.bing.com/th/id/OIP.zaYHIJxyqxzM42ikqWhA8wHaD4?rs=1&pid=ImgDetMain)no-repeat 50% / cover;">
+                                    <h2 style="margin-top:15%;color: white;font-size: 30px;"></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Receitas-->
+
+        <!--Rodapé-->
+        <footer>
+            <div id="blocao">
+                <div id="bloquinho1">
+                    <h1>Principal</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="/HTML - 1/QuemSomos.html">Quem Somos</a></li>
+                            <li><a href="/HTML - 1/AnuciesuaReceita.html">Anuncie Sua Receita</a></li>
+                            <li><a href="/HTML - 1/Contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="bloquinho2"><img src="/IMGs/LOGO-MAIOR.png" alt=""></div>
+                <div id="bloquinho3">
+                    <h1>AGRADECIMENTOS</h1>
+                    <p>  Agradecemos por explorar conosco o delicioso universo da culinária! Esperamos que as dicas, receitas e inspirações compartilhadas aqui tornem suas experiências na cozinha ainda mais prazerosas. Continue aprimorando suas habilidades culinárias e explorando novos sabores. Seja o chef da sua própria jornada gastronômica! Para mais dicas e receitas incríveis, volte sempre. Bon appétit!</p>
+                </div>
+            </div>
+            <div id="creditos">© Copyright 2023 - Gastronomia Hoje</div>
+
+        </footer>
+        <!--Rodapé-->
+
+
+    </main>
+    <!--Conteudo Principal-->
+
+</body>
+
+</html>
