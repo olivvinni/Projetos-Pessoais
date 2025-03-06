@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Itinerarios.css">
+    <link rel="Website Icon" type="png" href="IMGs/logo.png">
+    <title>www.JoãoVieiradeAlmeida.com.br</title>
+    <script src="function.js"></script>
+</head>
+
+<body>
+    <!--Main-->
+    <div class="fle">
+
+        <!--SideBar Responsiva-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="area"></div>
+            <nav class="main-menu">
+                <ul>
+                    <li style="list-style-image:url(icons/home-branca.png);margin-left: 8%;">
+                        <a href="Home.html">
+                            <i class="fa fa-home fa-2x"></i>
+                            <span class="nav-text">
+                                Home
+                            </span>
+                        </a>
+
+                    </li>
+                    <li style="list-style-image:url(icons/noticias.png);margin-left: 8%;" class="has-subnav">
+                        <a href="Noticias.html">
+                            <i class="fa fa-globe fa-2x"></i>
+                            <span class="nav-text">
+                                Noticias
+                            </span>
+                        </a>
+
+                    </li>
+                    <li style="list-style-image:url(icons/pessoas.png);margin-left: 8%;" class="has-subnav">
+                        <a href="Ambiente.html">
+                            <i class="fa fa-comments fa-2x"></i>
+                            <span class="nav-text">
+                                Ambiente
+                            </span>
+                        </a>
+
+                    </li>
+                    <li style="list-style-image:url(icons/historia.png);margin-left: 8%;" class="has-subnav">
+                        <a href="Historia.html">
+                            <i class="fa fa-camera-retro fa-2x"></i>
+                            <span class="nav-text">
+                                Historia
+                            </span>
+                        </a>
+
+                    </li>
+                    <li style="list-style-image:url(icons/eletivas.png);margin-left: 8%;">
+                        <a href="Eletivas.html">
+                            <i class="fa fa-film fa-2x"></i>
+                            <span class="nav-text">
+                                Eletivas
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/alunos.png);margin-left: 8%;">
+                        <a href="Anuario-3a.html">
+                            <i class="fa fa-book fa-2x"></i>
+                            <span class="nav-text">
+                                Alunos
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/professores.png);margin-left: 8%;">
+                        <a href="Professores.html">
+                            <i class="fa fa-cogs fa-2x"></i>
+                            <span class="nav-text">
+                                Professores
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/gremio.png);margin-left: 8%;">
+                        <a href="Gremio.html">
+                            <i class="fa fa-map-marker fa-2x"></i>
+                            <span class="nav-text">
+                                Gremio
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/faqs.png);margin-left: 8%;">
+                        <a href="faqs.html">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                Faqs
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/contato.png);margin-left: 8%;">
+                        <a href="Contato.html">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                Contato
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/creditos.png);margin-left: 8%;">
+                        <a href="Creditos.html">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                Créditos
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/sed.png);margin-left: 8%;">
+                        <a href="https://www.bing.com/ck/a?!&&p=b27ff850eaa8f4f8JmltdHM9MTY5MDkzNDQwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTIwOA&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=sed&u=a1aHR0cHM6Ly9zZWQuZWR1Y2FjYW8uc3AuZ292LmJyLw&ntb=1">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                Sed
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/cmsp.PNG);margin-left: 8%;">
+                        <a href="https://www.bing.com/ck/a?!&&p=f49e95ad211a58c9JmltdHM9MTY5MDkzNDQwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTIwNA&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=cmsp&u=a1aHR0cHM6Ly9jZW50cm9kZW1pZGlhc3AuZWR1Y2FjYW8uc3AuZ292LmJyLw&ntb=1">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                CMSP
+                            </span>
+                        </a>
+                    </li>
+                    <li style="list-style-image:url(icons/boletim.png );margin-left: 8%;">
+                        <a href="https://www.bing.com/ck/a?!&&p=8fbd3c6e11fce3d1JmltdHM9MTY5MDkzNDQwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE4Ng&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=boletim+escolar&u=a1aHR0cHM6Ly9zZWQuZWR1Y2FjYW8uc3AuZ292LmJyL0JvbGV0aW0vQm9sZXRpbUVzY29sYXI&ntb=1">
+                            <i class="fa fa-info fa-2x"></i>
+                            <span class="nav-text">
+                                Boletin Escolar
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+
+
+            </nav>
+        </div>
+        <!--SideBar Responsiva-->
+
+        <!--Conteudo Principal-->
+        <div id="main">
+            <div>
+                <!--Cabeçalho-->
+                <header>
+                    <!--Barra de Navegação-->
+                    <section class="top-nav">
+                        <span onclick="openNav()"><img style="width: 20px;" src="icons/tres-opcoes-preta.png"
+                                alt=""></span>
+                        <div class="menu-fixo">
+                            <ul>
+                                <a id="opa" href="Home.html">
+                                    HOME
+                                </a>
+                                <a id="opa" href="Contato.html">
+                                    CONTATO
+                                </a>
+                                <a id="opa" href="faqs.html">
+                                    FaQs
+                                </a>
+                                <a id="opa" href="Noticias.html">
+                                    NOTICIAS
+                                </a>
+                                <a id="opa" href="Creditos.html">
+                                    CREDITOS
+                                </a>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="Home.html"><img id="icon" src="icons/hom-preto.png" alt=""></a>
+                        </div>
+                    </section>
+                    <!--Barra de Navegação-->
+                </header>
+                <!--Cabeçalho-->
+
+                <!--Sobre A Escola-->
+                <div id="title">
+                    <h1>SOBRE A ESCOLA</h1>
+                    <h2>ITINERÁRIOS</h2>
+                </div>
+                <!--Sobre A Escola-->
+
+
+                <!--Descrição-->
+                <div id="desciti">
+                    <h1>O que é são os Itinerarios ?</h1>
+                    <p>A partir de 2022, as escolas de todo o Brasil devem se adaptar às mudanças do Novo Ensino Médio, uma reforma nacional, idealizada para flexibilizar a grade horária dos estudantes, melhorar o processo de aprendizagem e atender melhor às expectativas profissionais e necessidades dos jovens. Nessa reforma estão os Itinerários Formativos.</p>
+                </div>
+                 <!--Descrição-->
+
+                      <!--Descrição-->
+                <div id="desciti">
+                    <h1>Quais Itinerarios e por que nossa escola oferece essa dinamica ?</h1>
+                    <p>Basicamente, os itinerários formativos podem ser explicados como conjuntos de disciplinas, projetos e oficinas que os estudantes poderão escolher cursar durante o Ensino Médio. 
+
+                        Eles representam a principal mudança introduzida com o Novo Ensino Médio e surgiram com o objetivo de substituir o currículo único por um modelo de aprendizagem mais flexível e diverso, atendendo melhor às necessidades dos jovens. </p>
+                </div>
+                 <!--Descrição-->
+
+
+                <!--Itinerarios-->
+                <div id="blocoa">
+                    <div class="professores">
+                        <img src="icons/modelo-professor.png" alt="">
+                        <h2>Professor Francisco </h2>
+                        <li>Cidadania promoção de direito</li>
+                        <li>Construindo Culturas</li>
+                        <li>Cidadania e Justiça</li>
+
+                    </div>
+                    <div class="professores">
+                        <img src="icons/modelo-professor.png" alt="">
+                        <h2>Professor Douglas</h2>
+                        <li>Mineração</li>
+                        <li>Resíduos Eletrônicos</li>
+                        <li>Pegada ecológica</li>
+
+                    </div>
+                    <div class="professores">
+                        <img src="icons/modelo-professor.png" alt="">
+                        <h2>Professor Eduardo Silva </h2>
+                        <li>Movimento de máquinas leves e pesadas</li>
+                    </div>
+                    <div class="professores">
+                        <img src="icons/modelo-professor.png" alt="">
+                        <h2>Professor  Silvio</h2>
+                        <li>Histórias contadas por imagens diferentes</li>
+                        <li>Diferentes percepções do clima </li>
+                        <li>Cartografia</li>
+                        <li>Social</li>
+                        <li>Afetivo</li>
+
+                    </div>
+                </div>
+                <!--Itinerarios-->
+
+                    <!--Itinerarios-->
+                    <div id="blocoa">
+                        <div class="professores">
+                            <img src="icons/modelo-professor.png" alt="">
+                            <h2>Professor Isrrael</h2>
+                            <li>Concervação do patrimonio material e imaterial</li>
+                        </div>
+                        <div class="professores">
+                            <img src="icons/modelo-professor.png" alt="">
+                            <h2>Professor Giovanni </h2>
+                            <li>Tecnologia</li>
+                        </div>
+                        <div class="professores">
+                            <img src="icons/modelo-professor.png" alt="">
+                            <h2>Professor Paulo Henrique </h2>
+                            <li>Desenvolvimento de Sistemas</li>
+                        </div>
+                        <div class="professores">
+                            <img src="icons/modelo-professor.png" alt="">
+                            <h2>Professora Isa França </h2>
+                            <li>---</li>
+                        </div>
+                    </div>
+                    <!--Itinerarios-->
+
+
+                <!--Rodapé-->
+                <footer>
+                    <hr id="hrs">
+                    <div id="rodape">
+                        <div class="rodas">
+                            <h2>PRINCIPAL</h2>
+                            <ul>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Home.html">Home</img></li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Historia.html">História</img>
+                                </li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Ambiente.html">Ambiente</img>
+                                </li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Professores.html">Professores</img>
+                                </li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Noticias.html">Noticias</img>
+                                </li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Gremio.html">Gremio</img></li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Faqs.html">FaQs</img></li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="Eletivas.html">Eletivas</img>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="rodas">
+                            <h2>CONTATO</h2>
+                            <ul>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Gmail:</a></li>
+                                <li style="list-style-image: url(icons/gmail.png);"><a
+                                        href="https://www.bing.com/ck/a?!&&p=837dd5d961831696JmltdHM9MTY5MDkzNDQwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE5Mw&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=gamil&u=a1aHR0cHM6Ly9tYWlsLmdvb2dsZS5jb20vbWFpbD9obD1wdC1CUg&ntb=1">e000838a@see.sp.gov.br@gmail.com</img></li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Redes
+                                        Sociais</img></li>
+                                <li style="list-style-image: url(icons/facebook.png);"><a
+                                        href="https://www.bing.com/ck/a?!&&p=9c1d3b2bb503dd81JmltdHM9MTY4ODQyODgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE5OQ&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=facebook+escola+joao+vieira+de+almeida&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL0pvYW9WaWVpcmFEZUFsbWVpZGEv&ntb=1">@JoaoVieiraDeAlmeida/facebook.com</img>
+                                </li>
+                                <li style="list-style-image: url(icons/instagram.png);"><a
+                                        href="https://www.bing.com/ck/a?!&&p=6f009fcda5d9278eJmltdHM9MTY4ODQyODgwMCZpZ3VpZD0yMjY4MzkwMS1jOTgxLTY1MDktMjZmMi0yODY5Yzg3YTY0OTkmaW5zaWQ9NTE4OA&ptn=3&hsh=3&fclid=22683901-c981-6509-26f2-2869c87a6499&psq=instagram+escola+joao+vieira+de+almeida&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9lc2NvbGEuanZhLw&ntb=1">@escola.jva/instagram.com</img>
+                                </li>
+                                <li style="list-style-image: url(icons/setas-duplas.png);"><a href="">Telefones:</img>
+                                </li>
+                                <li style="list-style-image: url(icons/fone.png);"><a href="">(11) 2631-1732</img></li>
+                            </ul>
+                        </div>
+                        <div class="rodas">
+                            <h3 id="txt"><a href="">
+                                    Caros alunos, pais e professores :
+                                    <br>
+                                    Queremos agradecer a confiança e o apoio de todos vocês, que contribuíram para o
+                                    sucesso
+                                    das nossas atividades pedagógicas, culturais e sociais.
+                                    <br>
+                                    Parabenizamos os nossos alunos pelo excelente desempenho acadêmico e pela
+                                    participação
+                                    nos projetos desenvolvidos pela escola. Reconhecemos o esforço dos nossos
+                                    professores,
+                                    que se empenharam em oferecer um ensino de qualidade e inovador, utilizando as
+                                    ferramentas digitais disponíveis. E agradecemos aos pais, que nos apoiaram e nos
+                                    acompanharam nessa jornada educativa.
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="rodas">
+                            <img id="logo-rodape" src="IMGs/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div id="creditos">
+                        <div class="credito">
+                            Copyright © 2023 - Todos os direitos reservados - Escola JVA
+                        </div>
+                        <div class="credito">
+                            Desenvolvido por: 3ºA TURMA DE 2023 e Profº Paulo Henrique
+                        </div>
+                    </div>
+                </footer>
+                <!--Rodapé-->
+            </div>
+
+        </div>
+        <!--Conteudo Principal-->
+
+
+    </div>
+    <!--Main-->
+</body>
+
+</html>
